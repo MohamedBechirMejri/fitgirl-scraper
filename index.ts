@@ -124,7 +124,7 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
 
 async function main() {
   const browser: Browser = await puppeteer.launch({
-    headless: true,
+    headless: false,
   });
   const page: Page = await browser.newPage();
 
@@ -163,8 +163,8 @@ async function main() {
           console.log(`Scraped: ${postUrl}`);
 
           // Rate limiting
-          console.log("Waiting 5 seconds before next request...");
-          await new Promise(resolve => setTimeout(resolve, 5000));
+          console.log("Waiting .5 seconds before next request...");
+          await new Promise(resolve => setTimeout(resolve, 500));
         } catch (error) {
           console.error(`Error scraping ${postUrl}:`, error);
         }
