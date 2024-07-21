@@ -1,24 +1,10 @@
-// fitgirl scraper
-
-// first we open /sitemap_index.xml
-// we get all links that contain 'post-sitemap' in them
-
-// we then open the links that have text after the slash
-// in each page we get the post title the image the info like genre, publisher, size, etc and get the description and the preview images
-
-// we then save the data in a json file
-
-// whenever we scrape the links from the sitemaps we check if the link is already in the json file and if it is we skip it so we don't abuse the server
-
-// when done we push the json file to the repo
-
 import puppeteer, { Browser, Page } from "puppeteer";
 import * as fs from "fs/promises";
 
 interface PostData {
   title: string;
   image: string;
-  info: Record<string, string[]>;
+  info: Record<string, string>;
   description: string;
   previewImages: string[];
   createdAt: string;
@@ -71,41 +57,68 @@ function getPostUrls(page: Page): Promise<string[]> {
 async function scrapePost(page: Page, url: string): Promise<PostData> {
   await page.goto(url, { waitUntil: "networkidle0" });
 
-  const title = await page.$eval(".entry-title", el => el.textContent);
-  const image = await page.$eval(".entry-content img", el =>
-    el.getAttribute("src")
+  const title = await page.$eval(
+    ".entry-title",
+    el => el.textContent?.trim() || ""
+  );
+  const image = await page.$eval(
+    ".entry-content img",
+    el => el.getAttribute("src") || ""
   );
   const description = await page.$eval(
     ".entry-content p",
-    el => el.textContent
+    el => el.textContent?.trim() || ""
   );
   const previewImages = await page.$$eval(".entry-content img", images =>
-    images.map(img => img.getAttribute("src"))
+    images.map(img => img.getAttribute("src") || "").filter(Boolean)
   );
-  const info = await page.$$eval(".entry-content p", paragraphs => {
-    const data: Record<string, string[]> = {};
 
-    for (const paragraph of paragraphs) {
-      const text = paragraph.textContent;
-      if (!text) continue;
+  const info = await page.evaluate(() => {
+    const data: Record<string, string> = {};
+    const infoSection = document.querySelector(".entry-content p");
 
-      const [key, ...values] = text.split(":");
-      if (!key || !values.length) continue;
-
-      data[key.trim()] = values.map(value => value.trim());
+    if (!infoSection) {
+      console.log("Info section not found");
+      return data;
     }
 
+    const infoText = infoSection.innerHTML;
+    console.log("Info section HTML:", infoText);
+
+    // Split the text by <br> tags
+    const infoParts = infoText.split(/<br\s*\/?>/i);
+
+    // Process each part
+    infoParts.forEach(part => {
+      const text = part.replace(/<\/?[^>]+(>|$)/g, "").trim(); // Remove HTML tags
+      const match = text.match(/^(.+?):\s*(.+)$/);
+      if (match) {
+        const [, key, value] = match;
+        data[key.trim()] = value.trim();
+        console.log(`Matched: ${key.trim()} = ${value.trim()}`);
+      } else {
+        console.log(`No match for: ${text}`);
+      }
+    });
+
+    console.log("Final data object:", data);
     return data;
   });
-  const createdAt = await page.$eval(".entry-date", el => el.textContent);
+
+  const createdAt = await page.$eval(
+    ".entry-date",
+    el => el.textContent?.trim() || ""
+  );
+
+  console.log("Scraped info:", info);
 
   return {
-    title: title || "",
-    image: image || "",
-    description: description || "",
-    previewImages: (previewImages as string[]) || [],
-    info: info || {},
-    createdAt: createdAt || "",
+    title,
+    image,
+    description,
+    previewImages,
+    info,
+    createdAt,
   };
 }
 
@@ -128,7 +141,7 @@ async function main() {
       );
 
       for (const postUrl of urls) {
-        if (!postUrl) {
+        if (!postUrl || postUrl !== "oxygen-not-included/") {
           console.log("Skipping empty post URL.");
           continue;
         }
