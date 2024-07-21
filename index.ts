@@ -140,7 +140,12 @@ async function main() {
         url.replace(`${BASE_URL}/`, "")
       );
 
+      const count = urls.length;
+      let index = 0;
+
       for (const postUrl of urls) {
+        index++;
+        console.log(`Scraping post ${index} of ${count}`);
         if (!postUrl) {
           console.log("Skipping empty post URL.");
           continue;
@@ -158,6 +163,7 @@ async function main() {
           console.log(`Scraped: ${postUrl}`);
 
           // Rate limiting
+          console.log("Waiting 5 seconds before next request...");
           await new Promise(resolve => setTimeout(resolve, 5000));
         } catch (error) {
           console.error(`Error scraping ${postUrl}:`, error);
