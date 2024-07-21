@@ -17,6 +17,7 @@ interface ScrapedData {
 const BASE_URL = "https://fitgirl-repacks.site";
 const SITEMAP_INDEX_URL = `${BASE_URL}/sitemap_index.xml`;
 const OUTPUT_FILE = "scraped_data.json";
+const IGNORE_LIST = "ignore-list.json";
 
 async function loadExistingData(): Promise<ScrapedData> {
   try {
@@ -27,8 +28,21 @@ async function loadExistingData(): Promise<ScrapedData> {
   }
 }
 
+async function loadIgnoreList(): Promise<string[]> {
+  try {
+    const data = await fs.readFile(IGNORE_LIST, "utf-8");
+    return JSON.parse(data);
+  } catch (error) {
+    return [];
+  }
+}
+
 async function saveData(data: ScrapedData): Promise<void> {
   await fs.writeFile(OUTPUT_FILE, JSON.stringify(data, null, 2));
+}
+
+async function saveIgnoreList(data: string[]): Promise<void> {
+  await fs.writeFile(IGNORE_LIST, JSON.stringify(data, null, 2));
 }
 
 async function getSitemapLinks(page: Page): Promise<string[]> {
@@ -131,6 +145,7 @@ async function main() {
   try {
     const scrapedData = await loadExistingData();
     const sitemapLinks = await getSitemapLinks(page);
+    const ignoreList = await loadIgnoreList();
 
     console.log(`Found ${sitemapLinks.length} sitemaps.`);
 
@@ -151,6 +166,11 @@ async function main() {
           continue;
         }
 
+        if (ignoreList.includes(postUrl)) {
+          console.log(`Skipping ignored post: ${postUrl}`);
+          continue;
+        }
+
         if (scrapedData[postUrl]) {
           console.log(`Skipping already scraped: ${postUrl}`);
           continue;
@@ -164,9 +184,12 @@ async function main() {
 
           // Rate limiting
           console.log("Waiting .5 seconds before next request...");
-          await new Promise(resolve => setTimeout(resolve, 500));
+          await new Promise(resolve => setTimeout(resolve, 1500));
         } catch (error) {
           console.error(`Error scraping ${postUrl}:`, error);
+          ignoreList.push(postUrl);
+          await saveIgnoreList(ignoreList);
+          await new Promise(resolve => setTimeout(resolve, 1500));
         }
       }
     }
