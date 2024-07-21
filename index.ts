@@ -124,7 +124,7 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
 
 async function main() {
   const browser: Browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
   });
   const page: Page = await browser.newPage();
 
@@ -141,7 +141,7 @@ async function main() {
       );
 
       for (const postUrl of urls) {
-        if (!postUrl || postUrl !== "oxygen-not-included/") {
+        if (!postUrl) {
           console.log("Skipping empty post URL.");
           continue;
         }

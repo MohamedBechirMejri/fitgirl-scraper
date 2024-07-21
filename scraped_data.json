@@ -2,7 +2,7 @@
   "blade-arcus-from-shining-battle-arena/": {
     "title": "Blade Arcus from Shining: Battle Arena",
     "image": "http://i77.fastpic.ru/big/2016/0730/fd/9b0d8195aad6c05863266e606ee7fbfd.jpg",
-    "description": "\nCompany: Studio Saizensen\nLanguages: ENG/JAP\nOriginal Size: 2.1 GB\nRepack Size: 1.3 GB",
+    "description": "Company: Studio Saizensen\nLanguages: ENG/JAP\nOriginal Size: 2.1 GB\nRepack Size: 1.3 GB",
     "previewImages": [
       "http://i77.fastpic.ru/big/2016/0730/fd/9b0d8195aad6c05863266e606ee7fbfd.jpg",
       "http://s01.riotpixels.net/data/8e/de/8ede6cc7-30ad-4218-bd34-2794794aef19.jpg.240p.jpg",
@@ -13,19 +13,17 @@
       "http://s01.riotpixels.net/data/6a/60/6a604f75-4ec3-4e02-8e08-35f147562a98.jpg.240p.jpg"
     ],
     "info": {
-      "Company": [
-        "Studio Saizensen\nLanguages",
-        "ENG/JAP\nOriginal Size",
-        "2.1 GB\nRepack Size",
-        "1.3 GB"
-      ]
+      "Company": "Studio Saizensen",
+      "Languages": "ENG/JAP",
+      "Original Size": "2.1 GB",
+      "Repack Size": "1.3 GB"
     },
     "createdAt": "31/07/2016"
   },
   "steam-squad/": {
     "title": "Steam Squad",
     "image": "http://i80.fastpic.ru/big/2016/0728/1c/753d9813ba7c38cf064bdceea957351c.jpg",
-    "description": "\nCompany: Bretwalda Games\nLanguages: RUS/ENG\nOriginal Size: 1.3 GB\nRepack Size: 861 MB",
+    "description": "Company: Bretwalda Games\nLanguages: RUS/ENG\nOriginal Size: 1.3 GB\nRepack Size: 861 MB",
     "previewImages": [
       "http://i80.fastpic.ru/big/2016/0728/1c/753d9813ba7c38cf064bdceea957351c.jpg",
       "http://s01.riotpixels.net/data/39/03/39035e60-e24a-41e5-8a44-743bd7869a81.jpg.240p.jpg",
@@ -36,19 +34,17 @@
       "http://s01.riotpixels.net/data/82/dc/82dc7930-b28e-420a-b841-b8e54aea8a85.jpg.240p.jpg"
     ],
     "info": {
-      "Company": [
-        "Bretwalda Games\nLanguages",
-        "RUS/ENG\nOriginal Size",
-        "1.3 GB\nRepack Size",
-        "861 MB"
-      ]
+      "Company": "Bretwalda Games",
+      "Languages": "RUS/ENG",
+      "Original Size": "1.3 GB",
+      "Repack Size": "861 MB"
     },
     "createdAt": "30/07/2016"
   },
   "marvel-ultimate-alliance-bundle-1-2/": {
     "title": "Marvel: Ultimate Alliance Bundle – 1 + 2",
     "image": "http://i79.fastpic.ru/big/2016/0728/07/d58336dae8b71ce9cdd9fed1927e3107.jpg",
-    "description": "\nCompany: Activision\nLanguages: ENG/ITA\nOriginal Size: 10 GB\nRepack Size: 7.4 GB",
+    "description": "Company: Activision\nLanguages: ENG/ITA\nOriginal Size: 10 GB\nRepack Size: 7.4 GB",
     "previewImages": [
       "http://i79.fastpic.ru/big/2016/0728/07/d58336dae8b71ce9cdd9fed1927e3107.jpg",
       "http://s01.riotpixels.net/data/39/d5/39d5e21e-bacf-4a39-a319-82b4fd82107d.jpg.240p.jpg",
@@ -59,19 +55,17 @@
       "http://s01.riotpixels.net/data/bb/5e/bb5eeca5-e3e1-4b0b-9cba-7e4c8fad8ba0.jpg.240p.jpg"
     ],
     "info": {
-      "Company": [
-        "Activision\nLanguages",
-        "ENG/ITA\nOriginal Size",
-        "10 GB\nRepack Size",
-        "7.4 GB"
-      ]
+      "Company": "Activision",
+      "Languages": "ENG/ITA",
+      "Original Size": "10 GB",
+      "Repack Size": "7.4 GB"
     },
     "createdAt": "30/07/2016"
   },
   "headlander/": {
     "title": "Headlander",
     "image": "http://i80.fastpic.ru/big/2016/0726/55/83f65c3da7a6d413c3a9316a15e0f655.jpg",
-    "description": "\nCompany: Double Fine Productions\nLanguages: RUS/ENG/MULTI6\nOriginal Size: 3 GB\nRepack Size: 1.9 GB",
+    "description": "Company: Double Fine Productions\nLanguages: RUS/ENG/MULTI6\nOriginal Size: 3 GB\nRepack Size: 1.9 GB",
     "previewImages": [
       "http://i80.fastpic.ru/big/2016/0726/55/83f65c3da7a6d413c3a9316a15e0f655.jpg",
       "http://s01.riotpixels.net/data/b0/b3/b0b35086-0444-43d7-a33c-85e836ea8d5b.jpg.240p.jpg",
@@ -82,19 +76,17 @@
       "http://s01.riotpixels.net/data/1f/2a/1f2a8d8c-23ab-4263-9558-ccf5911ac0b5.jpg.240p.jpg"
     ],
     "info": {
-      "Company": [
-        "Double Fine Productions\nLanguages",
-        "RUS/ENG/MULTI6\nOriginal Size",
-        "3 GB\nRepack Size",
-        "1.9 GB"
-      ]
+      "Company": "Double Fine Productions",
+      "Languages": "RUS/ENG/MULTI6",
+      "Original Size": "3 GB",
+      "Repack Size": "1.9 GB"
     },
     "createdAt": "30/07/2016"
   },
   "dragon-age-origins-ultimate-edition-gog-version/": {
     "title": "Dragon Age: Origins – Ultimate Edition – GOG Version",
     "image": "http://i78.fastpic.ru/big/2016/0724/15/9b541d316d0f1c258ab63fab0968d015.jpg",
-    "description": "\nCompany: Electronic Arts\nLanguages: RUS/ENG/MULTI9\nOriginal Size: 22.1 GB\nRepack Size: from 8.7 GB [Selective Download]\n",
+    "description": "Company: Electronic Arts\nLanguages: RUS/ENG/MULTI9\nOriginal Size: 22.1 GB\nRepack Size: from 8.7 GB [Selective Download]",
     "previewImages": [
       "http://i78.fastpic.ru/big/2016/0724/15/9b541d316d0f1c258ab63fab0968d015.jpg",
       "http://s01.riotpixels.net/data/09/71/09717801-c45e-49d9-9a33-70f8e14b9367.jpg.240p.jpg",
@@ -105,13 +97,623 @@
       "http://s01.riotpixels.net/data/ab/4d/ab4d7f3b-dc4c-4647-93fc-2e6a235e7ce2.jpg.240p.jpg"
     ],
     "info": {
-      "Company": [
-        "Electronic Arts\nLanguages",
-        "RUS/ENG/MULTI9\nOriginal Size",
-        "22.1 GB\nRepack Size",
-        "from 8.7 GB [Selective Download]"
-      ]
+      "Company": "Electronic Arts",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "22.1 GB",
+      "Repack Size": "from 8.7 GB [Selective Download]"
     },
     "createdAt": "29/07/2016"
+  },
+  "the-assembly-vr-dlc/": {
+    "title": "The Assembly + VR DLC",
+    "image": "http://i80.fastpic.ru/big/2016/0720/b2/f949f385882e63e8b50a69050917f4b2.jpg",
+    "description": "Company: nDreamsLanguages: ENG/GER/FREOriginal Size: 3.7 GBRepack Size: 2.6 GB",
+    "previewImages": [
+      "http://i80.fastpic.ru/big/2016/0720/b2/f949f385882e63e8b50a69050917f4b2.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i78.fastpic.ru/big/2016/0720/73/5e4d818a410fc10e5d57cf99f1ee6873.jpg"
+    ],
+    "info": {
+      "Company": "nDreams",
+      "Languages": "ENG/GER/FRE",
+      "Original Size": "3.7 GB",
+      "Repack Size": "2.6 GB"
+    },
+    "createdAt": "29/07/2016"
+  },
+  "earth-defense-force-4-1-the-shadow-of-new-despair/": {
+    "title": "Earth Defense Force 4.1: The Shadow of New Despair",
+    "image": "http://i57.fastpic.ru/big/2016/0720/dc/830ecce3fcb41bf14a5f8ea2180305dc.jpg",
+    "description": "Company: D3PublisherLanguages: ENG/JAPOriginal Size: 6.6 GBRepack Size: from 3 GB",
+    "previewImages": [
+      "http://i57.fastpic.ru/big/2016/0720/dc/830ecce3fcb41bf14a5f8ea2180305dc.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i58.fastpic.ru/big/2016/0720/43/0aa057fe47809888a44777b26f87f843.jpg"
+    ],
+    "info": {
+      "Company": "D3Publisher",
+      "Languages": "ENG/JAP",
+      "Original Size": "6.6 GB",
+      "Repack Size": "from 3 GB"
+    },
+    "createdAt": "29/07/2016"
+  },
+  "gas-guzzlers-extreme-gold-pack-v1-8-0-0-2-dlcs/": {
+    "title": "Gas Guzzlers Extreme: Gold Pack v1.8.0.0 + 2 DLCs",
+    "image": "http://i80.fastpic.ru/big/2016/0511/c1/cfa00483a77c6d6a0729ba10c780cdc1.jpg",
+    "description": "Company: Iceberg InteractiveLanguages: RUS/ENG/MULTI11Original Size: 6.1 GBRepack Size: 5.1 GB",
+    "previewImages": [
+      "http://i80.fastpic.ru/big/2016/0511/c1/cfa00483a77c6d6a0729ba10c780cdc1.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.org",
+      "http://i79.fastpic.ru/big/2016/0511/10/272268e58e9dee0aaee8bf6bfe5dca10.jpg"
+    ],
+    "info": {
+      "Company": "Iceberg Interactive",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "6.1 GB",
+      "Repack Size": "5.1 GB"
+    },
+    "createdAt": "29/07/2016"
+  },
+  "lego-marvels-avengers-v1-0-0-28133-11-dlc/": {
+    "title": "LEGO Marvel’s Avengers v1.0.0.28133 + 11 DLC",
+    "image": "http://i80.fastpic.ru/big/2016/0614/dd/66c4394032823425b866406a6a9edcdd.jpg",
+    "description": "Company: Warner Bros.Languages: RUS/ENG/MULTI12Original Size: 14.4 GBRepack Size: from 5.7 GB [Selective Download]",
+    "previewImages": [
+      "http://i80.fastpic.ru/big/2016/0614/dd/66c4394032823425b866406a6a9edcdd.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.org",
+      "http://i74.fastpic.ru/big/2016/0614/69/9028cbe2f34605379668edbc5d5c9969.jpg"
+    ],
+    "info": {
+      "Company": "Warner Bros.",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "14.4 GB",
+      "Repack Size": "from 5.7 GB [Selective Download]"
+    },
+    "createdAt": "29/07/2016"
+  },
+  "rugby-challenge-3/": {
+    "title": "Rugby Challenge 3",
+    "image": "http://i79.fastpic.ru/big/2016/0711/2f/4220f4efbe7e9d2c1952c2e60f0f142f.jpg",
+    "description": "Company: Tru Blu EntertainmentLanguages: ENG/MULTI4Original Size: 5.4 GBRepack Size: from 2.2 GB [Selective Download]",
+    "previewImages": [
+      "http://i79.fastpic.ru/big/2016/0711/2f/4220f4efbe7e9d2c1952c2e60f0f142f.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i80.fastpic.ru/big/2016/0711/d5/a771376e3f222039be5c586ee737dfd5.jpg"
+    ],
+    "info": {
+      "Company": "Tru Blu Entertainment",
+      "Languages": "ENG/MULTI4",
+      "Original Size": "5.4 GB",
+      "Repack Size": "from 2.2 GB [Selective Download]"
+    },
+    "createdAt": "29/07/2016"
+  },
+  "romance-of-the-three-kingdoms-13-40-dlc/": {
+    "title": "Romance of the Three Kingdoms 13 + 40 DLC",
+    "image": "http://i80.fastpic.ru/big/2016/0707/10/6757e64d9f5f0db82dad6ef72914ad10.jpg",
+    "description": "Company: Koei TecmoLanguages: ENG/MULTI4Original Size: 6.9 GBRepack Size: from 3.2 GB [Selective Download]",
+    "previewImages": [
+      "http://i80.fastpic.ru/big/2016/0707/10/6757e64d9f5f0db82dad6ef72914ad10.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i77.fastpic.ru/big/2016/0707/eb/63646e6bfa920381ed6e567cf80e4beb.jpg"
+    ],
+    "info": {
+      "Company": "Koei Tecmo",
+      "Languages": "ENG/MULTI4",
+      "Original Size": "6.9 GB",
+      "Repack Size": "from 3.2 GB [Selective Download]"
+    },
+    "createdAt": "29/07/2016"
+  },
+  "dead-by-daylight-v1-0-2-hotfix-2/": {
+    "title": "Dead by Daylight v1.0.2 Hotfix 2",
+    "image": "http://i77.fastpic.ru/big/2016/0705/e1/030b619830f1a518229563469ceff5e1.jpg",
+    "description": "Company: Starbreeze StudiosLanguage: ENGOriginal Size: 7.6 GBRepack Size: 2.5 GB",
+    "previewImages": [
+      "http://i77.fastpic.ru/big/2016/0705/e1/030b619830f1a518229563469ceff5e1.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i57.fastpic.ru/big/2016/0705/a7/18c559caaebd6d9ad7ff590b592221a7.jpg"
+    ],
+    "info": {
+      "Company": "Starbreeze Studios",
+      "Language": "ENG",
+      "Original Size": "7.6 GB",
+      "Repack Size": "2.5 GB"
+    },
+    "createdAt": "29/07/2016"
+  },
+  "zero-escape-zero-time-dilemma/": {
+    "title": "Zero Escape: Zero Time Dilemma",
+    "image": "http://i79.fastpic.ru/big/2016/0630/81/e5c59ec1542d1207a7893638e4bf1581.jpg",
+    "description": "Company: Aksys GamesLanguages: ENG/JAPOriginal Size: 2 GBRepack Size: from 698 MB [Selective Download]",
+    "previewImages": [
+      "http://i79.fastpic.ru/big/2016/0630/81/e5c59ec1542d1207a7893638e4bf1581.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i80.fastpic.ru/big/2016/0630/82/8e339b78020765e896de9cfde5ca5e82.jpg"
+    ],
+    "info": {
+      "Company": "Aksys Games",
+      "Languages": "ENG/JAP",
+      "Original Size": "2 GB",
+      "Repack Size": "from 698 MB [Selective Download]"
+    },
+    "createdAt": "29/07/2016"
+  },
+  "the-technomancer/": {
+    "title": "The Technomancer",
+    "image": "http://i61.fastpic.ru/big/2016/0629/b5/7f7a725c252c94615b7cdf78aa8d75b5.jpg",
+    "description": "Company: Focus Home InteractiveLanguages: ENG/MULTI6Original Size: 8.7 GBRepack Size: from 5.7 GB [Selective Download]",
+    "previewImages": [
+      "http://i61.fastpic.ru/big/2016/0629/b5/7f7a725c252c94615b7cdf78aa8d75b5.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i61.fastpic.ru/big/2016/0629/ac/22bc41208eb57a3e11d13a023887b3ac.jpg"
+    ],
+    "info": {
+      "Company": "Focus Home Interactive",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "8.7 GB",
+      "Repack Size": "from 5.7 GB [Selective Download]"
+    },
+    "createdAt": "29/07/2016"
+  },
+  "battlefleet-gothic-armada-v1-5-8536-space-marines-dlc/": {
+    "title": "Battlefleet Gothic: Armada v1.5.8536 + Space Marines DLC",
+    "image": "http://i78.fastpic.ru/big/2016/0422/95/77ee5c9d7b5916e662a297dfdc1eae95.jpg",
+    "description": "Company: Focus Home InteractiveLanguages: ENGOriginal Size: 10.9 GBRepack Size: 3.9 GB",
+    "previewImages": [
+      "http://i78.fastpic.ru/big/2016/0422/95/77ee5c9d7b5916e662a297dfdc1eae95.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i77.fastpic.ru/big/2016/0422/9f/88d6d043b8465cd53b8e69d04ddea29f.jpg"
+    ],
+    "info": {
+      "Company": "Focus Home Interactive",
+      "Languages": "ENG",
+      "Original Size": "10.9 GB",
+      "Repack Size": "3.9 GB"
+    },
+    "createdAt": "29/07/2016"
+  },
+  "mordheim-city-of-the-damned-v1-3-4-2-5-dlc/": {
+    "title": "Mordheim: City of the Damned v1.3.4.2 + 5 DLC",
+    "image": "http://i67.fastpic.ru/big/2015/1123/e7/78ae90ccbf37640be2730386a0661ce7.jpg",
+    "description": "Company: Focus Home InteractiveLanguages: RUS/ENG/MULTI7Original Size: 9.5 GBRepack Size: 3/3.1 GB [Selective Download]",
+    "previewImages": [
+      "http://i67.fastpic.ru/big/2015/1123/e7/78ae90ccbf37640be2730386a0661ce7.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.info",
+      "http://i67.fastpic.ru/big/2015/1124/20/aeec34e9a00c384b33b3418ba502b120.jpg"
+    ],
+    "info": {
+      "Company": "Focus Home Interactive",
+      "Languages": "RUS/ENG/MULTI7",
+      "Original Size": "9.5 GB",
+      "Repack Size": "3/3.1 GB [Selective Download]"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "deathtrap-v1-0-6/": {
+    "title": "Deathtrap v1.0.6",
+    "image": "http://i58.fastpic.ru/big/2015/0222/f1/e89e87390963af92864b958cba1b53f1.jpg",
+    "description": "Company: NeocoreGamesLanguages: RUS/ENG/MULTI10Original Size: 4.1 GBRepack Size: 1.6 GB",
+    "previewImages": [
+      "http://i58.fastpic.ru/big/2015/0222/f1/e89e87390963af92864b958cba1b53f1.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.org",
+      "http://i59.fastpic.ru/big/2015/0222/53/d020cb88854d8aef93d1fe3a6f594853.jpg"
+    ],
+    "info": {
+      "Company": "NeocoreGames",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "4.1 GB",
+      "Repack Size": "1.6 GB"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "pro-cycling-manager-season-2016/": {
+    "title": "Pro Cycling Manager Season 2016",
+    "image": "http://i71.fastpic.ru/big/2016/0620/cf/e3d77ffd8de318e82a6d2784b322adcf.jpg",
+    "description": "Company: CyanideLanguages: ENG/MULTI10Original Size: 6.2 GBRepack Size: from 3.2 GB [Selective Download]",
+    "previewImages": [
+      "http://i71.fastpic.ru/big/2016/0620/cf/e3d77ffd8de318e82a6d2784b322adcf.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i72.fastpic.ru/big/2016/0620/92/91b764497013026b33836913b2e1a592.jpg"
+    ],
+    "info": {
+      "Company": "Cyanide",
+      "Languages": "ENG/MULTI10",
+      "Original Size": "6.2 GB",
+      "Repack Size": "from 3.2 GB [Selective Download]"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "valentino-rossi-the-game/": {
+    "title": "Valentino Rossi: The Game",
+    "image": "http://i73.fastpic.ru/big/2016/0619/d4/1ef040203693a85d52b877b3089db9d4.jpg",
+    "description": "Company: MilestoneLanguages: ENG/MULTI6Original Size: 16.8 GBRepack Size: 8.2/8.3 GB",
+    "previewImages": [
+      "http://i73.fastpic.ru/big/2016/0619/d4/1ef040203693a85d52b877b3089db9d4.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i72.fastpic.ru/big/2016/0619/dc/c3ec28235c1f3bf5c6de2fc22aa1e3dc.jpg"
+    ],
+    "info": {
+      "Company": "Milestone",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "16.8 GB",
+      "Repack Size": "8.2/8.3 GB"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "the-witcher-3-wild-hunt-patch-from-v1-21-to-v1-22/": {
+    "title": "The Witcher 3: Wild Hunt – Patch from v1.21 to v1.22",
+    "image": "http://i47.fastpic.ru/big/2015/0512/14/39a59c1cca7e81fbb13569d1a7445114.jpg",
+    "description": "Company: CD Projekt REDLanguages: RUS/ENG/MULTI14Original Size: 2.7 GBRepack Size: 327 MB",
+    "previewImages": [
+      "http://i47.fastpic.ru/big/2015/0512/14/39a59c1cca7e81fbb13569d1a7445114.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.info",
+      "http://i57.fastpic.ru/big/2015/0512/7d/15559ff31c70def6b590bedc10d0867d.jpg"
+    ],
+    "info": {
+      "Company": "CD Projekt RED",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "2.7 GB",
+      "Repack Size": "327 MB"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "trials-of-the-blood-dragon/": {
+    "title": "Trials of the Blood Dragon",
+    "image": "http://i79.fastpic.ru/big/2016/0616/b9/ec0e0ab01438d2f17812c42003bcccb9.jpg",
+    "description": "Company: UbisoftLanguages: RUS/ENG/MULTI10Original Size: 15.3 GBRepack Size: 11 GB",
+    "previewImages": [
+      "http://i79.fastpic.ru/big/2016/0616/b9/ec0e0ab01438d2f17812c42003bcccb9.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.org",
+      "http://i75.fastpic.ru/big/2016/0616/e8/02a31a798ee290626ec59d07b93219e8.jpg"
+    ],
+    "info": {
+      "Company": "Ubisoft",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "15.3 GB",
+      "Repack Size": "11 GB"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "homeworld-remastered-collection-v2-1/": {
+    "title": "Homeworld Remastered Collection v2.1",
+    "image": "http://i57.fastpic.ru/big/2015/0303/96/adf850261d5b764c5134f6a936733f96.jpg",
+    "description": "Company: Gearbox SoftwareLanguages: RUS/ENG/MULTI6Original Size: 6.9 GBRepack Size: 4.3 GB",
+    "previewImages": [
+      "http://i57.fastpic.ru/big/2015/0303/96/adf850261d5b764c5134f6a936733f96.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.info",
+      "http://i65.fastpic.ru/big/2015/0303/c4/d0f054882cedf95024967d1a231cafc4.jpg"
+    ],
+    "info": {
+      "Company": "Gearbox Software",
+      "Languages": "RUS/ENG/MULTI6",
+      "Original Size": "6.9 GB",
+      "Repack Size": "4.3 GB"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "pro-evolution-soccer-2016-v1-05-data-pack-4-0/": {
+    "title": "Pro Evolution Soccer 2016 v1.05 + Data Pack 4.0",
+    "image": "http://i48.fastpic.ru/big/2015/0918/02/85e85328d39084000bc1375addb62b02.jpg",
+    "description": "Company: Konami Digital EntertainmentLanguages: RUS/ENG/MULTI17Original Size: 12 GBRepack Size: 3.3~3.6 GB [Selective Download]",
+    "previewImages": [
+      "http://i48.fastpic.ru/big/2015/0918/02/85e85328d39084000bc1375addb62b02.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.info",
+      "http://i75.fastpic.ru/big/2016/0330/3e/1d1f9638d318f7208ecedec9a1f69d3e.jpg"
+    ],
+    "info": {
+      "Company": "Konami Digital Entertainment",
+      "Languages": "RUS/ENG/MULTI17",
+      "Original Size": "12 GB",
+      "Repack Size": "3.3~3.6 GB [Selective Download]"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "ducati-90th-anniversary/": {
+    "title": "Ducati: 90th Anniversary",
+    "image": "http://i80.fastpic.ru/big/2016/0611/21/8068ee90225737459d5a37df6d6eb121.jpg",
+    "description": "Company: MilestoneLanguages: ENG/MULTI7Original Size: 9.5 GBRepack Size: 5.7 GB",
+    "previewImages": [
+      "http://i80.fastpic.ru/big/2016/0611/21/8068ee90225737459d5a37df6d6eb121.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i79.fastpic.ru/big/2016/0611/d6/00b7c7c810c3962423de0b6c09101ed6.jpg"
+    ],
+    "info": {
+      "Company": "Milestone",
+      "Languages": "ENG/MULTI7",
+      "Original Size": "9.5 GB",
+      "Repack Size": "5.7 GB"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "tron-runr-ultimate-edition-5-dlc/": {
+    "title": "TRON RUN/r: Ultimate Edition + 5 DLC",
+    "image": "http://i76.fastpic.ru/big/2016/0218/f9/65e0822cda6971a6362fddb6a5481ff9.jpg",
+    "description": "Company: Disney Interactive StudiosLanguages: ENG/MULTI6Original Size: 10.2 GBRepack Size: 6.5 GB",
+    "previewImages": [
+      "http://i76.fastpic.ru/big/2016/0218/f9/65e0822cda6971a6362fddb6a5481ff9.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i76.fastpic.ru/big/2016/0218/03/20701ebff3223335c17c0eedf951a403.jpg"
+    ],
+    "info": {
+      "Company": "Disney Interactive Studios",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "10.2 GB",
+      "Repack Size": "6.5 GB"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "investigator/": {
+    "title": "Investigator",
+    "image": "http://i77.fastpic.ru/big/2016/0609/f0/000e873228c36255ad666eaaa43304f0.jpg",
+    "description": "Company: AdroVGamesLanguages: RUS/ENGOriginal Size: 4.8 GBRepack Size: 3.4 GB",
+    "previewImages": [
+      "http://i77.fastpic.ru/big/2016/0609/f0/000e873228c36255ad666eaaa43304f0.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.org",
+      "http://i79.fastpic.ru/big/2016/0609/1a/9db0fe9be06f917727837c1f6d05721a.jpg"
+    ],
+    "info": {
+      "Company": "AdroVGames",
+      "Languages": "RUS/ENG",
+      "Original Size": "4.8 GB",
+      "Repack Size": "3.4 GB"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "the-solus-project/": {
+    "title": "The Solus Project",
+    "image": "http://i77.fastpic.ru/big/2016/0608/9f/2d6a5db43b0e588da467c88e62d9289f.jpg",
+    "description": "Company: Teotl Studios, Grip GamesLanguages: RUS/ENG/MULTI10Original Size: 3.7 GBRepack Size: 2.8 GB",
+    "previewImages": [
+      "http://i77.fastpic.ru/big/2016/0608/9f/2d6a5db43b0e588da467c88e62d9289f.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.org",
+      "http://i80.fastpic.ru/big/2016/0608/dd/8d2a92822507f8f494b3b9ca647a26dd.jpg"
+    ],
+    "info": {
+      "Company": "Teotl Studios, Grip Games",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "3.7 GB",
+      "Repack Size": "2.8 GB"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "stranger-of-sword-city/": {
+    "title": "Stranger of Sword City",
+    "image": "http://i79.fastpic.ru/big/2016/0607/c0/ae775d4eb5efd35af35086427b778dc0.jpg",
+    "description": "Company: NIS AmericaLanguages: ENG/JAPOriginal Size: 3.5 GBRepack Size: 940 MB",
+    "previewImages": [
+      "http://i79.fastpic.ru/big/2016/0607/c0/ae775d4eb5efd35af35086427b778dc0.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i79.fastpic.ru/big/2016/0607/82/3b279ed720705cdebd838c387e662c82.jpg"
+    ],
+    "info": {
+      "Company": "NIS America",
+      "Languages": "ENG/JAP",
+      "Original Size": "3.5 GB",
+      "Repack Size": "940 MB"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "arcania-gold-edition/": {
+    "title": "ArcaniA: Gold Edition",
+    "image": "http://i79.fastpic.ru/big/2016/0607/a7/2f2c67621e7f133ce495d69bfb98f8a7.jpg",
+    "description": "Company: JoWoodLanguages: RUS/ENG/MULTI9Original Size: 15.7 GBRepack Size: 3.3 GB [Selective Download]",
+    "previewImages": [
+      "http://i79.fastpic.ru/big/2016/0607/a7/2f2c67621e7f133ce495d69bfb98f8a7.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.org",
+      "http://i79.fastpic.ru/big/2016/0607/09/bebdc0f224636cd4e57b503edff2b309.jpg"
+    ],
+    "info": {
+      "Company": "JoWood",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "15.7 GB",
+      "Repack Size": "3.3 GB [Selective Download]"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "onechanbara-z2-chaos/": {
+    "title": "Onechanbara Z2: Chaos",
+    "image": "http://i80.fastpic.ru/big/2016/0605/01/535c13a854c44aa1a817fd2b4e0ae001.jpg",
+    "description": "Company: D3PublisherLanguages: ENG/JAPOriginal Size: 4.25 GBRepack Size: from 1.45 GB [Selective Download]",
+    "previewImages": [
+      "http://i80.fastpic.ru/big/2016/0605/01/535c13a854c44aa1a817fd2b4e0ae001.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i80.fastpic.ru/big/2016/0605/ea/d31fbbcf7335f98817c046b0af7167ea.jpg"
+    ],
+    "info": {
+      "Company": "D3Publisher",
+      "Languages": "ENG/JAP",
+      "Original Size": "4.25 GB",
+      "Repack Size": "from 1.45 GB [Selective Download]"
+    },
+    "createdAt": "28/07/2016"
+  },
+  "hard-reset-redux/": {
+    "title": "Hard Reset: Redux",
+    "image": "http://i77.fastpic.ru/big/2016/0604/b9/f891c67154d10b42fed4058b2c08a4b9.jpg",
+    "description": "Company: Gambitious Digital EntertainmentLanguages: RUS/ENG/MULTI5Original Size: 5.3 GBRepack Size: from 2.6 GB [Selective Download]",
+    "previewImages": [
+      "http://i77.fastpic.ru/big/2016/0604/b9/f891c67154d10b42fed4058b2c08a4b9.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.org",
+      "http://i80.fastpic.ru/big/2016/0604/c4/457ed7e87cd01f1834b565256bbef0c4.jpg"
+    ],
+    "info": {
+      "Company": "Gambitious Digital Entertainment",
+      "Languages": "RUS/ENG/MULTI5",
+      "Original Size": "5.3 GB",
+      "Repack Size": "from 2.6 GB [Selective Download]"
+    },
+    "createdAt": "27/07/2016"
+  },
+  "anima-gate-of-memories-v1-01/": {
+    "title": "Anima: Gate of Memories v1.01",
+    "image": "http://i77.fastpic.ru/big/2016/0604/5b/7be50804521cb8eb85f2a28e74e81c5b.jpg",
+    "description": "Company: BadLand IndieLanguages: RUS/ENG/MULTI3Original Size: 5.7 GBRepack Size: 3.3 GB",
+    "previewImages": [
+      "http://i77.fastpic.ru/big/2016/0604/5b/7be50804521cb8eb85f2a28e74e81c5b.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i79.fastpic.ru/big/2016/0604/01/e06e98cffca37e623d8ed41b7a7cc301.jpg"
+    ],
+    "info": {
+      "Company": "BadLand Indie",
+      "Languages": "RUS/ENG/MULTI3",
+      "Original Size": "5.7 GB",
+      "Repack Size": "3.3 GB"
+    },
+    "createdAt": "27/07/2016"
+  },
+  "dovetail-games-flight-school/": {
+    "title": "Dovetail Games Flight School",
+    "image": "http://i80.fastpic.ru/big/2016/0604/53/f908643e0ed2f7609ca14fe693c02e53.jpg",
+    "description": "Company: DovetailLanguages: ENG/MULTI3Original Size: 11.7 GBRepack Size: 8.3 GB",
+    "previewImages": [
+      "http://i80.fastpic.ru/big/2016/0604/53/f908643e0ed2f7609ca14fe693c02e53.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i77.fastpic.ru/big/2016/0604/1e/0eff84e498b3dd577fb417fcb2224c1e.jpg"
+    ],
+    "info": {
+      "Company": "Dovetail",
+      "Languages": "ENG/MULTI3",
+      "Original Size": "11.7 GB",
+      "Repack Size": "8.3 GB"
+    },
+    "createdAt": "27/07/2016"
+  },
+  "senran-kagura-shinovi-versus/": {
+    "title": "Senran Kagura Shinovi Versus",
+    "image": "http://i79.fastpic.ru/big/2016/0603/a5/a4c998f9629cc8444a0c42de4086e6a5.jpg",
+    "description": "Company: MarvelousLanguages: ENG/JAPOriginal Size: 3 GBRepack Size: 1.9 GB",
+    "previewImages": [
+      "http://i79.fastpic.ru/big/2016/0603/a5/a4c998f9629cc8444a0c42de4086e6a5.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://i79.fastpic.ru/big/2016/0603/f6/12800ff008e36cb7c774ecc56a82e8f6.jpg"
+    ],
+    "info": {
+      "Company": "Marvelous",
+      "Languages": "ENG/JAP",
+      "Original Size": "3 GB",
+      "Repack Size": "1.9 GB"
+    },
+    "createdAt": "27/07/2016"
+  },
+  "dead-island-definitive-collection/": {
+    "title": "Dead Island: Definitive Collection",
+    "image": "http://i80.fastpic.ru/big/2016/0601/55/ac04e47be67e1d6d6458dae0fc0a0f55.jpg",
+    "description": "Company: Deep SilverLanguages: RUS/ENG/MULTI8Original Size: 16.4 GBRepack Size: from 7.8 GB [Selective Download]",
+    "previewImages": [
+      "http://i80.fastpic.ru/big/2016/0601/55/ac04e47be67e1d6d6458dae0fc0a0f55.jpg",
+      "https://www.kickasstorrents.pw/kickasstorrents_16x16.png",
+      "http://pics.who.pho.to/img/thumbs/extratorrent.im_favicon.jpg",
+      "http://static.bobrdobr.ru/store/icons/99/04/99041fd4d82d0b743365105b31496ca3/favicon.gif",
+      "http://static.bobrdobr.ru/store/icons/92/42/92420fa6a6f5ead1a3d6bd2682dd0667/favicon.gif",
+      "http://favicon.yandex.ru/favicon/new-rutor.org",
+      "http://i79.fastpic.ru/big/2016/0601/e3/ec1b17155f320e15bcde7448bcbeaae3.jpg"
+    ],
+    "info": {
+      "Company": "Deep Silver",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "16.4 GB",
+      "Repack Size": "from 7.8 GB [Selective Download]"
+    },
+    "createdAt": "27/07/2016"
   }
 }
