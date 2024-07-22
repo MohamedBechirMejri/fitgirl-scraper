@@ -69,7 +69,7 @@ function getPostUrls(page: Page): Promise<string[]> {
 }
 
 async function scrapePost(page: Page, url: string): Promise<PostData> {
-  await page.goto(url, { waitUntil: "networkidle0" });
+  await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
 
   const title = await page.$eval(
     ".entry-title",
