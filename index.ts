@@ -138,7 +138,7 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
 
 async function main() {
   const browser: Browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
   });
   const page: Page = await browser.newPage();
 
