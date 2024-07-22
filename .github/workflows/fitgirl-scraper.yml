@@ -22,7 +22,7 @@ jobs:
         run: bun install
 
       - name: Run scraper
-        run: bun run fitgirl-scraper.ts
+        run: bun run index.ts
         env:
           # Add any environment variables your script needs here
           BUN_RUNTIME_OPTIONS: --max-heap-size=4096m
