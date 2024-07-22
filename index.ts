@@ -5,7 +5,7 @@ interface PostData {
   title: string;
   image: string;
   info: Record<string, string>;
-  description: string;
+  // description: string;
   previewImages: string[];
   createdAt: string;
 }
@@ -79,10 +79,10 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
     ".entry-content img",
     el => el.getAttribute("src") || ""
   );
-  const description = await page.$eval(
-    ".entry-content p",
-    el => el.textContent?.trim() || ""
-  );
+  // const description = await page.$eval(
+  //   ".entry-content p",
+  //   el => el.textContent?.trim() || ""
+  // );
   const previewImages = await page.$$eval(".entry-content img", images =>
     images.map(img => img.getAttribute("src") || "").filter(Boolean)
   );
@@ -129,7 +129,7 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
   return {
     title,
     image,
-    description,
+    // description,
     previewImages,
     info,
     createdAt,
