@@ -25,7 +25,7 @@ jobs:
         run: bun run index.ts
         env:
           BUN_RUNTIME_OPTIONS: --max-heap-size=4096m
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Commit and push if changes
         run: |
