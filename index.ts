@@ -7,7 +7,7 @@ interface PostData {
   info: Record<string, string>;
   // description: string;
   previewImages: string[];
-  createdAt: string;
+  createdAt: number;
 }
 
 interface ScrapedData {
@@ -99,12 +99,10 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
     const infoText = infoSection.innerHTML;
     console.log("Info section HTML:", infoText);
 
-    // Split the text by <br> tags
     const infoParts = infoText.split(/<br\s*\/?>/i);
 
-    // Process each part
     infoParts.forEach(part => {
-      const text = part.replace(/<\/?[^>]+(>|$)/g, "").trim(); // Remove HTML tags
+      const text = part.replace(/<\/?[^>]+(>|$)/g, "").trim();
       const match = text.match(/^(.+?):\s*(.+)$/);
       if (match) {
         const [, key, value] = match;
@@ -119,17 +117,16 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
     return data;
   });
 
-  const createdAt = await page.$eval(
-    ".entry-date",
-    el => el.textContent?.trim() || ""
-  );
+  const createdAt = await page.$eval(".entry-date", el => {
+    const dateString = el.getAttribute("datetime") || "1-1-1970";
+    return new Date(dateString).getTime();
+  });
 
   console.log("Scraped info:", info);
 
   return {
     title,
     image,
-    // description,
     previewImages,
     info,
     createdAt,
@@ -182,7 +179,6 @@ async function main() {
           await saveData(scrapedData);
           console.log(`Scraped: ${postUrl}`);
 
-          // Rate limiting
           console.log("Waiting .5 seconds before next request...");
           await new Promise(resolve => setTimeout(resolve, 1500));
         } catch (error) {
