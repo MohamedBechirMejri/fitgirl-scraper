@@ -7,7 +7,7 @@ interface PostData {
   info: Record<string, string>;
   // description: string;
   previewImages: string[];
-  createdAt: number;
+  createdAt: number | null;
 }
 
 interface ScrapedData {
@@ -55,6 +55,20 @@ async function getSitemapLinks(page: Page): Promise<string[]> {
   );
 
   return links as string[];
+}
+
+export function parseCustomDate(dateString: string): number | null {
+  const parts = dateString.split("/");
+  if (parts.length === 3) {
+    const [day, month, year] = parts.map(Number);
+    const date = new Date(year, month - 1, day);
+    if (!isNaN(date.getTime())) {
+      return date.getTime();
+    }
+  }
+
+  const timestamp = new Date(dateString).getTime();
+  return isNaN(timestamp) ? null : timestamp;
 }
 
 function getPostUrls(page: Page): Promise<string[]> {
@@ -118,8 +132,10 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
   });
 
   const createdAt = await page.$eval(".entry-date", el => {
-    const dateString = el.getAttribute("datetime") || "1-1-1970";
-    return new Date(dateString).getTime();
+    const dateString =
+      el.getAttribute("datetime") || el.textContent?.trim() || "";
+    console.log(`Raw date string: ${dateString}`);
+    return parseCustomDate(dateString);
   });
 
   console.log("Scraped info:", info);
