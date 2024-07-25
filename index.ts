@@ -94,7 +94,10 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
     el => el.getAttribute("src") || ""
   );
   const previewImages = await page.$$eval(".entry-content img", images =>
-    images.map(img => img.getAttribute("src") || "").filter(Boolean)
+    images
+      .map(img => img.getAttribute("src") || "")
+      .filter(Boolean)
+      .filter(x => x.includes("riotpixels"))
   );
 
   const info = await page.evaluate(() => {
