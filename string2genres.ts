@@ -22,6 +22,7 @@ function main() {
         console.log(genresArray);
 
         post.info.genres = genresArray;
+        delete post.info["Genres/Tags"];
 
         posts[key] = post;
       }
