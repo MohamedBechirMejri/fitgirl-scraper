@@ -57,7 +57,7 @@ async function getSitemapLinks(page: Page): Promise<string[]> {
   return links as string[];
 }
 
-export function parseCustomDate(dateString: string): number | null {
+function parseCustomDate(dateString: string): number | null {
   const parts = dateString.split("/");
   if (parts.length === 3) {
     const [day, month, year] = parts.map(Number);
