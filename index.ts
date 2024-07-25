@@ -179,7 +179,10 @@ async function main() {
           continue;
         }
 
-        if (ignoreList.includes(postUrl)) {
+        if (
+          ignoreList.includes(postUrl) ||
+          postUrl.includes("updates-digest")
+        ) {
           console.log(`Skipping ignored post: ${postUrl}`);
           continue;
         }
