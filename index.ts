@@ -4,7 +4,7 @@ import * as fs from "fs/promises";
 interface PostData {
   title: string;
   image: string;
-  info: Record<string, string>;
+  info: Record<string, string | string[]>;
   // description: string;
   previewImages: string[];
   createdAt: number | null;
@@ -93,16 +93,12 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
     ".entry-content img",
     el => el.getAttribute("src") || ""
   );
-  // const description = await page.$eval(
-  //   ".entry-content p",
-  //   el => el.textContent?.trim() || ""
-  // );
   const previewImages = await page.$$eval(".entry-content img", images =>
     images.map(img => img.getAttribute("src") || "").filter(Boolean)
   );
 
   const info = await page.evaluate(() => {
-    const data: Record<string, string> = {};
+    const data: Record<string, string | string[]> = {};
     const infoSection = document.querySelector(".entry-content p");
 
     if (!infoSection) {
@@ -120,7 +116,11 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
       const match = text.match(/^(.+?):\s*(.+)$/);
       if (match) {
         const [, key, value] = match;
-        data[key.trim()] = value.trim();
+        if (key.trim() === "Genres/Tags") {
+          data["genres"] = value.trim().split(", ");
+        } else {
+          data[key.trim()] = value.trim();
+        }
         console.log(`Matched: ${key.trim()} = ${value.trim()}`);
       } else {
         console.log(`No match for: ${text}`);
