@@ -57,20 +57,6 @@ async function getSitemapLinks(page: Page): Promise<string[]> {
   return links as string[];
 }
 
-function parseCustomDate(dateString: string): number | null {
-  const parts = dateString.split("/");
-  if (parts.length === 3) {
-    const [day, month, year] = parts.map(Number);
-    const date = new Date(year, month - 1, day);
-    if (!isNaN(date.getTime())) {
-      return date.getTime();
-    }
-  }
-
-  const timestamp = new Date(dateString).getTime();
-  return isNaN(timestamp) ? null : timestamp;
-}
-
 function getPostUrls(page: Page): Promise<string[]> {
   return page.$$eval(
     "a",
@@ -134,9 +120,26 @@ async function scrapePost(page: Page, url: string): Promise<PostData> {
     return data;
   });
 
-  const createdAt = await page.$eval(".entry-date", el => {
+  const createdAt = await page.evaluate(() => {
+    function parseCustomDate(dateString: string): number | null {
+      const parts = dateString.split("/");
+      if (parts.length === 3) {
+        const [day, month, year] = parts.map(Number);
+        const date = new Date(year, month - 1, day);
+        if (!isNaN(date.getTime())) {
+          return date.getTime();
+        }
+      }
+
+      const timestamp = new Date(dateString).getTime();
+      return isNaN(timestamp) ? null : timestamp;
+    }
+
+    const dateEl = document.querySelector(".entry-date");
+    if (!dateEl) return null;
+
     const dateString =
-      el.getAttribute("datetime") || el.textContent?.trim() || "";
+      dateEl.getAttribute("datetime") || dateEl.textContent?.trim() || "";
     console.log(`Raw date string: ${dateString}`);
     return parseCustomDate(dateString);
   });
