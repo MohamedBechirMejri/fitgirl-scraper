@@ -171,6 +171,7 @@ function renderPage(store: ArchiveStore, pageUrl: string): string {
   const snapshots = store.getSnapshotsForUrl(pageUrl);
   const links = store.getSnapshotLinks(latest.id);
   const assets = store.getSnapshotAssets(latest.id);
+  const localAssetCount = assets.filter(asset => Boolean(asset.localPath)).length;
   const metadata = parseSnapshotMetadata(latest.metadataJson);
   const navigation = store.getPageNavigation(latest.url);
   const linkGroups = groupLinks(links);
@@ -208,9 +209,11 @@ function renderPage(store: ArchiveStore, pageUrl: string): string {
         ${renderLinkGroups(linkGroups, linkAvailability)}
       </section>
 
+      ${renderMissingAssetSection(assets)}
+
       <section>
         <h2>Assets</h2>
-        <p class="queue-note">${renderAssetCompleteness(assets.filter(asset => Boolean(asset.localPath)).length, assets.length)} local.</p>
+        <p class="queue-note">${renderAssetCompleteness(localAssetCount, assets.length)} local.</p>
         <table>
           <thead><tr><th>Kind</th><th>Status</th><th>Size</th><th>URL</th></tr></thead>
           <tbody>
@@ -346,6 +349,45 @@ function renderSnapshotLink(link: ClassifiedLink, availability: Map<string, Link
 function renderLinkAvailability(availability: LinkAvailability | undefined): string {
   const label = availability?.saved ? "local" : availability?.queueStatus ?? "missing";
   return `<span class="link-status">${escapeHtml(label)}</span>`;
+}
+
+function renderMissingAssetSection(assets: SnapshotAssetRow[]): string {
+  const missing = assets.filter(asset => !asset.localPath);
+
+  if (missing.length === 0) {
+    return `
+      <section>
+        <h2>Missing Assets</h2>
+        <p class="empty">All referenced assets are saved locally.</p>
+      </section>
+    `;
+  }
+
+  return `
+    <section>
+      <h2>Missing Assets</h2>
+      <p class="queue-note">${missing.length}/${assets.length} referenced assets are not local yet. ${renderAssetKindCounts(missing)}</p>
+      ${renderCommand("Backfill assets", "bun run assets:backfill -- --limit 50 --delay-ms 2000 --asset-depth 2")}
+      <table>
+        <thead><tr><th>Kind</th><th>Status</th><th>Size</th><th>URL</th></tr></thead>
+        <tbody>
+          ${missing.map(renderAssetRow).join("")}
+        </tbody>
+      </table>
+    </section>
+  `;
+}
+
+function renderAssetKindCounts(assets: SnapshotAssetRow[]): string {
+  const counts = new Map<string, number>();
+  for (const asset of assets) {
+    counts.set(asset.kind, (counts.get(asset.kind) ?? 0) + 1);
+  }
+
+  return [...counts.entries()]
+    .sort(([left], [right]) => left.localeCompare(right))
+    .map(([kind, count]) => `${count} ${kind}`)
+    .join(", ");
 }
 
 function renderMetadata(metadata: PageMetadata): string {
