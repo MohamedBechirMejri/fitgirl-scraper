@@ -669,6 +669,7 @@ function renderPageTable(pages: PageListRow[]): string {
               <tr>
                 <td>
                   <a href="/page?url=${encodeURIComponent(page.url)}">${escapeHtml(page.title)}</a>
+                  ${renderPageOpenLink(page)}
                   <small>${escapeHtml(page.url)}</small>
                   ${page.snippet ? `<small>${escapeHtml(page.snippet)}</small>` : ""}
                   ${renderPageBadges(page)}
@@ -683,6 +684,10 @@ function renderPageTable(pages: PageListRow[]): string {
       </tbody>
     </table>
   `;
+}
+
+function renderPageOpenLink(page: PageListRow): string {
+  return page.snapshotId ? `<small><a href="/snapshot/${page.snapshotId}">Open snapshot</a></small>` : "";
 }
 
 function renderAssetCompleteness(downloaded: number, total: number): string {
