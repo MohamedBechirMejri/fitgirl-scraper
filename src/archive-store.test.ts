@@ -306,6 +306,48 @@ describe("archive store queue", () => {
     store.close();
   });
 
+  test("gets internal link availability", async () => {
+    const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
+
+    store.saveSnapshot({
+      contentHash: "abc",
+      contentType: "text/html",
+      etag: null,
+      fetchedAt: "2026-06-28T00:00:00.000Z",
+      htmlPath: "archive/pages/demo.html",
+      lastModified: null,
+      sitemapLastModified: null,
+      status: 200,
+      textContent: "Saved",
+      title: "Saved",
+      url: "https://fitgirl-repacks.site/saved/",
+    });
+    store.enqueueUrl({
+      priority: 1,
+      sitemapLastModified: null,
+      source: "sitemap",
+      url: "https://fitgirl-repacks.site/queued/",
+    });
+
+    const availability = store.getLinkAvailability([
+      "https://fitgirl-repacks.site/saved/",
+      "https://fitgirl-repacks.site/queued/",
+      "https://fitgirl-repacks.site/missing/",
+    ]);
+
+    expect(availability.get("https://fitgirl-repacks.site/saved/")).toMatchObject({ saved: true });
+    expect(availability.get("https://fitgirl-repacks.site/queued/")).toMatchObject({
+      queueStatus: "pending",
+      saved: false,
+    });
+    expect(availability.get("https://fitgirl-repacks.site/missing/")).toMatchObject({
+      queueStatus: null,
+      saved: false,
+    });
+
+    store.close();
+  });
+
   test("selects missing assets for backfill", async () => {
     const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
     const snapshot = store.saveSnapshot({

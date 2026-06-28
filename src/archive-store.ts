@@ -110,6 +110,12 @@ export interface PageNavigation {
   previous: PageNavRow | null;
 }
 
+export interface LinkAvailability {
+  queueStatus: CrawlStatus | null;
+  saved: boolean;
+  url: string;
+}
+
 export interface ArchiveSearchFilters { company: string; genre: string; language: string; query: string }
 export interface FacetRow { count: number; value: string }
 export interface ArchiveSearchFacets { companies: FacetRow[]; genres: FacetRow[]; languages: FacetRow[] }
@@ -663,6 +669,28 @@ export class ArchiveStore {
       next: rows.find(row => row.positionDelta === 1) ?? null,
       previous: rows.find(row => row.positionDelta === -1) ?? null,
     };
+  }
+
+  getLinkAvailability(urls: string[]): Map<string, LinkAvailability> {
+    const pageQuery = this.db.query<{ latestSnapshotId: number | null }, [string]>(
+      "select latest_snapshot_id as latestSnapshotId from pages where url = ?"
+    );
+    const queueQuery = this.db.query<{ status: CrawlStatus }, [string]>(
+      "select status from crawl_queue where url = ?"
+    );
+    const availability = new Map<string, LinkAvailability>();
+
+    for (const url of new Set(urls)) {
+      const page = pageQuery.get(url);
+      const queue = queueQuery.get(url);
+      availability.set(url, {
+        queueStatus: queue?.status ?? null,
+        saved: Boolean(page?.latestSnapshotId),
+        url,
+      });
+    }
+
+    return availability;
   }
 
   private searchPagesByLike(filters: ArchiveSearchFilters, limit: number): PageListRow[] {

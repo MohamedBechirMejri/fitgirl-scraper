@@ -8,6 +8,7 @@ import {
   type ArchiveStore,
   type AssetFailureRow,
   type CrawlQueueItem,
+  type LinkAvailability,
   type PageListRow,
   type PageNavigation,
   type QueueFailureRow,
@@ -172,6 +173,11 @@ function renderPage(store: ArchiveStore, pageUrl: string): string {
   const assets = store.getSnapshotAssets(latest.id);
   const metadata = parseSnapshotMetadata(latest.metadataJson);
   const navigation = store.getPageNavigation(latest.url);
+  const linkGroups = groupLinks(links);
+  const internalLinks = linkGroups.flatMap(group =>
+    group.kind === "internal" ? group.links.map(link => link.url) : []
+  );
+  const linkAvailability = store.getLinkAvailability(internalLinks);
 
   return layout({
     body: `
@@ -199,7 +205,7 @@ function renderPage(store: ArchiveStore, pageUrl: string): string {
 
       <section>
         <h2>Links</h2>
-        ${renderLinkGroups(groupLinks(links))}
+        ${renderLinkGroups(linkGroups, linkAvailability)}
       </section>
 
       <section>
@@ -315,7 +321,7 @@ function renderAdjacentPage(label: string, page: PageNavigation["previous"]): st
   `;
 }
 
-function renderLinkGroups(groups: LinkGroup[]): string {
+function renderLinkGroups(groups: LinkGroup[], availability: Map<string, LinkAvailability>): string {
   if (groups.length === 0) return `<p class="empty">No links saved for this snapshot.</p>`;
 
   return groups
@@ -323,17 +329,23 @@ function renderLinkGroups(groups: LinkGroup[]): string {
       group => `
         <details class="link-group" open>
           <summary>${escapeHtml(group.title)} <span>${group.links.length}</span></summary>
-          <ul class="links">${group.links.map(renderSnapshotLink).join("")}</ul>
+          <ul class="links">${group.links.map(link => renderSnapshotLink(link, availability)).join("")}</ul>
         </details>
       `
     )
     .join("");
 }
 
-function renderSnapshotLink(link: ClassifiedLink): string {
+function renderSnapshotLink(link: ClassifiedLink, availability: Map<string, LinkAvailability>): string {
   const url = link.url;
   const href = link.kind === "internal" ? `/page?url=${encodeURIComponent(url)}` : url;
-  return `<li><a href="${escapeHtml(href)}">${escapeHtml(url)}</a></li>`;
+  const badge = link.kind === "internal" ? renderLinkAvailability(availability.get(url)) : "";
+  return `<li><a href="${escapeHtml(href)}">${escapeHtml(url)}</a>${badge}</li>`;
+}
+
+function renderLinkAvailability(availability: LinkAvailability | undefined): string {
+  const label = availability?.saved ? "local" : availability?.queueStatus ?? "missing";
+  return `<span class="link-status">${escapeHtml(label)}</span>`;
 }
 
 function renderMetadata(metadata: PageMetadata): string {
@@ -672,6 +684,7 @@ function layout({ body, script = "", title }: { body: string; script?: string; t
           .page-nav span { display: block; margin-bottom: .25rem; color: #62625c; font-size: .78rem; text-transform: uppercase; }
           .links { columns: 2 24rem; padding-left: 1.1rem; }
           .links li { break-inside: avoid; margin-bottom: .35rem; overflow-wrap: anywhere; }
+          .link-status { display: inline-block; margin-left: .4rem; padding: .1rem .35rem; border-radius: 4px; background: #ecece6; color: #4b4b45; font-size: .72rem; text-transform: uppercase; vertical-align: .08rem; }
           .link-group { margin-bottom: .75rem; background: #fff; border: 1px solid #deded8; border-radius: 8px; }
           .link-group summary { cursor: pointer; padding: .75rem .9rem; font-weight: 700; }
           .link-group summary span { color: #62625c; font-weight: 400; }
