@@ -99,6 +99,17 @@ export interface PageListRow {
   url: string;
 }
 
+export interface PageNavRow {
+  fetchedAt: string | null;
+  title: string;
+  url: string;
+}
+
+export interface PageNavigation {
+  next: PageNavRow | null;
+  previous: PageNavRow | null;
+}
+
 export interface ArchiveSearchFilters { company: string; genre: string; language: string; query: string }
 export interface FacetRow { count: number; value: string }
 export interface ArchiveSearchFacets { companies: FacetRow[]; genres: FacetRow[]; languages: FacetRow[] }
@@ -619,6 +630,38 @@ export class ArchiveStore {
       companies: this.getJsonArrayFacet("$.companies", limit),
       genres: this.getJsonArrayFacet("$.genres", limit),
       languages: this.getLanguageFacets(limit),
+    };
+  }
+
+  getPageNavigation(url: string): PageNavigation {
+    const rows = this.db
+      .query<PageNavRow & { positionDelta: number }, [string]>(
+        `with ordered as (
+          select
+            pages.url,
+            coalesce(snapshots.title, pages.url) as title,
+            snapshots.fetched_at as fetchedAt,
+            row_number() over (order by snapshots.fetched_at desc, snapshots.id desc) as position
+          from pages
+          join snapshots on snapshots.id = pages.latest_snapshot_id
+        ),
+        current as (
+          select position from ordered where url = ?
+        )
+        select
+          ordered.url,
+          ordered.title,
+          ordered.fetchedAt,
+          ordered.position - current.position as positionDelta
+        from ordered, current
+        where ordered.position in (current.position - 1, current.position + 1)
+        order by ordered.position`
+      )
+      .all(url);
+
+    return {
+      next: rows.find(row => row.positionDelta === 1) ?? null,
+      previous: rows.find(row => row.positionDelta === -1) ?? null,
     };
   }
 

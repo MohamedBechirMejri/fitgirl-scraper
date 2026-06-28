@@ -274,6 +274,38 @@ describe("archive store queue", () => {
     store.close();
   });
 
+  test("gets page navigation by latest fetch order", async () => {
+    const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
+
+    for (const [url, title, fetchedAt] of [
+      ["https://fitgirl-repacks.site/newest/", "Newest", "2026-06-28T00:02:00.000Z"],
+      ["https://fitgirl-repacks.site/middle/", "Middle", "2026-06-28T00:01:00.000Z"],
+      ["https://fitgirl-repacks.site/oldest/", "Oldest", "2026-06-28T00:00:00.000Z"],
+    ] as const) {
+      store.saveSnapshot({
+        contentHash: url,
+        contentType: "text/html",
+        etag: null,
+        fetchedAt,
+        htmlPath: "archive/pages/demo.html",
+        lastModified: null,
+        sitemapLastModified: null,
+        status: 200,
+        textContent: title,
+        title,
+        url,
+      });
+    }
+
+    const middle = store.getPageNavigation("https://fitgirl-repacks.site/middle/");
+    expect(middle.previous?.title).toBe("Newest");
+    expect(middle.next?.title).toBe("Oldest");
+    expect(store.getPageNavigation("https://fitgirl-repacks.site/newest/").previous).toBeNull();
+    expect(store.getPageNavigation("https://fitgirl-repacks.site/oldest/").next).toBeNull();
+
+    store.close();
+  });
+
   test("selects missing assets for backfill", async () => {
     const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
     const snapshot = store.saveSnapshot({

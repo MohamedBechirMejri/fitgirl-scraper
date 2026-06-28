@@ -9,6 +9,7 @@ import {
   type AssetFailureRow,
   type CrawlQueueItem,
   type PageListRow,
+  type PageNavigation,
   type QueueFailureRow,
   type SnapshotAssetRow,
   type SnapshotRow,
@@ -170,6 +171,7 @@ function renderPage(store: ArchiveStore, pageUrl: string): string {
   const links = store.getSnapshotLinks(latest.id);
   const assets = store.getSnapshotAssets(latest.id);
   const metadata = parseSnapshotMetadata(latest.metadataJson);
+  const navigation = store.getPageNavigation(latest.url);
 
   return layout({
     body: `
@@ -182,6 +184,7 @@ function renderPage(store: ArchiveStore, pageUrl: string): string {
         </p>
       </header>
 
+      ${renderPageNavigation(navigation)}
       ${renderMetadata(metadata)}
 
       <section>
@@ -286,6 +289,29 @@ function renderQueueItem(item: CrawlQueueItem): string {
       <div><dt>Priority</dt><dd>${item.priority}</dd></div>
     </dl>
     ${item.lastError ? `<p class="empty">${escapeHtml(item.lastError)}</p>` : ""}
+  `;
+}
+
+function renderPageNavigation(navigation: PageNavigation): string {
+  if (!navigation.previous && !navigation.next) return "";
+
+  return `
+    <nav class="page-nav" aria-label="Adjacent archived pages">
+      ${renderAdjacentPage("Previous", navigation.previous)}
+      ${renderAdjacentPage("Next", navigation.next)}
+    </nav>
+  `;
+}
+
+function renderAdjacentPage(label: string, page: PageNavigation["previous"]): string {
+  if (!page) return `<span></span>`;
+
+  return `
+    <a href="/page?url=${encodeURIComponent(page.url)}">
+      <span>${escapeHtml(label)}</span>
+      ${escapeHtml(page.title)}
+      <small>${escapeHtml(page.fetchedAt ?? "")}</small>
+    </a>
   `;
 }
 
@@ -641,6 +667,9 @@ function layout({ body, script = "", title }: { body: string; script?: string; t
           .meta-grid dd { margin: .15rem 0 0; overflow-wrap: anywhere; }
           .page-head { margin-bottom: 1.25rem; }
           .source { overflow-wrap: anywhere; }
+          .page-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; margin: 0 0 1.25rem; }
+          .page-nav a { display: block; min-width: 0; padding: .75rem .85rem; background: #fff; border: 1px solid #deded8; border-radius: 8px; text-decoration: none; overflow-wrap: anywhere; }
+          .page-nav span { display: block; margin-bottom: .25rem; color: #62625c; font-size: .78rem; text-transform: uppercase; }
           .links { columns: 2 24rem; padding-left: 1.1rem; }
           .links li { break-inside: avoid; margin-bottom: .35rem; overflow-wrap: anywhere; }
           .link-group { margin-bottom: .75rem; background: #fff; border: 1px solid #deded8; border-radius: 8px; }
@@ -662,6 +691,7 @@ function layout({ body, script = "", title }: { body: string; script?: string; t
           @media (max-width: 44rem) {
             main { width: min(100vw - 1rem, 72rem); }
             .search, .stats, .meta-grid { grid-template-columns: 1fr; }
+            .page-nav { grid-template-columns: 1fr; }
             .diff-grid { grid-template-columns: 1fr; }
             th:nth-child(2), td:nth-child(2) { display: none; }
           }
