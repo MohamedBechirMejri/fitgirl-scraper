@@ -153,7 +153,7 @@ function renderOps(store: ArchiveStore): string {
 
       <section>
         <h2>Lowest Asset Coverage</h2>
-        ${weakAssetPages.length === 0 ? `<p class="empty">All saved page assets are local.</p>` : renderPageTable(weakAssetPages)}
+        ${renderWeakAssetPages(weakAssetPages)}
       </section>
 
       <section>
@@ -394,7 +394,7 @@ function renderMissingAssetSection(pageUrl: string, assets: SnapshotAssetRow[]):
     <section>
       <h2>Missing Assets</h2>
       <p class="queue-note">${missing.length}/${assets.length} referenced assets are not local yet. ${renderAssetKindCounts(missing)}</p>
-      ${renderCommand("Backfill page assets", `bun run assets:backfill -- --url ${pageUrl} --limit 50 --delay-ms 2000 --asset-depth 2`)}
+      ${renderCommand("Backfill page assets", pageAssetBackfillCommand(pageUrl))}
       <table>
         <thead><tr><th>Kind</th><th>Status</th><th>Size</th><th>URL</th></tr></thead>
         <tbody>
@@ -536,6 +536,10 @@ function renderCommand(label: string, command: string): string {
   `;
 }
 
+function pageAssetBackfillCommand(pageUrl: string): string {
+  return `bun run assets:backfill -- --url ${pageUrl} --limit 50 --delay-ms 2000 --asset-depth 2`;
+}
+
 function renderQueueFailures(rows: QueueFailureRow[]): string {
   return `
     <table>
@@ -612,6 +616,15 @@ function renderRunHighlight(label: string, row: ArchiveRunRow | null): string {
       <small>${escapeHtml(row.startedAt)}</small>
       <small>${escapeHtml(formatRunSummary(row))}</small>
     </div>
+  `;
+}
+
+function renderWeakAssetPages(pages: PageListRow[]): string {
+  if (pages.length === 0) return `<p class="empty">All saved page assets are local.</p>`;
+
+  return `
+    ${renderPageTable(pages)}
+    ${pages.map(page => renderCommand("Backfill page assets", pageAssetBackfillCommand(page.url))).join("")}
   `;
 }
 
