@@ -199,7 +199,7 @@ export async function extractPageReferences(html: string, pageUrl: string): Prom
     links: [...links].sort(),
     metadata: extractPageMetadata(html, textContent, bodyClass),
     textContent,
-    title: titleParts.join("").replace(/\s+/g, " ").trim(),
+    title: normalizeText(titleParts.join("")),
   };
 }
 
@@ -267,6 +267,8 @@ function decodeHtmlAttribute(value: string): string {
     .replace(/&amp;/g, "&")
     .replace(/&#0*38;/gi, "&")
     .replace(/&#x0*26;/gi, "&")
+    .replace(/&#0*39;/gi, "'")
+    .replace(/&#x0*27;/gi, "'")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
@@ -337,5 +339,5 @@ function countMatches(value: string, pattern: RegExp): number {
 }
 
 function normalizeText(value: string): string {
-  return value.replace(/\s+/g, " ").trim();
+  return decodeHtmlAttribute(value).replace(/\s+/g, " ").trim();
 }

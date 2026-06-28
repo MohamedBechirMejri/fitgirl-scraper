@@ -36,7 +36,11 @@ async function main(): Promise<void> {
 
       try {
         const references = await extractPageReferences(await readFile(path, "utf-8"), snapshot.url);
-        store.saveSnapshotMetadata(snapshot.id, references.metadata);
+        store.saveSnapshotExtraction(snapshot.id, {
+          metadata: references.metadata,
+          textContent: references.textContent,
+          title: references.title,
+        });
         store.saveSnapshotReferences(snapshot.id, references.links, references.assets);
         refreshedCount++;
       } catch (error) {

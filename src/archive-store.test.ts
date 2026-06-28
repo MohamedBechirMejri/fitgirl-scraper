@@ -167,6 +167,24 @@ describe("archive store queue", () => {
     expect(JSON.parse(store.getLatestSnapshotForUrl("https://fitgirl-repacks.site/demo/")!.metadataJson).genres).toEqual([
       "Shooter",
     ]);
+    store.saveSnapshotExtraction(latest!.id, {
+      metadata: {
+        companies: ["Better Studio"],
+        filehosterCount: 1,
+        genres: ["Adventure"],
+        languages: "ENG",
+        magnetCount: 1,
+        modifiedAt: null,
+        originalSize: null,
+        pageType: "post",
+        publishedAt: null,
+        repackSize: null,
+      },
+      textContent: "Fresh searchable body.",
+      title: "Clean Title",
+    });
+    expect(store.getLatestSnapshotForUrl("https://fitgirl-repacks.site/demo/")?.title).toBe("Clean Title");
+    expect(store.searchPages("fresh", 10)[0]?.title).toBe("Clean Title");
     store.saveSnapshot({
       contentHash: "abc",
       contentType: "text/html",
@@ -181,7 +199,7 @@ describe("archive store queue", () => {
       url: "https://fitgirl-repacks.site/demo/",
     });
     expect(JSON.parse(store.getLatestSnapshotForUrl("https://fitgirl-repacks.site/demo/")!.metadataJson).genres).toEqual([
-      "Shooter",
+      "Adventure",
     ]);
 
     store.close();

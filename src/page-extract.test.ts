@@ -40,7 +40,7 @@ describe("page extraction", () => {
       `
         <html>
           <head>
-            <title> Test Page </title>
+            <title> Aerial_Knight&#039;s DropShot </title>
             <link rel="stylesheet" href="/style.css">
             <link rel="preload" as="image" href="/preload.jpg">
             <meta property="og:image" content="/og.jpg">
@@ -60,7 +60,7 @@ describe("page extraction", () => {
       "https://fitgirl-repacks.site/post/"
     );
 
-    expect(refs.title).toBe("Test Page");
+    expect(refs.title).toBe("Aerial_Knight's DropShot");
     expect(refs.textContent).toContain("Game");
     expect(refs.links).toEqual(["https://fitgirl-repacks.site/game/", "magnet:?xt=urn:btih:123"]);
     expect(refs.assets.map(asset => asset.url)).toEqual([

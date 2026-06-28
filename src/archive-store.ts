@@ -122,6 +122,12 @@ export interface SnapshotBackfillRow {
   url: string;
 }
 
+export interface SnapshotExtractionInput {
+  metadata?: PageMetadata;
+  textContent: string;
+  title: string;
+}
+
 export interface SnapshotAssetRow {
   contentType: string | null;
   httpStatus: number | null;
@@ -410,10 +416,11 @@ export class ArchiveStore {
 
     if (existing) {
       this.db.run("update pages set latest_snapshot_id = ? where url = ?", [existing.id, input.url]);
-      if (input.metadata) {
-        this.db.run("update snapshots set metadata_json = ? where id = ?", [metadataJson(input.metadata), existing.id]);
-      }
-      this.indexSnapshot(existing.id, input.url, input.title, input.textContent);
+      this.saveSnapshotExtraction(existing.id, {
+        metadata: input.metadata,
+        textContent: input.textContent,
+        title: input.title,
+      });
       return { id: existing.id, isNew: false };
     }
 
@@ -801,6 +808,19 @@ export class ArchiveStore {
 
   saveSnapshotMetadata(snapshotId: number, metadata: PageMetadata): void {
     this.db.run("update snapshots set metadata_json = ? where id = ?", [metadataJson(metadata), snapshotId]);
+  }
+
+  saveSnapshotExtraction(snapshotId: number, input: SnapshotExtractionInput): void {
+    const row = this.db.query<{ url: string }, [number]>("select url from snapshots where id = ?").get(snapshotId);
+    if (!row) return;
+
+    this.db.run("update snapshots set title = ?, text_content = ?, metadata_json = coalesce(?, metadata_json) where id = ?", [
+      input.title,
+      input.textContent,
+      input.metadata ? metadataJson(input.metadata) : null,
+      snapshotId,
+    ]);
+    this.indexSnapshot(snapshotId, row.url, input.title, input.textContent);
   }
 
   getSnapshotAssets(snapshotId: number): SnapshotAssetRow[] {
