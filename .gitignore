@@ -59,6 +59,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Local scraper output
+archive/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 
 web_modules/

@@ -1,14 +1,20 @@
 {
   "name": "fitgirl-scraper",
-  "module": "index.ts",
+  "module": "src/local-scraper.ts",
   "type": "module",
+  "scripts": {
+    "assets:backfill": "bun run src/backfill-assets.ts",
+    "health": "bun run src/archive-health.ts",
+    "snapshots:backfill": "bun run src/backfill-snapshots.ts",
+    "scrape:local": "bun run src/local-scraper.ts",
+    "view": "bun run src/viewer.ts",
+    "test": "bun test"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "dependencies": {
-    "puppeteer": "^22.13.1"
-  }
+  "dependencies": {}
 }
