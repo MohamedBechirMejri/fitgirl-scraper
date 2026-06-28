@@ -60,6 +60,10 @@ async function handleRequest(request: Request, store: ArchiveStore, archiveRoot:
       return html(renderPage(store, url.searchParams.get("url") ?? ""));
     }
 
+    if (url.pathname === "/search.json") {
+      return searchJson(store, readSearchFilters(url.searchParams));
+    }
+
     if (url.pathname === "/ops") {
       return html(renderOps(store));
     }
@@ -101,8 +105,11 @@ function renderHome(store: ArchiveStore, filters: ArchiveSearchFilters): string 
       <p><a class="button secondary" href="/ops">Operations</a></p>
       <p class="queue-note">Queue shows pending/failed. Done: ${stats.queueDone}. Running: ${stats.queueRunning}.</p>
 
-      ${pages.length === 0 ? `<p class="empty">No archived pages yet.</p>` : renderPageTable(pages)}
+      <section id="search-results" data-search-results>
+        ${renderSearchResults(pages)}
+      </section>
     `,
+    script: renderInstantSearchScript(),
     title: "FitGirl Archive",
   });
 }
@@ -478,7 +485,7 @@ function renderSearchForm(filters: ArchiveSearchFilters, facets: ArchiveSearchFa
   const clear = hasSearchFilters(filters) ? `<a class="button secondary" href="/">Clear</a>` : "";
 
   return `
-    <form class="search" action="/" method="get">
+    <form class="search" action="/" method="get" data-instant-search>
       <input name="q" type="search" value="${escapeHtml(filters.query)}" placeholder="Search title or URL" autofocus>
       ${renderFacetSelect("genre", "Genre", filters.genre, facets.genres)}
       ${renderFacetSelect("company", "Company", filters.company, facets.companies)}
@@ -487,6 +494,10 @@ function renderSearchForm(filters: ArchiveSearchFilters, facets: ArchiveSearchFa
       ${clear}
     </form>
   `;
+}
+
+function renderSearchResults(pages: PageListRow[]): string {
+  return pages.length === 0 ? `<p class="empty">No archived pages found.</p>` : renderPageTable(pages);
 }
 
 function renderFacetSelect(name: keyof ArchiveSearchFilters, label: string, value: string, rows: { value: string }[]): string {
@@ -595,7 +606,7 @@ function renderAssetRow(asset: SnapshotAssetRow): string {
   `;
 }
 
-function layout({ body, title }: { body: string; title: string }): string {
+function layout({ body, script = "", title }: { body: string; script?: string; title: string }): string {
   return `<!doctype html>
     <html lang="en">
       <head>
@@ -664,12 +675,68 @@ function layout({ body, title }: { body: string; title: string }): string {
           </nav>
           ${body}
         </main>
+        ${script}
       </body>
     </html>`;
 }
 
 function html(body: string): Response {
   return new Response(body, { headers: { "content-type": "text/html; charset=utf-8" } });
+}
+
+function searchJson(store: ArchiveStore, filters: ArchiveSearchFilters): Response {
+  return new Response(JSON.stringify({ html: renderSearchResults(store.searchPages(filters, 100)) }), {
+    headers: { "content-type": "application/json; charset=utf-8" },
+  });
+}
+
+function renderInstantSearchScript(): string {
+  return `
+    <script>
+      (() => {
+        const form = document.querySelector("[data-instant-search]");
+        const results = document.querySelector("[data-search-results]");
+        if (!form || !results || !window.fetch) return;
+
+        let controller = null;
+        let timer = 0;
+
+        const search = () => {
+          clearTimeout(timer);
+          timer = setTimeout(async () => {
+            const params = new URLSearchParams(new FormData(form));
+            for (const [key, value] of [...params.entries()]) {
+              if (!value) params.delete(key);
+            }
+
+            if (controller) controller.abort();
+            controller = new AbortController();
+
+            try {
+              const response = await fetch("/search.json?" + params.toString(), {
+                headers: { accept: "application/json" },
+                signal: controller.signal,
+              });
+              if (!response.ok) return;
+
+              const body = await response.json();
+              results.innerHTML = body.html;
+              history.replaceState(null, "", params.toString() ? "/?" + params.toString() : "/");
+            } catch (error) {
+              if (error.name !== "AbortError") console.error(error);
+            }
+          }, 120);
+        };
+
+        form.addEventListener("input", search);
+        form.addEventListener("change", search);
+        form.addEventListener("submit", event => {
+          event.preventDefault();
+          search();
+        });
+      })();
+    </script>
+  `;
 }
 
 function notFound(message: string): Response {
