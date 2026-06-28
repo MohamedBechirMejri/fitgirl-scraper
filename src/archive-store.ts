@@ -525,21 +525,41 @@ export class ArchiveStore {
   }
 
   getLinkAvailability(urls: string[]): Map<string, LinkAvailability> {
-    const pageQuery = this.db.query<{ latestSnapshotId: number | null }, [string]>(
-      "select latest_snapshot_id as latestSnapshotId from pages where url = ?"
-    );
-    const queueQuery = this.db.query<{ status: CrawlStatus }, [string]>(
-      "select status from crawl_queue where url = ?"
-    );
+    const uniqueUrls = [...new Set(urls)];
     const availability = new Map<string, LinkAvailability>();
+    if (uniqueUrls.length === 0) return availability;
 
-    for (const url of new Set(urls)) {
-      const page = pageQuery.get(url);
-      const queue = queueQuery.get(url);
+    for (const url of uniqueUrls) {
       availability.set(url, {
-        queueStatus: queue?.status ?? null,
-        saved: Boolean(page?.latestSnapshotId),
+        queueStatus: null,
+        saved: false,
         url,
+      });
+    }
+
+    for (const page of this.db
+      .query<{ latestSnapshotId: number | null; url: string }, string[]>(
+        `select url, latest_snapshot_id as latestSnapshotId
+        from pages
+        where url in (${placeholders(uniqueUrls.length)})`
+      )
+      .all(...uniqueUrls)) {
+      availability.set(page.url, {
+        ...(availability.get(page.url) ?? { queueStatus: null, url: page.url }),
+        saved: Boolean(page?.latestSnapshotId),
+      });
+    }
+
+    for (const queue of this.db
+      .query<{ status: CrawlStatus; url: string }, string[]>(
+        `select url, status
+        from crawl_queue
+        where url in (${placeholders(uniqueUrls.length)})`
+      )
+      .all(...uniqueUrls)) {
+      availability.set(queue.url, {
+        ...(availability.get(queue.url) ?? { saved: false, url: queue.url }),
+        queueStatus: queue.status,
       });
     }
 
@@ -804,6 +824,10 @@ function emptySearchFilters(query = ""): ArchiveSearchFilters {
 
 function normalizeSearchFilters(filters: ArchiveSearchFilters): ArchiveSearchFilters {
   return { company: filters.company.trim(), genre: filters.genre.trim(), language: filters.language.trim(), query: filters.query.trim() };
+}
+
+function placeholders(count: number): string {
+  return Array.from({ length: count }, () => "?").join(", ");
 }
 
 function toFtsQuery(query: string): string {

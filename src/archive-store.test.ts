@@ -335,6 +335,7 @@ describe("archive store queue", () => {
       "https://fitgirl-repacks.site/missing/",
     ]);
 
+    expect(store.getLinkAvailability([]).size).toBe(0);
     expect(availability.get("https://fitgirl-repacks.site/saved/")).toMatchObject({ saved: true });
     expect(availability.get("https://fitgirl-repacks.site/queued/")).toMatchObject({
       queueStatus: "pending",
