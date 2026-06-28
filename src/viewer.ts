@@ -15,6 +15,7 @@ import {
   type SnapshotAssetRow,
   type SnapshotRow,
 } from "./archive-store";
+import { lowestAssetCoverage } from "./archive-health";
 import { rewriteCssAssetReferences } from "./css-assets";
 import { groupLinks, type ClassifiedLink, type LinkGroup } from "./link-classifier";
 import { isFitGirlUrl, type PageMetadata } from "./page-extract";
@@ -24,6 +25,7 @@ import { escapeHtml, html, layout, notFound } from "./viewer-shell";
 
 const DEFAULT_ARCHIVE_DIR = "archive";
 const DEFAULT_PORT = 4173;
+const OPS_PAGE_SCAN_LIMIT = 10_000;
 
 interface ViewerOptions {
   archiveDir: string;
@@ -124,6 +126,7 @@ function renderOps(store: ArchiveStore): string {
   const queueFailures = store.getRecentQueueFailures(10);
   const assetFailures = store.getRecentAssetFailures(10);
   const pagesWithHistory = store.getPagesWithSnapshotHistory(10);
+  const weakAssetPages = lowestAssetCoverage(store.searchPages("", OPS_PAGE_SCAN_LIMIT), 5);
 
   return layout({
     body: `
@@ -146,6 +149,11 @@ function renderOps(store: ArchiveStore): string {
       <section>
         <h2>Pages With History</h2>
         ${pagesWithHistory.length === 0 ? `<p class="empty">No pages have multiple snapshots yet.</p>` : renderPageTable(pagesWithHistory)}
+      </section>
+
+      <section>
+        <h2>Lowest Asset Coverage</h2>
+        ${weakAssetPages.length === 0 ? `<p class="empty">All saved page assets are local.</p>` : renderPageTable(weakAssetPages)}
       </section>
 
       <section>
