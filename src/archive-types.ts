@@ -99,6 +99,7 @@ export interface PageListRow {
 
 export interface PageNavRow {
   fetchedAt: string | null;
+  snapshotId: number;
   title: string;
   url: string;
 }

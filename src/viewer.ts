@@ -460,6 +460,7 @@ async function renderSnapshot(store: ArchiveStore, archiveRoot: string, snapshot
 
   const sourceHtml = await readFile(htmlPath, "utf-8");
   const assets = store.getSnapshotAssets(snapshot.id);
+  const navigation = store.getPageNavigation(snapshot.url);
   const internalLinks = store.getSnapshotLinks(snapshot.id).filter(isFitGirlUrl);
   const localPageRoutes = new Map(
     [...store.getLinkAvailability(internalLinks).values()]
@@ -470,6 +471,8 @@ async function renderSnapshot(store: ArchiveStore, archiveRoot: string, snapshot
   const toolbar = `
     <nav style="position:sticky;top:0;z-index:2147483647;padding:10px 14px;background:#111;color:#fff;font:14px system-ui,sans-serif">
       <a style="color:#fff" href="/page?url=${encodeURIComponent(snapshot.url)}">Archive</a>
+      ${renderSnapshotToolbarLink("Previous", navigation.previous)}
+      ${renderSnapshotToolbarLink("Next", navigation.next)}
       <span style="margin-left:12px">${escapeHtml(snapshot.title)}</span>
       <span style="margin-left:12px;color:#bbb">${escapeHtml(snapshot.fetchedAt)}</span>
     </nav>
@@ -481,6 +484,12 @@ async function renderSnapshot(store: ArchiveStore, archiveRoot: string, snapshot
       "content-type": "text/html; charset=utf-8",
     },
   });
+}
+
+function renderSnapshotToolbarLink(label: string, page: PageNavigation["previous"]): string {
+  return page
+    ? `<a style="color:#fff;margin-left:12px" href="/snapshot/${page.snapshotId}">${escapeHtml(label)}</a>`
+    : "";
 }
 
 async function serveAsset(store: ArchiveStore, assetUrl: string | null, archiveRoot: string): Promise<Response> {

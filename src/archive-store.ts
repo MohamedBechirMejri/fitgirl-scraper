@@ -585,6 +585,7 @@ export class ArchiveStore {
           select
             pages.url,
             coalesce(snapshots.title, pages.url) as title,
+            snapshots.id as snapshotId,
             snapshots.fetched_at as fetchedAt,
             row_number() over (order by snapshots.fetched_at desc, snapshots.id desc) as position
           from pages
@@ -596,6 +597,7 @@ export class ArchiveStore {
         select
           ordered.url,
           ordered.title,
+          ordered.snapshotId,
           ordered.fetchedAt,
           ordered.position - current.position as positionDelta
         from ordered, current

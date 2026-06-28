@@ -313,12 +313,13 @@ describe("archive store queue", () => {
   test("gets page navigation by latest fetch order", async () => {
     const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
 
+    const snapshotIds = new Map<string, number>();
     for (const [url, title, fetchedAt] of [
       ["https://fitgirl-repacks.site/newest/", "Newest", "2026-06-28T00:02:00.000Z"],
       ["https://fitgirl-repacks.site/middle/", "Middle", "2026-06-28T00:01:00.000Z"],
       ["https://fitgirl-repacks.site/oldest/", "Oldest", "2026-06-28T00:00:00.000Z"],
     ] as const) {
-      store.saveSnapshot({
+      const snapshot = store.saveSnapshot({
         contentHash: url,
         contentType: "text/html",
         etag: null,
@@ -331,11 +332,14 @@ describe("archive store queue", () => {
         title,
         url,
       });
+      snapshotIds.set(url, snapshot.id);
     }
 
     const middle = store.getPageNavigation("https://fitgirl-repacks.site/middle/");
     expect(middle.previous?.title).toBe("Newest");
+    expect(middle.previous?.snapshotId).toBe(snapshotIds.get("https://fitgirl-repacks.site/newest/"));
     expect(middle.next?.title).toBe("Oldest");
+    expect(middle.next?.snapshotId).toBe(snapshotIds.get("https://fitgirl-repacks.site/oldest/"));
     expect(store.getPageNavigation("https://fitgirl-repacks.site/newest/").previous).toBeNull();
     expect(store.getPageNavigation("https://fitgirl-repacks.site/oldest/").next).toBeNull();
 
