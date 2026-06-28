@@ -8,7 +8,12 @@ export interface RewriteAsset {
   url: string;
 }
 
-export async function rewriteSnapshotHtml(html: string, pageUrl: string, assets: RewriteAsset[]): Promise<string> {
+export async function rewriteSnapshotHtml(
+  html: string,
+  pageUrl: string,
+  assets: RewriteAsset[],
+  pageRoutes = new Map<string, string>()
+): Promise<string> {
   const assetRoutes = new Map(assets.filter(asset => asset.kind !== "other").map(asset => [asset.url, localAssetRoute(asset.url)]));
 
   const rewriteAsset = (rawUrl: string | null): string | null => {
@@ -24,7 +29,7 @@ export async function rewriteSnapshotHtml(html: string, pageUrl: string, assets:
       element(element) {
         const url = normalizeUrl(element.getAttribute("href") ?? "", pageUrl);
         if (url && isFitGirlUrl(url)) {
-          element.setAttribute("href", `/page?url=${encodeURIComponent(url)}`);
+          element.setAttribute("href", pageRoutes.get(url) ?? `/page?url=${encodeURIComponent(url)}`);
         }
       },
     })

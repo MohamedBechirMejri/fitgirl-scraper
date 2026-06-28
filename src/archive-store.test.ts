@@ -393,13 +393,20 @@ describe("archive store queue", () => {
       "https://fitgirl-repacks.site/missing/",
     ]);
 
+    const saved = store.getLatestSnapshotForUrl("https://fitgirl-repacks.site/saved/");
+
     expect(store.getLinkAvailability([]).size).toBe(0);
-    expect(availability.get("https://fitgirl-repacks.site/saved/")).toMatchObject({ saved: true });
+    expect(availability.get("https://fitgirl-repacks.site/saved/")).toMatchObject({
+      latestSnapshotId: saved?.id,
+      saved: true,
+    });
     expect(availability.get("https://fitgirl-repacks.site/queued/")).toMatchObject({
+      latestSnapshotId: null,
       queueStatus: "pending",
       saved: false,
     });
     expect(availability.get("https://fitgirl-repacks.site/missing/")).toMatchObject({
+      latestSnapshotId: null,
       queueStatus: null,
       saved: false,
     });

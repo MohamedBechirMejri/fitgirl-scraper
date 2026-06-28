@@ -108,6 +108,7 @@ export interface PageNavigation {
 }
 
 export interface LinkAvailability {
+  latestSnapshotId: number | null;
   queueStatus: CrawlStatus | null;
   saved: boolean;
   url: string;

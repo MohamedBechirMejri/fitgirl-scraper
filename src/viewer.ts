@@ -17,7 +17,7 @@ import {
 } from "./archive-store";
 import { rewriteCssAssetReferences } from "./css-assets";
 import { groupLinks, type ClassifiedLink, type LinkGroup } from "./link-classifier";
-import type { PageMetadata } from "./page-extract";
+import { isFitGirlUrl, type PageMetadata } from "./page-extract";
 import { localAssetRoute, rewriteSnapshotHtml } from "./snapshot-rewrite";
 import { diffText, summarizeDiff, type TextDiff } from "./text-diff";
 import { escapeHtml, html, layout, notFound } from "./viewer-shell";
@@ -453,7 +453,13 @@ async function renderSnapshot(store: ArchiveStore, archiveRoot: string, snapshot
 
   const sourceHtml = await readFile(htmlPath, "utf-8");
   const assets = store.getSnapshotAssets(snapshot.id);
-  const rewrittenHtml = await rewriteSnapshotHtml(sourceHtml, snapshot.url, assets);
+  const internalLinks = store.getSnapshotLinks(snapshot.id).filter(isFitGirlUrl);
+  const localPageRoutes = new Map(
+    [...store.getLinkAvailability(internalLinks).values()]
+      .filter(link => link.latestSnapshotId)
+      .map(link => [link.url, `/snapshot/${link.latestSnapshotId}`])
+  );
+  const rewrittenHtml = await rewriteSnapshotHtml(sourceHtml, snapshot.url, assets, localPageRoutes);
   const toolbar = `
     <nav style="position:sticky;top:0;z-index:2147483647;padding:10px 14px;background:#111;color:#fff;font:14px system-ui,sans-serif">
       <a style="color:#fff" href="/page?url=${encodeURIComponent(snapshot.url)}">Archive</a>

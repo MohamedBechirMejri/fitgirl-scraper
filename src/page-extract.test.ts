@@ -145,7 +145,7 @@ describe("page extraction", () => {
 
   test("rewrites saved pages to local routes", async () => {
     const html = await rewriteSnapshotHtml(
-      `<a href="/game/">Game</a><link rel="canonical" href="/post/"><img src="/cover.jpg" srcset="/small.jpg 1x, /big.jpg 2x"><iframe src="https://www.youtube.com/embed/demo"></iframe><div style="background:url('/bg.png')"></div><style>.hero{background:url("/hero.webp")}</style>`,
+      `<a href="/game/">Game</a><a href="/queued/">Queued</a><link rel="canonical" href="/post/"><img src="/cover.jpg" srcset="/small.jpg 1x, /big.jpg 2x"><iframe src="https://www.youtube.com/embed/demo"></iframe><div style="background:url('/bg.png')"></div><style>.hero{background:url("/hero.webp")}</style>`,
       "https://fitgirl-repacks.site/post/",
       [
         { kind: "image", localPath: "archive/assets/cover.jpg", url: "https://fitgirl-repacks.site/cover.jpg" },
@@ -155,10 +155,12 @@ describe("page extraction", () => {
         { kind: "image", localPath: null, url: "https://fitgirl-repacks.site/small.jpg" },
         { kind: "media", localPath: null, url: "https://www.youtube.com/embed/demo" },
         { kind: "other", localPath: null, url: "https://fitgirl-repacks.site/post/" },
-      ]
+      ],
+      new Map([["https://fitgirl-repacks.site/game/", "/snapshot/7"]])
     );
 
-    expect(html).toContain('href="/page?url=https%3A%2F%2Ffitgirl-repacks.site%2Fgame%2F"');
+    expect(html).toContain('href="/snapshot/7"');
+    expect(html).toContain('href="/page?url=https%3A%2F%2Ffitgirl-repacks.site%2Fqueued%2F"');
     expect(html).toContain('rel="canonical" href="/post/"');
     expect(html).toContain('src="/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fcover.jpg"');
     expect(html).toContain(

@@ -558,6 +558,7 @@ export class ArchiveStore {
 
     for (const url of uniqueUrls) {
       availability.set(url, {
+        latestSnapshotId: null,
         queueStatus: null,
         saved: false,
         url,
@@ -572,7 +573,8 @@ export class ArchiveStore {
       )
       .all(...uniqueUrls)) {
       availability.set(page.url, {
-        ...(availability.get(page.url) ?? { queueStatus: null, url: page.url }),
+        ...(availability.get(page.url) ?? { latestSnapshotId: null, queueStatus: null, url: page.url }),
+        latestSnapshotId: page.latestSnapshotId,
         saved: Boolean(page?.latestSnapshotId),
       });
     }
@@ -585,7 +587,7 @@ export class ArchiveStore {
       )
       .all(...uniqueUrls)) {
       availability.set(queue.url, {
-        ...(availability.get(queue.url) ?? { saved: false, url: queue.url }),
+        ...(availability.get(queue.url) ?? { latestSnapshotId: null, saved: false, url: queue.url }),
         queueStatus: queue.status,
       });
     }
