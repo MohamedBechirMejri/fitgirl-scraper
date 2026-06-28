@@ -29,6 +29,7 @@ interface ScraperOptions {
   delayMs: number;
   limit: number;
   refreshDays: number;
+  refreshStale: boolean;
   seedSitemaps: boolean;
   targetUrl: string | null;
   timeoutMs: number;
@@ -64,6 +65,7 @@ async function main(): Promise<void> {
 
     let seededCount: number | null = null;
     let seedError: string | null = null;
+    let staleQueuedCount: number | null = null;
 
     if (options.targetUrl) {
       store.enqueueUrl({
@@ -74,6 +76,9 @@ async function main(): Promise<void> {
         url: options.targetUrl,
       });
       console.log(`Queued target URL: ${options.targetUrl}`);
+    } else if (options.refreshStale) {
+      staleQueuedCount = store.enqueueStalePagesForRefresh(options.refreshDays, options.limit);
+      console.log(`Queued ${staleQueuedCount} stale saved pages for refresh.`);
     } else {
       const queueStats = store.getQueueStats();
       if (shouldSeedSitemaps(options.seedSitemaps, queueStats)) {
@@ -99,6 +104,7 @@ async function main(): Promise<void> {
         resetCount,
         seedError,
         seededCount,
+        staleQueuedCount,
         stats: store.getStats(),
       },
     });
@@ -295,6 +301,7 @@ function parseOptions(args: string[]): ScraperOptions {
     delayMs: readNumberFlag(args, "--delay-ms", DEFAULT_DELAY_MS),
     limit: readScrapeLimit(args, targetUrl),
     refreshDays: readNumberFlag(args, "--refresh-days", DEFAULT_REFRESH_DAYS),
+    refreshStale: args.includes("--refresh-stale"),
     seedSitemaps: args.includes("--seed"),
     targetUrl,
     timeoutMs: readNumberFlag(args, "--timeout-ms", DEFAULT_TIMEOUT_MS),

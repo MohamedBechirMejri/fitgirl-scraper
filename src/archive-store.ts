@@ -157,6 +157,35 @@ export class ArchiveStore {
     enqueueAll(inputs);
   }
 
+  enqueueStalePagesForRefresh(refreshDays: number, limit: number, now = new Date().toISOString()): number {
+    const cutoff = new Date(Date.parse(now) - refreshDays * 24 * 60 * 60 * 1000).toISOString();
+    const allStale = refreshDays <= 0 ? 1 : 0;
+    const sql = `select url, sitemap_last_modified as sitemapLastModified
+      from pages
+      where latest_snapshot_id is not null
+        and (? = 1 or last_checked_at <= ?)
+      order by last_checked_at asc, url asc`;
+    const rows =
+      limit === 0
+        ? this.db.query<{ sitemapLastModified: string | null; url: string }, [number, string]>(sql).all(allStale, cutoff)
+        : this.db
+            .query<{ sitemapLastModified: string | null; url: string }, [number, string, number]>(`${sql} limit ?`)
+            .all(allStale, cutoff, limit);
+
+    this.enqueueUrls(
+      rows.map((row, index) => ({
+        forcePending: true,
+        priority: Number.MAX_SAFE_INTEGER - index,
+        sitemapLastModified: row.sitemapLastModified,
+        source: "refresh",
+        url: row.url,
+      })),
+      now
+    );
+
+    return rows.length;
+  }
+
   resetRunningQueue(now = new Date().toISOString()): number {
     // ponytail: one local runner; add process locks if concurrent crawls matter.
     return this.db.run(
