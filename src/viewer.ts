@@ -353,8 +353,14 @@ function renderLinkGroups(groups: LinkGroup[], availability: Map<string, LinkAva
 
 function renderSnapshotLink(link: ClassifiedLink, availability: Map<string, LinkAvailability>): string {
   const url = link.url;
-  const href = link.kind === "internal" ? `/page?url=${encodeURIComponent(url)}` : url;
-  const badge = link.kind === "internal" ? renderLinkAvailability(availability.get(url)) : "";
+  const status = link.kind === "internal" ? availability.get(url) : undefined;
+  const href =
+    link.kind === "internal" && status?.latestSnapshotId
+      ? `/snapshot/${status.latestSnapshotId}`
+      : link.kind === "internal"
+        ? `/page?url=${encodeURIComponent(url)}`
+        : url;
+  const badge = link.kind === "internal" ? renderLinkAvailability(status) : "";
   return `<li><a href="${escapeHtml(href)}">${escapeHtml(url)}</a>${badge}</li>`;
 }
 
