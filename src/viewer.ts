@@ -222,7 +222,7 @@ function renderPage(store: ArchiveStore, pageUrl: string): string {
         ${renderLinkGroups(linkGroups, linkAvailability)}
       </section>
 
-      ${renderMissingAssetSection(assets)}
+      ${renderMissingAssetSection(latest.url, assets)}
 
       <section>
         <h2>Assets</h2>
@@ -370,7 +370,7 @@ function renderLinkAvailability(availability: LinkAvailability | undefined): str
   return `<span class="link-status">${escapeHtml(label)}</span>`;
 }
 
-function renderMissingAssetSection(assets: SnapshotAssetRow[]): string {
+function renderMissingAssetSection(pageUrl: string, assets: SnapshotAssetRow[]): string {
   const missing = assets.filter(asset => !asset.localPath);
 
   if (missing.length === 0) {
@@ -386,7 +386,7 @@ function renderMissingAssetSection(assets: SnapshotAssetRow[]): string {
     <section>
       <h2>Missing Assets</h2>
       <p class="queue-note">${missing.length}/${assets.length} referenced assets are not local yet. ${renderAssetKindCounts(missing)}</p>
-      ${renderCommand("Backfill assets", "bun run assets:backfill -- --limit 50 --delay-ms 2000 --asset-depth 2")}
+      ${renderCommand("Backfill page assets", `bun run assets:backfill -- --url ${pageUrl} --limit 50 --delay-ms 2000 --asset-depth 2`)}
       <table>
         <thead><tr><th>Kind</th><th>Status</th><th>Size</th><th>URL</th></tr></thead>
         <tbody>

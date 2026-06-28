@@ -1,7 +1,9 @@
 import { join } from "path";
 import { saveAssets } from "./asset-downloader";
 import { openArchiveStore } from "./archive-store";
+import { isFitGirlUrl, normalizeUrl } from "./page-extract";
 
+const BASE_URL = "https://fitgirl-repacks.site";
 const DEFAULT_ARCHIVE_DIR = "archive";
 const DEFAULT_ASSET_DEPTH = 2;
 const DEFAULT_DELAY_MS = 1500;
@@ -15,6 +17,7 @@ interface BackfillOptions {
   includeFailed: boolean;
   limit: number;
   maxRequests?: number;
+  targetUrl: string | null;
   timeoutMs: number;
 }
 
@@ -28,10 +31,13 @@ async function main(): Promise<void> {
   });
 
   try {
-    const assets = store.getAssetsToBackfill({
+    const selector = {
       includeFailed: options.includeFailed,
       limit: options.limit,
-    });
+    };
+    const assets = options.targetUrl
+      ? store.getAssetsToBackfillForPage(options.targetUrl, selector)
+      : store.getAssetsToBackfill(selector);
 
     if (assets.length === 0) {
       console.log("No assets to backfill.");
@@ -81,8 +87,21 @@ function parseOptions(args: string[]): BackfillOptions {
     includeFailed: args.includes("--retry-failed"),
     limit,
     maxRequests: limit === 0 ? undefined : limit,
+    targetUrl: readTargetUrl(args),
     timeoutMs: readNumberFlag(args, "--timeout-ms", DEFAULT_TIMEOUT_MS),
   };
+}
+
+function readTargetUrl(args: string[]): string | null {
+  const rawUrl = readStringFlag(args, "--url", "");
+  if (!rawUrl) return null;
+
+  const url = normalizeUrl(rawUrl, BASE_URL);
+  if (!url || !isFitGirlUrl(url)) {
+    throw new Error("--url must be a FitGirl URL");
+  }
+
+  return url;
 }
 
 function readStringFlag(args: string[], name: string, fallback: string): string {

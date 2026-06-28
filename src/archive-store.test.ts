@@ -496,6 +496,67 @@ describe("archive store queue", () => {
     store.close();
   });
 
+  test("selects missing assets for one page", async () => {
+    const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
+    const target = store.saveSnapshot({
+      contentHash: "target",
+      contentType: "text/html",
+      etag: null,
+      fetchedAt: "2026-06-28T00:00:00.000Z",
+      htmlPath: "archive/pages/target.html",
+      lastModified: null,
+      sitemapLastModified: null,
+      status: 200,
+      textContent: "Target",
+      title: "Target",
+      url: "https://fitgirl-repacks.site/target/",
+    });
+    const other = store.saveSnapshot({
+      contentHash: "other",
+      contentType: "text/html",
+      etag: null,
+      fetchedAt: "2026-06-28T00:00:01.000Z",
+      htmlPath: "archive/pages/other.html",
+      lastModified: null,
+      sitemapLastModified: null,
+      status: 200,
+      textContent: "Other",
+      title: "Other",
+      url: "https://fitgirl-repacks.site/other/",
+    });
+
+    store.saveSnapshotReferences(target.id, [], [
+      { kind: "image", source: "img[src]", url: "https://fitgirl-repacks.site/target-cover.jpg" },
+      { kind: "stylesheet", source: "link[href]", url: "https://fitgirl-repacks.site/target-style.css" },
+    ]);
+    store.saveSnapshotReferences(other.id, [], [
+      { kind: "stylesheet", source: "link[href]", url: "https://fitgirl-repacks.site/other-style.css" },
+    ]);
+    store.saveAssetResult({
+      contentHash: null,
+      contentType: null,
+      fetchedAt: "2026-06-28T00:00:02.000Z",
+      httpStatus: 404,
+      localPath: null,
+      sizeBytes: 0,
+      url: "https://fitgirl-repacks.site/target-cover.jpg",
+    });
+
+    expect(store.getAssetsToBackfillForPage("https://fitgirl-repacks.site/target/", { includeFailed: false, limit: 10 })).toEqual([
+      { kind: "stylesheet", source: "link[href]", url: "https://fitgirl-repacks.site/target-style.css" },
+    ]);
+    expect(
+      store.getAssetsToBackfillForPage("https://fitgirl-repacks.site/target/", { includeFailed: true, limit: 1 })
+    ).toEqual([{ kind: "stylesheet", source: "link[href]", url: "https://fitgirl-repacks.site/target-style.css" }]);
+    expect(
+      store.getAssetsToBackfillForPage("https://fitgirl-repacks.site/target/", { includeFailed: true, limit: 10 }).map(
+        asset => asset.url
+      )
+    ).toEqual(["https://fitgirl-repacks.site/target-style.css", "https://fitgirl-repacks.site/target-cover.jpg"]);
+
+    store.close();
+  });
+
   test("lists recent queue and asset failures", async () => {
     const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
 

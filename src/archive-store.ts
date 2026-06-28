@@ -412,6 +412,36 @@ export class ArchiveStore {
       .all(options.includeFailed ? 1 : 0, options.limit);
   }
 
+  getAssetsToBackfillForPage(url: string, options: AssetBackfillOptions): AssetReference[] {
+    const sql = `select
+          snapshot_assets.asset_url as url,
+          snapshot_assets.kind,
+          snapshot_assets.source
+        from pages
+        join snapshots on snapshots.id = pages.latest_snapshot_id
+        join snapshot_assets on snapshot_assets.snapshot_id = snapshots.id
+        join assets on assets.url = snapshot_assets.asset_url
+        where pages.url = ?
+          and assets.local_path is null
+          and (? = 1 or assets.http_status is null)
+        order by
+          case snapshot_assets.kind
+            when 'stylesheet' then 0
+            when 'image' then 1 when 'icon' then 2 when 'media' then 3
+            when 'script' then 4
+            else 5
+          end,
+          snapshot_assets.asset_url asc`;
+
+    if (options.limit === 0) {
+      return this.db.query<AssetReference, [string, number]>(sql).all(url, options.includeFailed ? 1 : 0);
+    }
+
+    return this.db
+      .query<AssetReference, [string, number, number]>(`${sql} limit ?`)
+      .all(url, options.includeFailed ? 1 : 0, options.limit);
+  }
+
   saveAssetResult(input: AssetResult): void {
     this.db.run(
       `insert into assets (

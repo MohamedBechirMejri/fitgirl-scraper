@@ -52,11 +52,13 @@ Backfill missing assets for already-saved snapshots:
 ```bash
 bun run assets:backfill
 bun run assets:backfill -- --limit 100
+bun run assets:backfill -- --url https://fitgirl-repacks.site/sportal/
 bun run assets:backfill -- --retry-failed
 bun run assets:backfill -- --limit 50 --timeout-ms 15000
 ```
 
 `assets:backfill --limit` is a hard network request budget, including CSS dependencies.
+`assets:backfill --url` limits the batch to assets referenced by the latest saved snapshot for that page.
 
 Check local archive health without opening the viewer:
 
