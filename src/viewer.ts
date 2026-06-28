@@ -130,11 +130,16 @@ function renderOps(store: ArchiveStore): string {
       </header>
 
       <dl class="stats">
+        <div><dt>Pages</dt><dd>${stats.pages}</dd></div>
         <div><dt>Queued</dt><dd>${stats.queuePending}</dd></div>
-        <div><dt>Failed Queue</dt><dd>${stats.queueFailed}</dd></div>
         <div><dt>Missing Assets</dt><dd>${missingAssets}</dd></div>
-        <div><dt>Snapshots</dt><dd>${stats.snapshots}</dd></div>
+        <div><dt>Downloaded Assets</dt><dd>${stats.downloadedAssets}</dd></div>
       </dl>
+
+      <section>
+        <h2>Latest Runs</h2>
+        ${renderRunHighlights(runs)}
+      </section>
 
       <section>
         <h2>Next Commands</h2>
@@ -539,6 +544,44 @@ function renderRuns(rows: ArchiveRunRow[]): string {
   `;
 }
 
+function renderRunHighlights(rows: ArchiveRunRow[]): string {
+  const highlights = [
+    ["Scrape", latestRun(rows, "scrape")],
+    ["Asset Backfill", latestRun(rows, "asset-backfill")],
+    ["Snapshot Backfill", latestRun(rows, "snapshot-backfill")],
+  ] as const;
+
+  return `
+    <div class="run-strip">
+      ${highlights.map(([label, row]) => renderRunHighlight(label, row)).join("")}
+    </div>
+  `;
+}
+
+function renderRunHighlight(label: string, row: ArchiveRunRow | null): string {
+  if (!row) {
+    return `
+      <div>
+        <dt>${escapeHtml(label)}</dt>
+        <dd>No runs yet</dd>
+      </div>
+    `;
+  }
+
+  return `
+    <div>
+      <dt>${escapeHtml(label)}</dt>
+      <dd>${escapeHtml(row.status)}</dd>
+      <small>${escapeHtml(row.startedAt)}</small>
+      <small>${escapeHtml(formatRunSummary(row))}</small>
+    </div>
+  `;
+}
+
+function latestRun(rows: ArchiveRunRow[], kind: string): ArchiveRunRow | null {
+  return rows.find(row => row.kind === kind) ?? null;
+}
+
 function renderAssetFailures(rows: AssetFailureRow[]): string {
   return `
     <table>
@@ -715,6 +758,10 @@ function layout({ body, script = "", title }: { body: string; script?: string; t
           .stats div { background: #fff; border: 1px solid #deded8; border-radius: 8px; padding: .8rem; }
           .stats dt { color: #62625c; font-size: .8rem; }
           .stats dd { margin: .15rem 0 0; font-size: 1.35rem; font-weight: 700; }
+          .run-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; }
+          .run-strip div { min-width: 0; padding: .8rem; background: #fff; border: 1px solid #deded8; border-radius: 8px; }
+          .run-strip dt { color: #62625c; font-size: .78rem; }
+          .run-strip dd { margin: .15rem 0 0; font-weight: 700; }
           .meta-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem .75rem; }
           .meta-grid div { min-width: 0; padding: .65rem .75rem; background: #fff; border: 1px solid #deded8; border-radius: 8px; }
           .meta-grid dt { color: #62625c; font-size: .78rem; }
@@ -745,7 +792,7 @@ function layout({ body, script = "", title }: { body: string; script?: string; t
           .diff-removed { background: #fdecea; padding: .6rem; border-radius: 6px; }
           @media (max-width: 44rem) {
             main { width: min(100vw - 1rem, 72rem); }
-            .search, .stats, .meta-grid { grid-template-columns: 1fr; }
+            .search, .stats, .meta-grid, .run-strip { grid-template-columns: 1fr; }
             .page-nav { grid-template-columns: 1fr; }
             .diff-grid { grid-template-columns: 1fr; }
             th:nth-child(2), td:nth-child(2) { display: none; }
