@@ -306,6 +306,64 @@ describe("archive store queue", () => {
     store.close();
   });
 
+  test("lists pages with multiple snapshots", async () => {
+    const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
+
+    store.saveSnapshot({
+      contentHash: "first",
+      contentType: "text/html",
+      etag: null,
+      fetchedAt: "2026-06-28T00:00:00.000Z",
+      htmlPath: "archive/pages/demo-first.html",
+      lastModified: null,
+      sitemapLastModified: null,
+      status: 200,
+      textContent: "Before update",
+      title: "Before",
+      url: "https://fitgirl-repacks.site/demo/",
+    });
+    store.saveSnapshot({
+      contentHash: "second",
+      contentType: "text/html",
+      etag: null,
+      fetchedAt: "2026-06-28T00:01:00.000Z",
+      htmlPath: "archive/pages/demo-second.html",
+      lastModified: null,
+      sitemapLastModified: null,
+      status: 200,
+      textContent: "After update",
+      title: "After",
+      url: "https://fitgirl-repacks.site/demo/",
+    });
+    store.saveSnapshot({
+      contentHash: "single",
+      contentType: "text/html",
+      etag: null,
+      fetchedAt: "2026-06-28T00:02:00.000Z",
+      htmlPath: "archive/pages/single.html",
+      lastModified: null,
+      sitemapLastModified: null,
+      status: 200,
+      textContent: "Single",
+      title: "Single",
+      url: "https://fitgirl-repacks.site/single/",
+    });
+
+    expect(store.getSnapshotsForUrl("https://fitgirl-repacks.site/demo/").map(snapshot => snapshot.title)).toEqual([
+      "After",
+      "Before",
+    ]);
+    expect(store.getPagesWithSnapshotHistory(10)).toMatchObject([
+      {
+        snapshotCount: 2,
+        title: "After",
+        url: "https://fitgirl-repacks.site/demo/",
+      },
+    ]);
+
+    store.close();
+  });
+
   test("gets internal link availability", async () => {
     const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
 

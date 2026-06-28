@@ -123,6 +123,7 @@ function renderOps(store: ArchiveStore): string {
   const runs = store.getRecentRuns(10);
   const queueFailures = store.getRecentQueueFailures(10);
   const assetFailures = store.getRecentAssetFailures(10);
+  const pagesWithHistory = store.getPagesWithSnapshotHistory(10);
 
   return layout({
     body: `
@@ -140,6 +141,11 @@ function renderOps(store: ArchiveStore): string {
       <section>
         <h2>Latest Runs</h2>
         ${renderRunHighlights(runs)}
+      </section>
+
+      <section>
+        <h2>Pages With History</h2>
+        ${pagesWithHistory.length === 0 ? `<p class="empty">No pages have multiple snapshots yet.</p>` : renderPageTable(pagesWithHistory)}
       </section>
 
       <section>

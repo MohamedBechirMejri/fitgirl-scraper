@@ -470,6 +470,33 @@ export class ArchiveStore {
       .all(limit);
   }
 
+  getPagesWithSnapshotHistory(limit: number): PageListRow[] {
+    return this.db
+      .query<PageListRow, [number]>(
+        `with history as (
+          select url, count(*) as snapshotCount
+          from snapshots
+          group by url
+          having count(*) > 1
+        )
+        select
+          pages.url,
+          coalesce(snapshots.title, pages.url) as title,
+          snapshots.id as snapshotId,
+          snapshots.fetched_at as fetchedAt,
+          snapshots.metadata_json as metadataJson,
+          history.snapshotCount,
+          (select count(*) from snapshot_assets where snapshot_id = snapshots.id) as assetCount,
+          (select count(*) from snapshot_assets join assets on assets.url = snapshot_assets.asset_url where snapshot_assets.snapshot_id = snapshots.id and assets.local_path is not null) as downloadedAssetCount
+        from history
+        join pages on pages.url = history.url
+        join snapshots on snapshots.id = pages.latest_snapshot_id
+        order by snapshots.fetched_at desc, snapshots.id desc
+        limit ?`
+      )
+      .all(limit);
+  }
+
   searchPages(input: string | ArchiveSearchFilters, limit: number): PageListRow[] {
     const filters = typeof input === "string" ? emptySearchFilters(input) : normalizeSearchFilters(input);
 
