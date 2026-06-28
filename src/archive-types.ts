@@ -90,6 +90,7 @@ export interface PageListRow {
   downloadedAssetCount: number;
   fetchedAt: string | null;
   metadataJson: string;
+  snippet?: string | null;
   snapshotCount: number;
   snapshotId: number | null;
   title: string;

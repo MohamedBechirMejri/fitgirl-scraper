@@ -711,6 +711,7 @@ export class ArchiveStore {
           snapshots.id as snapshotId,
           snapshots.fetched_at as fetchedAt,
           snapshots.metadata_json as metadataJson,
+          snippet(snapshot_search, 2, '', '', '...', 24) as snippet,
           (select count(*) from snapshots all_snapshots where all_snapshots.url = pages.url) as snapshotCount,
           (select count(*) from snapshot_assets where snapshot_id = snapshots.id) as assetCount,
           (select count(*) from snapshot_assets join assets on assets.url = snapshot_assets.asset_url where snapshot_assets.snapshot_id = snapshots.id and assets.local_path is not null) as downloadedAssetCount

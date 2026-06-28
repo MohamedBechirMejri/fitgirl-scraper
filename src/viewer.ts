@@ -670,6 +670,7 @@ function renderPageTable(pages: PageListRow[]): string {
                 <td>
                   <a href="/page?url=${encodeURIComponent(page.url)}">${escapeHtml(page.title)}</a>
                   <small>${escapeHtml(page.url)}</small>
+                  ${page.snippet ? `<small>${escapeHtml(page.snippet)}</small>` : ""}
                   ${renderPageBadges(page)}
                 </td>
                 <td>${escapeHtml(page.fetchedAt ?? "")}</td>

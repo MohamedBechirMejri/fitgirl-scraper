@@ -147,7 +147,9 @@ describe("archive store queue", () => {
       url: "https://fitgirl-repacks.site/demo/",
     });
 
-    expect(store.searchPages("rare searchable", 10)[0]?.url).toBe("https://fitgirl-repacks.site/demo/");
+    const result = store.searchPages("rare searchable", 10)[0];
+    expect(result?.url).toBe("https://fitgirl-repacks.site/demo/");
+    expect(result?.snippet).toContain("rare exact phrase");
     expect(store.getPageState("https://fitgirl-repacks.site/demo/")?.lastCheckedAt).toBe("2026-06-28T00:00:00.000Z");
 
     store.close();
