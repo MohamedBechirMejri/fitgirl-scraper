@@ -95,7 +95,7 @@ Run one maintenance cycle:
 bun run archive:cycle
 ```
 
-The cycle seeds sitemaps, crawls discovered same-site pages, refreshes a small stale batch, backfills the weakest asset pages, then prints health.
+The cycle seeds sitemaps, crawls discovered same-site pages without inline asset downloads, refreshes a small stale batch, backfills the weakest asset pages with a request cap, then prints health.
 
 Install no-sudo reboot-safe cron automation on `mbm-1` after the repo is checked out there:
 

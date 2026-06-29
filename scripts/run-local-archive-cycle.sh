@@ -15,6 +15,7 @@ bun run scrape:local -- \
   --crawl-discovered \
   --limit "$scrape_limit" \
   --delay-ms "$delay_ms" \
+  --no-assets \
   --asset-depth "$asset_depth"
 
 bun run scrape:local -- \
@@ -22,6 +23,7 @@ bun run scrape:local -- \
   --limit "$refresh_limit" \
   --refresh-days "$refresh_days" \
   --delay-ms "$delay_ms" \
+  --no-assets \
   --asset-depth "$asset_depth"
 
 bun run assets:backfill -- \
