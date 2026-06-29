@@ -86,7 +86,7 @@ export async function rewriteSnapshotHtml(
     })
     .on("img[srcset], source[srcset]", {
       element(element) {
-        const srcset = rewriteSrcset(element.getAttribute("srcset"), pageUrl, assetRoutes);
+        const srcset = rewriteSrcset(element.getAttribute("srcset"), pageUrl, assetRoutes, missingAssetRoute);
         if (srcset) element.setAttribute("srcset", srcset);
       },
     })
@@ -115,7 +115,12 @@ function rewriteSameSiteLiterals(html: string): string {
   return html.replace(/https?:\/\/fitgirl-repacks\.site(?=\/|[?#"'])/g, "");
 }
 
-function rewriteSrcset(srcset: string | null, pageUrl: string, assetRoutes: Map<string, string>): string | null {
+function rewriteSrcset(
+  srcset: string | null,
+  pageUrl: string,
+  assetRoutes: Map<string, string>,
+  missingAssetRoute: (url: string) => string | null
+): string | null {
   if (!srcset) return null;
 
   return srcset
@@ -124,7 +129,7 @@ function rewriteSrcset(srcset: string | null, pageUrl: string, assetRoutes: Map<
       const parts = item.trim().split(/\s+/);
       const url = normalizeUrl(parts[0] ?? "", pageUrl);
       if (url) {
-        parts[0] = assetRoutes.get(url) ?? parts[0];
+        parts[0] = assetRoutes.get(url) ?? missingAssetRoute(url) ?? parts[0];
       }
 
       return parts.join(" ");
