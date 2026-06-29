@@ -18,7 +18,9 @@ describe("archive health", () => {
     const pages = [page("Permanent", 0, 10), page("Actionable", 1, 10)];
     const store = {
       getAssetsToBackfillForPage(url: string) {
-        return url.includes("actionable") ? [{ kind: "image", source: "img[src]", url: "https://fitgirl-repacks.site/a.jpg" }] : [];
+        return url.includes("actionable")
+          ? [{ kind: "image" as const, source: "img[src]", url: "https://fitgirl-repacks.site/a.jpg" }]
+          : [];
       },
     };
 

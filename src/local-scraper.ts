@@ -25,6 +25,7 @@ const USER_AGENT = "fitgirl-local-archive/0.1";
 interface ScraperOptions {
   archiveDir: string;
   assetDepth: number;
+  crawlDiscoveredLinks: boolean;
   downloadAssets: boolean;
   delayMs: number;
   limit: number;
@@ -58,7 +59,7 @@ async function main(): Promise<void> {
     if (resetCount > 0) {
       console.log(`Reset ${resetCount} interrupted queue items.`);
     }
-    const prunedCount = store.pruneDiscoveredQueue();
+    const prunedCount = options.crawlDiscoveredLinks ? 0 : store.pruneDiscoveredQueue();
     if (prunedCount > 0) {
       console.log(`Pruned ${prunedCount} discovered queue items.`);
     }
@@ -246,6 +247,14 @@ async function scrapePage(
 
   store.saveSnapshotReferences(snapshot.id, references.links, references.assets);
 
+  if (options.crawlDiscoveredLinks) {
+    const discoveredInputs = discoveredLinksToQueueInputs(references.links, url, item.priority);
+    store.enqueueUrls(discoveredInputs);
+    if (discoveredInputs.length > 0) {
+      console.log(`[${position}] queued ${discoveredInputs.length} discovered pages`);
+    }
+  }
+
   if (options.downloadAssets) {
     await saveAssets(store, options, references.assets);
   }
@@ -297,6 +306,7 @@ function parseOptions(args: string[]): ScraperOptions {
   return {
     archiveDir: readStringFlag(args, "--archive", DEFAULT_ARCHIVE_DIR),
     assetDepth: readNumberFlag(args, "--asset-depth", DEFAULT_ASSET_DEPTH),
+    crawlDiscoveredLinks: args.includes("--crawl-discovered"),
     downloadAssets: !args.includes("--no-assets"),
     delayMs: readNumberFlag(args, "--delay-ms", DEFAULT_DELAY_MS),
     limit: readScrapeLimit(args, targetUrl),
@@ -331,6 +341,39 @@ function readTargetUrl(args: string[]): string | null {
   }
 
   return url;
+}
+
+export function discoveredLinksToQueueInputs(links: string[], sourceUrl: string, sourcePriority: number): CrawlQueueInput[] {
+  const source = normalizeUrl(sourceUrl, BASE_URL);
+  const seen = new Set<string>();
+
+  return links.flatMap(link => {
+    const url = normalizeUrl(link, BASE_URL);
+    if (!url || url === source || seen.has(url) || !isCrawlableSitePage(url)) return [];
+
+    seen.add(url);
+    return [
+      {
+        priority: Math.max(0, sourcePriority - 1),
+        sitemapLastModified: null,
+        source: "page",
+        url,
+      },
+    ];
+  });
+}
+
+export function isCrawlableSitePage(url: string): boolean {
+  if (!isFitGirlUrl(url)) return false;
+
+  const parsed = new URL(url);
+  const pathname = parsed.pathname.toLowerCase();
+  if (parsed.search) return false;
+  if (pathname === "/xmlrpc.php" || pathname.startsWith("/wp-admin") || pathname.startsWith("/wp-json")) return false;
+  if (pathname.endsWith("/feed/") || pathname.endsWith("/comments/feed/")) return false;
+  if (/\.(7z|avi|css|gif|ico|jpe?g|js|mkv|mp3|mp4|png|rar|svg|torrent|webm|webp|zip)$/i.test(pathname)) return false;
+
+  return true;
 }
 
 function sitemapEntryToQueueInput(entry: SitemapEntry): CrawlQueueInput {

@@ -31,6 +31,7 @@ bun run scrape:local -- --limit 0 --all
 bun run scrape:local -- --no-assets
 bun run scrape:local -- --delay-ms 3000
 bun run scrape:local -- --seed
+bun run scrape:local -- --crawl-discovered
 bun run scrape:local -- --refresh-stale
 bun run scrape:local -- --asset-depth 3
 bun run scrape:local -- --refresh-days 30
@@ -41,11 +42,12 @@ bun run scrape:local -- --url https://fitgirl-repacks.site/sportal/
 `--limit 0 --all` means every post found in the sitemaps. Start with a small limit and increase it gradually.
 `--seed` refreshes the local queue from FitGirl post sitemaps. Normal runs only seed automatically when the queue is empty.
 `--url` fetches one specific FitGirl page and skips sitemap seeding.
+`--crawl-discovered` keeps same-site HTML links in the crawl queue, skipping WordPress internals, feeds, assets, query URLs, and off-site links.
 `--refresh-stale` requeues already-saved pages whose last check is older than `--refresh-days`, capped by `--limit`.
 `--refresh-days` controls how long sitemap-unchanged pages can skip conditional rechecks. Use `--refresh-days 0` to revalidate every processed page.
 `--timeout-ms` caps each page or sitemap request. `403` and `429` stop the run instead of continuing through the queue.
 
-Normal scrape runs process up to `--limit` queued pages. The first run seeds the local crawl queue from FitGirl post sitemaps; later sitemap refreshes require `--seed`. Targeted `--url` runs enqueue that page directly. `--refresh-stale --refresh-days 0 --limit 10` is the small-batch way to force-update-check saved pages. Discovered links are saved for browsing, but they are not queued automatically. Failed sitemap/manual/refresh pages are kept for retry. CSS `url(...)` and `@import` dependencies are downloaded up to `--asset-depth`.
+Normal scrape runs process up to `--limit` queued pages. The first run seeds the local crawl queue from FitGirl post sitemaps; later sitemap refreshes require `--seed`. Targeted `--url` runs enqueue that page directly. `--refresh-stale --refresh-days 0 --limit 10` is the small-batch way to force-update-check saved pages. Discovered links are saved for browsing; add `--crawl-discovered` when building the broader local replica. Failed sitemap/manual/refresh pages are kept for retry. CSS `url(...)` and `@import` dependencies are downloaded up to `--asset-depth`.
 
 Backfill missing assets for already-saved snapshots:
 
@@ -86,3 +88,19 @@ The viewer runs at `http://localhost:4173` by default. Its `/ops` page shows cur
 bun run view -- --port 4174
 bun run view -- --archive /path/to/archive
 ```
+
+Run one maintenance cycle:
+
+```bash
+bun run archive:cycle
+```
+
+The cycle seeds sitemaps, crawls discovered same-site pages, refreshes a small stale batch, backfills the weakest asset pages, then prints health.
+
+Install the reboot-safe user timer on `mbm-1` after the repo is checked out there:
+
+```bash
+bash scripts/install-user-systemd.sh --install-bun
+```
+
+The installer writes `fitgirl-archive.service` and `fitgirl-archive.timer` under `~/.config/systemd/user`, enables linger with `sudo loginctl enable-linger "$USER"`, and starts an hourly persistent timer.

@@ -370,9 +370,9 @@ describe("archive store queue", () => {
 
     const middle = store.getPageNavigation("https://fitgirl-repacks.site/middle/");
     expect(middle.previous?.title).toBe("Newest");
-    expect(middle.previous?.snapshotId).toBe(snapshotIds.get("https://fitgirl-repacks.site/newest/"));
+    expect(middle.previous?.snapshotId).toBe(snapshotIds.get("https://fitgirl-repacks.site/newest/")!);
     expect(middle.next?.title).toBe("Oldest");
-    expect(middle.next?.snapshotId).toBe(snapshotIds.get("https://fitgirl-repacks.site/oldest/"));
+    expect(middle.next?.snapshotId).toBe(snapshotIds.get("https://fitgirl-repacks.site/oldest/")!);
     expect(store.getPageNavigation("https://fitgirl-repacks.site/newest/").previous).toBeNull();
     expect(store.getPageNavigation("https://fitgirl-repacks.site/oldest/").next).toBeNull();
 

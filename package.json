@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "assets:backfill": "bun run src/backfill-assets.ts",
+    "archive:cycle": "bash scripts/run-local-archive-cycle.sh",
     "health": "bun run src/archive-health.ts",
+    "install:systemd": "bash scripts/install-user-systemd.sh",
     "snapshots:backfill": "bun run src/backfill-snapshots.ts",
     "scrape:local": "bun run src/local-scraper.ts",
     "view": "bun run src/viewer.ts",
