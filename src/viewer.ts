@@ -15,7 +15,7 @@ import {
   type SnapshotAssetRow,
   type SnapshotRow,
 } from "./archive-store";
-import { lowestAssetCoverage } from "./archive-health";
+import { lowestAssetCoverage, pagesWithSelectableMissingAssets } from "./archive-health";
 import { rewriteCssAssetReferences } from "./css-assets";
 import { groupLinks, type ClassifiedLink, type LinkGroup } from "./link-classifier";
 import { isFitGirlUrl, type PageMetadata } from "./page-extract";
@@ -135,7 +135,10 @@ function renderOps(store: ArchiveStore): string {
   const assetFailures = store.getRecentAssetFailures(10);
   const pagesWithHistory = store.getPagesWithSnapshotHistory(10);
   const oldestCheckedPages = store.getOldestCheckedPages(5);
-  const weakAssetPages = lowestAssetCoverage(store.searchPages("", OPS_PAGE_SCAN_LIMIT), 5);
+  const weakAssetPages = lowestAssetCoverage(
+    pagesWithSelectableMissingAssets(store, store.searchPages("", OPS_PAGE_SCAN_LIMIT)),
+    5
+  );
 
   return layout({
     body: `
@@ -166,7 +169,7 @@ function renderOps(store: ArchiveStore): string {
       </section>
 
       <section>
-        <h2>Lowest Asset Coverage</h2>
+        <h2>Lowest Actionable Asset Coverage</h2>
         ${renderWeakAssetPages(weakAssetPages)}
       </section>
 

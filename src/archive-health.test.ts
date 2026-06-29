@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { formatHealthReport, lowestAssetCoverage } from "./archive-health";
+import { formatHealthReport, lowestAssetCoverage, pagesWithSelectableMissingAssets } from "./archive-health";
 import type { PageListRow } from "./archive-store";
 
 describe("archive health", () => {
@@ -12,6 +12,17 @@ describe("archive health", () => {
     ];
 
     expect(lowestAssetCoverage(pages, 2).map(row => row.title)).toEqual(["Worse", "Weak"]);
+  });
+
+  test("keeps weak pages actionable", () => {
+    const pages = [page("Permanent", 0, 10), page("Actionable", 1, 10)];
+    const store = {
+      getAssetsToBackfillForPage(url: string) {
+        return url.includes("actionable") ? [{ kind: "image", source: "img[src]", url: "https://fitgirl-repacks.site/a.jpg" }] : [];
+      },
+    };
+
+    expect(pagesWithSelectableMissingAssets(store, pages).map(row => row.title)).toEqual(["Actionable"]);
   });
 
   test("formats a compact health report", () => {

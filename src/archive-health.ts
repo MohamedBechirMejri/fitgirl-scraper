@@ -1,5 +1,6 @@
 import { join } from "path";
 import {
+  type ArchiveStore,
   openArchiveStore,
   type ArchiveStats,
   type AssetFailureRow,
@@ -37,7 +38,7 @@ export function formatHealthReport(input: HealthReportInput): string {
     `Queue: ${stats.queuePending} pending, ${stats.queueRunning} running, ${stats.queueDone} done, ${stats.queueFailed} failed`,
     `Assets: ${stats.downloadedAssets}/${stats.assets} downloaded (${assetCoverage}), ${missingAssets} missing`,
     "",
-    "Lowest asset coverage:",
+    "Lowest actionable asset coverage:",
     ...(weakPages.length === 0 ? ["- none"] : weakPages.map(page => `- ${assetRatio(page)} ${page.title}\n  ${page.url}`)),
     "",
     "Recent failures:",
@@ -59,9 +60,16 @@ export function lowestAssetCoverage(pages: PageListRow[], limit: number): PageLi
     .filter(page => page.assetCount > 0 && page.downloadedAssetCount < page.assetCount)
     .sort((left, right) => {
       const coverage = left.downloadedAssetCount / left.assetCount - right.downloadedAssetCount / right.assetCount;
-      return coverage || right.assetCount - left.assetCount || left.title.localeCompare(right.title);
+      return coverage || right.assetCount - left.assetCount || compareText(left.title, right.title);
     })
     .slice(0, limit);
+}
+
+export function pagesWithSelectableMissingAssets(
+  store: Pick<ArchiveStore, "getAssetsToBackfillForPage">,
+  pages: PageListRow[]
+): PageListRow[] {
+  return pages.filter(page => store.getAssetsToBackfillForPage(page.url, { includeFailed: false, limit: 1 }).length > 0);
 }
 
 async function main(): Promise<void> {
@@ -72,7 +80,7 @@ async function main(): Promise<void> {
     const report = formatHealthReport({
       assetFailures: store.getRecentAssetFailures(options.limit),
       limit: options.limit,
-      pages: store.searchPages("", PAGE_SCAN_LIMIT),
+      pages: pagesWithSelectableMissingAssets(store, store.searchPages("", PAGE_SCAN_LIMIT)),
       queueFailures: store.getRecentQueueFailures(options.limit),
       stats: store.getStats(),
     });
@@ -92,6 +100,12 @@ function assetRatio(page: PageListRow): string {
 
 function percent(value: number, total: number): string {
   return total === 0 ? "100%" : `${Math.round((value / total) * 100)}%`;
+}
+
+function compareText(left: string, right: string): number {
+  if (left < right) return -1;
+  if (left > right) return 1;
+  return 0;
 }
 
 function parseOptions(args: string[]): HealthOptions {
