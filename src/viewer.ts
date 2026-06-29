@@ -174,7 +174,7 @@ function renderOps(store: ArchiveStore): string {
         <h2>Next Commands</h2>
         ${renderCommand("Crawl next pages", "bun run scrape:local -- --limit 25 --delay-ms 3000")}
         ${renderCommand("Refresh saved pages", "bun run scrape:local -- --refresh-stale --limit 25 --refresh-days 30 --delay-ms 3000")}
-        ${renderCommand("Backfill weakest page assets", "bun run assets:backfill -- --weakest --limit 25 --delay-ms 2000 --asset-depth 2")}
+        ${renderCommand("Backfill weakest page assets", "bun run assets:backfill -- --weakest --rounds 2 --limit 25 --delay-ms 2000 --asset-depth 2")}
         ${renderCommand("Retry transient asset failures", "bun run assets:backfill -- --limit 25 --retry-failed --delay-ms 3000")}
       </section>
 

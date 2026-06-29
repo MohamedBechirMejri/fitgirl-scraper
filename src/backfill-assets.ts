@@ -17,13 +17,13 @@ interface BackfillOptions {
   includeFailed: boolean;
   limit: number;
   maxRequests?: number;
+  rounds: number;
   targetWeakest: boolean;
   targetUrl: string | null;
   timeoutMs: number;
 }
 
-async function main(): Promise<void> {
-  const args = Bun.argv.slice(2);
+export async function runBackfillAssets(args: string[]): Promise<void> {
   const options = parseOptions(args);
   const store = await openArchiveStore(join(options.archiveDir, "fitgirl.sqlite"));
   const runId = store.startRun({
@@ -36,37 +36,40 @@ async function main(): Promise<void> {
       includeFailed: options.includeFailed,
       limit: options.limit,
     };
-    const targetPage = options.targetWeakest ? store.getWeakestAssetPage(selector) : null;
-    const targetUrl = options.targetUrl ?? targetPage?.url ?? null;
-    const assets = targetUrl ? store.getAssetsToBackfillForPage(targetUrl, selector) : store.getAssetsToBackfill(selector);
+    const selectedPages: string[] = [];
+    let selectedAssets = 0;
 
-    if (targetPage) {
-      console.log(`Weakest page: ${targetPage.downloadedAssetCount}/${targetPage.assetCount} ${targetPage.title}`);
+    for (let round = 1; round <= options.rounds; round++) {
+      const targetPage = options.targetWeakest ? store.getWeakestAssetPage(selector) : null;
+      const targetUrl = options.targetUrl ?? targetPage?.url ?? null;
+      const assets = targetUrl ? store.getAssetsToBackfillForPage(targetUrl, selector) : store.getAssetsToBackfill(selector);
+
+      if (targetPage) {
+        console.log(
+          `Round ${round}/${options.rounds} weakest page: ${targetPage.downloadedAssetCount}/${targetPage.assetCount} ${targetPage.title}`
+        );
+      }
+
+      if (assets.length === 0) {
+        console.log("No assets to backfill.");
+        break;
+      }
+
+      if (targetUrl) selectedPages.push(targetUrl);
+      selectedAssets += assets.length;
+      console.log(`Backfilling ${assets.length} assets.`);
+      await saveAssets(store, { ...options, maxRequests: options.limit === 0 ? undefined : options.limit }, assets);
+
+      if (!options.targetWeakest) break;
     }
-
-    if (assets.length === 0) {
-      console.log("No assets to backfill.");
-      store.finishRun(runId, {
-        status: "success",
-        summary: {
-          selectedAssets: 0,
-          selectedPage: targetUrl,
-          stats: store.getStats(),
-        },
-      });
-      return;
-    }
-
-    console.log(`Backfilling ${assets.length} assets.`);
-    await saveAssets(store, options, assets);
 
     const stats = store.getStats();
     console.log(`Assets: ${stats.downloadedAssets}/${stats.assets} downloaded.`);
     store.finishRun(runId, {
       status: "success",
       summary: {
-        selectedAssets: assets.length,
-        selectedPage: targetUrl,
+        selectedAssets,
+        selectedPages,
         stats,
       },
     });
@@ -84,11 +87,14 @@ async function main(): Promise<void> {
   }
 }
 
-function parseOptions(args: string[]): BackfillOptions {
+export function parseOptions(args: string[]): BackfillOptions {
   const limit = readNumberFlag(args, "--limit", DEFAULT_LIMIT);
+  const rounds = readNumberFlag(args, "--rounds", 1);
   const targetUrl = readTargetUrl(args);
   const targetWeakest = args.includes("--weakest");
+  if (!Number.isInteger(rounds) || rounds <= 0) throw new Error("--rounds must be a positive integer");
   if (targetUrl && targetWeakest) throw new Error("Use either --url or --weakest, not both");
+  if (rounds !== 1 && !targetWeakest) throw new Error("--rounds only works with --weakest");
 
   return {
     archiveDir: readStringFlag(args, "--archive", DEFAULT_ARCHIVE_DIR),
@@ -97,6 +103,7 @@ function parseOptions(args: string[]): BackfillOptions {
     includeFailed: args.includes("--retry-failed"),
     limit,
     maxRequests: limit === 0 ? undefined : limit,
+    rounds,
     targetWeakest,
     targetUrl,
     timeoutMs: readNumberFlag(args, "--timeout-ms", DEFAULT_TIMEOUT_MS),
@@ -136,7 +143,9 @@ function formatCommand(baseCommand: string, args: string[]): string {
   return suffix ? `${baseCommand} -- ${suffix}` : baseCommand;
 }
 
-main().catch(error => {
-  console.error(error);
-  process.exit(1);
-});
+if (import.meta.main) {
+  runBackfillAssets(Bun.argv.slice(2)).catch(error => {
+    console.error(error);
+    process.exit(1);
+  });
+}
