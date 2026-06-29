@@ -505,6 +505,7 @@ describe("archive store queue", () => {
 
     store.saveSnapshotReferences(snapshot.id, [], [
       { kind: "image", source: "img[src]", url: "https://fitgirl-repacks.site/cover.jpg" },
+      { kind: "image", source: "img[src]", url: "https://fitgirl-repacks.site/banner.jpg" },
       { kind: "stylesheet", source: "link[href]", url: "https://fitgirl-repacks.site/style.css" },
       { kind: "script", source: "script[src]", url: "https://fitgirl-repacks.site/app.js" },
       { kind: "image", source: "style[attr]:css-url", url: "https://fitgirl-repacks.site/hero.webp" },
@@ -518,6 +519,15 @@ describe("archive store queue", () => {
       sizeBytes: 0,
       url: "https://fitgirl-repacks.site/cover.jpg",
     });
+    store.saveAssetResult({
+      contentHash: null,
+      contentType: null,
+      fetchedAt: "2026-06-28T00:00:02.000Z",
+      httpStatus: 503,
+      localPath: null,
+      sizeBytes: 0,
+      url: "https://fitgirl-repacks.site/banner.jpg",
+    });
 
     expect(store.getAssetsToBackfill({ includeFailed: false, limit: 10 })).toEqual([
       { kind: "stylesheet", source: "link[href]", url: "https://fitgirl-repacks.site/style.css" },
@@ -526,11 +536,11 @@ describe("archive store queue", () => {
     ]);
     expect(store.getAssetsToBackfill({ includeFailed: true, limit: 10 }).map(asset => asset.url)).toEqual([
       "https://fitgirl-repacks.site/style.css",
-      "https://fitgirl-repacks.site/cover.jpg",
+      "https://fitgirl-repacks.site/banner.jpg",
       "https://fitgirl-repacks.site/hero.webp",
       "https://fitgirl-repacks.site/app.js",
     ]);
-    expect(store.searchPages("demo", 10)[0]).toMatchObject({ assetCount: 4, downloadedAssetCount: 0 });
+    expect(store.searchPages("demo", 10)[0]).toMatchObject({ assetCount: 5, downloadedAssetCount: 0 });
 
     store.close();
   });
@@ -566,6 +576,7 @@ describe("archive store queue", () => {
 
     store.saveSnapshotReferences(target.id, [], [
       { kind: "image", source: "img[src]", url: "https://fitgirl-repacks.site/target-cover.jpg" },
+      { kind: "image", source: "img[src]", url: "https://fitgirl-repacks.site/target-banner.jpg" },
       { kind: "stylesheet", source: "link[href]", url: "https://fitgirl-repacks.site/target-style.css" },
     ]);
     store.saveSnapshotReferences(other.id, [], [
@@ -580,6 +591,15 @@ describe("archive store queue", () => {
       sizeBytes: 0,
       url: "https://fitgirl-repacks.site/target-cover.jpg",
     });
+    store.saveAssetResult({
+      contentHash: null,
+      contentType: null,
+      fetchedAt: "2026-06-28T00:00:03.000Z",
+      httpStatus: 503,
+      localPath: null,
+      sizeBytes: 0,
+      url: "https://fitgirl-repacks.site/target-banner.jpg",
+    });
 
     expect(store.getAssetsToBackfillForPage("https://fitgirl-repacks.site/target/", { includeFailed: false, limit: 10 })).toEqual([
       { kind: "stylesheet", source: "link[href]", url: "https://fitgirl-repacks.site/target-style.css" },
@@ -591,7 +611,7 @@ describe("archive store queue", () => {
       store.getAssetsToBackfillForPage("https://fitgirl-repacks.site/target/", { includeFailed: true, limit: 10 }).map(
         asset => asset.url
       )
-    ).toEqual(["https://fitgirl-repacks.site/target-style.css", "https://fitgirl-repacks.site/target-cover.jpg"]);
+    ).toEqual(["https://fitgirl-repacks.site/target-style.css", "https://fitgirl-repacks.site/target-banner.jpg"]);
 
     store.close();
   });

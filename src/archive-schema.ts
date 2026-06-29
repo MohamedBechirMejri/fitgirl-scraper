@@ -2,6 +2,7 @@ import { Database } from "bun:sqlite";
 
 export function migrateArchiveSchema(db: Database): void {
   db.run("pragma journal_mode = WAL");
+  db.run("pragma busy_timeout = 5000");
   db.run("pragma foreign_keys = ON");
 
   db.run(`
