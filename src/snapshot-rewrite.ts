@@ -54,6 +54,12 @@ export async function rewriteSnapshotHtml(
         if (src) element.setAttribute("src", src);
       },
     })
+    .on("video[poster]", {
+      element(element) {
+        const poster = rewriteAsset(element.getAttribute("poster"));
+        if (poster) element.setAttribute("poster", poster);
+      },
+    })
     .on("link[href]", {
       element(element) {
         const href = rewriteAsset(element.getAttribute("href"));

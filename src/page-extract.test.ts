@@ -147,13 +147,14 @@ describe("page extraction", () => {
 
   test("rewrites saved pages to local routes", async () => {
     const html = await rewriteSnapshotHtml(
-      `<a href="/game/">Game</a><a href="/queued/">Queued</a><link rel="canonical" href="/post/"><img src="/cover.jpg" srcset="/small.jpg 1x, /big.jpg 2x"><iframe src="https://www.youtube.com/embed/demo"></iframe><div style="background:url('/bg.png')"></div><style>.hero{background:url("/hero.webp")}</style>`,
+      `<a href="/game/">Game</a><a href="/queued/">Queued</a><link rel="canonical" href="/post/"><img src="/cover.jpg" srcset="/small.jpg 1x, /big.jpg 2x"><video poster="/poster.jpg"></video><iframe src="https://www.youtube.com/embed/demo"></iframe><div style="background:url('/bg.png')"></div><style>.hero{background:url("/hero.webp")}</style>`,
       "https://fitgirl-repacks.site/post/",
       [
         { kind: "image", localPath: "archive/assets/cover.jpg", url: "https://fitgirl-repacks.site/cover.jpg" },
         { kind: "image", localPath: "archive/assets/bg.png", url: "https://fitgirl-repacks.site/bg.png" },
         { kind: "image", localPath: null, url: "https://fitgirl-repacks.site/big.jpg" },
         { kind: "image", localPath: null, url: "https://fitgirl-repacks.site/hero.webp" },
+        { kind: "image", localPath: null, url: "https://fitgirl-repacks.site/poster.jpg" },
         { kind: "image", localPath: null, url: "https://fitgirl-repacks.site/small.jpg" },
         { kind: "media", localPath: null, url: "https://www.youtube.com/embed/demo" },
         { kind: "other", localPath: null, url: "https://fitgirl-repacks.site/post/" },
@@ -168,6 +169,7 @@ describe("page extraction", () => {
     expect(html).toContain(
       'srcset="/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fsmall.jpg 1x, /asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fbig.jpg 2x"'
     );
+    expect(html).toContain('poster="/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fposter.jpg"');
     expect(html).toContain('src="/asset?url=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fdemo"');
     expect(html).toContain('style="background:url(&quot;/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fbg.png&quot;)"');
     expect(html).toContain('background:url("/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fhero.webp")');
