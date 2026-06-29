@@ -509,6 +509,7 @@ describe("archive store queue", () => {
       { kind: "stylesheet", source: "link[href]", url: "https://fitgirl-repacks.site/style.css" },
       { kind: "script", source: "script[src]", url: "https://fitgirl-repacks.site/app.js" },
       { kind: "image", source: "style[attr]:css-url", url: "https://fitgirl-repacks.site/hero.webp" },
+      { kind: "other", source: "link[href]", url: "https://fitgirl-repacks.site/xmlrpc.php" },
     ]);
     store.saveAssetResult({
       contentHash: null,
@@ -528,6 +529,15 @@ describe("archive store queue", () => {
       sizeBytes: 0,
       url: "https://fitgirl-repacks.site/banner.jpg",
     });
+    store.saveAssetResult({
+      contentHash: null,
+      contentType: null,
+      fetchedAt: "2026-06-28T00:00:03.000Z",
+      httpStatus: 403,
+      localPath: null,
+      sizeBytes: 0,
+      url: "https://fitgirl-repacks.site/xmlrpc.php",
+    });
 
     expect(store.getAssetsToBackfill({ includeFailed: false, limit: 10 })).toEqual([
       { kind: "stylesheet", source: "link[href]", url: "https://fitgirl-repacks.site/style.css" },
@@ -540,7 +550,7 @@ describe("archive store queue", () => {
       "https://fitgirl-repacks.site/hero.webp",
       "https://fitgirl-repacks.site/app.js",
     ]);
-    expect(store.searchPages("demo", 10)[0]).toMatchObject({ assetCount: 5, downloadedAssetCount: 0 });
+    expect(store.searchPages("demo", 10)[0]).toMatchObject({ assetCount: 6, downloadedAssetCount: 0 });
 
     store.close();
   });

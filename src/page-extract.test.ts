@@ -43,6 +43,8 @@ describe("page extraction", () => {
             <title> Aerial_Knight&#039;s DropShot </title>
             <link rel="stylesheet" href="/style.css">
             <link rel="preload" as="image" href="/preload.jpg">
+            <link rel="EditURI" href="/xmlrpc.php?rsd">
+            <link rel="canonical" href="/post/">
             <meta property="og:image" content="/og.jpg">
             <style>.hero { background: url("/hero.webp"); }</style>
           </head>

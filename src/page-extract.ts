@@ -153,7 +153,8 @@ export async function extractPageReferences(html: string, pageUrl: string): Prom
     .on("link[href]", {
       element(element) {
         const rel = element.getAttribute("rel") ?? "";
-        addAsset(element.getAttribute("href"), linkRelToAssetKind(rel, element.getAttribute("as")), "link[href]");
+        const kind = linkRelToAssetKind(rel, element.getAttribute("as"));
+        if (kind) addAsset(element.getAttribute("href"), kind, "link[href]");
       },
     })
     .on("meta[content]", {
@@ -233,7 +234,7 @@ function parseSrcset(srcset: string | null): string[] {
     .filter(Boolean);
 }
 
-function linkRelToAssetKind(rel: string, asValue: string | null): AssetKind {
+function linkRelToAssetKind(rel: string, asValue: string | null): AssetKind | null {
   const parts = rel.toLowerCase().split(/\s+/);
   const as = asValue?.toLowerCase() ?? "";
 
@@ -244,7 +245,7 @@ function linkRelToAssetKind(rel: string, asValue: string | null): AssetKind {
   if (as === "style") return "stylesheet";
   if (parts.includes("preload") || parts.includes("modulepreload")) return "other";
 
-  return "other";
+  return null;
 }
 
 function cssAssetKind(url: string, source: string): AssetKind {

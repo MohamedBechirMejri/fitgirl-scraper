@@ -393,7 +393,7 @@ export class ArchiveStore {
         from assets
         left join snapshot_assets on snapshot_assets.asset_url = assets.url
         where assets.local_path is null
-          and (assets.http_status is null or (? = 1 and assets.http_status not in (404, 410)))
+          and (assets.http_status is null or (? = 1 and assets.http_status not in (401, 403, 404, 410)))
         group by assets.url
         order by
           case coalesce(min(snapshot_assets.kind), 'other')
@@ -424,7 +424,7 @@ export class ArchiveStore {
         join assets on assets.url = snapshot_assets.asset_url
         where pages.url = ?
           and assets.local_path is null
-          and (assets.http_status is null or (? = 1 and assets.http_status not in (404, 410)))
+          and (assets.http_status is null or (? = 1 and assets.http_status not in (401, 403, 404, 410)))
         order by
           case snapshot_assets.kind
             when 'stylesheet' then 0
@@ -460,7 +460,7 @@ export class ArchiveStore {
               sum(
                 case
                   when assets.local_path is null
-                    and (assets.http_status is null or (? = 1 and assets.http_status not in (404, 410)))
+                    and (assets.http_status is null or (? = 1 and assets.http_status not in (401, 403, 404, 410)))
                   then 1
                   else 0
                 end
