@@ -60,7 +60,7 @@ cat >> "$tmp" <<CRON
 @reboot sleep 600 && $cycle
 0 * * * * $cycle
 @reboot sleep 60 && $viewer
-* * * * $viewer
+* * * * * $viewer
 # fitgirl-archive end
 CRON
 crontab "$tmp"
