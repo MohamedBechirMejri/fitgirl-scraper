@@ -9,14 +9,16 @@ asset_depth="${FITGIRL_ASSET_DEPTH:-2}"
 asset_limit="${FITGIRL_ASSET_LIMIT:-50}"
 asset_rounds="${FITGIRL_ASSET_ROUNDS:-2}"
 asset_delay_ms="${FITGIRL_ASSET_DELAY_MS:-2000}"
+seed_args=()
 scrape_all=()
 refresh_all=()
 
+[[ "${FITGIRL_SEED:-0}" == "1" ]] && seed_args=(--seed)
 [[ "$scrape_limit" == "0" ]] && scrape_all=(--all)
 [[ "$refresh_limit" == "0" ]] && refresh_all=(--all)
 
 bun run scrape:local -- \
-  --seed \
+  "${seed_args[@]}" \
   --crawl-discovered \
   --limit "$scrape_limit" \
   "${scrape_all[@]}" \
@@ -26,6 +28,7 @@ bun run scrape:local -- \
 
 bun run scrape:local -- \
   --refresh-stale \
+  --crawl-discovered \
   --limit "$refresh_limit" \
   "${refresh_all[@]}" \
   --refresh-days "$refresh_days" \
