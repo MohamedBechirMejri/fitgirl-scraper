@@ -8,13 +8,23 @@ export interface RewriteAsset {
   url: string;
 }
 
+export interface RewriteRoutes {
+  assetRoute?: (url: string) => string;
+  missingPageRoute?: (url: string) => string;
+  pageRoutes?: Map<string, string>;
+}
+
 export async function rewriteSnapshotHtml(
   html: string,
   pageUrl: string,
   assets: RewriteAsset[],
-  pageRoutes = new Map<string, string>()
+  routes: Map<string, string> | RewriteRoutes = new Map<string, string>()
 ): Promise<string> {
-  const assetRoutes = new Map(assets.filter(asset => asset.kind !== "other").map(asset => [asset.url, localAssetRoute(asset.url)]));
+  const options = routes instanceof Map ? { pageRoutes: routes } : routes;
+  const assetRoute = options.assetRoute ?? localAssetRoute;
+  const missingPageRoute = options.missingPageRoute ?? localPageRoute;
+  const pageRoutes = options.pageRoutes ?? new Map<string, string>();
+  const assetRoutes = new Map(assets.filter(asset => asset.kind !== "other").map(asset => [asset.url, assetRoute(asset.url)]));
 
   const rewriteAsset = (rawUrl: string | null): string | null => {
     if (!rawUrl) return null;
@@ -29,7 +39,7 @@ export async function rewriteSnapshotHtml(
       element(element) {
         const url = normalizeUrl(element.getAttribute("href") ?? "", pageUrl);
         if (url && isFitGirlUrl(url)) {
-          element.setAttribute("href", pageRoutes.get(url) ?? `/page?url=${encodeURIComponent(url)}`);
+          element.setAttribute("href", pageRoutes.get(url) ?? missingPageRoute(url));
         }
       },
     })
@@ -70,6 +80,17 @@ export async function rewriteSnapshotHtml(
 
 export function localAssetRoute(url: string): string {
   return `/asset?url=${encodeURIComponent(url)}`;
+}
+
+export function localMirrorRoute(url: string): string {
+  if (!isFitGirlUrl(url)) return localAssetRoute(url);
+
+  const parsed = new URL(url);
+  return `${parsed.pathname}${parsed.search}`;
+}
+
+function localPageRoute(url: string): string {
+  return `/page?url=${encodeURIComponent(url)}`;
 }
 
 function rewriteSrcset(srcset: string | null, pageUrl: string, assetRoutes: Map<string, string>): string | null {

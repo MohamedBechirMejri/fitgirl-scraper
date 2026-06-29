@@ -5,6 +5,7 @@ import {
   type ArchiveSearchFilters,
   type ArchiveRunRow,
   type ArchiveStore,
+  type AssetRow,
   type AssetFailureRow,
   type CrawlQueueItem,
   type LinkAvailability,
@@ -19,7 +20,7 @@ import { lowestAssetCoverage, pagesWithSelectableMissingAssets } from "./archive
 import { rewriteCssAssetReferences } from "./css-assets";
 import { groupLinks, type ClassifiedLink, type LinkGroup } from "./link-classifier";
 import { isFitGirlUrl, type PageMetadata } from "./page-extract";
-import { localAssetRoute, rewriteSnapshotHtml } from "./snapshot-rewrite";
+import { localAssetRoute, localMirrorRoute, rewriteSnapshotHtml } from "./snapshot-rewrite";
 import { diffText, summarizeDiff, type TextDiff } from "./text-diff";
 import {
   parseSnapshotMetadata,
@@ -33,6 +34,7 @@ import { escapeHtml, html, layout, notFound } from "./viewer-shell";
 
 const DEFAULT_ARCHIVE_DIR = "archive";
 const DEFAULT_PORT = 4173;
+const MIRROR_BASE_URLS = ["https://fitgirl-repacks.site", "http://fitgirl-repacks.site"];
 const OPS_PAGE_SCAN_LIMIT = 10_000;
 
 interface ViewerOptions {
@@ -93,6 +95,11 @@ async function handleRequest(request: Request, store: ArchiveStore, archiveRoot:
 
     if (url.pathname === "/asset") {
       return serveAsset(store, url.searchParams.get("url"), archiveRoot);
+    }
+
+    const mirrorResponse = await renderMirrorRequest(store, archiveRoot, url);
+    if (mirrorResponse) {
+      return mirrorResponse;
     }
 
     return notFound("Route not found.");
@@ -480,6 +487,15 @@ async function renderSnapshot(store: ArchiveStore, archiveRoot: string, snapshot
     return notFound("Snapshot not found.");
   }
 
+  return renderSnapshotResponse(store, archiveRoot, snapshot, "archive");
+}
+
+async function renderSnapshotResponse(
+  store: ArchiveStore,
+  archiveRoot: string,
+  snapshot: SnapshotRow,
+  mode: "archive" | "mirror"
+): Promise<Response> {
   const htmlPath = resolveStoredPath(snapshot.htmlPath, archiveRoot);
   if (!htmlPath) {
     return notFound("Snapshot file is outside the archive.");
@@ -494,7 +510,14 @@ async function renderSnapshot(store: ArchiveStore, archiveRoot: string, snapshot
       .filter(link => link.latestSnapshotId)
       .map(link => [link.url, `/snapshot/${link.latestSnapshotId}`])
   );
-  const rewrittenHtml = await rewriteSnapshotHtml(sourceHtml, snapshot.url, assets, localPageRoutes);
+  const rewrittenHtml = await rewriteSnapshotHtml(
+    sourceHtml,
+    snapshot.url,
+    assets,
+    mode === "mirror"
+      ? { assetRoute: localMirrorRoute, missingPageRoute: localMirrorRoute }
+      : { pageRoutes: localPageRoutes }
+  );
   const toolbar = `
     <nav style="position:sticky;top:0;z-index:2147483647;padding:10px 14px;background:#111;color:#fff;font:14px system-ui,sans-serif">
       <a style="color:#fff" href="/page?url=${encodeURIComponent(snapshot.url)}">Archive</a>
@@ -505,7 +528,7 @@ async function renderSnapshot(store: ArchiveStore, archiveRoot: string, snapshot
     </nav>
   `;
 
-  return new Response(injectAfterBody(rewrittenHtml, toolbar), {
+  return new Response(mode === "mirror" ? rewrittenHtml : injectAfterBody(rewrittenHtml, toolbar), {
     headers: {
       "content-security-policy": "default-src 'self' data: blob:; img-src 'self' data: blob:; media-src 'self' data: blob:; frame-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self' data:",
       "content-type": "text/html; charset=utf-8",
@@ -529,6 +552,14 @@ async function serveAsset(store: ArchiveStore, assetUrl: string | null, archiveR
     return notFound("Asset not found.");
   }
 
+  return serveStoredAsset({ ...asset, localPath: asset.localPath }, archiveRoot);
+}
+
+async function serveStoredAsset(
+  asset: AssetRow & { localPath: string },
+  archiveRoot: string,
+  assetRoute = localAssetRoute
+): Promise<Response> {
   const path = resolveStoredPath(asset.localPath, archiveRoot);
   if (!path) {
     return notFound("Asset is outside the archive.");
@@ -536,7 +567,7 @@ async function serveAsset(store: ArchiveStore, assetUrl: string | null, archiveR
 
   if (isCssAsset(asset.contentType, asset.url)) {
     const css = await readFile(path, "utf-8");
-    const body = rewriteCssAssetReferences(css, asset.url, url => localAssetRoute(url));
+    const body = rewriteCssAssetReferences(css, asset.url, assetRoute);
 
     return new Response(body, {
       headers: { "content-type": "text/css; charset=utf-8" },
@@ -544,6 +575,33 @@ async function serveAsset(store: ArchiveStore, assetUrl: string | null, archiveR
   }
 
   return new Response(Bun.file(path));
+}
+
+async function renderMirrorRequest(
+  store: ArchiveStore,
+  archiveRoot: string,
+  requestUrl: URL
+): Promise<Response | null> {
+  for (const url of mirrorUrlCandidates(requestUrl.pathname, requestUrl.search)) {
+    const asset = store.getAsset(url);
+    if (asset?.localPath) {
+      return serveStoredAsset({ ...asset, localPath: asset.localPath }, archiveRoot, localMirrorRoute);
+    }
+  }
+
+  for (const url of mirrorUrlCandidates(requestUrl.pathname, requestUrl.search)) {
+    const snapshot = store.getLatestSnapshotForUrl(url);
+    if (snapshot) {
+      return renderSnapshotResponse(store, archiveRoot, snapshot, "mirror");
+    }
+  }
+
+  return null;
+}
+
+export function mirrorUrlCandidates(pathname: string, search = ""): string[] {
+  const path = pathname.startsWith("/") ? pathname : `/${pathname}`;
+  return MIRROR_BASE_URLS.map(baseUrl => new URL(`${path}${search}`, baseUrl).toString());
 }
 
 function renderCommand(label: string, command: string): string {

@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { parseViewerOptions } from "./viewer";
+import { mirrorUrlCandidates, parseViewerOptions } from "./viewer";
 
 describe("viewer options", () => {
   test("defaults to localhost binding", () => {
@@ -16,5 +16,12 @@ describe("viewer options", () => {
       host: "0.0.0.0",
       port: 5000,
     });
+  });
+
+  test("builds https and http mirror candidates", () => {
+    expect(mirrorUrlCandidates("wp-content/site.css", "?ver=1")).toEqual([
+      "https://fitgirl-repacks.site/wp-content/site.css?ver=1",
+      "http://fitgirl-repacks.site/wp-content/site.css?ver=1",
+    ]);
   });
 });

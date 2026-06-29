@@ -7,7 +7,7 @@ import {
   normalizePageLink,
   normalizeUrl,
 } from "./page-extract";
-import { rewriteSnapshotHtml } from "./snapshot-rewrite";
+import { localMirrorRoute, rewriteSnapshotHtml } from "./snapshot-rewrite";
 
 describe("page extraction", () => {
   test("normalizes crawlable URLs", () => {
@@ -171,6 +171,24 @@ describe("page extraction", () => {
     expect(html).toContain('src="/asset?url=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fdemo"');
     expect(html).toContain('style="background:url(&quot;/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fbg.png&quot;)"');
     expect(html).toContain('background:url("/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fhero.webp")');
+  });
+
+  test("rewrites saved pages to mirror routes", async () => {
+    const html = await rewriteSnapshotHtml(
+      `<a href="/game/">Game</a><img src="/cover.jpg"><iframe src="https://www.youtube.com/embed/demo"></iframe><style>.hero{background:url("/hero.webp")}</style>`,
+      "https://fitgirl-repacks.site/post/",
+      [
+        { kind: "image", localPath: "archive/assets/cover.jpg", url: "https://fitgirl-repacks.site/cover.jpg" },
+        { kind: "image", localPath: null, url: "https://fitgirl-repacks.site/hero.webp" },
+        { kind: "media", localPath: null, url: "https://www.youtube.com/embed/demo" },
+      ],
+      { assetRoute: localMirrorRoute, missingPageRoute: localMirrorRoute }
+    );
+
+    expect(html).toContain('href="/game/"');
+    expect(html).toContain('src="/cover.jpg"');
+    expect(html).toContain('src="/asset?url=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fdemo"');
+    expect(html).toContain('background:url("/hero.webp")');
   });
 
   test("extracts and rewrites CSS asset references", () => {
