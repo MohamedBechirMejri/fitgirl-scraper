@@ -9,11 +9,17 @@ asset_depth="${FITGIRL_ASSET_DEPTH:-2}"
 asset_limit="${FITGIRL_ASSET_LIMIT:-50}"
 asset_rounds="${FITGIRL_ASSET_ROUNDS:-2}"
 asset_delay_ms="${FITGIRL_ASSET_DELAY_MS:-2000}"
+scrape_all=()
+refresh_all=()
+
+[[ "$scrape_limit" == "0" ]] && scrape_all=(--all)
+[[ "$refresh_limit" == "0" ]] && refresh_all=(--all)
 
 bun run scrape:local -- \
   --seed \
   --crawl-discovered \
   --limit "$scrape_limit" \
+  "${scrape_all[@]}" \
   --delay-ms "$delay_ms" \
   --no-assets \
   --asset-depth "$asset_depth"
@@ -21,6 +27,7 @@ bun run scrape:local -- \
 bun run scrape:local -- \
   --refresh-stale \
   --limit "$refresh_limit" \
+  "${refresh_all[@]}" \
   --refresh-days "$refresh_days" \
   --delay-ms "$delay_ms" \
   --no-assets \
