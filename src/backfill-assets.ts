@@ -17,6 +17,7 @@ interface BackfillOptions {
   includeFailed: boolean;
   limit: number;
   maxRequests?: number;
+  targetWeakest: boolean;
   targetUrl: string | null;
   timeoutMs: number;
 }
@@ -35,9 +36,13 @@ async function main(): Promise<void> {
       includeFailed: options.includeFailed,
       limit: options.limit,
     };
-    const assets = options.targetUrl
-      ? store.getAssetsToBackfillForPage(options.targetUrl, selector)
-      : store.getAssetsToBackfill(selector);
+    const targetPage = options.targetWeakest ? store.getWeakestAssetPage(selector) : null;
+    const targetUrl = options.targetUrl ?? targetPage?.url ?? null;
+    const assets = targetUrl ? store.getAssetsToBackfillForPage(targetUrl, selector) : store.getAssetsToBackfill(selector);
+
+    if (targetPage) {
+      console.log(`Weakest page: ${targetPage.downloadedAssetCount}/${targetPage.assetCount} ${targetPage.title}`);
+    }
 
     if (assets.length === 0) {
       console.log("No assets to backfill.");
@@ -45,6 +50,7 @@ async function main(): Promise<void> {
         status: "success",
         summary: {
           selectedAssets: 0,
+          selectedPage: targetUrl,
           stats: store.getStats(),
         },
       });
@@ -60,6 +66,7 @@ async function main(): Promise<void> {
       status: "success",
       summary: {
         selectedAssets: assets.length,
+        selectedPage: targetUrl,
         stats,
       },
     });
@@ -79,6 +86,9 @@ async function main(): Promise<void> {
 
 function parseOptions(args: string[]): BackfillOptions {
   const limit = readNumberFlag(args, "--limit", DEFAULT_LIMIT);
+  const targetUrl = readTargetUrl(args);
+  const targetWeakest = args.includes("--weakest");
+  if (targetUrl && targetWeakest) throw new Error("Use either --url or --weakest, not both");
 
   return {
     archiveDir: readStringFlag(args, "--archive", DEFAULT_ARCHIVE_DIR),
@@ -87,7 +97,8 @@ function parseOptions(args: string[]): BackfillOptions {
     includeFailed: args.includes("--retry-failed"),
     limit,
     maxRequests: limit === 0 ? undefined : limit,
-    targetUrl: readTargetUrl(args),
+    targetWeakest,
+    targetUrl,
     timeoutMs: readNumberFlag(args, "--timeout-ms", DEFAULT_TIMEOUT_MS),
   };
 }

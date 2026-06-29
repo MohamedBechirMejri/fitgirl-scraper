@@ -3,7 +3,7 @@ import { Database } from "bun:sqlite";
 import { mkdtemp } from "fs/promises";
 import { tmpdir } from "os";
 import { join } from "path";
-import { openArchiveStore } from "./archive-store";
+import { openArchiveStore, type ArchiveStore } from "./archive-store";
 
 describe("archive store queue", () => {
   test("claims, completes, and requeues changed sitemap entries", async () => {
@@ -616,6 +616,58 @@ describe("archive store queue", () => {
     store.close();
   });
 
+  test("finds the weakest page with selectable missing assets", async () => {
+    const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
+    const permanent = saveTestSnapshot(store, "Permanent", "https://fitgirl-repacks.site/permanent/");
+    const weak = saveTestSnapshot(store, "Weak", "https://fitgirl-repacks.site/weak/");
+    const transient = saveTestSnapshot(store, "Transient", "https://fitgirl-repacks.site/transient/");
+
+    store.saveSnapshotReferences(permanent, [], [
+      { kind: "image", source: "img[src]", url: "https://fitgirl-repacks.site/permanent.jpg" },
+    ]);
+    store.saveAssetResult({
+      contentHash: null,
+      contentType: null,
+      fetchedAt: "2026-06-28T00:00:01.000Z",
+      httpStatus: 404,
+      localPath: null,
+      sizeBytes: 0,
+      url: "https://fitgirl-repacks.site/permanent.jpg",
+    });
+
+    store.saveSnapshotReferences(weak, [], [
+      { kind: "image", source: "img[src]", url: "https://fitgirl-repacks.site/weak-local.jpg" },
+      { kind: "image", source: "img[src]", url: "https://fitgirl-repacks.site/weak-missing.jpg" },
+    ]);
+    store.saveAssetResult({
+      contentHash: "weak-local",
+      contentType: "image/jpeg",
+      fetchedAt: "2026-06-28T00:00:02.000Z",
+      httpStatus: 200,
+      localPath: "archive/assets/weak-local.jpg",
+      sizeBytes: 10,
+      url: "https://fitgirl-repacks.site/weak-local.jpg",
+    });
+
+    store.saveSnapshotReferences(transient, [], [
+      { kind: "image", source: "img[src]", url: "https://fitgirl-repacks.site/transient.jpg" },
+    ]);
+    store.saveAssetResult({
+      contentHash: null,
+      contentType: null,
+      fetchedAt: "2026-06-28T00:00:03.000Z",
+      httpStatus: 503,
+      localPath: null,
+      sizeBytes: 0,
+      url: "https://fitgirl-repacks.site/transient.jpg",
+    });
+
+    expect(store.getWeakestAssetPage({ includeFailed: false })?.url).toBe("https://fitgirl-repacks.site/weak/");
+    expect(store.getWeakestAssetPage({ includeFailed: true })?.url).toBe("https://fitgirl-repacks.site/transient/");
+
+    store.close();
+  });
+
   test("lists recent queue and asset failures", async () => {
     const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
 
@@ -722,3 +774,19 @@ describe("archive store queue", () => {
     store.close();
   });
 });
+
+function saveTestSnapshot(store: ArchiveStore, title: string, url: string): number {
+  return store.saveSnapshot({
+    contentHash: title,
+    contentType: "text/html",
+    etag: null,
+    fetchedAt: "2026-06-28T00:00:00.000Z",
+    htmlPath: `archive/pages/${title.toLowerCase()}.html`,
+    lastModified: null,
+    sitemapLastModified: null,
+    status: 200,
+    textContent: title,
+    title,
+    url,
+  }).id;
+}

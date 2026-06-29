@@ -443,6 +443,55 @@ export class ArchiveStore {
       .all(url, options.includeFailed ? 1 : 0, options.limit);
   }
 
+  getWeakestAssetPage(options: Pick<AssetBackfillOptions, "includeFailed">): PageListRow | null {
+    return (
+      this.db
+        .query<PageListRow, [number]>(
+          `with page_assets as (
+            select
+              pages.url,
+              coalesce(snapshots.title, pages.url) as title,
+              snapshots.id as snapshotId,
+              snapshots.fetched_at as fetchedAt,
+              snapshots.metadata_json as metadataJson,
+              (select count(*) from snapshots all_snapshots where all_snapshots.url = pages.url) as snapshotCount,
+              count(snapshot_assets.asset_url) as assetCount,
+              sum(case when assets.local_path is not null then 1 else 0 end) as downloadedAssetCount,
+              sum(
+                case
+                  when assets.local_path is null
+                    and (assets.http_status is null or (? = 1 and assets.http_status not in (404, 410)))
+                  then 1
+                  else 0
+                end
+              ) as selectableMissingCount
+            from pages
+            join snapshots on snapshots.id = pages.latest_snapshot_id
+            join snapshot_assets on snapshot_assets.snapshot_id = snapshots.id
+            join assets on assets.url = snapshot_assets.asset_url
+            group by pages.url, snapshots.id
+          )
+          select
+            url,
+            title,
+            snapshotId,
+            fetchedAt,
+            metadataJson,
+            snapshotCount,
+            assetCount,
+            downloadedAssetCount
+          from page_assets
+          where assetCount > 0 and selectableMissingCount > 0
+          order by
+            cast(downloadedAssetCount as real) / assetCount asc,
+            assetCount desc,
+            title asc
+          limit 1`
+        )
+        .get(options.includeFailed ? 1 : 0) ?? null
+    );
+  }
+
   saveAssetResult(input: AssetResult): void {
     this.db.run(
       `insert into assets (
