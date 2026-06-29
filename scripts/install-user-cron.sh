@@ -3,6 +3,7 @@ set -euo pipefail
 
 repo_dir="$(pwd -P)"
 install_bun=0
+export PATH="$HOME/.bun/bin:$PATH"
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
