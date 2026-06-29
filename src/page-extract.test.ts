@@ -175,18 +175,21 @@ describe("page extraction", () => {
 
   test("rewrites saved pages to mirror routes", async () => {
     const html = await rewriteSnapshotHtml(
-      `<a href="/game/">Game</a><img src="/cover.jpg"><iframe src="https://www.youtube.com/embed/demo"></iframe><style>.hero{background:url("/hero.webp")}</style>`,
+      `<a href="/game/">Game</a><img src="/cover.jpg"><script src="https://fitgirl-repacks.site/wp-content/app.js"></script><script>const root = "https://fitgirl-repacks.site/wp-content/app.js";</script><meta property="og:image" content="https://fitgirl-repacks.site/og.jpg"><iframe src="https://www.youtube.com/embed/demo"></iframe><style>.hero{background:url("/hero.webp")}</style>`,
       "https://fitgirl-repacks.site/post/",
       [
         { kind: "image", localPath: "archive/assets/cover.jpg", url: "https://fitgirl-repacks.site/cover.jpg" },
         { kind: "image", localPath: null, url: "https://fitgirl-repacks.site/hero.webp" },
         { kind: "media", localPath: null, url: "https://www.youtube.com/embed/demo" },
       ],
-      { assetRoute: localMirrorRoute, missingPageRoute: localMirrorRoute }
+      { assetRoute: localMirrorRoute, missingAssetRoute: localMirrorRoute, missingPageRoute: localMirrorRoute }
     );
 
     expect(html).toContain('href="/game/"');
     expect(html).toContain('src="/cover.jpg"');
+    expect(html).toContain('src="/wp-content/app.js"');
+    expect(html).toContain('const root = "/wp-content/app.js"');
+    expect(html).toContain('property="og:image" content="/og.jpg"');
     expect(html).toContain('src="/asset?url=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fdemo"');
     expect(html).toContain('background:url("/hero.webp")');
   });

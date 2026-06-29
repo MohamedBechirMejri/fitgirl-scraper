@@ -10,6 +10,7 @@ export interface RewriteAsset {
 
 export interface RewriteRoutes {
   assetRoute?: (url: string) => string;
+  missingAssetRoute?: (url: string) => string | null;
   missingPageRoute?: (url: string) => string;
   pageRoutes?: Map<string, string>;
 }
@@ -22,6 +23,7 @@ export async function rewriteSnapshotHtml(
 ): Promise<string> {
   const options = routes instanceof Map ? { pageRoutes: routes } : routes;
   const assetRoute = options.assetRoute ?? localAssetRoute;
+  const missingAssetRoute = options.missingAssetRoute ?? (() => null);
   const missingPageRoute = options.missingPageRoute ?? localPageRoute;
   const pageRoutes = options.pageRoutes ?? new Map<string, string>();
   const assetRoutes = new Map(assets.filter(asset => asset.kind !== "other").map(asset => [asset.url, assetRoute(asset.url)]));
@@ -30,9 +32,10 @@ export async function rewriteSnapshotHtml(
     if (!rawUrl) return null;
 
     const url = normalizeUrl(rawUrl, pageUrl);
-    return url ? assetRoutes.get(url) ?? null : null;
+    return url ? assetRoutes.get(url) ?? missingAssetRoute(url) : null;
   };
-  const rewriteCss = (css: string): string => rewriteCssAssetReferences(css, pageUrl, url => assetRoutes.get(url) ?? null);
+  const rewriteCss = (css: string): string =>
+    rewriteCssAssetReferences(css, pageUrl, url => assetRoutes.get(url) ?? missingAssetRoute(url));
 
   const rewritten = await new HTMLRewriter()
     .on("a[href]", {
@@ -55,6 +58,13 @@ export async function rewriteSnapshotHtml(
         if (href) element.setAttribute("href", href);
       },
     })
+    .on("meta[content]", {
+      element(element) {
+        const name = `${element.getAttribute("property") ?? ""} ${element.getAttribute("name") ?? ""}`.toLowerCase();
+        const content = name.includes("image") ? rewriteAsset(element.getAttribute("content")) : null;
+        if (content) element.setAttribute("content", content);
+      },
+    })
     .on("[style]", {
       element(element) {
         const style = element.getAttribute("style");
@@ -75,7 +85,7 @@ export async function rewriteSnapshotHtml(
     .transform(new Response(html))
     .text();
 
-  return rewritten;
+  return rewriteSameSiteLiterals(rewritten);
 }
 
 export function localAssetRoute(url: string): string {
@@ -91,6 +101,10 @@ export function localMirrorRoute(url: string): string {
 
 function localPageRoute(url: string): string {
   return `/page?url=${encodeURIComponent(url)}`;
+}
+
+function rewriteSameSiteLiterals(html: string): string {
+  return html.replace(/https?:\/\/fitgirl-repacks\.site(?=\/|[?#"'])/g, "");
 }
 
 function rewriteSrcset(srcset: string | null, pageUrl: string, assetRoutes: Map<string, string>): string | null {

@@ -947,7 +947,6 @@ export class ArchiveStore {
       )
       .all(snapshotId);
   }
-
   close(): void {
     this.db.close();
   }

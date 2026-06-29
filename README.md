@@ -76,6 +76,15 @@ bun run snapshots:backfill
 bun run snapshots:backfill -- --limit 100
 ```
 
+Export a static path-preserving mirror:
+
+```bash
+bun run mirror:export
+bun run mirror:export -- --mirror archive/mirror
+```
+
+The exporter writes latest page snapshots and downloaded assets under `archive/mirror`, preserving original paths such as `donations/index.html` and `wp-content/uploads/...`. Query strings are kept in rewritten links but ignored for the filesystem path, matching normal static-server behavior.
+
 Open the local archive viewer:
 
 ```bash
@@ -96,7 +105,7 @@ Run one maintenance cycle:
 bun run archive:cycle
 ```
 
-The cycle seeds sitemaps, crawls discovered same-site pages without inline asset downloads, refreshes a small stale batch, backfills the weakest asset pages with a request cap, then prints health.
+The cycle seeds sitemaps, crawls discovered same-site pages without inline asset downloads, refreshes a small stale batch, backfills the weakest asset pages with a request cap, exports `archive/mirror`, then prints health.
 
 Install no-sudo reboot-safe cron automation on `mbm-1` after the repo is checked out there:
 

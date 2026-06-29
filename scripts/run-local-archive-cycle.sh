@@ -33,4 +33,6 @@ bun run assets:backfill -- \
   --delay-ms "$asset_delay_ms" \
   --asset-depth "$asset_depth"
 
+bun run mirror:export
+
 bun run health

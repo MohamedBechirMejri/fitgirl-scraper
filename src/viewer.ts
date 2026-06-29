@@ -530,7 +530,7 @@ async function renderSnapshotResponse(
     snapshot.url,
     assets,
     mode === "mirror"
-      ? { assetRoute: localMirrorRoute, missingPageRoute: localMirrorRoute }
+      ? { assetRoute: localMirrorRoute, missingAssetRoute: localMirrorRoute, missingPageRoute: localMirrorRoute }
       : { pageRoutes: localPageRoutes }
   );
   const toolbar = `
@@ -916,6 +916,8 @@ function formatRunSummary(row: ArchiveRunRow): string {
     if (typeof summary.seededCount === "number") parts.push(`seeded ${summary.seededCount}`);
     if (typeof summary.selectedAssets === "number") parts.push(`selected ${summary.selectedAssets}`);
     if (typeof summary.selectedSnapshots === "number") parts.push(`selected ${summary.selectedSnapshots}`);
+    if (typeof summary.exportedPages === "number") parts.push(`exported pages ${summary.exportedPages}`);
+    if (typeof summary.exportedAssets === "number") parts.push(`exported assets ${summary.exportedAssets}`);
     if (typeof summary.refreshedCount === "number") parts.push(`refreshed ${summary.refreshedCount}`);
     if (typeof summary.updatedCount === "number") parts.push(`updated ${summary.updatedCount}`);
     if (typeof summary.skippedCount === "number") parts.push(`skipped ${summary.skippedCount}`);

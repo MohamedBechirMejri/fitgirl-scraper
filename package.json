@@ -8,6 +8,7 @@
     "health": "bun run src/archive-health.ts",
     "install:cron": "bash scripts/install-user-cron.sh",
     "install:systemd": "bash scripts/install-user-systemd.sh",
+    "mirror:export": "bun run src/export-mirror.ts",
     "snapshots:backfill": "bun run src/backfill-snapshots.ts",
     "scrape:local": "bun run src/local-scraper.ts",
     "view": "bun run src/viewer.ts",
