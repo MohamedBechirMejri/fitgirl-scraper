@@ -42,10 +42,8 @@ export async function rewriteSnapshotHtml(
   const rewritten = await new HTMLRewriter()
     .on("a[href]", {
       element(element) {
-        const url = normalizeUrl(element.getAttribute("href") ?? "", pageUrl);
-        if (url && isFitGirlUrl(url)) {
-          element.setAttribute("href", pageRoutes.get(url) ?? missingPageRoute(url));
-        }
+        const href = rewritePageHref(element.getAttribute("href"), pageUrl, pageRoutes, missingPageRoute);
+        if (href) element.setAttribute("href", href);
       },
     })
     .on("img[src], script[src], video[src], audio[src], source[src], iframe[src]", {
@@ -113,6 +111,27 @@ function localPageRoute(url: string): string {
 
 function rewriteSameSiteLiterals(html: string): string {
   return html.replace(/https?:\/\/fitgirl-repacks\.site(?=\/|[?#"'])/g, "");
+}
+
+function rewritePageHref(
+  rawHref: string | null,
+  pageUrl: string,
+  pageRoutes: Map<string, string>,
+  missingPageRoute: (url: string) => string
+): string | null {
+  if (!rawHref || rawHref.trim().startsWith("#")) return null;
+
+  const url = normalizeUrl(rawHref, pageUrl);
+  if (!url || !isFitGirlUrl(url)) return null;
+
+  let hash = "";
+  try {
+    hash = new URL(rawHref, pageUrl).hash;
+  } catch {
+    // Hash is nice-to-have; normalizeUrl already proved the link is usable.
+  }
+
+  return `${pageRoutes.get(url) ?? missingPageRoute(url)}${hash}`;
 }
 
 function rewriteSrcset(
