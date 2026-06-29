@@ -194,6 +194,17 @@ describe("page extraction", () => {
     expect(html).toContain('background:url("/hero.webp")');
   });
 
+  test("rewrites downloaded other assets", async () => {
+    const html = await rewriteSnapshotHtml(
+      `<link rel="preload" href="/font.woff2"><style>@font-face{src:url("/font.woff2")}</style>`,
+      "https://fitgirl-repacks.site/post/",
+      [{ kind: "other", localPath: "archive/assets/font.woff2", url: "https://fitgirl-repacks.site/font.woff2" }]
+    );
+
+    expect(html).toContain('href="/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Ffont.woff2"');
+    expect(html).toContain('url("/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Ffont.woff2")');
+  });
+
   test("extracts and rewrites CSS asset references", () => {
     const css = `@import "/theme.css"; body { background: url("../img/bg.png"); }`;
     const references = extractCssAssetReferences(css, "https://fitgirl-repacks.site/wp/css/site.css");

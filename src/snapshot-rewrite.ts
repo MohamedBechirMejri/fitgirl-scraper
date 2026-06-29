@@ -26,7 +26,9 @@ export async function rewriteSnapshotHtml(
   const missingAssetRoute = options.missingAssetRoute ?? (() => null);
   const missingPageRoute = options.missingPageRoute ?? localPageRoute;
   const pageRoutes = options.pageRoutes ?? new Map<string, string>();
-  const assetRoutes = new Map(assets.filter(asset => asset.kind !== "other").map(asset => [asset.url, assetRoute(asset.url)]));
+  const assetRoutes = new Map(
+    assets.filter(asset => asset.kind !== "other" || asset.localPath).map(asset => [asset.url, assetRoute(asset.url)])
+  );
 
   const rewriteAsset = (rawUrl: string | null): string | null => {
     if (!rawUrl) return null;
