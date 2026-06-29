@@ -9,6 +9,7 @@ import {
   type AssetFailureRow,
   type CrawlQueueItem,
   type LinkAvailability,
+  type PageCheckRow,
   type PageListRow,
   type PageNavigation,
   type QueueFailureRow,
@@ -126,6 +127,7 @@ function renderOps(store: ArchiveStore): string {
   const queueFailures = store.getRecentQueueFailures(10);
   const assetFailures = store.getRecentAssetFailures(10);
   const pagesWithHistory = store.getPagesWithSnapshotHistory(10);
+  const oldestCheckedPages = store.getOldestCheckedPages(5);
   const weakAssetPages = lowestAssetCoverage(store.searchPages("", OPS_PAGE_SCAN_LIMIT), 5);
 
   return layout({
@@ -149,6 +151,11 @@ function renderOps(store: ArchiveStore): string {
       <section>
         <h2>Pages With History</h2>
         ${pagesWithHistory.length === 0 ? `<p class="empty">No pages have multiple snapshots yet.</p>` : renderPageTable(pagesWithHistory)}
+      </section>
+
+      <section>
+        <h2>Oldest Checks</h2>
+        ${renderOldestCheckedPages(oldestCheckedPages)}
       </section>
 
       <section>
@@ -540,6 +547,10 @@ function pageAssetBackfillCommand(pageUrl: string): string {
   return `bun run assets:backfill -- --url ${pageUrl} --limit 50 --delay-ms 2000 --asset-depth 2`;
 }
 
+function pageRefreshCommand(pageUrl: string): string {
+  return `bun run scrape:local -- --url ${pageUrl} --no-assets --delay-ms 3000`;
+}
+
 function renderQueueFailures(rows: QueueFailureRow[]): string {
   return `
     <table>
@@ -625,6 +636,34 @@ function renderWeakAssetPages(pages: PageListRow[]): string {
   return `
     ${renderPageTable(pages)}
     ${pages.map(page => renderCommand("Backfill page assets", pageAssetBackfillCommand(page.url))).join("")}
+  `;
+}
+
+function renderOldestCheckedPages(pages: PageCheckRow[]): string {
+  if (pages.length === 0) return `<p class="empty">No saved pages have been checked yet.</p>`;
+
+  return `
+    <table>
+      <thead><tr><th>Title</th><th>Last Checked</th><th>Assets</th></tr></thead>
+      <tbody>
+        ${pages
+          .map(
+            page => `
+              <tr>
+                <td>
+                  <a href="/page?url=${encodeURIComponent(page.url)}">${escapeHtml(page.title)}</a>
+                  ${renderPageOpenLink(page)}
+                  <small>${escapeHtml(page.url)}</small>
+                </td>
+                <td>${escapeHtml(page.lastCheckedAt)}</td>
+                <td>${renderAssetCompleteness(page.downloadedAssetCount, page.assetCount)}</td>
+              </tr>
+            `
+          )
+          .join("")}
+      </tbody>
+    </table>
+    ${pages.map(page => renderCommand("Refresh page", pageRefreshCommand(page.url))).join("")}
   `;
 }
 

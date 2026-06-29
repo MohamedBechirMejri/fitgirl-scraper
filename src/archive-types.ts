@@ -97,6 +97,10 @@ export interface PageListRow {
   url: string;
 }
 
+export interface PageCheckRow extends PageListRow {
+  lastCheckedAt: string;
+}
+
 export interface PageNavRow {
   fetchedAt: string | null;
   snapshotId: number;

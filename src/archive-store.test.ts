@@ -93,6 +93,39 @@ describe("archive store queue", () => {
     store.close();
   });
 
+  test("lists oldest checked saved pages", async () => {
+    const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
+
+    for (const [url, fetchedAt] of [
+      ["https://fitgirl-repacks.site/old/", "2026-05-01T00:00:00.000Z"],
+      ["https://fitgirl-repacks.site/recent/", "2026-06-27T00:00:00.000Z"],
+    ] as const) {
+      store.saveSnapshot({
+        contentHash: url,
+        contentType: "text/html",
+        etag: null,
+        fetchedAt,
+        htmlPath: "archive/pages/demo.html",
+        lastModified: null,
+        sitemapLastModified: null,
+        status: 200,
+        textContent: url,
+        title: url,
+        url,
+      });
+    }
+
+    expect(store.getOldestCheckedPages(1)).toMatchObject([
+      {
+        lastCheckedAt: "2026-05-01T00:00:00.000Z",
+        title: "https://fitgirl-repacks.site/old/",
+        url: "https://fitgirl-repacks.site/old/",
+      },
+    ]);
+
+    store.close();
+  });
+
   test("failed items wait for retry time", async () => {
     const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
 
