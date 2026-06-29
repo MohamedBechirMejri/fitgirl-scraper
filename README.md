@@ -82,7 +82,7 @@ Open the local archive viewer:
 bun run view
 ```
 
-The viewer runs at `http://localhost:4173` by default. Its `/ops` page shows current queue/asset health, recent runs, and the next conservative commands to run. Use `--port` or `--archive` when needed:
+The viewer runs at `http://localhost:4173` by default. `/` serves the mirrored site when the homepage is saved. `/__archive` opens search and archive tools, and `/ops` shows current queue/asset health, recent runs, and the next conservative commands to run. Use `--port` or `--archive` when needed:
 
 ```bash
 bun run view -- --port 4174
@@ -112,7 +112,7 @@ Open the `mbm-1` viewer from this machine:
 ssh -L 4173:127.0.0.1:4173 mbm-1
 ```
 
-Then visit `http://127.0.0.1:4173`.
+Then visit `http://127.0.0.1:4173` for the mirrored site or `http://127.0.0.1:4173/__archive` for search and operations.
 
 Install systemd user services instead when the host can enable linger:
 

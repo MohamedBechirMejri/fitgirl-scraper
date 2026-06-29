@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { mirrorUrlCandidates, parseViewerOptions } from "./viewer";
+import { archiveRequestPath, mirrorUrlCandidates, parseViewerOptions } from "./viewer";
 
 describe("viewer options", () => {
   test("defaults to localhost binding", () => {
@@ -23,5 +23,11 @@ describe("viewer options", () => {
       "https://fitgirl-repacks.site/wp-content/site.css?ver=1",
       "http://fitgirl-repacks.site/wp-content/site.css?ver=1",
     ]);
+  });
+
+  test("maps internal archive routes", () => {
+    expect(archiveRequestPath("/__archive")).toBe("/");
+    expect(archiveRequestPath("/__archive/ops")).toBe("/ops");
+    expect(archiveRequestPath("/donations/")).toBeNull();
   });
 });

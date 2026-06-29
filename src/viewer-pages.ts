@@ -3,10 +3,10 @@ import type { PageMetadata } from "./page-extract";
 import { escapeHtml } from "./viewer-shell";
 
 export function renderSearchForm(filters: ArchiveSearchFilters, facets: ArchiveSearchFacets): string {
-  const clear = hasSearchFilters(filters) ? `<a class="button secondary" href="/">Clear</a>` : "";
+  const clear = hasSearchFilters(filters) ? `<a class="button secondary" href="/__archive">Clear</a>` : "";
 
   return `
-    <form class="search" action="/" method="get" data-instant-search>
+    <form class="search" action="/__archive" method="get" data-instant-search>
       <input name="q" type="search" value="${escapeHtml(filters.query)}" placeholder="Search title or URL" autofocus>
       ${renderFacetSelect("genre", "Genre", filters.genre, facets.genres)}
       ${renderFacetSelect("company", "Company", filters.company, facets.companies)}

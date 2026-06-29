@@ -67,33 +67,42 @@ async function main(): Promise<void> {
 
 async function handleRequest(request: Request, store: ArchiveStore, archiveRoot: string): Promise<Response> {
   const url = new URL(request.url);
+  const archivePath = archiveRequestPath(url.pathname);
+  const routePath = archivePath ?? url.pathname;
 
   try {
-    if (url.pathname === "/") {
+    if (url.pathname === "/" && !url.search) {
+      const mirrorResponse = await renderMirrorRequest(store, archiveRoot, url);
+      if (mirrorResponse) {
+        return mirrorResponse;
+      }
+    }
+
+    if (routePath === "/") {
       return html(renderHome(store, readSearchFilters(url.searchParams)));
     }
 
-    if (url.pathname === "/page") {
+    if (routePath === "/page") {
       return html(renderPage(store, url.searchParams.get("url") ?? ""));
     }
 
-    if (url.pathname === "/search.json") {
+    if (routePath === "/search.json") {
       return searchJson(store, readSearchFilters(url.searchParams));
     }
 
-    if (url.pathname === "/ops") {
+    if (routePath === "/ops") {
       return html(renderOps(store));
     }
 
-    if (url.pathname === "/diff") {
+    if (routePath === "/diff") {
       return html(renderDiff(store, Number(url.searchParams.get("before")), Number(url.searchParams.get("after"))));
     }
 
-    if (url.pathname.startsWith("/snapshot/")) {
-      return renderSnapshot(store, archiveRoot, Number(url.pathname.split("/").at(-1)));
+    if (routePath.startsWith("/snapshot/")) {
+      return renderSnapshot(store, archiveRoot, Number(routePath.split("/").at(-1)));
     }
 
-    if (url.pathname === "/asset") {
+    if (routePath === "/asset") {
       return serveAsset(store, url.searchParams.get("url"), archiveRoot);
     }
 
@@ -107,6 +116,12 @@ async function handleRequest(request: Request, store: ArchiveStore, archiveRoot:
     console.error(error);
     return new Response("Internal server error", { status: 500 });
   }
+}
+
+export function archiveRequestPath(pathname: string): string | null {
+  if (pathname === "/__archive" || pathname === "/__archive/") return "/";
+  if (pathname.startsWith("/__archive/")) return pathname.slice("/__archive".length);
+  return null;
 }
 
 function renderHome(store: ArchiveStore, filters: ArchiveSearchFilters): string {
@@ -229,7 +244,7 @@ function renderPage(store: ArchiveStore, pageUrl: string): string {
 
   return layout({
     body: `
-      <p><a href="/">Back</a></p>
+      <p><a href="/__archive">Back</a></p>
       <header class="page-head">
         <h1>${escapeHtml(latest.title)}</h1>
         <a class="source" href="${escapeHtml(latest.url)}">${escapeHtml(latest.url)}</a>
@@ -323,7 +338,7 @@ function renderMissingPage(store: ArchiveStore, pageUrl: string): string {
 
   return layout({
     body: `
-      <p><a href="/">Back</a></p>
+      <p><a href="/__archive">Back</a></p>
       <header class="page-head">
         <h1>Missing Snapshot</h1>
         <a class="source" href="${escapeHtml(pageUrl || "")}">${escapeHtml(pageUrl || "No URL provided")}</a>
@@ -844,7 +859,7 @@ function renderInstantSearchScript(): string {
             controller = new AbortController();
 
             try {
-              const response = await fetch("/search.json?" + params.toString(), {
+              const response = await fetch("/__archive/search.json?" + params.toString(), {
                 headers: { accept: "application/json" },
                 signal: controller.signal,
               });

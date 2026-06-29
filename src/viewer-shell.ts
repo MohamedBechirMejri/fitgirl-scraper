@@ -77,7 +77,8 @@ export function layout({ body, script = "", title }: LayoutInput): string {
       <body>
         <main>
           <nav class="top-nav">
-            <a href="/">Archive</a>
+            <a href="/">Mirror</a>
+            <a href="/__archive">Archive</a>
             <a href="/ops">Operations</a>
           </nav>
           ${body}
