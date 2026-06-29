@@ -86,6 +86,7 @@ The viewer runs at `http://localhost:4173` by default. Its `/ops` page shows cur
 
 ```bash
 bun run view -- --port 4174
+bun run view -- --host 0.0.0.0 --port 4174
 bun run view -- --archive /path/to/archive
 ```
 
@@ -103,12 +104,20 @@ Install no-sudo reboot-safe cron automation on `mbm-1` after the repo is checked
 bash scripts/install-user-cron.sh --install-bun
 ```
 
-The cron installer runs once at reboot and once per hour, using a local `flock` so cycles do not overlap.
+The cron installer runs the archive cycle once at reboot and once per hour, using a local `flock` so cycles do not overlap. It also keeps the viewer running on `127.0.0.1:4173`; if the viewer exits, cron restarts it within a minute.
 
-Install a systemd user timer instead when the host can enable linger:
+Open the `mbm-1` viewer from this machine:
+
+```bash
+ssh -L 4173:127.0.0.1:4173 mbm-1
+```
+
+Then visit `http://127.0.0.1:4173`.
+
+Install systemd user services instead when the host can enable linger:
 
 ```bash
 bash scripts/install-user-systemd.sh --install-bun
 ```
 
-The systemd installer writes `fitgirl-archive.service` and `fitgirl-archive.timer` under `~/.config/systemd/user`, enables linger with `sudo loginctl enable-linger "$USER"`, and starts an hourly persistent timer.
+The systemd installer writes `fitgirl-archive.service`, `fitgirl-archive.timer`, and `fitgirl-viewer.service` under `~/.config/systemd/user`, enables linger with `sudo loginctl enable-linger "$USER"`, starts an hourly persistent timer, and keeps the viewer running.

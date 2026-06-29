@@ -50,6 +50,7 @@ fi
 cd "$repo_dir"
 bun install --frozen-lockfile
 chmod +x scripts/run-local-archive-cycle.sh
+chmod +x scripts/run-viewer.sh
 
 unit_dir="$HOME/.config/systemd/user"
 mkdir -p "$unit_dir"
@@ -80,8 +81,25 @@ Unit=fitgirl-archive.service
 WantedBy=timers.target
 TIMER
 
+cat > "$unit_dir/fitgirl-viewer.service" <<SERVICE
+[Unit]
+Description=FitGirl local archive viewer
+
+[Service]
+WorkingDirectory=$repo_dir
+Environment=PATH=$HOME/.bun/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=$repo_dir/scripts/run-viewer.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
+SERVICE
+
 systemctl --user daemon-reload
 systemctl --user enable --now fitgirl-archive.timer
+systemctl --user enable --now fitgirl-viewer.service
 
-echo "Installed fitgirl-archive.timer."
+echo "Installed fitgirl archive timer and viewer service."
 systemctl --user list-timers fitgirl-archive.timer
+systemctl --user status fitgirl-viewer.service --no-pager

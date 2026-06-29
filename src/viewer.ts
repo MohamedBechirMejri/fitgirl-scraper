@@ -37,22 +37,24 @@ const OPS_PAGE_SCAN_LIMIT = 10_000;
 
 interface ViewerOptions {
   archiveDir: string;
+  host: string;
   port: number;
 }
 
 async function main(): Promise<void> {
-  const options = parseOptions(Bun.argv.slice(2));
+  const options = parseViewerOptions(Bun.argv.slice(2));
   const archiveRoot = resolve(options.archiveDir);
   const store = await openArchiveStore(join(options.archiveDir, "fitgirl.sqlite"));
 
   const server = Bun.serve({
+    hostname: options.host,
     port: options.port,
     async fetch(request) {
       return handleRequest(request, store, archiveRoot);
     },
   });
 
-  console.log(`Archive viewer: http://localhost:${server.port}`);
+  console.log(`Archive viewer: http://${options.host}:${server.port}`);
 
   process.on("SIGINT", () => {
     store.close();
@@ -851,9 +853,10 @@ function formatRunSummary(row: ArchiveRunRow): string {
   }
 }
 
-function parseOptions(args: string[]): ViewerOptions {
+export function parseViewerOptions(args: string[]): ViewerOptions {
   return {
     archiveDir: readStringFlag(args, "--archive", DEFAULT_ARCHIVE_DIR),
+    host: readStringFlag(args, "--host", "127.0.0.1"),
     port: readNumberFlag(args, "--port", DEFAULT_PORT),
   };
 }
@@ -882,7 +885,9 @@ function readNumberFlag(args: string[], name: string, fallback: number): number 
   return value;
 }
 
-main().catch(error => {
-  console.error(error);
-  process.exit(1);
-});
+if (import.meta.main) {
+  main().catch(error => {
+    console.error(error);
+    process.exit(1);
+  });
+}

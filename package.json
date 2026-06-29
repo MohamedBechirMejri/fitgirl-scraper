@@ -11,6 +11,7 @@
     "snapshots:backfill": "bun run src/backfill-snapshots.ts",
     "scrape:local": "bun run src/local-scraper.ts",
     "view": "bun run src/viewer.ts",
+    "view:start": "bash scripts/run-viewer.sh",
     "test": "bun test"
   },
   "devDependencies": {
