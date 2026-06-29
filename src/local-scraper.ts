@@ -96,7 +96,8 @@ async function main(): Promise<void> {
       }
     }
 
-    const processedCount = await processQueue(store, options);
+    const processLimit = queuedRefreshProcessLimit(options.refreshStale, staleQueuedCount, options.limit);
+    const processedCount = processLimit === 0 ? 0 : await processQueue(store, { ...options, limit: processLimit });
     store.finishRun(runId, {
       status: "success",
       summary: {
@@ -320,6 +321,11 @@ function parseOptions(args: string[]): ScraperOptions {
 
 export function shouldSeedSitemaps(forceSeed: boolean, queueStats: Record<"done" | "failed" | "pending" | "running", number>): boolean {
   return forceSeed || queueStats.done + queueStats.failed + queueStats.pending + queueStats.running === 0;
+}
+
+export function queuedRefreshProcessLimit(refreshStale: boolean, staleQueuedCount: number | null, limit: number): number {
+  if (!refreshStale) return limit;
+  return staleQueuedCount ?? 0;
 }
 
 export function readScrapeLimit(args: string[], targetUrl: string | null): number {

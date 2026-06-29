@@ -2,6 +2,7 @@ import { describe, expect, test } from "bun:test";
 import {
   discoveredLinksToQueueInputs,
   isCrawlableSitePage,
+  queuedRefreshProcessLimit,
   readScrapeLimit,
   shouldSeedSitemaps,
   shouldStopRunForStatus,
@@ -31,6 +32,12 @@ describe("local scraper freshness", () => {
     expect(shouldSeedSitemaps(false, { done: 0, failed: 0, pending: 0, running: 0 })).toBe(true);
     expect(shouldSeedSitemaps(false, { done: 0, failed: 0, pending: 10, running: 0 })).toBe(false);
     expect(shouldSeedSitemaps(true, { done: 0, failed: 0, pending: 10, running: 0 })).toBe(true);
+  });
+
+  test("refresh runs only process queued stale pages", () => {
+    expect(queuedRefreshProcessLimit(false, null, 25)).toBe(25);
+    expect(queuedRefreshProcessLimit(true, 0, 25)).toBe(0);
+    expect(queuedRefreshProcessLimit(true, 3, 25)).toBe(3);
   });
 
   test("discovered crawling keeps same-site pages and drops noisy endpoints", () => {
