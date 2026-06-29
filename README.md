@@ -97,10 +97,18 @@ bun run archive:cycle
 
 The cycle seeds sitemaps, crawls discovered same-site pages, refreshes a small stale batch, backfills the weakest asset pages, then prints health.
 
-Install the reboot-safe user timer on `mbm-1` after the repo is checked out there:
+Install no-sudo reboot-safe cron automation on `mbm-1` after the repo is checked out there:
+
+```bash
+bash scripts/install-user-cron.sh --install-bun
+```
+
+The cron installer runs once at reboot and once per hour, using a local `flock` so cycles do not overlap.
+
+Install a systemd user timer instead when the host can enable linger:
 
 ```bash
 bash scripts/install-user-systemd.sh --install-bun
 ```
 
-The installer writes `fitgirl-archive.service` and `fitgirl-archive.timer` under `~/.config/systemd/user`, enables linger with `sudo loginctl enable-linger "$USER"`, and starts an hourly persistent timer.
+The systemd installer writes `fitgirl-archive.service` and `fitgirl-archive.timer` under `~/.config/systemd/user`, enables linger with `sudo loginctl enable-linger "$USER"`, and starts an hourly persistent timer.
