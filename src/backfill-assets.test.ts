@@ -20,14 +20,28 @@ describe("asset backfill cli", () => {
     });
   });
 
+  test("parses css dependency backfills", () => {
+    expect(parseOptions(["--css-deps", "--limit", "100"])).toMatchObject({
+      limit: 100,
+      rounds: 1,
+      targetCssDependencies: true,
+      targetLatestPages: false,
+      targetWeakest: false,
+      targetUrl: null,
+    });
+  });
+
   test("keeps rounds scoped to weakest backfills", () => {
     expect(() => parseOptions(["--rounds", "2"])).toThrow("--rounds only works with --weakest or --latest-pages");
     expect(() => parseOptions(["--weakest", "--rounds", "0"])).toThrow("--rounds must be a positive integer");
     expect(() => parseOptions(["--weakest", "--url", "https://fitgirl-repacks.site/demo/"])).toThrow(
-      "Use only one of --url, --weakest, or --latest-pages"
+      "Use only one of --url, --weakest, --latest-pages, or --css-deps"
     );
     expect(() => parseOptions(["--weakest", "--latest-pages"])).toThrow(
-      "Use only one of --url, --weakest, or --latest-pages"
+      "Use only one of --url, --weakest, --latest-pages, or --css-deps"
+    );
+    expect(() => parseOptions(["--css-deps", "--rounds", "2"])).toThrow(
+      "--rounds only works with --weakest or --latest-pages"
     );
   });
 });

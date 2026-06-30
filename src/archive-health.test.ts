@@ -49,6 +49,7 @@ describe("archive health", () => {
     expect(report).toContain("Weak");
     expect(report).toContain("Queue: https://fitgirl-repacks.site/fail/ (2 attempts)");
     expect(report).toContain("Assets: https://cdn.example/missing.css (404)");
+    expect(report).toContain("assets:backfill -- --css-deps --limit 100");
     expect(report).toContain("assets:backfill -- --latest-pages --rounds 10");
   });
 });

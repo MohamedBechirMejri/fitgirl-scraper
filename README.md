@@ -54,6 +54,7 @@ Backfill missing assets for already-saved snapshots:
 ```bash
 bun run assets:backfill
 bun run assets:backfill -- --limit 100
+bun run assets:backfill -- --css-deps --limit 100 --delay-ms 2000 --asset-depth 2
 bun run assets:backfill -- --latest-pages --rounds 10 --limit 50 --delay-ms 2000 --asset-depth 2
 bun run assets:backfill -- --url https://fitgirl-repacks.site/sportal/
 bun run assets:backfill -- --retry-failed
@@ -61,6 +62,7 @@ bun run assets:backfill -- --limit 50 --timeout-ms 15000
 ```
 
 `assets:backfill --limit` is a hard network request budget, including CSS dependencies.
+`assets:backfill --css-deps` rescans already-downloaded stylesheets and backfills their `@import` and `url(...)` dependencies, which is useful for WordPress theme fonts and icon packs.
 `assets:backfill --latest-pages` prioritizes the newest saved posts with missing assets, so recently crawled pages become visually complete before older archive/tag pages.
 `assets:backfill --url` limits the batch to assets referenced by the latest saved snapshot for that page.
 

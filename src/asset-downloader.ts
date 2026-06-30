@@ -29,6 +29,8 @@ export async function saveAssets(
   depth = 0,
   seen = new Set<string>()
 ): Promise<void> {
+  store.rememberAssets(assets);
+
   for (const asset of assets) {
     if (seen.has(asset.url)) continue;
     seen.add(asset.url);

@@ -377,6 +377,19 @@ export class ArchiveStore {
     saveAll(links, assets);
   }
 
+  rememberAssets(assets: AssetReference[], now = new Date().toISOString()): void {
+    if (assets.length === 0) return;
+
+    const touchAsset = this.db.prepare("insert into assets (url, first_seen_at) values (?, ?) on conflict(url) do nothing");
+    const saveAll = this.db.transaction((storedAssets: AssetReference[]) => {
+      for (const asset of storedAssets) {
+        touchAsset.run(asset.url, now);
+      }
+    });
+
+    saveAll(assets);
+  }
+
   getAsset(url: string): AssetRow | null {
     return this.db
       .query<AssetRow, [string]>(
@@ -441,6 +454,27 @@ export class ArchiveStore {
     return this.db
       .query<AssetReference, [string, number, number]>(`${sql} limit ?`)
       .all(url, options.includeFailed ? 1 : 0, options.limit);
+  }
+
+  getDownloadedStylesheetAssets(limit: number): AssetReference[] {
+    const sql = `select
+          url,
+          'stylesheet' as kind,
+          'css-deps' as source
+        from assets
+        where local_path is not null
+          and (
+            content_type like '%css%'
+            or lower(url) like '%.css'
+            or lower(url) like '%.css?%'
+          )
+        order by url asc`;
+
+    if (limit === 0) {
+      return this.db.query<AssetReference, []>(sql).all();
+    }
+
+    return this.db.query<AssetReference, [number]>(`${sql} limit ?`).all(limit);
   }
 
   getWeakestAssetPage(options: Pick<AssetBackfillOptions, "includeFailed">): PageListRow | null {

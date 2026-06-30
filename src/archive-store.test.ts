@@ -627,6 +627,55 @@ describe("archive store queue", () => {
     store.close();
   });
 
+  test("lists downloaded stylesheets for dependency scans", async () => {
+    const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
+
+    store.saveAssetResult({
+      contentHash: "typed-css",
+      contentType: "text/css; charset=utf-8",
+      fetchedAt: "2026-06-28T00:00:00.000Z",
+      httpStatus: 200,
+      localPath: "archive/assets/typed-css.css",
+      sizeBytes: 1,
+      url: "https://fitgirl-repacks.site/wp-content/theme",
+    });
+    store.saveAssetResult({
+      contentHash: "query-css",
+      contentType: null,
+      fetchedAt: "2026-06-28T00:00:01.000Z",
+      httpStatus: 200,
+      localPath: "archive/assets/query-css.css",
+      sizeBytes: 1,
+      url: "https://fitgirl-repacks.site/wp-content/style.css?ver=1",
+    });
+    store.saveAssetResult({
+      contentHash: "script",
+      contentType: "application/javascript",
+      fetchedAt: "2026-06-28T00:00:02.000Z",
+      httpStatus: 200,
+      localPath: "archive/assets/script.js",
+      sizeBytes: 1,
+      url: "https://fitgirl-repacks.site/wp-content/app.js",
+    });
+    store.saveAssetResult({
+      contentHash: null,
+      contentType: "text/css",
+      fetchedAt: "2026-06-28T00:00:03.000Z",
+      httpStatus: 503,
+      localPath: null,
+      sizeBytes: 0,
+      url: "https://fitgirl-repacks.site/wp-content/missing.css",
+    });
+
+    expect(store.getDownloadedStylesheetAssets(10)).toEqual([
+      { kind: "stylesheet", source: "css-deps", url: "https://fitgirl-repacks.site/wp-content/style.css?ver=1" },
+      { kind: "stylesheet", source: "css-deps", url: "https://fitgirl-repacks.site/wp-content/theme" },
+    ]);
+    expect(store.getDownloadedStylesheetAssets(1)).toHaveLength(1);
+
+    store.close();
+  });
+
   test("finds the weakest page with selectable missing assets", async () => {
     const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
     const permanent = saveTestSnapshot(store, "Permanent", "https://fitgirl-repacks.site/permanent/");

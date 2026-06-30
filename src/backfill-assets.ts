@@ -15,6 +15,7 @@ interface BackfillOptions {
   assetDepth: number;
   delayMs: number;
   includeFailed: boolean;
+  targetCssDependencies: boolean;
   targetLatestPages: boolean;
   limit: number;
   maxRequests?: number;
@@ -44,7 +45,11 @@ export async function runBackfillAssets(args: string[]): Promise<void> {
       const latestPage = options.targetLatestPages ? store.getLatestPostAssetPages(selector, 1)[0] ?? null : null;
       const targetPage = options.targetWeakest ? store.getWeakestAssetPage(selector) : latestPage;
       const targetUrl = options.targetUrl ?? targetPage?.url ?? null;
-      const assets = targetUrl ? store.getAssetsToBackfillForPage(targetUrl, selector) : store.getAssetsToBackfill(selector);
+      const assets = options.targetCssDependencies
+        ? store.getDownloadedStylesheetAssets(options.limit)
+        : targetUrl
+          ? store.getAssetsToBackfillForPage(targetUrl, selector)
+          : store.getAssetsToBackfill(selector);
 
       if (options.targetWeakest && targetPage) {
         console.log(
@@ -64,7 +69,11 @@ export async function runBackfillAssets(args: string[]): Promise<void> {
 
       if (targetUrl) selectedPages.push(targetUrl);
       selectedAssets += assets.length;
-      console.log(`Backfilling ${assets.length} assets.`);
+      console.log(
+        options.targetCssDependencies
+          ? `Scanning ${assets.length} downloaded stylesheets for dependencies.`
+          : `Backfilling ${assets.length} assets.`
+      );
       await saveAssets(store, { ...options, maxRequests: options.limit === 0 ? undefined : options.limit }, assets);
 
       if (!options.targetWeakest && !options.targetLatestPages) break;
@@ -100,9 +109,10 @@ export function parseOptions(args: string[]): BackfillOptions {
   const targetUrl = readTargetUrl(args);
   const targetWeakest = args.includes("--weakest");
   const targetLatestPages = args.includes("--latest-pages");
+  const targetCssDependencies = args.includes("--css-deps");
   if (!Number.isInteger(rounds) || rounds <= 0) throw new Error("--rounds must be a positive integer");
-  const targetModes = [Boolean(targetUrl), targetWeakest, targetLatestPages].filter(Boolean).length;
-  if (targetModes > 1) throw new Error("Use only one of --url, --weakest, or --latest-pages");
+  const targetModes = [Boolean(targetUrl), targetWeakest, targetLatestPages, targetCssDependencies].filter(Boolean).length;
+  if (targetModes > 1) throw new Error("Use only one of --url, --weakest, --latest-pages, or --css-deps");
   if (rounds !== 1 && !targetWeakest && !targetLatestPages) {
     throw new Error("--rounds only works with --weakest or --latest-pages");
   }
@@ -115,6 +125,7 @@ export function parseOptions(args: string[]): BackfillOptions {
     limit,
     maxRequests: limit === 0 ? undefined : limit,
     rounds,
+    targetCssDependencies,
     targetLatestPages,
     targetWeakest,
     targetUrl,

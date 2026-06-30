@@ -72,7 +72,7 @@ describe("asset downloader", () => {
         }
 
         if (url.pathname === "/theme.css") {
-          return new Response('body { background: url("/bg.png"); }', {
+          return new Response('body { background: url("/bg.png"); src: url("/font.woff2?ver=23"); }', {
             headers: { "content-type": "text/css" },
           });
         }
@@ -80,6 +80,12 @@ describe("asset downloader", () => {
         if (url.pathname === "/bg.png") {
           return new Response("image-ok", {
             headers: { "content-type": "image/png" },
+          });
+        }
+
+        if (url.pathname === "/font.woff2") {
+          return new Response("font-ok", {
+            headers: { "content-type": "font/woff2" },
           });
         }
 
@@ -105,7 +111,8 @@ describe("asset downloader", () => {
 
       expect(store.getAsset(`${baseUrl}/style.css`)?.localPath).toBeTruthy();
       expect(store.getAsset(`${baseUrl}/theme.css`)?.localPath).toBeTruthy();
-      expect(store.getAsset(`${baseUrl}/bg.png`)).toBeNull();
+      expect(store.getAsset(`${baseUrl}/bg.png`)).toMatchObject({ localPath: null });
+      expect(store.getAsset(`${baseUrl}/font.woff2?ver=23`)).toMatchObject({ localPath: null });
     } finally {
       store.close();
       server.stop();
