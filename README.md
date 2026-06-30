@@ -54,12 +54,14 @@ Backfill missing assets for already-saved snapshots:
 ```bash
 bun run assets:backfill
 bun run assets:backfill -- --limit 100
+bun run assets:backfill -- --latest-pages --rounds 10 --limit 50 --delay-ms 2000 --asset-depth 2
 bun run assets:backfill -- --url https://fitgirl-repacks.site/sportal/
 bun run assets:backfill -- --retry-failed
 bun run assets:backfill -- --limit 50 --timeout-ms 15000
 ```
 
 `assets:backfill --limit` is a hard network request budget, including CSS dependencies.
+`assets:backfill --latest-pages` prioritizes the newest saved posts with missing assets, so recently crawled pages become visually complete before older archive/tag pages.
 `assets:backfill --url` limits the batch to assets referenced by the latest saved snapshot for that page.
 
 Check local archive health without opening the viewer:
@@ -105,7 +107,7 @@ Run one maintenance cycle:
 bun run archive:cycle
 ```
 
-The cycle crawls discovered same-site pages without inline asset downloads, refreshes a small stale batch, backfills the weakest asset pages with a request cap, exports `archive/mirror`, then prints health. It only reseeds sitemaps when the queue is empty; set `FITGIRL_SEED=1` to force a sitemap refresh.
+The cycle crawls discovered same-site pages without inline asset downloads, refreshes a small stale batch, backfills newest post assets, backfills the weakest asset pages with a request cap, exports `archive/mirror`, then prints health. It only reseeds sitemaps when the queue is empty; set `FITGIRL_SEED=1` to force a sitemap refresh.
 
 Install no-sudo reboot-safe cron automation on `mbm-1` after the repo is checked out there:
 
