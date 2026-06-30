@@ -9,7 +9,8 @@ asset_depth="${FITGIRL_ASSET_DEPTH:-2}"
 asset_limit="${FITGIRL_ASSET_LIMIT:-50}"
 css_asset_limit="${FITGIRL_CSS_ASSET_LIMIT:-100}"
 asset_rounds="${FITGIRL_ASSET_ROUNDS:-2}"
-latest_asset_rounds="${FITGIRL_LATEST_ASSET_ROUNDS:-10}"
+latest_asset_rounds="${FITGIRL_LATEST_ASSET_ROUNDS:-$scrape_limit}"
+[[ "$latest_asset_rounds" == "0" ]] && latest_asset_rounds="50"
 asset_delay_ms="${FITGIRL_ASSET_DELAY_MS:-2000}"
 seed_args=()
 scrape_all=()
