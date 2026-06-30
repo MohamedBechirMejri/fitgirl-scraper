@@ -4,6 +4,7 @@ import { mkdtemp } from "fs/promises";
 import { tmpdir } from "os";
 import { join } from "path";
 import { openArchiveStore, type ArchiveStore } from "./archive-store";
+import type { PageMetadata } from "./page-extract";
 
 describe("archive store queue", () => {
   test("claims, completes, and requeues changed sitemap entries", async () => {
@@ -768,6 +769,45 @@ describe("archive store queue", () => {
     store.close();
   });
 
+  test("lists latest posts with missing assets", async () => {
+    const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
+    const oldPost = saveTestSnapshot(store, "Old Post", "https://fitgirl-repacks.site/old-post/", {
+      fetchedAt: "2026-06-28T00:00:00.000Z",
+      pageType: "post",
+    });
+    const newPost = saveTestSnapshot(store, "New Post", "https://fitgirl-repacks.site/new-post/", {
+      fetchedAt: "2026-06-29T00:00:00.000Z",
+      pageType: "post",
+    });
+    const archivePage = saveTestSnapshot(store, "Tag Archive", "https://fitgirl-repacks.site/tag/action/", {
+      fetchedAt: "2026-06-30T00:00:00.000Z",
+      pageType: "collection",
+    });
+
+    store.saveSnapshotReferences(oldPost, [], [{ kind: "image", source: "img", url: "https://cdn.example/old.jpg" }]);
+    store.saveSnapshotReferences(newPost, [], [{ kind: "image", source: "img", url: "https://cdn.example/new.jpg" }]);
+    store.saveSnapshotReferences(archivePage, [], [{ kind: "image", source: "img", url: "https://cdn.example/archive.jpg" }]);
+
+    expect(store.getLatestPostAssetPages({ includeFailed: false }, 10).map(page => page.url)).toEqual([
+      "https://fitgirl-repacks.site/new-post/",
+      "https://fitgirl-repacks.site/old-post/",
+    ]);
+
+    store.saveAssetResult({
+      contentHash: "hash",
+      contentType: "image/jpeg",
+      fetchedAt: "2026-06-30T00:00:01.000Z",
+      httpStatus: 200,
+      localPath: "archive/assets/hash.jpg",
+      sizeBytes: 1,
+      url: "https://cdn.example/new.jpg",
+    });
+
+    expect(store.getLatestPostAssetPages({ includeFailed: false }, 1)[0]?.url).toBe("https://fitgirl-repacks.site/old-post/");
+
+    store.close();
+  });
+
   test("gets a queued URL by exact URL", async () => {
     const store = await openArchiveStore(join(await mkdtemp(join(tmpdir(), "fitgirl-store-")), "archive.sqlite"));
 
@@ -785,18 +825,39 @@ describe("archive store queue", () => {
   });
 });
 
-function saveTestSnapshot(store: ArchiveStore, title: string, url: string): number {
+function saveTestSnapshot(
+  store: ArchiveStore,
+  title: string,
+  url: string,
+  options: { fetchedAt?: string; pageType?: PageMetadata["pageType"] } = {}
+): number {
   return store.saveSnapshot({
     contentHash: title,
     contentType: "text/html",
     etag: null,
-    fetchedAt: "2026-06-28T00:00:00.000Z",
+    fetchedAt: options.fetchedAt ?? "2026-06-28T00:00:00.000Z",
     htmlPath: `archive/pages/${title.toLowerCase()}.html`,
     lastModified: null,
+    metadata: testMetadata(options.pageType ?? "unknown"),
     sitemapLastModified: null,
     status: 200,
     textContent: title,
     title,
     url,
   }).id;
+}
+
+function testMetadata(pageType: PageMetadata["pageType"]): PageMetadata {
+  return {
+    companies: [],
+    filehosterCount: 0,
+    genres: [],
+    languages: null,
+    magnetCount: 0,
+    modifiedAt: null,
+    originalSize: null,
+    pageType,
+    publishedAt: null,
+    repackSize: null,
+  };
 }

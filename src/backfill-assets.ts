@@ -15,6 +15,7 @@ interface BackfillOptions {
   assetDepth: number;
   delayMs: number;
   includeFailed: boolean;
+  targetLatestPages: boolean;
   limit: number;
   maxRequests?: number;
   rounds: number;
@@ -40,13 +41,19 @@ export async function runBackfillAssets(args: string[]): Promise<void> {
     let selectedAssets = 0;
 
     for (let round = 1; round <= options.rounds; round++) {
-      const targetPage = options.targetWeakest ? store.getWeakestAssetPage(selector) : null;
+      const latestPage = options.targetLatestPages ? store.getLatestPostAssetPages(selector, 1)[0] ?? null : null;
+      const targetPage = options.targetWeakest ? store.getWeakestAssetPage(selector) : latestPage;
       const targetUrl = options.targetUrl ?? targetPage?.url ?? null;
       const assets = targetUrl ? store.getAssetsToBackfillForPage(targetUrl, selector) : store.getAssetsToBackfill(selector);
 
-      if (targetPage) {
+      if (options.targetWeakest && targetPage) {
         console.log(
           `Round ${round}/${options.rounds} weakest page: ${targetPage.downloadedAssetCount}/${targetPage.assetCount} ${targetPage.title}`
+        );
+      }
+      if (options.targetLatestPages && targetPage) {
+        console.log(
+          `Round ${round}/${options.rounds} latest post: ${targetPage.downloadedAssetCount}/${targetPage.assetCount} ${targetPage.title}`
         );
       }
 
@@ -60,7 +67,7 @@ export async function runBackfillAssets(args: string[]): Promise<void> {
       console.log(`Backfilling ${assets.length} assets.`);
       await saveAssets(store, { ...options, maxRequests: options.limit === 0 ? undefined : options.limit }, assets);
 
-      if (!options.targetWeakest) break;
+      if (!options.targetWeakest && !options.targetLatestPages) break;
     }
 
     const stats = store.getStats();
@@ -92,9 +99,13 @@ export function parseOptions(args: string[]): BackfillOptions {
   const rounds = readNumberFlag(args, "--rounds", 1);
   const targetUrl = readTargetUrl(args);
   const targetWeakest = args.includes("--weakest");
+  const targetLatestPages = args.includes("--latest-pages");
   if (!Number.isInteger(rounds) || rounds <= 0) throw new Error("--rounds must be a positive integer");
-  if (targetUrl && targetWeakest) throw new Error("Use either --url or --weakest, not both");
-  if (rounds !== 1 && !targetWeakest) throw new Error("--rounds only works with --weakest");
+  const targetModes = [Boolean(targetUrl), targetWeakest, targetLatestPages].filter(Boolean).length;
+  if (targetModes > 1) throw new Error("Use only one of --url, --weakest, or --latest-pages");
+  if (rounds !== 1 && !targetWeakest && !targetLatestPages) {
+    throw new Error("--rounds only works with --weakest or --latest-pages");
+  }
 
   return {
     archiveDir: readStringFlag(args, "--archive", DEFAULT_ARCHIVE_DIR),
@@ -104,6 +115,7 @@ export function parseOptions(args: string[]): BackfillOptions {
     limit,
     maxRequests: limit === 0 ? undefined : limit,
     rounds,
+    targetLatestPages,
     targetWeakest,
     targetUrl,
     timeoutMs: readNumberFlag(args, "--timeout-ms", DEFAULT_TIMEOUT_MS),

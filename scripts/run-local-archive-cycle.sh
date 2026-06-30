@@ -8,6 +8,7 @@ delay_ms="${FITGIRL_DELAY_MS:-3000}"
 asset_depth="${FITGIRL_ASSET_DEPTH:-2}"
 asset_limit="${FITGIRL_ASSET_LIMIT:-50}"
 asset_rounds="${FITGIRL_ASSET_ROUNDS:-2}"
+latest_asset_rounds="${FITGIRL_LATEST_ASSET_ROUNDS:-2}"
 asset_delay_ms="${FITGIRL_ASSET_DELAY_MS:-2000}"
 seed_args=()
 scrape_all=()
@@ -34,6 +35,13 @@ bun run scrape:local -- \
   --refresh-days "$refresh_days" \
   --delay-ms "$delay_ms" \
   --no-assets \
+  --asset-depth "$asset_depth"
+
+bun run assets:backfill -- \
+  --latest-pages \
+  --rounds "$latest_asset_rounds" \
+  --limit "$asset_limit" \
+  --delay-ms "$asset_delay_ms" \
   --asset-depth "$asset_depth"
 
 bun run assets:backfill -- \

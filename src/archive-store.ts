@@ -492,6 +492,52 @@ export class ArchiveStore {
     );
   }
 
+  getLatestPostAssetPages(options: Pick<AssetBackfillOptions, "includeFailed">, limit: number): PageListRow[] {
+    const sql = `with page_assets as (
+        select
+          pages.url,
+          coalesce(snapshots.title, pages.url) as title,
+          snapshots.id as snapshotId,
+          snapshots.fetched_at as fetchedAt,
+          snapshots.metadata_json as metadataJson,
+          (select count(*) from snapshots all_snapshots where all_snapshots.url = pages.url) as snapshotCount,
+          count(snapshot_assets.asset_url) as assetCount,
+          sum(case when assets.local_path is not null then 1 else 0 end) as downloadedAssetCount,
+          sum(
+            case
+              when assets.local_path is null
+                and (assets.http_status is null or (? = 1 and assets.http_status not in (401, 403, 404, 410)))
+              then 1
+              else 0
+            end
+          ) as selectableMissingCount
+        from pages
+        join snapshots on snapshots.id = pages.latest_snapshot_id
+        join snapshot_assets on snapshot_assets.snapshot_id = snapshots.id
+        join assets on assets.url = snapshot_assets.asset_url
+        where json_extract(snapshots.metadata_json, '$.pageType') = 'post'
+        group by pages.url, snapshots.id
+      )
+      select
+        url,
+        title,
+        snapshotId,
+        fetchedAt,
+        metadataJson,
+        snapshotCount,
+        assetCount,
+        downloadedAssetCount
+      from page_assets
+      where assetCount > 0 and selectableMissingCount > 0
+      order by fetchedAt desc, snapshotId desc`;
+
+    if (limit === 0) {
+      return this.db.query<PageListRow, [number]>(sql).all(options.includeFailed ? 1 : 0);
+    }
+
+    return this.db.query<PageListRow, [number, number]>(`${sql} limit ?`).all(options.includeFailed ? 1 : 0, limit);
+  }
+
   saveAssetResult(input: AssetResult): void {
     this.db.run(
       `insert into assets (
