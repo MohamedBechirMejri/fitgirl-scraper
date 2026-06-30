@@ -109,7 +109,7 @@ Run one maintenance cycle:
 bun run archive:cycle
 ```
 
-The cycle crawls discovered same-site pages without inline asset downloads, refreshes a small stale batch, backfills newest post assets, backfills the weakest asset pages with a request cap, exports `archive/mirror`, then prints health. It only reseeds sitemaps when the queue is empty; set `FITGIRL_SEED=1` to force a sitemap refresh.
+The cycle crawls up to 100 discovered same-site pages without inline asset downloads, refreshes a small stale batch, backfills newest post assets, backfills the weakest asset pages with a request cap, exports `archive/mirror`, then prints health. It only reseeds sitemaps when the queue is empty; set `FITGIRL_SEED=1` to force a sitemap refresh or `FITGIRL_SCRAPE_LIMIT=50` to slow a cycle down.
 
 Install no-sudo reboot-safe cron automation on `mbm-1` after the repo is checked out there:
 

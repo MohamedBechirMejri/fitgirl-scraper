@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-scrape_limit="${FITGIRL_SCRAPE_LIMIT:-50}"
+scrape_limit="${FITGIRL_SCRAPE_LIMIT:-100}"
 refresh_days="${FITGIRL_REFRESH_DAYS:-30}"
 refresh_limit="${FITGIRL_REFRESH_LIMIT:-10}"
 delay_ms="${FITGIRL_DELAY_MS:-3000}"
