@@ -31,7 +31,7 @@ export function renderPageTable(pages: PageListRow[]): string {
             page => `
               <tr>
                 <td>
-                  <a href="/page?url=${encodeURIComponent(page.url)}">${escapeHtml(page.title)}</a>
+                  <a href="${escapeHtml(mirrorPageHref(page.url))}">${escapeHtml(page.title)}</a>
                   ${renderPageOpenLink(page)}
                   <small>${escapeHtml(page.url)}</small>
                   ${page.snippet ? `<small>${escapeHtml(page.snippet)}</small>` : ""}
@@ -50,7 +50,18 @@ export function renderPageTable(pages: PageListRow[]): string {
 }
 
 export function renderPageOpenLink(page: PageListRow): string {
-  return page.snapshotId ? `<small><a href="/snapshot/${page.snapshotId}">Open snapshot</a></small>` : "";
+  return page.snapshotId ? `<small><a href="/page?url=${encodeURIComponent(page.url)}">Details</a></small>` : "";
+}
+
+export function mirrorPageHref(url: string): string {
+  try {
+    const parsed = new URL(url);
+    if (parsed.hostname === "fitgirl-repacks.site") return `${parsed.pathname}${parsed.search}${parsed.hash}`;
+  } catch {
+    // Fall through to the details page for malformed URLs.
+  }
+
+  return `/page?url=${encodeURIComponent(url)}`;
 }
 
 export function renderAssetCompleteness(downloaded: number, total: number): string {
