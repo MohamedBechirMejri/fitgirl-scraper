@@ -40,6 +40,11 @@ export async function rewriteSnapshotHtml(
     rewriteCssAssetReferences(css, pageUrl, url => assetRoutes.get(url) ?? missingAssetRoute(url));
 
   const rewritten = await new HTMLRewriter()
+    .on('script[id="jetpack-stats-js"], script[id="jetpack-stats-js-after"]', {
+      element(element) {
+        element.remove();
+      },
+    })
     .on("a[href]", {
       element(element) {
         const href = rewritePageHref(element.getAttribute("href"), pageUrl, pageRoutes, missingPageRoute);

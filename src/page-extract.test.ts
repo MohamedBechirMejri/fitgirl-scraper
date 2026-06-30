@@ -200,6 +200,18 @@ describe("page extraction", () => {
     expect(html).toContain('background:url("/hero.webp")');
   });
 
+  test("removes Jetpack stats scripts from rewritten pages", async () => {
+    const html = await rewriteSnapshotHtml(
+      `<script src="https://stats.wp.com/e-202626.js" id="jetpack-stats-js"></script><script id="jetpack-stats-js-after">_stq.push(["view"])</script><h1>Post</h1>`,
+      "https://fitgirl-repacks.site/post/",
+      []
+    );
+
+    expect(html).toContain("<h1>Post</h1>");
+    expect(html).not.toContain("jetpack-stats-js");
+    expect(html).not.toContain("_stq");
+  });
+
   test("rewrites downloaded other assets", async () => {
     const html = await rewriteSnapshotHtml(
       `<link rel="preload" href="/font.woff2"><style>@font-face{src:url("/font.woff2")}</style>`,
