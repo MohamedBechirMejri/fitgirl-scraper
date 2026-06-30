@@ -1,5 +1,12 @@
 import { describe, expect, test } from "bun:test";
-import { archiveRequestPath, mirrorSnapshotUrlCandidates, mirrorUrlCandidates, parseViewerOptions } from "./viewer";
+import {
+  archiveRequestPath,
+  archiveSearchPath,
+  injectAfterBody,
+  mirrorSnapshotUrlCandidates,
+  mirrorUrlCandidates,
+  parseViewerOptions,
+} from "./viewer";
 
 describe("viewer options", () => {
   test("defaults to localhost binding", () => {
@@ -42,5 +49,17 @@ describe("viewer options", () => {
     expect(archiveRequestPath("/__archive")).toBe("/");
     expect(archiveRequestPath("/__archive/ops")).toBe("/ops");
     expect(archiveRequestPath("/donations/")).toBeNull();
+  });
+
+  test("maps WordPress search params to archive search params", () => {
+    expect(archiveSearchPath(new URLSearchParams("s=victoria+3"))).toBe("/__archive?q=victoria+3");
+    expect(archiveSearchPath(new URLSearchParams("q=elden&s=ignored"))).toBe("/__archive?q=elden");
+  });
+
+  test("injects archive tools even when saved html has no body tag", () => {
+    expect(injectAfterBody("<html><body class=\"home\">Page</body></html>", "<nav>Tools</nav>")).toBe(
+      "<html><body class=\"home\"><nav>Tools</nav>Page</body></html>"
+    );
+    expect(injectAfterBody("<main>Page</main>", "<nav>Tools</nav>")).toBe("<nav>Tools</nav><main>Page</main>");
   });
 });

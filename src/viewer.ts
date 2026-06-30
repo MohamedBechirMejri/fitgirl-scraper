@@ -81,7 +81,7 @@ async function handleRequest(request: Request, store: ArchiveStore, archiveRoot:
     }
 
     if (!archivePath && url.pathname === "/" && url.search) {
-      return Response.redirect(new URL(`/__archive${url.search}`, url), 302);
+      return Response.redirect(new URL(archiveSearchPath(url.searchParams), url), 302);
     }
 
     if (routePath === "/") {
@@ -564,13 +564,97 @@ async function renderSnapshotResponse(
       <span style="margin-left:12px;color:#bbb">${escapeHtml(snapshot.fetchedAt)}</span>
     </nav>
   `;
+  const body =
+    mode === "mirror"
+      ? injectAfterBody(rewrittenHtml, renderMirrorToolbar(snapshot, navigation))
+      : injectAfterBody(rewrittenHtml, toolbar);
 
-  return new Response(mode === "mirror" ? rewrittenHtml : injectAfterBody(rewrittenHtml, toolbar), {
+  return new Response(body, {
     headers: {
       "content-security-policy": "default-src 'self' data: blob:; img-src 'self' data: blob:; media-src 'self' data: blob:; frame-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self' data:",
       "content-type": "text/html; charset=utf-8",
     },
   });
+}
+
+function renderMirrorToolbar(snapshot: SnapshotRow, navigation: PageNavigation): string {
+  return `
+    <style>
+      .fitgirl-archive-bar {
+        position: sticky;
+        top: 0;
+        z-index: 2147483647;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: .5rem;
+        padding: .55rem .875rem;
+        background: #111;
+        border-top: .25rem solid #24890d;
+        color: #fff;
+        font: .875rem/1.35 Lato, Arial, Helvetica, sans-serif;
+      }
+      .fitgirl-archive-bar a,
+      .fitgirl-archive-bar button {
+        color: #fff;
+        font: inherit;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      .fitgirl-archive-bar a:hover,
+      .fitgirl-archive-bar a:focus {
+        color: #c7ffbd;
+      }
+      .fitgirl-archive-bar form {
+        display: flex;
+        flex: 1 1 18rem;
+        min-width: min(100%, 18rem);
+        margin: 0;
+      }
+      .fitgirl-archive-bar input {
+        flex: 1 1 auto;
+        min-width: 0;
+        padding: .45rem .6rem;
+        border: 0;
+        color: #111;
+        font: inherit;
+      }
+      .fitgirl-archive-bar button {
+        padding: .45rem .7rem;
+        border: 0;
+        background: #24890d;
+        cursor: pointer;
+      }
+      .fitgirl-archive-bar span {
+        flex: 1 1 100%;
+        color: #bbb;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      @media (min-width: 48rem) {
+        .fitgirl-archive-bar span {
+          flex: 0 1 22rem;
+        }
+      }
+    </style>
+    <nav class="fitgirl-archive-bar" aria-label="Local archive tools">
+      <a href="/">Mirror</a>
+      <a href="/__archive">Archive</a>
+      <a href="${archivePageHref(snapshot.url)}">Details</a>
+      ${renderMirrorToolbarLink("Previous", navigation.previous)}
+      ${renderMirrorToolbarLink("Next", navigation.next)}
+      <form action="/__archive" method="get">
+        <input name="q" type="search" placeholder="Search local archive">
+        <button type="submit">Search</button>
+      </form>
+      <span>${escapeHtml(snapshot.title)}</span>
+    </nav>
+  `;
+}
+
+function renderMirrorToolbarLink(label: string, page: PageNavigation["previous"]): string {
+  return page ? `<a href="${escapeHtml(mirrorPageHref(page.url))}">${escapeHtml(label)}</a>` : "";
 }
 
 function renderSnapshotToolbarLink(label: string, page: PageNavigation["previous"]): string {
@@ -926,8 +1010,23 @@ function renderInstantSearchScript(): string {
   `;
 }
 
-function injectAfterBody(html: string, snippet: string): string {
-  return html.replace(/<body([^>]*)>/i, `<body$1>${snippet}`);
+export function archiveSearchPath(params: URLSearchParams): string {
+  const search = new URLSearchParams(params);
+  const wordpressQuery = search.get("s")?.trim();
+  const archiveQuery = search.get("q")?.trim();
+
+  if (wordpressQuery && !archiveQuery) {
+    search.set("q", wordpressQuery);
+  }
+
+  search.delete("s");
+  const query = search.toString();
+  return query ? `/__archive?${query}` : "/__archive";
+}
+
+export function injectAfterBody(html: string, snippet: string): string {
+  const rewritten = html.replace(/<body([^>]*)>/i, `<body$1>${snippet}`);
+  return rewritten === html ? `${snippet}${html}` : rewritten;
 }
 
 function resolveStoredPath(storedPath: string, archiveRoot: string): string | null {
