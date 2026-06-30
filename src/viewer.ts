@@ -23,6 +23,8 @@ import { isFitGirlUrl, type PageMetadata } from "./page-extract";
 import { localAssetRoute, localMirrorRoute, rewriteSnapshotHtml } from "./snapshot-rewrite";
 import { diffText, summarizeDiff, type TextDiff } from "./text-diff";
 import {
+  archivePageHref,
+  mirrorPageHref,
   parseSnapshotMetadata,
   renderAssetCompleteness,
   renderPageOpenLink,
@@ -71,11 +73,15 @@ async function handleRequest(request: Request, store: ArchiveStore, archiveRoot:
   const routePath = archivePath ?? url.pathname;
 
   try {
-    if (url.pathname === "/" && !url.search) {
+    if (!archivePath) {
       const mirrorResponse = await renderMirrorRequest(store, archiveRoot, url);
       if (mirrorResponse) {
         return mirrorResponse;
       }
+    }
+
+    if (!archivePath && url.pathname === "/" && url.search) {
+      return Response.redirect(new URL(`/__archive${url.search}`, url), 302);
     }
 
     if (routePath === "/") {
@@ -106,15 +112,10 @@ async function handleRequest(request: Request, store: ArchiveStore, archiveRoot:
       return serveAsset(store, url.searchParams.get("url"), archiveRoot);
     }
 
-    const mirrorResponse = await renderMirrorRequest(store, archiveRoot, url);
-    if (mirrorResponse) {
-      return mirrorResponse;
-    }
-
     return notFound("Route not found.");
   } catch (error) {
     console.error(error);
-    return new Response("Internal server error", { status: 500 });
+    return html(renderArchiveError(), 500);
   }
 }
 
@@ -139,7 +140,7 @@ function renderHome(store: ArchiveStore, filters: ArchiveSearchFilters): string 
         <div><dt>Assets</dt><dd>${stats.downloadedAssets}/${stats.assets}</dd></div>
         <div><dt>Queue</dt><dd>${stats.queuePending}/${stats.queueFailed}</dd></div>
       </dl>
-      <p><a class="button secondary" href="/ops">Operations</a></p>
+      <p><a class="button secondary" href="/__archive/ops">Operations</a></p>
       <p class="queue-note">Queue shows pending/failed. Done: ${stats.queueDone}. Running: ${stats.queueRunning}.</p>
 
       <section id="search-results" data-search-results>
@@ -148,6 +149,19 @@ function renderHome(store: ArchiveStore, filters: ArchiveSearchFilters): string 
     `,
     script: renderInstantSearchScript(),
     title: "FitGirl Archive",
+  });
+}
+
+function renderArchiveError(): string {
+  return layout({
+    body: `
+      <header class="page-head">
+        <h1>Archive Error</h1>
+      </header>
+      <p class="empty">This archived page failed to render. The server log has the stack trace.</p>
+      <p><a class="button" href="/__archive">Back to archive search</a></p>
+    `,
+    title: "Archive Error",
   });
 }
 
@@ -251,7 +265,8 @@ function renderPage(store: ArchiveStore, pageUrl: string): string {
         <h1>${escapeHtml(latest.title)}</h1>
         <a class="source" href="${escapeHtml(latest.url)}">${escapeHtml(latest.url)}</a>
         <p>
-          <a class="button" href="/snapshot/${latest.id}">Open latest snapshot</a>
+          <a class="button" href="${escapeHtml(mirrorPageHref(latest.url))}">Open mirrored page</a>
+          <a class="button secondary" href="/__archive/snapshot/${latest.id}">Snapshot tools</a>
         </p>
       </header>
 
@@ -312,7 +327,7 @@ function renderDiff(store: ArchiveStore, beforeId: number, afterId: number): str
 
   return layout({
     body: `
-      <p><a href="/page?url=${encodeURIComponent(after.url)}">Back</a></p>
+      <p><a href="${archivePageHref(after.url)}">Back</a></p>
       <header class="page-head">
         <h1>${escapeHtml(after.title || before.title)}</h1>
         <a class="source" href="${escapeHtml(after.url)}">${escapeHtml(after.url)}</a>
@@ -380,7 +395,7 @@ function renderAdjacentPage(label: string, page: PageNavigation["previous"]): st
   if (!page) return `<span></span>`;
 
   return `
-    <a href="/page?url=${encodeURIComponent(page.url)}">
+    <a href="${archivePageHref(page.url)}">
       <span>${escapeHtml(label)}</span>
       ${escapeHtml(page.title)}
       <small>${escapeHtml(page.fetchedAt ?? "")}</small>
@@ -408,9 +423,9 @@ function renderSnapshotLink(link: ClassifiedLink, availability: Map<string, Link
   const status = link.kind === "internal" ? availability.get(url) : undefined;
   const href =
     link.kind === "internal" && status?.latestSnapshotId
-      ? `/snapshot/${status.latestSnapshotId}`
+      ? mirrorPageHref(url)
       : link.kind === "internal"
-        ? `/page?url=${encodeURIComponent(url)}`
+        ? archivePageHref(url)
         : url;
   const badge = link.kind === "internal" ? renderLinkAvailability(status) : "";
   return `<li><a href="${escapeHtml(href)}">${escapeHtml(url)}</a>${badge}</li>`;
@@ -529,7 +544,7 @@ async function renderSnapshotResponse(
   const localPageRoutes = new Map(
     [...store.getLinkAvailability(internalLinks).values()]
       .filter(link => link.latestSnapshotId)
-      .map(link => [link.url, `/snapshot/${link.latestSnapshotId}`])
+      .map(link => [link.url, `/__archive/snapshot/${link.latestSnapshotId}`])
   );
   const rewrittenHtml = await rewriteSnapshotHtml(
     sourceHtml,
@@ -541,7 +556,8 @@ async function renderSnapshotResponse(
   );
   const toolbar = `
     <nav style="position:sticky;top:0;z-index:2147483647;padding:10px 14px;background:#111;color:#fff;font:14px system-ui,sans-serif">
-      <a style="color:#fff" href="/page?url=${encodeURIComponent(snapshot.url)}">Archive</a>
+      <a style="color:#fff" href="${archivePageHref(snapshot.url)}">Archive</a>
+      <a style="color:#fff;margin-left:12px" href="${escapeHtml(mirrorPageHref(snapshot.url))}">Mirror</a>
       ${renderSnapshotToolbarLink("Previous", navigation.previous)}
       ${renderSnapshotToolbarLink("Next", navigation.next)}
       <span style="margin-left:12px">${escapeHtml(snapshot.title)}</span>
@@ -559,7 +575,7 @@ async function renderSnapshotResponse(
 
 function renderSnapshotToolbarLink(label: string, page: PageNavigation["previous"]): string {
   return page
-    ? `<a style="color:#fff;margin-left:12px" href="/snapshot/${page.snapshotId}">${escapeHtml(label)}</a>`
+    ? `<a style="color:#fff;margin-left:12px" href="/__archive/snapshot/${page.snapshotId}">${escapeHtml(label)}</a>`
     : "";
 }
 
@@ -761,7 +777,7 @@ function renderOldestCheckedPages(pages: PageCheckRow[]): string {
             page => `
               <tr>
                 <td>
-                  <a href="/page?url=${encodeURIComponent(page.url)}">${escapeHtml(page.title)}</a>
+                  <a href="${archivePageHref(page.url)}">${escapeHtml(page.title)}</a>
                   ${renderPageOpenLink(page)}
                   <small>${escapeHtml(page.url)}</small>
                 </td>
@@ -805,7 +821,7 @@ function renderAssetFailures(rows: AssetFailureRow[]): string {
 
 function renderSnapshotRow(snapshot: SnapshotRow, previous?: SnapshotRow): string {
   const compareLink = previous
-    ? `<a href="/diff?before=${previous.id}&after=${snapshot.id}">Compare</a>`
+    ? `<a href="/__archive/diff?before=${previous.id}&after=${snapshot.id}">Compare</a>`
     : "";
 
   return `
@@ -813,7 +829,7 @@ function renderSnapshotRow(snapshot: SnapshotRow, previous?: SnapshotRow): strin
       <td>${escapeHtml(snapshot.fetchedAt)}</td>
       <td>${snapshot.status}</td>
       <td><code>${escapeHtml(snapshot.contentHash.slice(0, 12))}</code></td>
-      <td><a href="/snapshot/${snapshot.id}">Open</a>${compareLink ? ` · ${compareLink}` : ""}</td>
+      <td><a href="/__archive/snapshot/${snapshot.id}">Open</a>${compareLink ? ` · ${compareLink}` : ""}</td>
     </tr>
   `;
 }
@@ -892,7 +908,7 @@ function renderInstantSearchScript(): string {
 
               const body = await response.json();
               results.innerHTML = body.html;
-              history.replaceState(null, "", params.toString() ? "/?" + params.toString() : "/");
+              history.replaceState(null, "", params.toString() ? "/__archive?" + params.toString() : "/__archive");
             } catch (error) {
               if (error.name !== "AbortError") console.error(error);
             }

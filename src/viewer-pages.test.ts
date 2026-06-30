@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { mirrorPageHref, renderPageOpenLink } from "./viewer-pages";
+import { archivePageHref, mirrorPageHref, renderPageOpenLink } from "./viewer-pages";
 
 describe("viewer pages", () => {
   test("opens archive rows as mirrored site pages", () => {
@@ -11,6 +11,9 @@ describe("viewer pages", () => {
   });
 
   test("keeps details available from page rows", () => {
+    expect(archivePageHref("https://fitgirl-repacks.site/victoria-3/")).toBe(
+      "/__archive/page?url=https%3A%2F%2Ffitgirl-repacks.site%2Fvictoria-3%2F"
+    );
     expect(
       renderPageOpenLink({
         assetCount: 1,
@@ -23,6 +26,8 @@ describe("viewer pages", () => {
         title: "Victoria 3",
         url: "https://fitgirl-repacks.site/victoria-3/",
       })
-    ).toBe('<small><a href="/page?url=https%3A%2F%2Ffitgirl-repacks.site%2Fvictoria-3%2F">Details</a></small>');
+    ).toBe(
+      '<small><a href="/__archive/page?url=https%3A%2F%2Ffitgirl-repacks.site%2Fvictoria-3%2F">Details</a></small>'
+    );
   });
 });

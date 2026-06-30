@@ -50,7 +50,7 @@ export function renderPageTable(pages: PageListRow[]): string {
 }
 
 export function renderPageOpenLink(page: PageListRow): string {
-  return page.snapshotId ? `<small><a href="/page?url=${encodeURIComponent(page.url)}">Details</a></small>` : "";
+  return page.snapshotId ? `<small><a href="${archivePageHref(page.url)}">Details</a></small>` : "";
 }
 
 export function mirrorPageHref(url: string): string {
@@ -62,6 +62,10 @@ export function mirrorPageHref(url: string): string {
   }
 
   return `/page?url=${encodeURIComponent(url)}`;
+}
+
+export function archivePageHref(url: string): string {
+  return `/__archive/page?url=${encodeURIComponent(url)}`;
 }
 
 export function renderAssetCompleteness(downloaded: number, total: number): string {
