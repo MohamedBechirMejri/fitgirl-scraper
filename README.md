@@ -55,7 +55,7 @@ Backfill missing assets for already-saved snapshots:
 bun run assets:backfill
 bun run assets:backfill -- --limit 100
 bun run assets:backfill -- --css-deps --limit 100 --delay-ms 2000 --asset-depth 2
-bun run assets:backfill -- --latest-pages --rounds 10 --limit 50 --delay-ms 2000 --asset-depth 2
+bun run assets:backfill -- --latest-pages --rounds 50 --limit 50 --delay-ms 2000 --asset-depth 2
 bun run assets:backfill -- --url https://fitgirl-repacks.site/sportal/
 bun run assets:backfill -- --retry-failed
 bun run assets:backfill -- --limit 50 --timeout-ms 15000

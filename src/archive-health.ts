@@ -49,7 +49,7 @@ export function formatHealthReport(input: HealthReportInput): string {
     "- bun run scrape:local -- --limit 25 --delay-ms 3000",
     "- bun run scrape:local -- --refresh-stale --limit 25 --refresh-days 30 --delay-ms 3000",
     "- bun run assets:backfill -- --css-deps --limit 100 --delay-ms 2000 --asset-depth 2",
-    "- bun run assets:backfill -- --latest-pages --rounds 10 --limit 50 --delay-ms 2000 --asset-depth 2",
+    "- bun run assets:backfill -- --latest-pages --rounds 50 --limit 50 --delay-ms 2000 --asset-depth 2",
     "- bun run assets:backfill -- --weakest --rounds 2 --limit 25 --delay-ms 2000 --asset-depth 2",
     "- bun run assets:backfill -- --limit 25 --retry-failed --delay-ms 3000",
   ];
