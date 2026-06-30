@@ -1,4 +1,4 @@
-import { readFile } from "fs/promises";
+import { readFile, stat } from "fs/promises";
 import { join, resolve, sep } from "path";
 import {
   openArchiveStore,
@@ -517,7 +517,11 @@ async function renderSnapshotResponse(
     return notFound("Snapshot file is outside the archive.");
   }
 
-  const sourceHtml = await readFile(htmlPath, "utf-8");
+  const sourceHtml = await readStoredText(htmlPath);
+  if (!sourceHtml) {
+    return notFound("Snapshot file is missing from the archive.");
+  }
+
   const assets = store.getSnapshotAssets(snapshot.id);
   const navigation = store.getPageNavigation(snapshot.url);
   const internalLinks = store.getSnapshotLinks(snapshot.id).filter(isFitGirlUrl);
@@ -581,6 +585,10 @@ async function serveStoredAsset(
     return notFound("Asset is outside the archive.");
   }
 
+  if (!(await storedFileExists(path))) {
+    return notFound("Asset file is missing from the archive.");
+  }
+
   if (isCssAsset(asset.contentType, asset.url)) {
     const css = await readFile(path, "utf-8");
     const body = rewriteCssAssetReferences(css, asset.url, assetRoute);
@@ -605,7 +613,7 @@ async function renderMirrorRequest(
     }
   }
 
-  for (const url of mirrorUrlCandidates(requestUrl.pathname, requestUrl.search)) {
+  for (const url of mirrorSnapshotUrlCandidates(requestUrl.pathname, requestUrl.search)) {
     const snapshot = store.getLatestSnapshotForUrl(url);
     if (snapshot) {
       return renderSnapshotResponse(store, archiveRoot, snapshot, "mirror");
@@ -618,6 +626,21 @@ async function renderMirrorRequest(
 export function mirrorUrlCandidates(pathname: string, search = ""): string[] {
   const path = pathname.startsWith("/") ? pathname : `/${pathname}`;
   return MIRROR_BASE_URLS.map(baseUrl => new URL(`${path}${search}`, baseUrl).toString());
+}
+
+export function mirrorSnapshotUrlCandidates(pathname: string, search = ""): string[] {
+  return [...new Set(mirrorPathVariants(pathname).flatMap(path => mirrorUrlCandidates(path, search)))];
+}
+
+function mirrorPathVariants(pathname: string): string[] {
+  const path = pathname.startsWith("/") ? pathname : `/${pathname}`;
+  if (path === "/" || pathLooksLikeFile(path)) return [path];
+
+  return path.endsWith("/") ? [path, path.slice(0, -1)] : [path, `${path}/`];
+}
+
+function pathLooksLikeFile(pathname: string): boolean {
+  return /\/[^/]+\.[^/]+$/.test(pathname);
 }
 
 function renderCommand(label: string, command: string): string {
@@ -893,6 +916,31 @@ function injectAfterBody(html: string, snippet: string): string {
 function resolveStoredPath(storedPath: string, archiveRoot: string): string | null {
   const path = resolve(process.cwd(), storedPath);
   return path === archiveRoot || path.startsWith(`${archiveRoot}${sep}`) ? path : null;
+}
+
+async function readStoredText(path: string): Promise<string | null> {
+  try {
+    return await readFile(path, "utf-8");
+  } catch (error) {
+    if (errorCode(error) === "ENOENT") return null;
+    throw error;
+  }
+}
+
+async function storedFileExists(path: string): Promise<boolean> {
+  try {
+    return (await stat(path)).isFile();
+  } catch (error) {
+    if (errorCode(error) === "ENOENT") return false;
+    throw error;
+  }
+}
+
+function errorCode(error: unknown): string | null {
+  if (typeof error !== "object" || error === null || !("code" in error)) return null;
+
+  const code = error.code;
+  return typeof code === "string" ? code : null;
 }
 
 function formatBytes(bytes: number): string {

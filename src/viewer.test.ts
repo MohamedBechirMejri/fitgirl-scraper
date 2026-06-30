@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { archiveRequestPath, mirrorUrlCandidates, parseViewerOptions } from "./viewer";
+import { archiveRequestPath, mirrorSnapshotUrlCandidates, mirrorUrlCandidates, parseViewerOptions } from "./viewer";
 
 describe("viewer options", () => {
   test("defaults to localhost binding", () => {
@@ -20,6 +20,19 @@ describe("viewer options", () => {
 
   test("builds https and http mirror candidates", () => {
     expect(mirrorUrlCandidates("wp-content/site.css", "?ver=1")).toEqual([
+      "https://fitgirl-repacks.site/wp-content/site.css?ver=1",
+      "http://fitgirl-repacks.site/wp-content/site.css?ver=1",
+    ]);
+  });
+
+  test("builds slash-tolerant snapshot candidates without changing asset paths", () => {
+    expect(mirrorSnapshotUrlCandidates("/game")).toEqual([
+      "https://fitgirl-repacks.site/game",
+      "http://fitgirl-repacks.site/game",
+      "https://fitgirl-repacks.site/game/",
+      "http://fitgirl-repacks.site/game/",
+    ]);
+    expect(mirrorSnapshotUrlCandidates("/wp-content/site.css", "?ver=1")).toEqual([
       "https://fitgirl-repacks.site/wp-content/site.css?ver=1",
       "http://fitgirl-repacks.site/wp-content/site.css?ver=1",
     ]);
