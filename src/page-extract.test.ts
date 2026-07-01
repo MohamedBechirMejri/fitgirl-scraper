@@ -212,6 +212,17 @@ describe("page extraction", () => {
     expect(html).not.toContain("_stq");
   });
 
+  test("removes live Tolstoy comments loader from rewritten pages", async () => {
+    const html = await rewriteSnapshotHtml(
+      `<!-- Tolstoy Comments Init --><script>j.src='//web.tolstoycomments.com/sitejs/app.js?i='</script><!-- /Tolstoy Comments Init --><h1>Post</h1>`,
+      "https://fitgirl-repacks.site/post/",
+      []
+    );
+
+    expect(html).toContain("<h1>Post</h1>");
+    expect(html).not.toContain("tolstoycomments.com");
+  });
+
   test("rewrites downloaded other assets", async () => {
     const html = await rewriteSnapshotHtml(
       `<link rel="preload" href="/font.woff2"><style>@font-face{src:url("/font.woff2")}</style>`,

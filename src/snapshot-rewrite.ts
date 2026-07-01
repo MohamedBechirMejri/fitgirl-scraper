@@ -96,7 +96,7 @@ export async function rewriteSnapshotHtml(
     .transform(new Response(html))
     .text();
 
-  return rewriteSameSiteLiterals(rewritten);
+  return removeLiveWidgetScripts(rewriteSameSiteLiterals(rewritten));
 }
 
 export function localAssetRoute(url: string): string {
@@ -116,6 +116,12 @@ function localPageRoute(url: string): string {
 
 function rewriteSameSiteLiterals(html: string): string {
   return html.replace(/https?:\/\/fitgirl-repacks\.site(?=\/|[?#"'])/g, "");
+}
+
+function removeLiveWidgetScripts(html: string): string {
+  return html
+    .replace(/<!--\s*Tolstoy Comments Init\s*-->[\s\S]*?<!--\s*\/Tolstoy Comments Init\s*-->/gi, "")
+    .replace(/<script\b[^>]*>[\s\S]*?tolstoycomments\.com[\s\S]*?<\/script>/gi, "");
 }
 
 function rewritePageHref(
