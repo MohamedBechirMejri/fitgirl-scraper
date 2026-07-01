@@ -11,6 +11,7 @@ import { isFitGirlUrl } from "./page-extract";
 import { rewriteSnapshotHtml } from "./snapshot-rewrite";
 
 const DEFAULT_ARCHIVE_DIR = "archive";
+const MAX_PATH_SEGMENT_LENGTH = 180;
 
 interface ExportMirrorOptions {
   archiveDir: string;
@@ -201,10 +202,14 @@ function safePathSegments(pathname: string): string[] {
     .filter(Boolean)
     .map(segment => {
       const decoded = decodeURIComponent(segment);
-      if (decoded === "." || decoded === ".." || decoded.includes("/") || decoded.includes("\0")) {
+      if (decoded === "." || decoded === ".." || decoded.includes("\0")) {
         throw new Error(`Unsafe path segment: ${segment}`);
       }
-      return decoded;
+      const safeSegment = decoded.includes("/") ? encodeURIComponent(decoded) : decoded;
+      if (safeSegment.length <= MAX_PATH_SEGMENT_LENGTH) return safeSegment;
+
+      // ponytail: long URL segments cannot stay exact on common filesystems; hash keeps the path stable.
+      return `${safeSegment.slice(0, MAX_PATH_SEGMENT_LENGTH - 17)}-${sha256Text(safeSegment).slice(0, 16)}`;
     });
 }
 

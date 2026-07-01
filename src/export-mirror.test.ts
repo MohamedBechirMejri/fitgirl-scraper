@@ -30,4 +30,15 @@ describe("mirror export paths", () => {
       join("__external-assets")
     );
   });
+
+  test("keeps weird encoded page segments exportable", () => {
+    const path = mirrorPagePath(
+      "https://fitgirl-repacks.site/2025/01/hash%2Fwith%2Fslashes-and-a-very-long-tracker-name-that-keeps-going-because-magnet-ish-links-are-trash-and-should-not-break-the-static-export/",
+      mirrorRoot
+    );
+
+    expect(path).toStartWith(join(mirrorRoot, "2025", "01"));
+    expect(path).toEndWith(join("index.html"));
+    expect(path).toContain("%2F");
+  });
 });
