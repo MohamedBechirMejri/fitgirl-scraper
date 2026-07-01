@@ -51,9 +51,25 @@ export async function rewriteSnapshotHtml(
         if (href) element.setAttribute("href", href);
       },
     })
-    .on("img[src], script[src], video[src], audio[src], source[src], iframe[src]", {
+    .on("img[src], script[src], video[src], audio[src], source[src]", {
       element(element) {
         const src = rewriteAsset(element.getAttribute("src"));
+        if (src) element.setAttribute("src", src);
+      },
+    })
+    .on("iframe[src]", {
+      element(element) {
+        const rawSrc = element.getAttribute("src");
+        const url = rawSrc ? normalizeUrl(rawSrc, pageUrl) : null;
+        if (url && !isFitGirlUrl(url)) {
+          element.removeAttribute("src");
+          element.setAttribute("loading", "lazy");
+          element.setAttribute("sandbox", "");
+          element.setAttribute("srcdoc", externalFramePlaceholder(url));
+          return;
+        }
+
+        const src = rewriteAsset(rawSrc);
         if (src) element.setAttribute("src", src);
       },
     })
@@ -122,6 +138,19 @@ function removeLiveWidgetScripts(html: string): string {
   return html
     .replace(/<!--\s*Tolstoy Comments Init\s*-->[\s\S]*?<!--\s*\/Tolstoy Comments Init\s*-->/gi, "")
     .replace(/<script\b[^>]*>[\s\S]*?tolstoycomments\.com[\s\S]*?<\/script>/gi, "");
+}
+
+function externalFramePlaceholder(url: string): string {
+  const safeUrl = escapeHtmlAttribute(url);
+  return `<p style="margin:0;padding:12px;font:14px sans-serif;background:#111;color:#fff">External embed: <a href="${safeUrl}" target="_blank" rel="noopener" style="color:#c7ffbd">${safeUrl}</a></p>`;
+}
+
+function escapeHtmlAttribute(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
 }
 
 function rewritePageHref(

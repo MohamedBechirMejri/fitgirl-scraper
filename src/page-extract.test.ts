@@ -171,7 +171,8 @@ describe("page extraction", () => {
       'srcset="/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fsmall.jpg 1x, /asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fbig.jpg 2x"'
     );
     expect(html).toContain('poster="/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fposter.jpg"');
-    expect(html).toContain('src="/asset?url=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fdemo"');
+    expect(html).toContain("External embed:");
+    expect(html).toContain("https://www.youtube.com/embed/demo");
     expect(html).toContain('style="background:url(&quot;/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fbg.png&quot;)"');
     expect(html).toContain('background:url("/asset?url=https%3A%2F%2Ffitgirl-repacks.site%2Fhero.webp")');
   });
@@ -196,7 +197,8 @@ describe("page extraction", () => {
     expect(html).toContain('src="/wp-content/app.js"');
     expect(html).toContain('const root = "/wp-content/app.js"');
     expect(html).toContain('property="og:image" content="/og.jpg"');
-    expect(html).toContain('src="/asset?url=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fdemo"');
+    expect(html).toContain("External embed:");
+    expect(html).toContain("https://www.youtube.com/embed/demo");
     expect(html).toContain('background:url("/hero.webp")');
   });
 
