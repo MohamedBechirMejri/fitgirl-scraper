@@ -320,7 +320,7 @@ function parseOptions(args: string[]): ScraperOptions {
 }
 
 export function shouldSeedSitemaps(forceSeed: boolean, queueStats: Record<"done" | "failed" | "pending" | "running", number>): boolean {
-  return forceSeed || queueStats.done + queueStats.failed + queueStats.pending + queueStats.running === 0;
+  return forceSeed || queueStats.pending + queueStats.running === 0;
 }
 
 export function queuedRefreshProcessLimit(refreshStale: boolean, staleQueuedCount: number | null, limit: number): number {

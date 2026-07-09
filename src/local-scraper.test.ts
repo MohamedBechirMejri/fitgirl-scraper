@@ -28,9 +28,11 @@ describe("local scraper freshness", () => {
     expect(readScrapeLimit([], "https://fitgirl-repacks.site/sportal/")).toBe(1);
   });
 
-  test("sitemap seeding skips when the local queue already has work", () => {
+  test("sitemap seeding skips only while queue work is active", () => {
     expect(shouldSeedSitemaps(false, { done: 0, failed: 0, pending: 0, running: 0 })).toBe(true);
+    expect(shouldSeedSitemaps(false, { done: 10, failed: 0, pending: 0, running: 0 })).toBe(true);
     expect(shouldSeedSitemaps(false, { done: 0, failed: 0, pending: 10, running: 0 })).toBe(false);
+    expect(shouldSeedSitemaps(false, { done: 0, failed: 0, pending: 0, running: 1 })).toBe(false);
     expect(shouldSeedSitemaps(true, { done: 0, failed: 0, pending: 10, running: 0 })).toBe(true);
   });
 
