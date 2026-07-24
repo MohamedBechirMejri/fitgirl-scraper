@@ -175561,5 +175561,30 @@
       "Repack Size": "8.6 GB"
     },
     "createdAt": 1784851200000
+  },
+  "halo-campaign-evolved/": {
+    "title": "Halo: Campaign Evolved – Premium Edition, v2026.06.26.1097863 + 3 DLCs/Bonuses",
+    "image": "https://i6.imageban.ru/out/2026/07/25/9a4bfb7bcdb49c28e3af4c1cdb3556d9.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/35/4f/354fc7c3-6dd7-49b9-885b-9f22f2e326bc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ed/c6/edc65c77-9ffb-46b6-872b-fe73883c29ec.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/13/6d/136d5b69-4e8e-45b3-be1e-6e3a825b61f4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2d/54/2d54b084-cbb6-4886-ad15-e58fc2acba85.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/aa/50/aa5058a9-c75f-4f55-996a-03aa9dd585ca.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e0/2e/e02e5045-e008-4137-9698-862e15799c5a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "343 Industries, Xbox Game Studios",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "67.7 GB",
+      "Repack Size": "from 52.4 GB [Selective Download]"
+    },
+    "createdAt": 1784937600000
   }
 }
