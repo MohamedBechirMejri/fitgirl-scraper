@@ -175537,5 +175537,29 @@
       "Repack Size": "2.3 GB"
     },
     "createdAt": 1784851200000
+  },
+  "dinoblade/": {
+    "title": "Dinoblade",
+    "image": "https://i8.imageban.ru/out/2026/07/24/3193725986cd0b8b3745bd0d460250ae.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/bb/fc/bbfcf5cb-c15a-445b-b842-803b4b0f56ce.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/1d/cd1dbdde-2540-4f96-9471-323c4772a4c4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/53/be/53be1a92-e0dc-4812-b0fc-93fd0a1264de.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/55/77/55776e27-792c-4b20-b0ce-f3c30fa3209e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e8/c9/e8c9f53f-4551-4b66-8dc5-d1940ebe4db3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c4/d8/c4d80e97-88e2-4481-ac2f-4734229c12bc.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Boltray Games, Team Spino",
+      "Languages": "RUS/ENG/MULTI19",
+      "Original Size": "11.7 GB",
+      "Repack Size": "8.6 GB"
+    },
+    "createdAt": 1784851200000
   }
 }
