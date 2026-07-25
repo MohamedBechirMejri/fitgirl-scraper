@@ -175610,5 +175610,31 @@
       "Repack Size": "1.1 GB"
     },
     "createdAt": 1784937600000
+  },
+  "dragonsword-awakening/": {
+    "title": "DragonSword: Awakening – Deluxe Edition, v1.0.0 + 14 DLCs/Bonuses",
+    "image": "https://i8.imageban.ru/out/2026/07/25/0e8a3a4704712fbc1022d9421e9ebfb2.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/15/6e/156e06aa-f6b6-4e9d-a4a7-7017d8589be3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d5/55/d555d13f-8ae8-4d3a-b4ab-cecc3fc477c2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2e/55/2e55b7dd-1399-4e37-a796-5e793de8aea6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cb/51/cb519a9a-7c77-4b14-853a-27c126493f3b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6d/c0/6dc0e4a2-dbca-434a-874e-e1e5542596c4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d2/47/d2476307-c21c-47e7-a046-169678482667.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Open world",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Hound13",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "16.7 GB",
+      "Repack Size": "11.6/11.8 GB"
+    },
+    "createdAt": 1784937600000
   }
 }
