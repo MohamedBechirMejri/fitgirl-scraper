@@ -175636,5 +175636,33 @@
       "Repack Size": "11.6/11.8 GB"
     },
     "createdAt": 1784937600000
+  },
+  "scrap-mechanic-drilling-thunder/": {
+    "title": "Scrap Mechanic: Drilling Thunder – Release Bundle, v1.0.0.867 + Fan Pack DLC",
+    "image": "https://i2.imageban.ru/out/2026/07/26/9b1deed0cfd68ab39519ccb6ecd6187a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/78/77/7877498e-e3b8-45ab-bda2-c4f76f6236df.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/af/8b/af8b52af-e9cb-40d6-b5a2-aac71714450f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9c/ba/9cba6915-dc82-4d75-a202-aae43b3f114e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1e/36/1e364ea9-1d31-4499-9d1d-705d76e23cf4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bb/f3/bbf38db3-199b-4597-b774-d1904121f64a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d9/70/d9708371-6956-49e9-bdef-2af1fc4304e6.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Simulation",
+        "Driving",
+        "Open world",
+        "Sandbox",
+        "First-person",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Axolot Games",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "19.4 GB",
+      "Repack Size": "5.2 GB"
+    },
+    "createdAt": 1785024000000
   }
 }
