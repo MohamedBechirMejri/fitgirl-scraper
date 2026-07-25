@@ -175586,5 +175586,29 @@
       "Repack Size": "from 52.4 GB [Selective Download]"
     },
     "createdAt": 1784937600000
+  },
+  "bookshop-simulator/": {
+    "title": "Bookshop Simulator – v1.0.1221",
+    "image": "https://i8.imageban.ru/out/2026/07/25/20ee137beaea49b41a29f21c418a55ce.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/9a/51/9a51cd2b-025b-4f35-ba7c-b406f612f7ff.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6a/5a/6a5a983f-4e38-4216-9bd7-c01acb7049e4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3d/d2/3dd21222-52b3-4d7b-9d1f-2da34e7b948f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/23/67/2367b004-8705-4513-92a1-141f3cd0400d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/48/0b/480bf339-3e05-4b48-a400-c879a0c2c4df.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4d/a9/4da9efe6-0c06-411d-817d-ad15ed641725.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Blep Games",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "6.2 GB",
+      "Repack Size": "1.1 GB"
+    },
+    "createdAt": 1784937600000
   }
 }
