@@ -175714,5 +175714,31 @@
       "Repack Size": "1 GB"
     },
     "createdAt": 1785024000000
+  },
+  "disgaea-mayhem/": {
+    "title": "Disgaea Mayhem: Ultimate Edition, v1.0 + 5 DLCs/Bonuses",
+    "image": "https://i7.imageban.ru/out/2026/07/26/3854bb5a55c0ae1cfecc69e9439ae74b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/2c/4d/2c4df3aa-eb40-46ec-b1c5-400deb1817a3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3b/c0/3bc08f91-f578-47a3-b421-b8c44400e480.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/45/53/45534ec3-305e-4967-9d5e-d52afe5950e0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a7/ed/a7ed6d22-7e2d-4f59-9653-23e7ede5d317.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5f/df/5fdf66ef-5fb0-4c68-a37e-bcb772d55902.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c4/82/c482cede-ea80-4120-9a4a-167dab933bd2.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Third-person",
+        "3D",
+        "Japanese"
+      ],
+      "Companies": "NIS America, Nippon Ichi Software",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "2.2 GB",
+      "Repack Size": "1.5 GB"
+    },
+    "createdAt": 1785024000000
   }
 }
