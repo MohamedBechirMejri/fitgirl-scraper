@@ -175690,5 +175690,29 @@
       "Repack Size": "1.2 GB"
     },
     "createdAt": 1785024000000
+  },
+  "pass-the-fear/": {
+    "title": "Pass the Fear – v1.0.431",
+    "image": "https://i6.imageban.ru/out/2026/07/26/bb597769e98dddfb2f59f91046a97078.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/f7/d1/f7d1a8a9-8c79-487a-86ba-3334aea6e64b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3a/01/3a01f502-ca3f-4862-9021-d0070af1d8f2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/98/bc/98bc86f7-67cc-468e-9271-1ea1c02aaa2f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/52/a4/52a4c1ee-471c-4880-898a-42fb04eb0ef8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a5/13/a513bd6c-7894-43b1-ab94-2118da89b2ca.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Shoot 'em up",
+        "Top-down",
+        "2D"
+      ],
+      "Companies": "Paras Games, PlayMud Studio",
+      "Languages": "RUS/ENG/MULTI7",
+      "Original Size": "3.3 GB",
+      "Repack Size": "1 GB"
+    },
+    "createdAt": 1785024000000
   }
 }
