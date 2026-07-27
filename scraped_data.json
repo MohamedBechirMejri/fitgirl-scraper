@@ -175740,5 +175740,31 @@
       "Repack Size": "1.5 GB"
     },
     "createdAt": 1785024000000
+  },
+  "lost-in-tandem/": {
+    "title": "Lost in Tandem",
+    "image": "https://i8.imageban.ru/out/2026/07/27/381445de2712812ee7bf1ae079e687d0.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ec/68/ec683150-5378-4519-9a4b-0450ef7716fc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ba/cb/bacbe4f2-6a26-420d-9196-dcc65b0e2d12.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cb/83/cb836b87-c4e1-40e6-b6c5-771b89dad6ec.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b5/2b/b52b4cde-8b05-48fd-9ada-09105b66ac0a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/92/cd92e19f-7eab-4eed-8984-26316db904bc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/ba/cdba265b-327c-4543-9c6d-30500dd7d56d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Platform adventure",
+        "Side",
+        "2D",
+        "Post-apocalypse"
+      ],
+      "Companies": "Juicebox Studios, Tempete Studio",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "1.7 GB",
+      "Repack Size": "1.4 GB"
+    },
+    "createdAt": 1785110400000
   }
 }
