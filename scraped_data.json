@@ -175766,5 +175766,30 @@
       "Repack Size": "1.4 GB"
     },
     "createdAt": 1785110400000
+  },
+  "pit-panic/": {
+    "title": "Pit Panic – v1.0.22981",
+    "image": "https://i5.imageban.ru/out/2026/07/27/4570665de160df5c66c5529f7e64489c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/e8/e3/e8e39e48-9493-4df0-b4a8-2d2d00cc2f0c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/39/66/39666af8-2eb3-451f-b865-83ed31a63407.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8a/7d/8a7d768d-43ae-403a-807d-4836961fdd73.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/98/10/9810f7aa-a556-4789-8a78-9943661b4e1d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ef/13/ef13c9e3-7432-4f11-a807-d9ab4fa1826f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/01/cd01f1d2-eb23-4b26-a1b3-b63550f3e2a0.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Side",
+        "3D"
+      ],
+      "Company": "Flying Rat Studio",
+      "Languages": "ENG/MULTI10",
+      "Original Size": "2.3 GB",
+      "Repack Size": "1.1/1.3 GB"
+    },
+    "createdAt": 1785110400000
   }
 }
