@@ -175866,5 +175866,30 @@
       "Repack Size": "1.5 GB"
     },
     "createdAt": 1785196800000
+  },
+  "forsaken-realms-vahrins-call/": {
+    "title": "Forsaken Realms: Vahrin’s Call – v1.0.15",
+    "image": "https://i8.imageban.ru/out/2026/07/28/d59a6b36e1c42f0f45f5721037591f43.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/52/b0/52b0462b-c51e-4073-a5ae-a242540fb8bd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/db/fb/dbfb9e44-a6e5-46da-a40a-22f35f289cdb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1d/9e/1d9ef6c4-2978-4bdb-a484-1effb931f299.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fd/5a/fd5a88d6-bcfc-4ed4-87e0-37550456da92.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7f/31/7f31bcfa-1248-4945-91e6-7d6249d1c856.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e2/c3/e2c3a21c-a7fd-4aee-a5d9-399d8b443d0e.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Titan Roc",
+      "Languages": "RUS/ENG/MULTI3",
+      "Original Size": "8.5 GB",
+      "Repack Size": "5.4 GB"
+    },
+    "createdAt": 1785196800000
   }
 }
