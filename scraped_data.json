@@ -175891,5 +175891,30 @@
       "Repack Size": "5.4 GB"
     },
     "createdAt": 1785196800000
+  },
+  "the-alley/": {
+    "title": "The Alley – v1.5.2",
+    "image": "https://i128.fastpic.org/big/2026/0728/1c/f2ad47201c834a0c4f809a5d697b4c1c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/bf/3c/bf3c8884-00d7-41e4-8dcb-face3ef4a726.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/be/4c/be4c4ee2-e4a6-4458-9f4e-03258ed5df28.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a4/cf/a4cfdab0-56a1-4aaf-b58c-7dab6ee8ad36.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/79/c9/79c924fd-44de-4c31-a30b-d38b3c7d7c4e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ac/df/acdf22c8-e647-4f17-812b-34b5a1d7a48c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e2/62/e262772b-914b-4cc0-8774-5d8a216baf46.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Exploration",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "SmileGate, AIXLAB, Thermite Games",
+      "Languages": "RUS/ENG/MULTI6",
+      "Original Size": "7 GB",
+      "Repack Size": "4.6 GB"
+    },
+    "createdAt": 1785283200000
   }
 }
