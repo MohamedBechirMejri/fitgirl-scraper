@@ -175841,5 +175841,30 @@
       "Repack Size": "1.5 GB"
     },
     "createdAt": 1785110400000
+  },
+  "tormentum-2/": {
+    "title": "Tormentum II",
+    "image": "https://i8.imageban.ru/out/2026/07/28/a4a37fa4b2a0f8b971b54343894efd54.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/d2/34/d234d14c-1ded-44f5-9048-34578aa35858.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/71/b7/71b79994-1f40-4a5e-ad6d-95dd61f81378.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/c4/63c46063-ba42-4fff-b64f-e0e9071bd7cf.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4c/65/4c65b212-e551-421d-8076-9a2a6c71dc1d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/05/94/0594e96d-8c70-4216-9c1c-73b01651bfc6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4d/8d/4d8d067c-779f-4d26-96b6-ce87eec92068.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Point-and-click",
+        "Side",
+        "2D"
+      ],
+      "Company": "OhNoo Studio",
+      "Languages": "RUS/ENG/MULTI7",
+      "Original Size": "1.9 GB",
+      "Repack Size": "1.5 GB"
+    },
+    "createdAt": 1785196800000
   }
 }
