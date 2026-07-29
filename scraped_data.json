@@ -175916,5 +175916,32 @@
       "Repack Size": "4.6 GB"
     },
     "createdAt": 1785283200000
+  },
+  "dodo-duckie/": {
+    "title": "Dodo Duckie",
+    "image": "https://i128.fastpic.org/big/2026/0729/46/d7892a2458a03ca985ac0de28ea43046.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/d2/2a/d22ac151-0762-46e1-8056-891818f3550f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/df/bf/dfbff265-59ec-4928-b7a3-932536513e25.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/68/76/6876b513-db0d-4fe0-b492-fe5c770c0b9a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/64/6364d410-3967-4cfb-a662-e9bac8dbe80f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/01/09/0109a019-524e-42c3-ac4b-42a06e389534.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/08/97/08973787-3bdb-48a6-b6f1-7fc26e6f7a51.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Platform adventure",
+        "Side",
+        "Third-person",
+        "2D",
+        "3D"
+      ],
+      "Companies": "BornMonkie, Solo Game",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "2.5 GB",
+      "Repack Size": "1.4 GB"
+    },
+    "createdAt": 1785283200000
   }
 }
