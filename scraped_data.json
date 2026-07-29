@@ -175969,5 +175969,30 @@
       "Repack Size": "334 MB"
     },
     "createdAt": 1785283200000
+  },
+  "shards-of-order/": {
+    "title": "Shards of Order: Supporter Edition – v1.0f7 + DLC",
+    "image": "https://i3.imageban.ru/out/2026/07/29/29c797548cef708da21202e4b93e274a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/dc/09/dc09a791-da19-41e7-b009-d68cf657e848.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bd/d0/bdd079e8-e476-42c4-8b88-0c3b8ab25709.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/10/10/1010204a-d51e-4544-9c77-94fde3de069f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bb/3f/bb3f9151-ebcb-4a76-b2bf-d380552c534d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2c/00/2c00c68c-ec63-4ed5-83f5-559d5b7d7c55.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9e/f7/9ef7ae0d-424b-4ac6-94c9-8126e25ee1cd.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Card game",
+        "Side",
+        "2D",
+        "Turn-based"
+      ],
+      "Companies": "Fardust, Awaken Realms Digital",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "2.8 GB",
+      "Repack Size": "1.6 GB"
+    },
+    "createdAt": 1785283200000
   }
 }
