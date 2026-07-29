@@ -175943,5 +175943,31 @@
       "Repack Size": "1.4 GB"
     },
     "createdAt": 1785283200000
+  },
+  "endacopia/": {
+    "title": "Endacopia",
+    "image": "https://i128.fastpic.org/big/2026/0729/a4/8b67a16a76266e1c46be88f3905859a4.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/27/b7/27b77566-21f7-4a47-9569-e2afc9451bd2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f1/b6/f1b6e38c-0b96-4fd1-8929-757f39a8bb26.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ac/7c/ac7c45c9-a991-4504-8f67-b7bddf3d099d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/50/8e/508eac18-b517-4e13-b280-4cea4858760c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4f/a8/4fa8a86c-f502-49ab-bf04-2a2edc1a238c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/97/c9/97c9ea64-e7cd-4d8b-9cb5-68bb63d10a04.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Point-and-click",
+        "Side",
+        "2D",
+        "Horror"
+      ],
+      "Company": "Andyland",
+      "Language": "ENG",
+      "Original Size": "2.8 GB",
+      "Repack Size": "334 MB"
+    },
+    "createdAt": 1785283200000
   }
 }
