@@ -175994,5 +175994,31 @@
       "Repack Size": "1.6 GB"
     },
     "createdAt": 1785283200000
+  },
+  "city-states-medieval/": {
+    "title": "City States: Medieval – v1.02",
+    "image": "https://i2.imageban.ru/out/2026/07/30/6a683a8063290401d91048fe679da6f5.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/0b/8f/0b8f4482-c5e2-4d0b-97b7-41071f2c9e99.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d2/0a/d20ad6fa-1c27-46ef-826b-115800d6acdc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/93/30936be1-0e9a-466c-8048-827880bab3ee.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c2/c8/c2c8cf4c-f55d-4869-bae0-8f9c9d9e1fab.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/60/ff/60ff0b48-9278-4c69-a64b-e03156ccdd29.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e6/46/e64671fd-505a-4532-904b-c65b2d282724.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Strategy",
+        "Top-down",
+        "3D",
+        "Real-time"
+      ],
+      "Companies": "Reverie World Studios, indie.io",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "1.6 GB",
+      "Repack Size": "1 GB"
+    },
+    "createdAt": 1785369600000
   }
 }
