@@ -176020,5 +176020,30 @@
       "Repack Size": "1 GB"
     },
     "createdAt": 1785369600000
+  },
+  "blue-reflection-quartet/": {
+    "title": "BLUE REFLECTION Quartet + DLC",
+    "image": "https://i8.imageban.ru/out/2026/07/30/0c2688e1cf5b52466c63e30e98267ab6.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/08/e1/08e1ae58-ab41-4ac5-b43a-f96bac3485b1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0f/1e/0f1eacbd-74fc-4bc8-bff9-23c277ffb8df.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f9/73/f973188b-9767-499e-abdc-bbfb10da8e46.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/72/0b/720bc8f1-a810-4fa4-b8aa-614314512d06.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/41/30417cd9-a827-4639-8924-b69acff6c7ae.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8a/a0/8aa0e6e3-3a5c-47e9-b8c2-a7c6b20de449.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Third-person",
+        "3D",
+        "Turn-based"
+      ],
+      "Companies": "Koei Tecmo Games, Gust",
+      "Languages": "ENG/MULTI4",
+      "Original Size": "32.1 GB",
+      "Repack Size": "from 8.8 GB [Selective Download]"
+    },
+    "createdAt": 1785369600000
   }
 }
