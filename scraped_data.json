@@ -176146,5 +176146,30 @@
       "Repack Size": "6.9 GB"
     },
     "createdAt": 1785542400000
+  },
+  "corsair-cove/": {
+    "title": "Corsair Cove – v1.1.1.241035",
+    "image": "https://i4.imageban.ru/out/2026/08/01/8ac597d1059d818bd0e0650692055529.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/17/e7/17e7ac53-dd58-40c1-afb0-42cd0db07619.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5a/d7/5ad7ab9b-5206-4b52-b259-56ac7ae6829e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c2/b6/c2b6e102-89af-44b5-b09a-6dba66710cd7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/33/43/33438fa9-c218-4049-9323-8c97d1057b19.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/56/d8/56d8d98b-15c0-4813-bcb3-7cb81c557bc2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f8/ab/f8ab3ae7-f4fe-4e4e-9d5a-6f934e98aceb.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Strategy",
+        "Pirate/Privateer",
+        "3D"
+      ],
+      "Companies": "Limbic Entertainment, Hooded Horse",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "16.8 GB",
+      "Repack Size": "from 11.8 GB [Selective Download]"
+    },
+    "createdAt": 1785542400000
   }
 }
