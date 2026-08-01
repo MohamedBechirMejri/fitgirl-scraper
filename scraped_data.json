@@ -176070,5 +176070,30 @@
       "Repack Size": "1.3 GB"
     },
     "createdAt": 1785456000000
+  },
+  "lunarium/": {
+    "title": "Lunarium – v1.01",
+    "image": "https://i6.imageban.ru/out/2026/08/01/897c13fa96a12277954da8670d42f9c4.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/55/0c/550c10f8-7fcc-4e9b-b773-94ef0b9809d7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ba/9a/ba9ad8ea-56b7-43ff-af32-69c99c795c24.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c4/76/c476b0ab-ecfd-4431-9ce6-bdf14e262d86.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/90/8e90eebb-ed9d-48b6-9a0d-70ad1dba503a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ca/ce/cace526a-2778-4828-b5d6-7a78f5fbfc84.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4f/e1/4fe12c58-c6f9-4b9a-8e14-0efefefbce3b.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Isometric",
+        "3D"
+      ],
+      "Companies": "Imperfect Games, Lunarium Studio",
+      "Languages": "ENG/MULTI4",
+      "Original Size": "2.6 GB",
+      "Repack Size": "1.7 GB"
+    },
+    "createdAt": 1785542400000
   }
 }
