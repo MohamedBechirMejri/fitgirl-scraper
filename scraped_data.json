@@ -176223,5 +176223,30 @@
       "Repack Size": "328/804 MB"
     },
     "createdAt": 1785628800000
+  },
+  "the-relic-first-guardian/": {
+    "title": "The Relic: First Guardian + DLC",
+    "image": "https://i7.imageban.ru/out/2026/08/02/98056de2e149fe3270c202777296f120.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/70/9a/709a0be4-8357-4b54-aaea-caf12943dc2c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/79/f1/79f107a1-0ea1-4a20-ba15-c5c9f7851625.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/84/79/8479b792-4a08-4b17-b6bd-b7d7d7519dfd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/22/2b/222b7f11-488b-46de-a417-4cbba4e00fdd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/89/a4/89a49abd-cc56-45e2-a3bd-36b32513ec1e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ad/8b/ad8b08c5-8f9c-46dc-a05e-dddbb3ee8c75.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Project Cloud Games, Perp Games",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "27.8 GB",
+      "Repack Size": "18.9 GB"
+    },
+    "createdAt": 1785628800000
   }
 }
