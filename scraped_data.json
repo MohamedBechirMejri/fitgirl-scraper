@@ -176171,5 +176171,31 @@
       "Repack Size": "from 11.8 GB [Selective Download]"
     },
     "createdAt": 1785542400000
+  },
+  "rubinite/": {
+    "title": "Rubinite & Soundtracks Bundle – v202607240040 + Bonus OST",
+    "image": "https://i8.imageban.ru/out/2026/08/02/d5617ba6d8107152b597103e614fb58d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ae/58/ae588311-7da7-4329-9334-534a2173f642.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/88/10/88102521-d997-4200-a8e0-08ac4e2be79f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a0/69/a069118f-4947-49df-a301-f012c0ed4f32.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/1a/cd1a3626-1616-492c-9cfe-4cda4a6be48b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9a/04/9a049640-55a7-443a-b16b-b0c72e9901c5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/18/9a/189a8f56-57db-40c7-bd9a-5c3659dc12d1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Top-down",
+        "2D",
+        "Retro look"
+      ],
+      "Companies": "Cup Dog Games, GameWorks Ventures",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "5 GB",
+      "Repack Size": "553 MB"
+    },
+    "createdAt": 1785628800000
   }
 }
