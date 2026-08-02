@@ -176197,5 +176197,31 @@
       "Repack Size": "553 MB"
     },
     "createdAt": 1785628800000
+  },
+  "quasimorph/": {
+    "title": "Quasimorph: Supporter Bundle – v1.0.560s.799c440 + DLC",
+    "image": "https://i3.imageban.ru/out/2026/08/02/f10866bdc0eda1de54c71475381812aa.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/f8/9b/f89b4811-2de1-4129-a4c5-abeecf7bff6a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5e/f0/5ef0dc8c-5bd6-474e-b824-c5142760110b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/72/a2/72a22f55-95d5-49df-aa9d-92860f74d498.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7f/12/7f123c35-c8b7-4d75-9ee9-b4c3d4488473.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0c/48/0c485cd1-707b-47a4-920b-b7f49599892c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d7/69/d769e420-d675-4361-a98e-0865e49f6c49.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Content randomization",
+        "Top-down",
+        "2D",
+        "Turn-based"
+      ],
+      "Companies": "Magnum Scriptum, HypeTrain Digital",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "2.3 GB",
+      "Repack Size": "328/804 MB"
+    },
+    "createdAt": 1785628800000
   }
 }
