@@ -176274,5 +176274,55 @@
       "Repack Size": "456/924 MB"
     },
     "createdAt": 1785715200000
+  },
+  "waterpark-simulator/": {
+    "title": "Waterpark Simulator – v1.0.18 + Bonus OST",
+    "image": "https://i6.imageban.ru/out/2026/08/03/374ed560c10b03a328a1ab3f6aab2f87.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/40/94/4094c021-8316-4e10-9f4d-0bfbb2cbf4c4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ba/e9/bae97b79-e055-4a4e-b9c2-6e43065e2cb2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/80/d7/80d782ce-43ec-4d8f-a342-786ae5702646.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/95/65/95655e37-1f5d-49de-bc96-4416c1337f01.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/94/d4/94d42e4a-8763-49dd-b62c-3a1a12e78c11.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1a/28/1a28e278-52f1-429f-a2f7-8447fb038a52.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Physics-based",
+        "First-person",
+        "3D"
+      ],
+      "Company": "CayPlay",
+      "Languages": "RUS/ENG/MULTI15",
+      "Original Size": "6.7 GB",
+      "Repack Size": "2.3 GB"
+    },
+    "createdAt": 1785715200000
+  },
+  "truxton-extreme/": {
+    "title": "Truxton Extreme: Digital Deluxe Edition, v1.0.1 + 3 DLCs",
+    "image": "https://i2.imageban.ru/out/2026/08/03/45887f416875f6ced8042dba09768b06.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/69/d0/69d041ce-e500-4ff9-87a2-4c2b45163f97.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/58/63587cb2-38c2-4db5-9cfd-299c3a692706.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2e/a6/2ea6c2d3-b7ae-4f98-a7c1-c3d1219bfa34.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7b/2f/7b2fb259-777e-4baf-ae06-6b516efc2df7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e1/c5/e1c5df97-d050-44de-adb9-4a9aff635636.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e5/ef/e5ef9c31-afcc-4f29-944c-207841a7f139.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Shoot 'em up",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Tatsujin, Clear River Games",
+      "Languages": "ENG/MULTI10",
+      "Original Size": "11.2 GB",
+      "Repack Size": "from 6.6 GB [Selective Download]"
+    },
+    "createdAt": 1785715200000
   }
 }
