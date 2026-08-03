@@ -176248,5 +176248,31 @@
       "Repack Size": "18.9 GB"
     },
     "createdAt": 1785628800000
+  },
+  "skills-and-raids/": {
+    "title": "Skills & Raids: Supporter Pack Bundle + 2 Bonus DLCs",
+    "image": "https://i5.imageban.ru/out/2026/08/03/2e1e6f1fb9f67a2d256b24a1c83a67b7.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/78/4f/784f2b2f-d1b9-41ad-a4ae-c3d5e1f0d830.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/71/db/71db6061-455e-4cd0-9634-bc4e0e91ddc6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/08/23/0823990e-bb92-4d38-ba3d-7c9bdd12af92.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/17/8e/178efe5c-c52c-4c43-858b-0cdd029a7ab2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/53/f9/53f96a9b-34cd-42a6-be73-3219a0004b72.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a8/b7/a8b75559-d9c6-461c-a901-565fb16b05e4.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Item crafting",
+        "Side",
+        "2D",
+        "Active time battle"
+      ],
+      "Company": "Eddie H. Hinestroza",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "2.6 GB",
+      "Repack Size": "456/924 MB"
+    },
+    "createdAt": 1785715200000
   }
 }
