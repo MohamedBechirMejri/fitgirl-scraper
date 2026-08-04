@@ -176350,5 +176350,31 @@
       "Repack Size": "21.1 GB"
     },
     "createdAt": 1785801600000
+  },
+  "zhuishu/": {
+    "title": "ZHUISHU – Build 23465164",
+    "image": "https://i7.imageban.ru/out/2026/08/03/7038b52483a71fcdbfa1745b4cd616e0.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/1e/51/1e5123e2-d90f-4218-8122-d1d25690a448.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/91/eb/91ebe6ff-075f-4ab2-9dde-cdf214a8a46b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d0/aa/d0aa4b49-beeb-467f-8d5f-02cc38a0632c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/13/05/130547e4-2d5d-4ba1-9c9b-17b33cf71901.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e7/c4/e7c446a9-64aa-4bdb-9c08-a6f69b999437.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3f/ed/3fed3c06-ba6b-4ea3-887c-54a6cb767acb.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Logic",
+        "Puzzle",
+        "2D",
+        "Detective fiction",
+        "Horror"
+      ],
+      "Companies": "Paras Games, Whispering Lamp",
+      "Languages": "ENG/CHS",
+      "Original Size": "15.7 GB",
+      "Repack Size": "2.1 GB"
+    },
+    "createdAt": 1785801600000
   }
 }
