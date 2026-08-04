@@ -176376,5 +176376,58 @@
       "Repack Size": "2.1 GB"
     },
     "createdAt": 1785801600000
+  },
+  "edge-of-destruction/": {
+    "title": "Edge of Destruction",
+    "image": "https://i8.imageban.ru/out/2026/08/04/b6ae79cb9844f9b9af64a24147e17d63.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/11/4d/114d74f4-bc19-4ebd-b862-1f24248f596e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/2d/4e2df386-a963-455d-94f7-ddd177aef702.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f6/e7/f6e7875b-ce46-4f3a-8399-c2b013275955.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/00/2c/002c59da-5a11-4f75-8fb6-72d511c39bc8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/82/7a/827a6bea-eea7-406c-a8ac-55b4a8339809.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/22/d5/22d5514f-6d76-40fd-bd42-4ab9657cf6b2.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Physics-based",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Surin, Devotion Interactive",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "3.6 GB",
+      "Repack Size": "2.4 GB"
+    },
+    "createdAt": 1785801600000
+  },
+  "warshift-2/": {
+    "title": "WARSHIFT 2 – v2.24281928",
+    "image": "https://i5.imageban.ru/out/2026/08/03/d9d0590a44ca6fee8032bad43a7a293f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/eb/88/eb88f7c1-11c3-457a-9ffe-d71317824012.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b2/d5/b2d579fb-f72b-4b2e-afaa-ec8671bf448e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/66/05/66051b9b-47d7-409d-a86c-86707acd0d2d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d6/4a/d64a98b6-9c81-4dd8-a596-448d8c7f591e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fe/23/fe233693-6d88-4964-a77f-77f08ed66c04.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/65/67/656786d6-3a83-4ba2-aec0-aa0d51daff75.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Strategy",
+        "RTS",
+        "Third-person",
+        "Top-down",
+        "3D"
+      ],
+      "Company": "Cyril Megem",
+      "Language": "ENG",
+      "Original Size": "4.1 GB",
+      "Repack Size": "2.9 GB"
+    },
+    "createdAt": 1785801600000
   }
 }
