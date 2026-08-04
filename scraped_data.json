@@ -176324,5 +176324,31 @@
       "Repack Size": "from 6.6 GB [Selective Download]"
     },
     "createdAt": 1785715200000
+  },
+  "beast-of-reincarnation/": {
+    "title": "Beast of Reincarnation: Deluxe Edition, v1.0.6.0 (Day 1 Update) + 2 DLCs",
+    "image": "https://i2.imageban.ru/out/2026/08/03/81e4f93672ee29a1d0c3f451b47b8d10.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/30/d6/30d6f13e-25c3-418d-859b-f10502fe388c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b7/36/b7368f74-50ee-42e9-aa9c-c36cd4de1409.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ed/94/ed948e68-9fb9-4557-a933-a6ce14fe5a0d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c1/86/c186c610-94d1-4344-a608-d7a9aa72e140.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3d/02/3d02d150-7cdb-4594-8f42-1556b8c0b9d0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f2/03/f203bf17-157b-45e1-9f38-9a41742fceff.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Third-person",
+        "3D",
+        "Science fiction"
+      ],
+      "Companies": "Game Freak, Fictions",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "31.1 GB",
+      "Repack Size": "21.1 GB"
+    },
+    "createdAt": 1785801600000
   }
 }
