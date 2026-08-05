@@ -176429,5 +176429,31 @@
       "Repack Size": "2.9 GB"
     },
     "createdAt": 1785801600000
+  },
+  "kusan-city-of-wolves/": {
+    "title": "Kusan: City of Wolves",
+    "image": "https://i4.imageban.ru/out/2026/08/05/3316a636fd482b84b2df7cf79c78fdd9.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/34/68/34682e85-2e28-40be-af7e-2de84fd53857.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/38/28/38286d72-f294-4af4-b182-bc9c49c82f12.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/74/fa/74faecd7-50ad-45da-8f52-4c41004ad6d5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/56/20/562040e7-ee38-435d-9216-19cfe3a98f06.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/39/cd39dbff-92e9-4955-a3a1-c5e8c11736bb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e9/b3/e9b3e73a-c484-46db-8df4-aa1196cd16b0.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Shoot 'em up",
+        "Top-down",
+        "2D",
+        "Science fiction"
+      ],
+      "Companies": "CIRCLEfromDOT, PQube",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "1.6 GB",
+      "Repack Size": "930 MB"
+    },
+    "createdAt": 1785888000000
   }
 }
