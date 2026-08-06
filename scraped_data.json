@@ -176455,5 +176455,30 @@
       "Repack Size": "930 MB"
     },
     "createdAt": 1785888000000
+  },
+  "cyber-farmer/": {
+    "title": "Cyber Farmer – v1.0.02",
+    "image": "https://i8.imageban.ru/out/2026/08/06/3b91c2cd123ab0fc4a35aca21d8df2a1.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/a9/70/a970aa6b-aa39-4cdb-b8e0-e55b8dff4e0f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bc/9f/bc9fd318-0dc8-4128-b17b-8d9738f60a2c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/47/e2/47e26323-e86d-4262-a02b-27cd94794900.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/35/ba/35baebde-a7c3-47d3-b84b-adf36a99c0e5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/73/1d/731da24d-d434-497a-a307-65a345dbd428.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8b/4b/8b4b31a3-2566-4876-b23d-4c8ef2d5c9df.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D",
+        "Post-apocalypse"
+      ],
+      "Company": "FreeMind",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "8.1 GB",
+      "Repack Size": "2.5 GB"
+    },
+    "createdAt": 1785974400000
   }
 }
