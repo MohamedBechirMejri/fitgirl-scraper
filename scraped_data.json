@@ -176532,5 +176532,58 @@
       "Repack Size": "2.6 GB"
     },
     "createdAt": 1785974400000
+  },
+  "korea-il-2-series/": {
+    "title": "Korea. IL-2 Series: Premium Edition – v1.002 + 3 DLCs",
+    "image": "https://i5.imageban.ru/out/2026/08/06/7b57bb9f7607b176b0444baec3352199.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/23/e0/23e0fc91-e122-4fd8-9ee9-c7fc46a8cd94.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5b/d4/5bd42806-a6f6-4b14-8473-d5faf640561e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/12/48/1248d0fb-3745-465b-9a92-806806503188.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9f/e7/9fe7c530-a7e9-43bb-a723-9bc08f79c6f0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/26/d9/26d91544-ff88-4b4c-beba-37ee5feb56be.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/31/0b/310b2e13-3573-44d5-8577-4e75c45f9585.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Simulation",
+        "First-person",
+        "Third-person",
+        "3D",
+        "Combat aircraft"
+      ],
+      "Company": "1C Game Studios",
+      "Languages": "RUS/ENG/MULTI6",
+      "Original Size": "15.3 GB",
+      "Repack Size": "7.9 GB"
+    },
+    "createdAt": 1785974400000
+  },
+  "retrowave-2/": {
+    "title": "Retrowave 2 + 3 DLCs/Bonuses",
+    "image": "https://i3.imageban.ru/out/2026/08/06/e49a791d32d9cc81cea62cbc72d99eaa.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/91/34/9134949a-00c6-49ca-be65-1ad7dd810bc3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/53/d8/53d80f64-b357-4ae5-971d-937f58b0f0e8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a2/35/a235c4fe-f133-43aa-98b4-15b1706c8d24.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ed/51/ed5192cd-ff6d-4ee4-97de-e3d4025f28d6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/22/32/22323883-203f-4385-b739-3d28a8d50639.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f7/f8/f7f889cf-29db-4e90-8bf5-4377363e632d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Driving",
+        "Racing",
+        "Third-person",
+        "3D",
+        "Cars"
+      ],
+      "Company": "RewindApp",
+      "Languages": "RUS/ENG/MULTI30",
+      "Original Size": "7.5 GB",
+      "Repack Size": "2.5 GB"
+    },
+    "createdAt": 1785974400000
   }
 }
