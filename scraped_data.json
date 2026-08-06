@@ -176507,5 +176507,30 @@
       "Repack Size": "586/768 MB"
     },
     "createdAt": 1785974400000
+  },
+  "akatori/": {
+    "title": "Akatori",
+    "image": "https://i8.imageban.ru/out/2026/08/06/e30fca03018a656cc4fdf2b1b119d3a7.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/0b/8e/0b8e3e6f-a0cd-45b9-aa57-9726a2b3dca3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/36/d9/36d9f945-f5fb-4d01-b3cc-529b55c8b6e3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/27/37/2737699d-adcd-4e5d-92fd-be46babb9ec0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/79/66/79663d94-2ea3-4b6c-bfd0-73b18c0cd2c8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c5/ef/c5ef8509-c9d2-4d6e-91b9-9e8d9e9b5043.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/31/9a/319a9d4c-eef1-4c47-9109-5739a40165ae.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Side",
+        "2D"
+      ],
+      "Companies": "Games Harbor, Esprit Games, Contrast Games",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "4 GB",
+      "Repack Size": "2.6 GB"
+    },
+    "createdAt": 1785974400000
   }
 }
