@@ -176480,5 +176480,32 @@
       "Repack Size": "2.5 GB"
     },
     "createdAt": 1785974400000
+  },
+  "ostranauts/": {
+    "title": "Ostranauts – v1.0.0.7 + Bonus OST",
+    "image": "https://i6.imageban.ru/out/2026/08/06/1e1f3e720d28cefcde1bb2a57ff689fe.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/79/0d/790d4176-b294-420e-a6b9-01b3e5e06f68.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ca/6f/ca6f38b5-3f3c-4f8f-8482-853a2fd2b09a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/03/05/03052e90-34f8-41e7-998e-9794e99076b8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/75/6375edbe-0ef9-42e4-bc0a-dab909033677.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e3/d3/e3d39e97-ced3-455f-a2a3-48daea725a44.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/40/c6/40c6dd16-a74a-4fa4-bab3-c9f3f6915c09.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Top-down",
+        "2D",
+        "Retro look",
+        "Pausable real-time",
+        "Spacecraft"
+      ],
+      "Companies": "Blue Bottle Games, Modern Wolf",
+      "Language": "ENG",
+      "Original Size": "2.5 GB",
+      "Repack Size": "586/768 MB"
+    },
+    "createdAt": 1785974400000
   }
 }
