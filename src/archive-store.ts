@@ -15,6 +15,7 @@ import type {
   CrawlQueueItem,
   CrawlStatus,
   FacetRow,
+  LatestPostRow,
   LinkAvailability,
   PageCheckRow,
   PageListRow,
@@ -570,6 +571,24 @@ export class ArchiveStore {
     }
 
     return this.db.query<PageListRow, [number, number]>(`${sql} limit ?`).all(options.includeFailed ? 1 : 0, limit);
+  }
+
+  latestPublishedPosts(limit: number): LatestPostRow[] {
+    return this.db
+      .query<LatestPostRow, [number]>(
+        `select
+          pages.url,
+          coalesce(snapshots.title, pages.url) as title,
+          snapshots.fetched_at as fetchedAt,
+          snapshots.metadata_json as metadataJson
+        from pages
+        join snapshots on snapshots.id = pages.latest_snapshot_id
+        where json_extract(snapshots.metadata_json, '$.pageType') = 'post'
+          and json_extract(snapshots.metadata_json, '$.publishedAt') is not null
+        order by json_extract(snapshots.metadata_json, '$.publishedAt') desc
+        limit ?`
+      )
+      .all(limit);
   }
 
   saveAssetResult(input: AssetResult): void {

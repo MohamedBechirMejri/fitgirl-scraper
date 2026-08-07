@@ -97,6 +97,13 @@ export interface PageListRow {
   url: string;
 }
 
+export interface LatestPostRow {
+  fetchedAt: string | null;
+  metadataJson: string;
+  title: string;
+  url: string;
+}
+
 export interface PageCheckRow extends PageListRow {
   lastCheckedAt: string;
 }

@@ -96,6 +96,10 @@ async function handleRequest(request: Request, store: ArchiveStore, archiveRoot:
       return searchJson(store, readSearchFilters(url.searchParams));
     }
 
+    if (routePath === "/latest.json") {
+      return latestJson(store, url.searchParams);
+    }
+
     if (routePath === "/ops") {
       return html(renderOps(store));
     }
@@ -957,6 +961,30 @@ function renderAssetRow(asset: SnapshotAssetRow): string {
 
 function searchJson(store: ArchiveStore, filters: ArchiveSearchFilters): Response {
   return new Response(JSON.stringify({ html: renderSearchResults(store.searchPages(filters, 100)) }), {
+    headers: { "content-type": "application/json; charset=utf-8" },
+  });
+}
+
+function latestJson(store: ArchiveStore, params: URLSearchParams): Response {
+  const requested = Number(params.get("limit") ?? "20");
+  const limit = Number.isFinite(requested) ? Math.min(Math.max(Math.trunc(requested), 1), 100) : 20;
+
+  const posts = store.latestPublishedPosts(limit).map((row) => {
+    const metadata = parseSnapshotMetadata(row.metadataJson);
+    return {
+      fetchedAt: row.fetchedAt,
+      genres: metadata.genres,
+      languages: metadata.languages,
+      magnetCount: metadata.magnetCount,
+      originalSize: metadata.originalSize,
+      publishedAt: metadata.publishedAt,
+      repackSize: metadata.repackSize,
+      title: row.title,
+      url: row.url,
+    };
+  });
+
+  return new Response(JSON.stringify({ posts }), {
     headers: { "content-type": "application/json; charset=utf-8" },
   });
 }
