@@ -20,6 +20,7 @@ import { lowestAssetCoverage, pagesWithSelectableMissingAssets } from "./archive
 import { rewriteCssAssetReferences } from "./css-assets";
 import { groupLinks, type ClassifiedLink, type LinkGroup } from "./link-classifier";
 import { isFitGirlUrl, type PageMetadata } from "./page-extract";
+import { extractCoverUrl, extractDescription, extractScreenshots } from "./post-extras";
 import { localAssetRoute, localMirrorRoute, rewriteSnapshotHtml } from "./snapshot-rewrite";
 import { diffText, summarizeDiff, type TextDiff } from "./text-diff";
 import {
@@ -965,24 +966,32 @@ function searchJson(store: ArchiveStore, filters: ArchiveSearchFilters): Respons
   });
 }
 
-function latestJson(store: ArchiveStore, params: URLSearchParams): Response {
+async function latestJson(store: ArchiveStore, params: URLSearchParams): Promise<Response> {
   const requested = Number(params.get("limit") ?? "20");
   const limit = Number.isFinite(requested) ? Math.min(Math.max(Math.trunc(requested), 1), 100) : 20;
 
-  const posts = store.latestPublishedPosts(limit).map((row) => {
-    const metadata = parseSnapshotMetadata(row.metadataJson);
-    return {
-      fetchedAt: row.fetchedAt,
-      genres: metadata.genres,
-      languages: metadata.languages,
-      magnetCount: metadata.magnetCount,
-      originalSize: metadata.originalSize,
-      publishedAt: metadata.publishedAt,
-      repackSize: metadata.repackSize,
-      title: row.title,
-      url: row.url,
-    };
-  });
+  const posts = await Promise.all(
+    store.latestPublishedPosts(limit).map(async (row) => {
+      const metadata = parseSnapshotMetadata(row.metadataJson);
+      const html = await Bun.file(row.htmlPath)
+        .text()
+        .catch(() => "");
+      return {
+        description: extractDescription(row.textContent),
+        fetchedAt: row.fetchedAt,
+        genres: metadata.genres,
+        image: extractCoverUrl(html),
+        languages: metadata.languages,
+        magnetCount: metadata.magnetCount,
+        originalSize: metadata.originalSize,
+        publishedAt: metadata.publishedAt,
+        repackSize: metadata.repackSize,
+        screenshots: extractScreenshots(html),
+        title: row.title,
+        url: row.url,
+      };
+    })
+  );
 
   return new Response(JSON.stringify({ posts }), {
     headers: { "content-type": "application/json; charset=utf-8" },

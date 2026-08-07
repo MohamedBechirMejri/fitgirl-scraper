@@ -580,6 +580,8 @@ export class ArchiveStore {
           pages.url,
           coalesce(snapshots.title, pages.url) as title,
           snapshots.fetched_at as fetchedAt,
+          snapshots.html_path as htmlPath,
+          snapshots.text_content as textContent,
           snapshots.metadata_json as metadataJson
         from pages
         join snapshots on snapshots.id = pages.latest_snapshot_id

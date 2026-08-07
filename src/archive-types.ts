@@ -99,7 +99,9 @@ export interface PageListRow {
 
 export interface LatestPostRow {
   fetchedAt: string | null;
+  htmlPath: string;
   metadataJson: string;
+  textContent: string;
   title: string;
   url: string;
 }
