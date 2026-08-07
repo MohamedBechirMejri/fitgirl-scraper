@@ -176610,5 +176610,33 @@
       "Repack Size": "1.9 GB"
     },
     "createdAt": 1786060800000
+  },
+  "super-robot-wars-y-pc/": {
+    "title": "SUPER ROBOT WARS Y: Ultimate Edition, v1.4.0 + 10 DLCs",
+    "image": "https://i1.imageban.ru/out/2025/08/31/62086b4fc01e98ff906e241d81d80707.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4d/46/4d46f6ed-8a7e-4e92-9fb3-f5efa7f040ae.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/22/34/2234bf8f-b0b2-4553-8386-25c75c1f1eca.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/57/5f/575ffede-897d-462f-9219-ba51856a0e7e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/86/f8/86f8b5db-6d95-4fd4-860f-79decfb0cc56.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a9/14/a9149e4b-d1a6-4961-bbb1-603b8193c1a7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a3/c0/a3c0b10f-5adf-4687-9e23-3e9f8f8b34ab.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "Tactics",
+        "Isometric",
+        "3D",
+        "Japanese",
+        "Turn-based",
+        "Mecha"
+      ],
+      "Companies": "Bandai Namco Forge Digitals, Bandai Namco Entertainment",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "20.3 GB",
+      "Repack Size": "9.5 GB"
+    },
+    "createdAt": 1786060800000
   }
 }
