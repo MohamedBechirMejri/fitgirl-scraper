@@ -176689,5 +176689,31 @@
       "Repack Size": "902 MB"
     },
     "createdAt": 1786147200000
+  },
+  "cargo-please/": {
+    "title": "Cargo, Please!",
+    "image": "https://i7.imageban.ru/out/2026/08/08/5db50258f7a30f5311bcf1b928c30f1c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/62/8e/628e9e4c-7f5c-4193-b510-84a231929a13.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/aa/06/aa0652ba-8193-4eb1-beaf-fa4eded8a507.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/64/1b/641b4539-7eb1-4fcb-aca3-4dbf5fd7928a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9b/ed/9beddb12-17f3-4976-93d6-7cb75cdef329.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5d/01/5d0188e1-5e6c-44dd-9e44-165d87fc75bf.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1a/0a/1a0ad57a-b45b-4800-81f5-f5d42c7b720e.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Driving",
+        "Physics-based",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Cyber752 Games, indie.io",
+      "Language": "ENG",
+      "Original Size": "1.7 GB",
+      "Repack Size": "565 MB"
+    },
+    "createdAt": 1786147200000
   }
 }
