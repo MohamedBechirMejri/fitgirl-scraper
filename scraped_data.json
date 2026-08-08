@@ -176715,5 +176715,30 @@
       "Repack Size": "565 MB"
     },
     "createdAt": 1786147200000
+  },
+  "gunstoppable/": {
+    "title": "Gunstoppable",
+    "image": "https://i7.imageban.ru/out/2026/08/08/a50f7f28f8935bb89e823549be21cffa.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/3d/25/3d257a88-3fe2-4f81-8013-30ee246ab407.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/29/ce/29cef71a-0ec3-4d92-8991-ba72ca36e0be.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/31/96/31961b07-e1af-47c4-83b8-f5e2c7a11a8d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/98/22/98220879-3594-4b3a-99c5-97657eeb64ee.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/65/51/6551474b-f6f8-4352-b4d8-446377c4eb6f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/80/f5/80f56cfa-9ced-4ddb-b707-5bd130be0a2a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Company": "CAGE Studios",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "1 GB",
+      "Repack Size": "494 MB"
+    },
+    "createdAt": 1786233600000
   }
 }
