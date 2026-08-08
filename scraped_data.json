@@ -176663,5 +176663,31 @@
       "Repack Size": "3.4 GB"
     },
     "createdAt": 1786147200000
+  },
+  "hellslave-2-judgment-of-the-archon/": {
+    "title": "HellSlave II: Judgment of the Archon",
+    "image": "https://i6.imageban.ru/out/2026/08/08/6db2a73233af584eb66106d1ea325d61.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/26/90/2690d1ff-54f1-4ca3-94f4-177c02a721ad.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/dd/e7/dde72f75-ab9a-4862-b021-0b5e06b65cff.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2b/47/2b47559f-a28d-4d48-9111-67a70998c320.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3e/fe/3efeb058-82d7-4bde-9c7d-39758f434c95.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2c/cf/2ccf53ee-13d1-453f-8629-7ba8eb0dca2e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a3/17/a31719c3-b688-4d4d-b8ae-edc52c8da713.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Dungeon crawl",
+        "First-person",
+        "Top-down",
+        "2D"
+      ],
+      "Companies": "Plug in Digital, Ars Goetia Games",
+      "Languages": "RUS/ENG/MULTI7",
+      "Original Size": "1.7 GB",
+      "Repack Size": "902 MB"
+    },
+    "createdAt": 1786147200000
   }
 }
