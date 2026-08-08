@@ -176638,5 +176638,30 @@
       "Repack Size": "9.5 GB"
     },
     "createdAt": 1786060800000
+  },
+  "pih-2/": {
+    "title": "Pih 2",
+    "image": "https://i8.imageban.ru/out/2026/08/08/b00849ba8ef42057ffd74b018460c03e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/28/3f/283f9638-4162-49bb-9da6-cb76adaff852.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/49/38/49384195-739b-4b4f-94f6-f0a910fb3eda.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/72/8e7298a4-e9e2-496c-9225-4fe49d2d44fc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/40/09/4009efb6-a0ea-4819-aa2f-f50c24213f7f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/92/5a/925a6099-5280-47c2-8c95-116c9472273d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ac/e3/ace3bfa7-488e-41d3-97dd-d2a1be036656.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Company": "BecomeANobody",
+      "Language": "ENG",
+      "Original Size": "5.4 GB",
+      "Repack Size": "3.4 GB"
+    },
+    "createdAt": 1786147200000
   }
 }
