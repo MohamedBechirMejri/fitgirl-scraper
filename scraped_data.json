@@ -176818,5 +176818,30 @@
       "Repack Size": "1.4 GB"
     },
     "createdAt": 1786320000000
+  },
+  "restory-chill-electronics-repairs/": {
+    "title": "ReStory: Chill Electronics Repairs – v1.0.005r",
+    "image": "https://i6.imageban.ru/out/2026/08/10/1ae366a8f56a7298de57aaf00d9486dd.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/2a/35/2a35e3ee-69c0-40c6-999c-03cd1c9b53de.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6e/f7/6ef7a7ee-e9f5-440f-9cbb-681c6d1a32e3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/56/47/56476a6a-671b-4a37-aa24-89ba3c16a7d7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/61/a4/61a49913-5a87-4f08-bf34-a055b05e0c3c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/53/4e539c79-60e7-4c3e-865a-690a64559f22.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e2/cd/e2cd2cc0-237d-48aa-a512-bd242ea73fc1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Simulator",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Mandragora, tinyBuild",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "1 GB",
+      "Repack Size": "429 MB"
+    },
+    "createdAt": 1786320000000
   }
 }
