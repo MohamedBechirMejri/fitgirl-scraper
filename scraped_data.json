@@ -176792,5 +176792,31 @@
       "Repack Size": "753 MB"
     },
     "createdAt": 1786233600000
+  },
+  "re-night/": {
+    "title": "Re:Night",
+    "image": "https://i7.imageban.ru/out/2026/08/09/4b3b14027e3669f0d959044753ad09a2.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/6b/e6/6be68310-bfb2-407d-8fd3-f39e925dec13.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/97/37/9737a95b-cf3e-4fe4-8d6c-7110e22b878a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d1/20/d1201983-72c1-424d-ba83-06ae2acc5eb1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f4/e8/f4e8fa31-4cc7-453d-a4d3-14dfa3ff9ba2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e7/57/e7573d13-9a2b-4255-9791-ee77b319e264.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b8/16/b816757d-9571-44af-b3b4-d1e22b0ad60d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "Tactics",
+        "Deck-building",
+        "2D",
+        "Turn-based"
+      ],
+      "Companies": "Seahorse Games, Harrisonworld",
+      "Languages": "ENG/MULTI4",
+      "Original Size": "3.4 GB",
+      "Repack Size": "1.4 GB"
+    },
+    "createdAt": 1786320000000
   }
 }
