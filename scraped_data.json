@@ -176766,5 +176766,31 @@
       "Repack Size": "437/838 MB"
     },
     "createdAt": 1786233600000
+  },
+  "chop-chop-inc/": {
+    "title": "Chop Chop Inc.",
+    "image": "https://i1.imageban.ru/out/2026/08/09/b016c857c9e71a1df3bcf6de0a51a0c4.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/16/f6/16f6d515-a037-4bbf-b61a-89158db754a4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c4/e4/c4e44c70-bc53-4cc9-940f-10c498017878.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d7/00/d7001554-7316-485e-bcc0-1be71385f1e5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3f/ea/3fea6ef1-f241-4d49-b51a-64bdd337bcd4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/44/48/444896f4-9565-47a3-afde-4475368e4f14.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/97/62/9762943f-cb9a-40e9-9f39-95adff82c815.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "Item crafting",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "NullRef Entertainment, rokaplay",
+      "Languages": "RUS/ENG/MULTI7",
+      "Original Size": "2.5 GB",
+      "Repack Size": "753 MB"
+    },
+    "createdAt": 1786233600000
   }
 }
