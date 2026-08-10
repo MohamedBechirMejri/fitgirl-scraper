@@ -176868,5 +176868,30 @@
       "Repack Size": "966 MB"
     },
     "createdAt": 1786320000000
+  },
+  "montabi/": {
+    "title": "Montabi: Deluxe Edition – v1.0.0 + 2 Bonus DLCs",
+    "image": "https://i6.imageban.ru/out/2026/08/10/2ded40c516c294fc753c7adf011d4f83.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/14/bc/14bcd468-589e-4016-9e78-2d4bfb2a22d7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/32/3c/323c740c-7129-41e5-bb07-e4d726b0f980.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/45/f3/45f3ab18-e4e5-4ab6-ad4e-4f9259b4a457.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1b/f9/1bf992d5-5c03-4852-a650-8db1c0430b53.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e5/de/e5ded29f-33c4-4984-a2c7-947b314bc5c8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5d/c7/5dc715e4-66fa-4fbf-8e79-b83df73a4b23.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Card game",
+        "Side",
+        "Top-down",
+        "Turn-based"
+      ],
+      "Companies": "Akupara Games, Mankibo",
+      "Languages": "ENG/MULTI9",
+      "Original Size": "2.3 GB",
+      "Repack Size": "386/605 MB"
+    },
+    "createdAt": 1786320000000
   }
 }
