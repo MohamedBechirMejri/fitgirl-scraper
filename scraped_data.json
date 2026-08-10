@@ -176893,5 +176893,30 @@
       "Repack Size": "386/605 MB"
     },
     "createdAt": 1786320000000
+  },
+  "iron-nest-heavy-turret-simulator/": {
+    "title": "IRON NEST: Heavy Turret Simulator",
+    "image": "https://i8.imageban.ru/out/2026/08/10/081e4ba22ff1ca2b78fd270e5db70aba.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/7d/24/7d24b6b5-a951-4b8f-ad17-dea61efd29f2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b8/4b/b84b2c0b-94ad-4258-aca4-ec4441b78961.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b2/57/b257bb5d-af4d-4e93-b862-29c26bb69289.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/95/44/95446a37-b7fd-4509-93f8-ca8682ae82d3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/25/52/2552d7b3-e824-47e1-b4c9-bae87ce33c5d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/22/b6/22b6f286-3a1a-43a4-88d0-294b7fbafdb2.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Simulation",
+        "Content randomization",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Nick Nieuwoudt, Dominik Latos",
+      "Languages": "RUS/ENG/MULTI16",
+      "Original Size": "3.6 GB",
+      "Repack Size": "1 GB"
+    },
+    "createdAt": 1786406400000
   }
 }
