@@ -176843,5 +176843,30 @@
       "Repack Size": "429 MB"
     },
     "createdAt": 1786320000000
+  },
+  "jelly-bubble/": {
+    "title": "Jelly Bubble: Deluxe Edition + 2 DLCs",
+    "image": "https://i2.imageban.ru/out/2026/08/10/95a9d6080fb60024f146f2f03ff9ff2d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/c6/91/c691e299-5db1-4040-a998-36ae911783a9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/10/70/107085d1-e923-4a77-a9f9-789af6005a3c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/61/2a/612ae5a6-dba4-4a5f-bc53-ae4599a32ab0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/34/6334f9f1-d771-4732-b623-6b1b1782c74d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/dc/61/dc612d80-912b-4855-bc4a-480cba26fa1e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/99/10/9910d83f-8194-427c-8bb6-cfbd7289d5ba.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Party game",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Bingobell",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "2.6 GB",
+      "Repack Size": "966 MB"
+    },
+    "createdAt": 1786320000000
   }
 }
