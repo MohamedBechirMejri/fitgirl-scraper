@@ -176943,5 +176943,30 @@
       "Repack Size": "367/703 MB"
     },
     "createdAt": 1786406400000
+  },
+  "agent-64-spies-never-die/": {
+    "title": "Agent 64: Spies Never Die – v1004 Hotfix",
+    "image": "https://i7.imageban.ru/out/2026/08/11/b2abd0c43d6785275fc81b26a637a02b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/3a/62/3a62b41f-b3f5-4733-92fa-811acb7e6204.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/54/38/5438a700-358b-4e3f-83da-85dd05150262.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b5/16/b516e920-5673-48c4-86e3-f73862219375.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/98/d7/98d7150b-1f3c-4882-a7cc-1bac1f4cfcdb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/93/e7/93e7a267-8fbf-4d2a-aa4f-a4ec5d0fa4cb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a7/e2/a7e29243-c67a-40ef-b05a-7b9b17c5e181.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Replicant D6",
+      "Languages": "ENG/MULTI3",
+      "Original Size": "1.4 GB",
+      "Repack Size": "952 MB"
+    },
+    "createdAt": 1786406400000
   }
 }
