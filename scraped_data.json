@@ -176918,5 +176918,30 @@
       "Repack Size": "1 GB"
     },
     "createdAt": 1786406400000
+  },
+  "sovereign-tower/": {
+    "title": "Sovereign Tower: Supporter Bundle + 2 Bonus DLCs",
+    "image": "https://i2.imageban.ru/out/2026/08/11/37341fb5b1b3956f243ef147c8c78c37.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/97/60/976008e2-facb-4473-b486-d02a305d8ec2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/01/97/0197cef0-ebd2-49e2-86d9-93e89fd4f843.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ed/77/ed77237f-0894-4011-b313-1b011ff417b0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b8/e0/b8e050eb-76ed-44a6-9458-8b1151a90b4e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/33/3b/333b380f-6c9a-4186-ab92-fdf161b4610a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0a/d0/0ad0a8a8-5946-49e5-a17b-64c8e9e347ca.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Interactive fiction",
+        "RPG",
+        "Side",
+        "2D"
+      ],
+      "Companies": "Wild Wits Games, Curve Games",
+      "Languages": "RUS/ENG/MULTI6",
+      "Original Size": "3.1 GB",
+      "Repack Size": "367/703 MB"
+    },
+    "createdAt": 1786406400000
   }
 }
