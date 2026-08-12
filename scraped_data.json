@@ -177016,5 +177016,55 @@
       "Repack Size": "1.2 GB"
     },
     "createdAt": 1786492800000
+  },
+  "the-lord-of-the-rings-war-in-the-north-legacy-edition/": {
+    "title": "The Lord of the Rings: War in the North – Legacy Edition, Build 519831",
+    "image": "https://i1.imageban.ru/out/2026/08/12/e9b433dafbcb90996037e1c360ba84d7.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/72/8a/728a41cc-5cb7-40f8-bd96-86350b5158f8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d9/e6/d9e6d4cf-1fd3-44a8-bd1c-751f7c674c7d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e3/36/e3360ccd-d8eb-4b2c-8075-58017644c19f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/32/85/3285b70d-da0c-4403-8c76-2e5f95ea5478.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/d2/cdd2c04d-5b21-400a-84ac-33d900532484.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Aspyr Media",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "12.9 GB",
+      "Repack Size": "from 7.4 GB [Selective Download]"
+    },
+    "createdAt": 1786492800000
+  },
+  "warhounds/": {
+    "title": "Warhounds – v1.0.0 (3119)",
+    "image": "https://i4.imageban.ru/out/2026/08/12/0242d4e2d0eb8826481eec7b50a23c97.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/8b/86/8b861670-7f02-4dfd-b48c-a288be583d61.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/51/95/519540ea-66dc-4f23-9165-b4a908c14e90.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a2/86/a28660bb-896c-41b2-b4b9-4f55fd6acfa1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fd/9b/fd9b5e8b-e61c-462d-9ba2-788546811dc2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/14/cf/14cfa0d8-fd48-4d86-8837-e726cbda8f5b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cb/1a/cb1a175c-57aa-42b4-91e0-4a35029152b5.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "Tactics",
+        "Top-down",
+        "3D",
+        "Turn-based"
+      ],
+      "Companies": "Lipsar Studio, Brightika",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "29.2 GB",
+      "Repack Size": "from 17.6 GB [Selective Download]"
+    },
+    "createdAt": 1786579200000
   }
 }
