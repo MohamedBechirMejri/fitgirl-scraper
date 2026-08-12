@@ -176991,5 +176991,30 @@
       "Repack Size": "50.7 GB"
     },
     "createdAt": 1786492800000
+  },
+  "kill-the-shadow/": {
+    "title": "Kill The Shadow",
+    "image": "https://i5.imageban.ru/out/2026/08/12/218906a368a12ac29f64e8daa42c9716.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/74/20/7420a5fe-3d51-4239-82e1-16664ff1efa7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5e/d8/5ed86511-84e7-4735-b832-7970bc88f6fc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/98/28/982876d2-2592-42c0-982c-4d96479a89ff.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/17/2e/172e5182-6729-4534-9dcb-721ebfbb5de8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3e/04/3e04cacd-35fc-453b-ab67-3df6b927504b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/97/9d/979d6f03-cc3d-495a-98c4-7f655048627a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Side",
+        "2D",
+        "Detective fiction"
+      ],
+      "Companies": "Shadowlight, Phoenix Game",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "1.7 GB",
+      "Repack Size": "1.2 GB"
+    },
+    "createdAt": 1786492800000
   }
 }
