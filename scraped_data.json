@@ -177092,5 +177092,30 @@
       "Repack Size": "1 GB"
     },
     "createdAt": 1786579200000
+  },
+  "hell-galaxy/": {
+    "title": "HELL GALAXY",
+    "image": "https://i7.imageban.ru/out/2026/08/13/69da95d7a4d1bb5060b1a48e320492e9.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/7b/89/7b89afae-44d2-467f-a89f-a49fb337c77b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d2/01/d201921c-15e5-4e98-9ade-0fba97be4ed3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9e/61/9e612a57-fe9b-4946-848d-d72191a31fff.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d3/af/d3af598c-20cd-4f89-9b17-5bfc444e4d8e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/76/dd/76dd1c94-9de3-4c58-b287-282ffa6f3524.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/59/f3/59f364fb-c509-4691-81c7-c6226ddc88eb.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Italian Games Factory",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "15.7 GB",
+      "Repack Size": "10.8 GB"
+    },
+    "createdAt": 1786579200000
   }
 }
