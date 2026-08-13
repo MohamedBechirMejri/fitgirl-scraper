@@ -177066,5 +177066,31 @@
       "Repack Size": "from 17.6 GB [Selective Download]"
     },
     "createdAt": 1786579200000
+  },
+  "dreamecho/": {
+    "title": "DreamEcho – v0.1 (Release)",
+    "image": "https://i7.imageban.ru/out/2026/08/13/939ba2026b944d8ca81a04943cce2595.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/86/ab/86abb0e3-147b-41d7-bc7d-a92778efd0e0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a1/a6/a1a60b6a-7383-47ca-ba2d-742c3c140264.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a9/db/a9dbcfa5-a7a1-4f53-9404-8c5c3274e107.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/71/85/7185584d-691c-4650-914d-f9e0e77e94ce.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6f/b6/6fb699cf-8e41-4732-81c0-e15ca1feded5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4b/4e/4b4e36d4-516d-455d-8ac5-c9deeacaf008.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Content randomization",
+        "Side",
+        "2D"
+      ],
+      "Company": "HotWaterStudio",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "1.8 GB",
+      "Repack Size": "1 GB"
+    },
+    "createdAt": 1786579200000
   }
 }
