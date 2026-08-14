@@ -177222,5 +177222,31 @@
       "Repack Size": "2.1 GB"
     },
     "createdAt": 1786665600000
+  },
+  "dinotica/": {
+    "title": "Dinotica – v1.11.6",
+    "image": "https://i2.imageban.ru/out/2026/08/15/2f2abf6b42370a9863d22cc0ae347367.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/1b/82/1b82ade5-d042-431e-a140-35167752c709.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c9/2a/c92a555e-13e5-40b0-9583-22b9d32691e2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f9/a9/f9a95235-afe7-482a-b89c-3e74484277f1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/ac/30ac803d-cd9a-49f3-952c-9431d8e224cc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d0/9f/d09f44d4-0d5c-492c-ac05-254b7269591a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/97/83/97838aa0-f839-4816-8c90-165daf92d625.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Lifestyle",
+        "Managerial",
+        "Item crafting",
+        "Top-down"
+      ],
+      "Companies": "XA Studio, Celestial Studio",
+      "Languages": "RUS/ENG/MULTI6",
+      "Original Size": "1.3 GB",
+      "Repack Size": "514 MB"
+    },
+    "createdAt": 1786752000000
   }
 }
