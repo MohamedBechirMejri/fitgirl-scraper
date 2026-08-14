@@ -177143,5 +177143,33 @@
       "Repack Size": "4.6 GB"
     },
     "createdAt": 1786579200000
+  },
+  "maneater/": {
+    "title": "Maneater: Apex Edition, v431513 (DRM-free) + Truth Quest DLC",
+    "image": "https://i7.imageban.ru/out/2026/08/13/abe170950e1e35881a4e948ed22b3e1d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/a8/6b/a86bcf5c-cdfd-4b9c-be2f-ef72e2e07732.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/05/34/0534ddde-4921-447d-933a-709462a44757.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/09/d9/09d97ee6-7672-48c7-8be4-e750e7172a99.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/79/8d/798dfd48-7a0f-4285-97ba-35674bba386b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b2/12/b21260c1-75fc-42ef-b150-00d0837d3235.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/07/b6/07b65102-0e4f-46d7-a084-43fcf0675027.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "RPG",
+        "Action RPG",
+        "Open world",
+        "First-person",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Tripwire Interactive",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "17.1 GB",
+      "Repack Size": "from 7.8 GB [Selective Download]"
+    },
+    "createdAt": 1786665600000
   }
 }
