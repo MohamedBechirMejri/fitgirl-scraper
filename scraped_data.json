@@ -177196,5 +177196,31 @@
       "Repack Size": "1.3 GB"
     },
     "createdAt": 1786665600000
+  },
+  "survival-log/": {
+    "title": "Survival Log – v1.0.13791",
+    "image": "https://i7.imageban.ru/out/2026/08/14/80470fa2e89b6e7c0b4ae31002ff1906.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/2a/f4/2af48bad-26d5-4a54-b948-2fdf29bc5825.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3c/6a/3c6a7c70-93a7-4da3-98f1-8dcddfd45a4e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c9/7a/c97a5b9e-0eb0-4697-a345-4ad6a9937139.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8d/21/8d216d3e-2e53-4569-8a86-89cb3d8cdddf.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ba/6a/ba6a5be1-f430-49ea-a1a5-af26b29b357f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ba/25/ba252c8c-7b33-48d8-9f9a-01176ae2dd1e.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Item crafting",
+        "3D",
+        "Post-apocalypse",
+        "Zombies"
+      ],
+      "Companies": "Lilith Games, Midnight Workshop",
+      "Languages": "ENG/CHS",
+      "Original Size": "3.9 GB",
+      "Repack Size": "2.1 GB"
+    },
+    "createdAt": 1786665600000
   }
 }
