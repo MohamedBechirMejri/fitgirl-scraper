@@ -177272,5 +177272,31 @@
       "Repack Size": "6.2 GB"
     },
     "createdAt": 1786752000000
+  },
+  "defender-of-the-crown-the-legend-returns/": {
+    "title": "Defender of the Crown: The Legend Returns – v1.0.6",
+    "image": "https://i5.imageban.ru/out/2026/08/15/ac245fba1eac8f945744ec762c05fd1c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/95/64/9564e67f-503b-475e-aa8e-158a432db817.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d6/9b/d69b4632-7bed-4b47-aa2a-890db0b726f1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/df/0a/df0a2a53-fd3d-4e06-84d5-71f88b71ecbb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/62/08/62087f8b-9f9a-435d-a21f-d5dc23c8cb80.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/91/7e/917efc16-085e-4210-99ce-adaa525628f7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/79/4e79d131-d132-43d1-ae59-639e32ff1643.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "First-person",
+        "Top-down",
+        "2D",
+        "Turn-based"
+      ],
+      "Companies": "Black Tower Basement, Nordcurrent",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "699 MB",
+      "Repack Size": "276 MB"
+    },
+    "createdAt": 1786838400000
   }
 }
