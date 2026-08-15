@@ -177248,5 +177248,29 @@
       "Repack Size": "514 MB"
     },
     "createdAt": 1786752000000
+  },
+  "low-budget-repairs/": {
+    "title": "Low-Budget Repairs + Bonus App",
+    "image": "https://i1.imageban.ru/out/2026/08/15/2d72378e8f3408b050a0d7da81ad49b0.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4d/73/4d739586-2019-4108-98ff-34818b929a1c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b5/63/b563b9db-659f-4fb6-9da4-390f2873cbad.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/60/2c/602c6e19-9e22-46a5-811c-e85a58c5090a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ea/80/ea80d6cd-5c42-439d-9df4-6e3552085def.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/75/50/7550fa11-406a-405d-8b1c-6dc10095a85d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/89/78/897831c3-1f57-42e8-9eae-5f11231dacbf.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "PlayWay, Simplicity Games, Gray2RGB",
+      "Languages": "RUS/ENG/MULTI18",
+      "Original Size": "13.9 GB",
+      "Repack Size": "6.2 GB"
+    },
+    "createdAt": 1786752000000
   }
 }
