@@ -177323,5 +177323,29 @@
       "Repack Size": "683 MB"
     },
     "createdAt": 1786838400000
+  },
+  "emergency-room-simulator/": {
+    "title": "Emergency Room Simulator – v1.0.0.1127",
+    "image": "https://i4.imageban.ru/out/2026/08/16/8ab62c21e2332f1ad3f26f856ba5ea56.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/c1/79/c1797673-3abe-4e19-9c09-a2eece101569.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/43/b8/43b84f7c-84f6-4cc8-a24c-7d26a1ef5be8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6b/db/6bdbc398-5b94-4144-a44a-cb3b2f928fd8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a2/50/a2508afc-65aa-4750-8732-7316c69cb6a5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e2/79/e279c41c-ae73-4bf6-b909-53f2f0c70ece.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c4/ce/c4ce165a-ce99-4b53-afe7-316c0fc76132.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Aerosoft, Caipirinha Games",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "4.6 GB",
+      "Repack Size": "3.1 GB"
+    },
+    "createdAt": 1786838400000
   }
 }
