@@ -177298,5 +177298,30 @@
       "Repack Size": "276 MB"
     },
     "createdAt": 1786838400000
+  },
+  "system-breakdown/": {
+    "title": "System Breakdown",
+    "image": "https://i2.imageban.ru/out/2026/08/16/4bd226df6f5fb78af7c156a2fe352b77.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/17/ef/17eff73d-f0a7-43e5-974a-46b0de13e2ef.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/24/8c/248cc86d-904c-46e0-befe-04e9434ea10f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/54/bc/54bcd406-00ba-44b5-83e2-702989ac3a36.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3c/35/3c351f92-a934-4e80-a505-9891d62be304.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/86/88/8688cb37-c826-4872-a80a-76f4c46b07fd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/99/cf/99cfdd43-732d-4e65-8c17-c6d63c20531c.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Shoot 'em up",
+        "Isometric",
+        "2D"
+      ],
+      "Company": "Anarchy Creations",
+      "Languages": "RUS/ENG/MULTI6",
+      "Original Size": "1.8 GB",
+      "Repack Size": "683 MB"
+    },
+    "createdAt": 1786838400000
   }
 }
