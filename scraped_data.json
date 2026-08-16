@@ -177347,5 +177347,30 @@
       "Repack Size": "3.1 GB"
     },
     "createdAt": 1786838400000
+  },
+  "duskfade/": {
+    "title": "Duskfade + Bonus OST",
+    "image": "https://i2.imageban.ru/out/2026/08/16/7d36656d10740aebf5262e2caf876565.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/3d/e8/3de8a610-19e5-4755-88b0-f47afd375aee.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ab/5f/ab5f33e5-f664-4490-9aa5-5f003fa74679.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8d/14/8d14850d-8ed0-483c-ad22-c96a13688814.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f6/1b/f61b0dc1-a3a3-4b53-a8de-e6ee165fb928.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8c/f8/8cf84019-3e9f-459d-9337-11da806c780a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bd/2f/bd2f5b64-704d-4faf-94ab-53cc0c3f8601.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Fireshine Games, Weird Beluga Studio",
+      "Languages": "ENG/MULTI9",
+      "Original Size": "15.2 GB",
+      "Repack Size": "10.5/10.6 GB"
+    },
+    "createdAt": 1786838400000
   }
 }
