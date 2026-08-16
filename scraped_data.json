@@ -177372,5 +177372,31 @@
       "Repack Size": "10.5/10.6 GB"
     },
     "createdAt": 1786838400000
+  },
+  "uncanny-tales-the-watcher/": {
+    "title": "Uncanny Tales: The Watcher – Deluxe Edition, v1.3.0 + Bonus OST",
+    "image": "https://i7.imageban.ru/out/2026/08/17/237cf94906cf1c979585e739f3ae3aa7.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/97/c2/97c20cb1-2c75-48b9-ac78-cc6d5921a66d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/66/78/6678e6f4-b241-4b07-8e39-eec12671a49d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c0/c5/c0c512a6-b8f5-488d-87ef-24552ba57f25.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/50/6e/506e68a2-ab81-412c-9a42-501695b505d8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4c/9d/4c9dcecb-3a73-44c7-8626-1b6cfc0663fb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/75/f5/75f56f6b-c06a-4f61-afe8-2bf6f6bb16cb.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Driving",
+        "Exploration",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Company": "Vyastudio",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "5.8 GB",
+      "Repack Size": "1.9 GB"
+    },
+    "createdAt": 1786924800000
   }
 }
