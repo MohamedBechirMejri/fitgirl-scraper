@@ -177425,5 +177425,56 @@
       "Repack Size": "1 GB"
     },
     "createdAt": 1786924800000
+  },
+  "the-skin-stapler/": {
+    "title": "The Skin Stapler: The Skin Janker Edition + 2 DLCs/Bonuses",
+    "image": "https://i4.imageban.ru/out/2026/08/17/6756b0c8d8e5e1f2f1824decdb5d0a7e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/9b/62/9b620061-ed6e-4b1a-af5e-c92b2a6347d2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/de/30de6f13-d377-48ee-bf08-8a49d743b2d7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c7/c0/c7c0dd3b-720d-4d1b-9338-846776ec32e6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/89/32/89324941-9197-4c55-8c73-4d86530789b1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/47/92/47921199-d854-4dda-ae91-68c37190cce2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ba/d6/bad63f97-cd03-42a7-ac9a-cd2f10864c6a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "First-person",
+        "3D",
+        "Detective fiction",
+        "Horror"
+      ],
+      "Companies": "Assemble Entertainment, Tainted Pact",
+      "Language": "ENG",
+      "Original Size": "3.2 GB",
+      "Repack Size": "1.2 GB"
+    },
+    "createdAt": 1786924800000
+  },
+  "marvel-tokon-fighting-souls/": {
+    "title": "MARVEL Tokon: Fighting Souls – v1.2.2 + 9 DLCs",
+    "image": "https://i2.imageban.ru/out/2026/08/17/591176165f742c8059385d7c67c56a6f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/cf/cc/cfcce81e-7ef3-40da-a036-a33fb7696894.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e9/a4/e9a446bf-8f98-4aa6-bd28-a016bd5d2a8c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c2/c1/c2c15960-9bbb-4cf9-be71-8c72fd44b8d9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ff/0e/ff0e6068-377e-4670-98bf-f9c96056f036.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/84/c4/84c4622b-c845-4c49-9284-844d24bc3ae3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/62/5e/625e1a61-c887-493a-bfcf-40780e872845.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Fighting",
+        "3D",
+        "Superheroes"
+      ],
+      "Companies": "Arc System Works, Sony Interactive Entertainment",
+      "Languages": "RUS/ENG/MULTI16",
+      "Original Size": "25.1 GB",
+      "Repack Size": "from 16.3 GB [Selective Download]"
+    },
+    "createdAt": 1786924800000
   }
 }
