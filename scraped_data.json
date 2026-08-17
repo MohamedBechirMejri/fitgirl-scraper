@@ -177398,5 +177398,32 @@
       "Repack Size": "1.9 GB"
     },
     "createdAt": 1786924800000
+  },
+  "cropia/": {
+    "title": "Cropia",
+    "image": "https://i7.imageban.ru/out/2026/08/17/0da745f178250de0a9e07e8acaac7bdc.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/69/60/6960475c-0743-4f0f-804f-2a95402e7ad7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4b/56/4b563546-4598-42c9-89bb-65f1aeb07448.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/99/18/991873a7-ac3d-45e6-ad13-0626a1e2a6af.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e0/fe/e0feb1a6-0e8d-4857-b366-7a0a6666c074.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d4/94/d4945872-ee59-400c-a56d-8f853fcb55c0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/85/cf/85cffcad-8ed0-4c63-a109-7560fb0a8afb.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "Item crafting",
+        "Open world",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Cropstone Studio",
+      "Languages": "RUS/ENG/MULTI20",
+      "Original Size": "6.2 GB",
+      "Repack Size": "1 GB"
+    },
+    "createdAt": 1786924800000
   }
 }
