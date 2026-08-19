@@ -177577,5 +177577,32 @@
       "Repack Size": "722 MB"
     },
     "createdAt": 1787097600000
+  },
+  "astrobuilder/": {
+    "title": "Astrobuilder – v1.0.8d6e340.143",
+    "image": "https://i8.imageban.ru/out/2026/08/19/bc7aaebf15e76f1d4dd3d41e28563154.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/fb/bd/fbbd09ce-418b-44dd-99e4-a72a48cfc66d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/88/2c/882c9130-0f16-4df5-9f75-35f730811731.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/96/38/9638a808-3663-475b-8b5f-53e08277ab71.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1b/14/1b1468c1-4f8a-4287-b42c-602fa3a62bc7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/08/f4/08f4a318-4212-4c57-a76b-ffd4cb71f0cd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4b/17/4b1761a3-5259-415c-bc65-425969aef15e.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "RPG",
+        "Content randomization",
+        "Open world",
+        "Top-down",
+        "3D"
+      ],
+      "Company": "Wastudio",
+      "Languages": "ENG/CHS",
+      "Original Size": "7.7 GB",
+      "Repack Size": "2.7 GB"
+    },
+    "createdAt": 1787097600000
   }
 }
