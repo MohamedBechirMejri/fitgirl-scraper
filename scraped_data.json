@@ -177527,5 +177527,30 @@
       "Repack Size": "51.1/51.3 GB"
     },
     "createdAt": 1787011200000
+  },
+  "ruins-of-dawn/": {
+    "title": "Ruins of Dawn – v1.08",
+    "image": "https://i1.imageban.ru/out/2026/08/19/e3e2f5e53eda31e94a0f84f4f8a92dd1.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/5c/0f/5c0f9ee7-67db-4267-b07d-6955cfd8ee07.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/29/20/292052fa-ad35-4c3a-9b5a-07cc36d6c883.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/12/cb/12cb2cee-1baa-4ea5-b3d9-0ed2d3faa1d5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8a/01/8a01853d-837f-4fd6-b44e-d7db260cafb5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/35/49/3549f8bc-7fff-4bb9-8ccd-bbb4b89193b6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9f/0f/9f0f2686-e8f3-4d78-bcd5-0f96f86b0808.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Top-down",
+        "3D"
+      ],
+      "Company": "Treasure Hunters",
+      "Languages": "ENG/MULTI2",
+      "Original Size": "2.3 GB",
+      "Repack Size": "1.4 GB"
+    },
+    "createdAt": 1787097600000
   }
 }
