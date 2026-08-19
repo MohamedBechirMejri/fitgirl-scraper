@@ -177655,5 +177655,31 @@
       "Repack Size": "4.8 GB"
     },
     "createdAt": 1787097600000
+  },
+  "twisted-tower/": {
+    "title": "Twisted Tower – v1.0.3",
+    "image": "https://i8.imageban.ru/out/2026/08/19/ac214a93e0c36c9e710d5a88833c2870.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/f9/49/f949236b-ef10-4113-bac9-340d9882345b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c8/74/c8745753-6b35-4481-bcbf-26be19190acb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4a/ac/4aacc778-8084-4de2-9430-712ee19d011d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/84/ba/84ba0734-9633-4551-b4bd-6ed32ba5baac.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/06/84/06841867-1b32-45a0-be44-bf13c05fdf48.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cc/8f/cc8f7782-736e-4fee-99ca-48f6d4e86aa7.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "3D Realms, Atmos Games",
+      "Language": "ENG",
+      "Original Size": "3.1 GB",
+      "Repack Size": "2.3 GB"
+    },
+    "createdAt": 1787097600000
   }
 }
