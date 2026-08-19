@@ -177604,5 +177604,31 @@
       "Repack Size": "2.7 GB"
     },
     "createdAt": 1787097600000
+  },
+  "little-sim-world/": {
+    "title": "Little Sim World – v1.0.0 (Release)",
+    "image": "https://i4.imageban.ru/out/2026/08/19/7b13d63125b042abb7236d182c05ba88.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/e7/7f/e77f8d20-6b33-49d9-b5a9-3dd561f0879e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3d/6d/3d6d2a74-ba89-441a-949f-175e52d53447.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/34/ce/34ce66bf-4bdc-418c-981f-c5c9ea18ce9c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/31/90/31906764-1208-4bca-b84b-9fb5b3529b9e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e0/11/e011ec06-c706-4b0a-93b0-a5988a9e91c7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8d/b9/8db9142c-dc13-4b4b-ab5b-f64eabd0475e.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "Item crafting",
+        "Top-down",
+        "2D"
+      ],
+      "Company": "Gravity",
+      "Languages": "RUS/ENG/MULTI7",
+      "Original Size": "1.8 GB",
+      "Repack Size": "827 MB"
+    },
+    "createdAt": 1787097600000
   }
 }
