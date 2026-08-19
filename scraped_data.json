@@ -177552,5 +177552,30 @@
       "Repack Size": "1.4 GB"
     },
     "createdAt": 1787097600000
+  },
+  "wild-blue-skies/": {
+    "title": "Wild Blue Skies – v1.0.4.0",
+    "image": "https://i1.imageban.ru/out/2026/08/19/a614165012ba98ce924d4315e7eaa714.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/e1/e2/e1e2c183-6ed9-4af1-873c-385ee785a190.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6e/25/6e255984-18e0-42d8-a2dd-7c7d45706a8c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b7/70/b77015f1-f46d-4aa1-a448-52f589b67dfe.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5e/31/5e31ed2d-4570-414e-89aa-9d7f98c45f12.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/94/11/9411c1da-7971-4a7f-9f3e-370b8f43f030.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/74/23/74233d0b-5e87-414b-b8e7-ebb72d816f82.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Gun game",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Chuhai Labs, Vitei Backroom, Balor Games",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "1.7 GB",
+      "Repack Size": "722 MB"
+    },
+    "createdAt": 1787097600000
   }
 }
