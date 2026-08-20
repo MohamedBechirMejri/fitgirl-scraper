@@ -177707,5 +177707,31 @@
       "Repack Size": "317/468 MB"
     },
     "createdAt": 1787184000000
+  },
+  "unrailed-2-back-on-track/": {
+    "title": "Unrailed 2: Back on Track – Supporter Edition, v936 + 2 DLCs/Bonuses",
+    "image": "https://i5.imageban.ru/out/2026/08/20/8fd02771a9a64057c97075993d99df7a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/58/f8/58f884d1-41cc-472c-8aa0-cdd44ad84601.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/20/87/208710a2-1034-4a43-8399-46e94fd1f6e5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d6/98/d6985d2e-975a-4048-afda-019dfde0d9d1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c2/04/c204978a-150f-41b4-b4c6-4e255ba99d1c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2e/52/2e529c42-3816-426d-b254-01ac490f443b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/e5/30e5c24d-61be-4f78-9251-8403bdff5bce.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Time management",
+        "Content randomization",
+        "Item crafting",
+        "Isometric",
+        "3D"
+      ],
+      "Company": "Indoor Astronaut",
+      "Languages": "RUS/ENG/MULTI16",
+      "Original Size": "2.6 GB",
+      "Repack Size": "from 526 MB [Selective Download]"
+    },
+    "createdAt": 1787184000000
   }
 }
