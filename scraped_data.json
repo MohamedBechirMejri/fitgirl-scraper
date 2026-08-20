@@ -177681,5 +177681,31 @@
       "Repack Size": "2.3 GB"
     },
     "createdAt": 1787097600000
+  },
+  "unrailed/": {
+    "title": "Unrailed! Supporter Bundle – v2.1 + Bonus DLC",
+    "image": "https://i3.imageban.ru/out/2026/08/20/15e7a306a9f051887af6a41c17bf875f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/eb/d8/ebd80f3f-aac0-45bb-802b-b4e7f50b374d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/08/de/08de737d-38e0-41ad-9574-2c7f81e60233.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/a5/30a53ef2-b0b2-4c26-bb18-68b11714be1f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bd/d2/bdd2b6b4-a482-4673-b3f2-98793e23502e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9f/59/9f59ec43-5c86-4a82-b06f-48ad18de7087.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d8/2f/d82f3240-9a9d-4302-86c9-7d0f8e3cd8d7.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Time management",
+        "Content randomization",
+        "Item crafting",
+        "Isometric",
+        "3D"
+      ],
+      "Companies": "Indoor Astronaut, Daedalic Entertainment, bilibili",
+      "Languages": "RUS/ENG/MULTI15",
+      "Original Size": "1.6 GB",
+      "Repack Size": "317/468 MB"
+    },
+    "createdAt": 1787184000000
   }
 }
