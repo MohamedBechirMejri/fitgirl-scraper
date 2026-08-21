@@ -177758,5 +177758,30 @@
       "Repack Size": "2.6 GB"
     },
     "createdAt": 1787270400000
+  },
+  "tukoni-forest-keepers/": {
+    "title": "Tukoni: Forest Keepers – v1.0.4",
+    "image": "https://i4.imageban.ru/out/2026/08/21/8d57c7c9c699c065d78e51f0281679cb.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/52/26/5226888a-ed3d-453d-8b68-1357843cf434.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/33/29/33292d76-c3ad-4231-9332-13ac73648abf.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/c4/2ac452ed-9c7b-463c-b1e4-9cc69fec5284.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/69/00/6900c666-dbbc-47d9-aa74-42c27d0c8a08.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/85/e6/85e69958-3009-43a5-8417-39ecd1c0ae97.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/eb/f6/ebf63e19-1957-4531-a298-bad8c80d86ce.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Side",
+        "2D",
+        "Fantasy"
+      ],
+      "Companies": "Gamersky Games, Dream Operator",
+      "Languages": "ENG/MULTI28",
+      "Original Size": "1.1 GB",
+      "Repack Size": "676 MB"
+    },
+    "createdAt": 1787270400000
   }
 }
