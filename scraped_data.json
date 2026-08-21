@@ -177783,5 +177783,30 @@
       "Repack Size": "676 MB"
     },
     "createdAt": 1787270400000
+  },
+  "dagger-directive/": {
+    "title": "Dagger Directive – v1.0.0 Build 989",
+    "image": "https://i4.imageban.ru/out/2026/08/21/4de99c13dd34841856f5695243b89894.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/2f/35/2f355cb9-2522-4973-b5bf-9a4fc0a1f12c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/91/be/91be2fad-8e8f-46ec-b0a9-6b4c63ec87c5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9c/bc/9cbca96f-8a3f-433b-9507-ebba249c5ed7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/03/cd/03cd75e5-e54f-4786-9120-3f007af35b92.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/f4/37f4ecca-5d0f-4b3c-9d61-aff0f9a664a7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/db/2b/db2b8599-35f1-4945-aeba-9f7ad20e67e7.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Tactical shooter",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "MicroProse Software, Arcane Alpacas",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "2.8 GB",
+      "Repack Size": "1 GB"
+    },
+    "createdAt": 1787356800000
   }
 }
