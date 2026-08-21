@@ -177733,5 +177733,30 @@
       "Repack Size": "from 526 MB [Selective Download]"
     },
     "createdAt": 1787184000000
+  },
+  "pizza-house-simulator/": {
+    "title": "Pizza House Simulator – v1.0.0.3",
+    "image": "https://i1.imageban.ru/out/2026/08/21/f6b433ec1ae7674dc55bb5bae1d435d1.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/17/63/17630f94-423d-4937-b96f-efb54821d1e7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b2/ea/b2eaae8c-c0b7-4809-a3a9-5a5b8c7ba4e8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/78/d1/78d19df6-868c-4d3a-ba4b-e2ede71d3fc1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/33/b9/33b92dd9-c18c-4916-bdaf-f0459865913f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f4/bc/f4bcc1c3-ae4f-4327-a42f-518e66612924.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5d/ee/5dee18ea-fc89-4f13-a7fd-2427d0c7be43.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Simulator",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Devotion Interactive, Broken Lyre Entertainment, Wendigo Games",
+      "Languages": "RUS/ENG/MULTI19",
+      "Original Size": "4.7 GB",
+      "Repack Size": "2.6 GB"
+    },
+    "createdAt": 1787270400000
   }
 }
