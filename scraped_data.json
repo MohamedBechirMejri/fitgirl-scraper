@@ -177808,5 +177808,30 @@
       "Repack Size": "1 GB"
     },
     "createdAt": 1787356800000
+  },
+  "clawed/": {
+    "title": "Clawed – v1.02",
+    "image": "https://i8.imageban.ru/out/2026/08/22/7bc5073c789ad96aa7b71b0e34a2bd30.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/18/c9/18c923fc-8fd1-451a-b615-a0704fce43fd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2b/01/2b019ead-a763-4f9c-af6e-37a1a7fb0688.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a5/ce/a5ce7be8-8c1c-4168-8c8e-8e98c97659c3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/84/3084c93d-0937-4f16-a0dd-4c20b8f67758.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/13/c9/13c97175-bd7c-41ae-8dba-ac80c4b58093.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/98/a4/98a49709-adab-42ca-944c-fe745debbfaa.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Flatrock Games",
+      "Language": "ENG",
+      "Original Size": "16.3 GB",
+      "Repack Size": "11.6 GB"
+    },
+    "createdAt": 1787356800000
   }
 }
