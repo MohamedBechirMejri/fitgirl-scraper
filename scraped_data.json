@@ -177833,5 +177833,30 @@
       "Repack Size": "11.6 GB"
     },
     "createdAt": 1787356800000
+  },
+  "mexican-ninja/": {
+    "title": "Mexican Ninja – v1.0.02022",
+    "image": "https://i7.imageban.ru/out/2026/08/22/381cd0664c8e5377749f3bb6da648489.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/01/9b/019be19d-6827-4b08-9cbc-0973d2f41592.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/40/2a/402a870c-b395-41c6-bc64-2718ef23cb29.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/62/04/6204ceef-d90f-4a88-8663-674a743cebca.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/92/af/92afcd1f-4516-4aca-b7e6-972d391c888a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f6/18/f6182ba5-7674-42d0-a039-4927f453b295.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/21/79/2179aaa3-2668-43c3-b3ad-cc2bf8e38afa.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Beat 'em up (Brawler)",
+        "Side",
+        "2D"
+      ],
+      "Companies": "Amber, Madbricks",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "2 GB",
+      "Repack Size": "994 MB/1.2 GB"
+    },
+    "createdAt": 1787356800000
   }
 }
