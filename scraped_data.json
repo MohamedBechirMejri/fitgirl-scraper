@@ -177858,5 +177858,31 @@
       "Repack Size": "994 MB/1.2 GB"
     },
     "createdAt": 1787356800000
+  },
+  "yet-another-zombie-survivors/": {
+    "title": "Yet Another Zombie Survivors – v1.0.0 + Bonus OST",
+    "image": "https://i2.imageban.ru/out/2026/08/23/6e518d87b3bcebd0eae4056cc1557fa6.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/8c/fd/8cfd78e6-f8c4-4f75-ba9d-c9c61a677125.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8a/79/8a79ee67-b35e-4eed-9bbb-fcbc32204a21.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fc/95/fc95aacf-88ca-4789-947c-ee65b477bc39.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/46/a5/46a566ee-935d-41fd-89d0-0245e1edde18.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/db/03/db035b16-1a62-4cb7-a110-72d0f27066f9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ab/2e/ab2eb36c-a9f2-4d0d-b470-7e06aaffed67.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Survival",
+        "Top-down",
+        "Post-apocalypse",
+        "Zombies"
+      ],
+      "Company": "Awesome Games Studio",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "4.7 GB",
+      "Repack Size": "2.1 GB"
+    },
+    "createdAt": 1787529600000
   }
 }
