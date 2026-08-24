@@ -177884,5 +177884,31 @@
       "Repack Size": "2.1 GB"
     },
     "createdAt": 1787529600000
+  },
+  "pengpong/": {
+    "title": "PengPong – Build 24833607",
+    "image": "https://i5.imageban.ru/out/2026/08/24/bc8c08c8858f2b0ab213749bb0ab60ab.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/07/55/0755fda7-7a51-48ae-b1c6-e5a7366e8359.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/1e/2a1e44d0-6b5e-4290-8bcb-7bbf47bf1dce.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2b/46/2b4644c9-b52e-4e4b-8d69-d5fd7b2062b9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5b/b3/5bb3eee1-5251-46e2-b7fd-64d9bc4de196.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2c/ec/2cec3c29-33a8-4ddc-83aa-d5af7700b721.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0f/25/0f258a0a-4e78-4668-8529-b980bc115374.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Shoot 'em up",
+        "Bullet hell",
+        "Top-down",
+        "2D"
+      ],
+      "Companies": "Sandy Floor, Gamirror Games",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "3.6 GB",
+      "Repack Size": "312 MB"
+    },
+    "createdAt": 1787616000000
   }
 }
