@@ -177910,5 +177910,31 @@
       "Repack Size": "312 MB"
     },
     "createdAt": 1787616000000
+  },
+  "space-tales/": {
+    "title": "Space Tales – v1.1",
+    "image": "https://i4.imageban.ru/out/2026/08/25/e18531b1cb2efe99998b53b90111cbc2.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b1/89/b1892728-a85e-4dd5-88bf-f6d047774080.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b5/ca/b5cacd9c-1879-4b76-8fa1-25f70aaea41a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d0/ec/d0ec4c14-5e26-45bc-a086-e61fa10f0e39.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/6c/cd6cd67e-9568-4f88-82b0-000f363a6bf2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/60/ca/60ca74da-0d49-4380-ba22-6f6b9d5aef4b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/39/17/3917fc88-289e-4d08-b0f7-a6a305d1173e.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "RTS",
+        "Top-down",
+        "3D",
+        "Real-time"
+      ],
+      "Company": "Saigon Dragon Studios",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "18 GB",
+      "Repack Size": "3.2 GB"
+    },
+    "createdAt": 1787616000000
   }
 }
