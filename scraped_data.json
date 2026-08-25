@@ -177936,5 +177936,30 @@
       "Repack Size": "3.2 GB"
     },
     "createdAt": 1787616000000
+  },
+  "titanic-escape-simulator/": {
+    "title": "Titanic Escape Simulator",
+    "image": "https://i6.imageban.ru/out/2026/08/25/12f5ea03ec213490b3e0a104368eb0b1.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/12/dc/12dc6fec-b05d-488b-ae1d-886f5c95709c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/72/78/7278d1d6-4fd6-4fa0-8564-f0d51c34cafd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/83/94/839449af-31f0-4726-826d-05129f0bcb4a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/46/a8/46a8acd0-5005-4487-b679-feb3eb9d2a9a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bf/6d/bf6d1e21-93a5-4708-ba29-f3971a978b51.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c7/29/c729e897-1fda-4ac3-a689-91d633375571.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Logic",
+        "Puzzle",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "magicprostudio, Vintage Digital Revival",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "10.5 GB",
+      "Repack Size": "6.6 GB"
+    },
+    "createdAt": 1787616000000
   }
 }
