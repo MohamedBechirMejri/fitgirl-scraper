@@ -178093,5 +178093,31 @@
       "Repack Size": "from 71.5 GB [Selective Download]"
     },
     "createdAt": 1787875200000
+  },
+  "star-wars-zero-company/": {
+    "title": "STAR WARS Zero Company: Deluxe Edition + 2 DLCs [Monkey Repack]",
+    "image": "https://i2.imageban.ru/out/2026/08/28/fe880eb3ea6b7abb9fbc672c372692e1.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/54/ce/54ce85b9-0f6b-4149-94c4-1f0a9c4e5aec.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ad/1c/ad1c8ad7-37fb-408e-9cba-c189dead01b5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ab/cb/abcb7769-4aa4-4299-85fa-808a3e81c3a3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c6/aa/c6aac289-ed5f-4b57-b0a6-0706febced65.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/96/4e96a7c5-6cf4-45fd-9d2a-ab89eaf1079d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/70/51/7051fa90-df5a-469b-8876-d211a47d2a22.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "Tactics",
+        "Star Wars",
+        "3D",
+        "Turn-based"
+      ],
+      "Companies": "Bit Reactor, Electronic Arts",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "34.7 GB",
+      "Repack Size": "33.3 GB"
+    },
+    "createdAt": 1787875200000
   }
 }
