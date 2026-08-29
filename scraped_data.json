@@ -178119,5 +178119,58 @@
       "Repack Size": "33.3 GB"
     },
     "createdAt": 1787875200000
+  },
+  "captain-tsubasa-2-world-fighters/": {
+    "title": "CAPTAIN TSUBASA 2: WORLD FIGHTERS – v1.03 + 5 DLCs",
+    "image": "https://i6.imageban.ru/out/2026/08/28/6f12ad8cc94d8e109be5175558fb76ff.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ce/c3/cec30dbf-4248-4a6e-9fda-8c4fba4e6d86.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bb/76/bb760e46-9af7-4599-af89-e35ff8932af7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2e/49/2e49845d-463b-4ef6-b5cc-43f930a2e181.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8c/29/8c29f043-5907-4bda-ba12-56b579863706.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a0/56/a05604e9-3699-46c2-96b3-9a093ed16692.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a7/e5/a7e534c7-35ee-422c-8fbd-dbf228721307.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Sports",
+        "Soccer",
+        "3D",
+        "Japanese"
+      ],
+      "Companies": "Bandai Namco Entertainment, Tamsoft",
+      "Languages": "ENG/MULTI12",
+      "Original Size": "18.7 GB",
+      "Repack Size": "from 11.6 GB [Selective Download]"
+    },
+    "createdAt": 1787961600000
+  },
+  "metal-gear-solid-4-guns-of-the-patriots-master-collection-version/": {
+    "title": "METAL GEAR SOLID 4: Guns of the Patriots – Master Collection Version, v1.4.0 + Pre-Order Bonus DLC",
+    "image": "https://i2.imageban.ru/out/2026/08/29/0ac860fc1f87a73557130694802f018a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/a7/55/a7555f57-7f36-4a9e-9a0e-3916e431e3ed.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/34/0b/340b7a89-95b6-4e21-984f-1e8295a44ed9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/17/5e/175efc42-d815-400f-b128-4fd41fb6b5b4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/12/1a/121abdad-0022-4d5a-a81d-76923117799a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/45/22/45223266-8c8e-4a7c-9c5e-3396b6dd9a67.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/47/e5/47e57bb3-8962-4e1f-b551-4b68413a36ac.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Stealth",
+        "First-person",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Kojima Productions, Konami",
+      "Languages": "ENG/MULTI7",
+      "Original Size": "20.9 GB",
+      "Repack Size": "17.2 GB"
+    },
+    "createdAt": 1787961600000
   }
 }
