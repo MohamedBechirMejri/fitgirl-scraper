@@ -178172,5 +178172,33 @@
       "Repack Size": "17.2 GB"
     },
     "createdAt": 1787961600000
+  },
+  "brigandine-abyss/": {
+    "title": "BRIGANDINE ABYSS: Deluxe Edition + 2 Bonus DLCs",
+    "image": "https://i5.imageban.ru/out/2026/08/30/5776924bfae1125dfb096ebdcb5edf98.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/42/f6/42f6b1f4-d92b-4d2d-ae0b-f9c433312a7b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/84/b0/84b08fcb-6e8e-415d-b2e5-d007bdc96699.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ad/26/ad264656-25c6-48ba-aa74-c6c046fc4fa7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/00/2d/002dffd7-5feb-46d3-ba1c-1bd977f6be56.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f4/2b/f42bbf4a-a894-44e7-9e83-8ca54affc1b6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2d/55/2d55e19f-e30e-486a-b548-cc84cb672f86.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Strategy",
+        "Tactics",
+        "Top-down",
+        "3D",
+        "Japanese",
+        "Turn-based"
+      ],
+      "Companies": "Happinet, NIS America, Adglobe",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "10.2 GB",
+      "Repack Size": "from 5.6 GB [Selective Download]"
+    },
+    "createdAt": 1788048000000
   }
 }
