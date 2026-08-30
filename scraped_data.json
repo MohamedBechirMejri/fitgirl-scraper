@@ -178200,5 +178200,31 @@
       "Repack Size": "from 5.6 GB [Selective Download]"
     },
     "createdAt": 1788048000000
+  },
+  "iron-blight/": {
+    "title": "Iron Blight",
+    "image": "https://i2.imageban.ru/out/2026/08/30/43c64da4c1f32a3af595409fa6f86753.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/88/6b/886b6b12-952d-44e8-aa0b-9bf563e47177.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/79/2f/792f68da-fea8-4ba4-863a-f1a7f39629bb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/71/38/7138c442-df09-4bc4-bd9b-2297793e5221.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/51/28/5128d20c-a639-4138-86dd-54dd9eeff28b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/66/b4/66b4443e-afbc-45f9-b817-f68938e542c9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fb/5f/fb5f35d3-238a-4c93-877e-b0cf30e42669.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Survival",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "Ronesans Interactive, Rock Paper Publisher",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "2.5 GB",
+      "Repack Size": "471 MB"
+    },
+    "createdAt": 1788048000000
   }
 }
