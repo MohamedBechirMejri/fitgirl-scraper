@@ -178226,5 +178226,31 @@
       "Repack Size": "471 MB"
     },
     "createdAt": 1788048000000
+  },
+  "metal-gear-solid-3-snake-eater-master-collection-version/": {
+    "title": "METAL GEAR SOLID 3: Snake Eater – Master Collection Version – v3.0.0 + 2 DLCs",
+    "image": "https://i7.imageban.ru/out/2026/08/31/3fdb3a3e5f753575989f5d1484f0a7b0.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ee/c1/eec16e80-a1b2-4203-bcdf-9791fccd1426.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/86/c1/86c16a30-3a82-40da-84c9-a4cec9ce6146.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/99/aa/99aa7155-0de7-4496-bdf8-eb2e4009cbc7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ab/ca/abca9d15-4194-4421-8dd3-8e30bc8ecb4e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/68/cc/68ccb44a-4702-4aee-9ab3-64ef2314d706.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/78/67/7867d490-c10c-410e-b9d6-e2270d464c3e.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Stealth",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Konami Digital Entertainment (America), Kojima Productions, Konami of Europe, Konami",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "41.2 GB",
+      "Repack Size": "from 7.3 GB [Selective Download]"
+    },
+    "createdAt": 1788134400000
   }
 }
