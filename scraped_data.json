@@ -178252,5 +178252,58 @@
       "Repack Size": "from 7.3 GB [Selective Download]"
     },
     "createdAt": 1788134400000
+  },
+  "polylithic/": {
+    "title": "Polylithic, v1.0.0.24",
+    "image": "https://i1.imageban.ru/out/2026/08/31/b2e7ab6a37e54840303eb71190e211fe.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/89/db/89db7011-dad9-45d6-b825-d9a33d3d4fed.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/13/e3/13e3ba2b-b2e3-4ecf-89b3-851d41c1528f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/92/dc/92dce427-17e2-4285-8cc2-8205aecea867.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/49/5a/495a94df-7977-4fbd-8cd5-30903af3f618.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/40/48/404838e8-431b-4f75-a1d3-2cca37ef2aa4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a6/3b/a63b8a36-2c3a-4cf2-9d38-7a4d39531aa3.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Open world",
+        "Survival",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "polyperfect, indie.io",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "1.2 GB",
+      "Repack Size": "972 MB"
+    },
+    "createdAt": 1788134400000
+  },
+  "lous-lagoon/": {
+    "title": "Lou’s Lagoon: Deluxe Edition – v1.0.4-43683 + 3 DLCs/Bonuses",
+    "image": "https://i3.imageban.ru/out/2026/08/31/4958740a6d3862b413e951d70eb619df.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/1c/c6/1cc67ad7-a6df-437a-b6d1-975504d12a6d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e2/2e/e22ec8d8-2ac3-493b-9486-ec753539d0b3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ad/ae/adaee754-6485-4f60-9393-790c0a4a4a91.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4c/e4/4ce46ec2-8a16-4118-a084-52373b80c2d6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c2/aa/c2aa5770-7227-4e76-b9ce-21148887100f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c9/ef/c9efe2f2-7629-4a8d-be7c-9332f2b44fbf.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Lifestyle",
+        "Item crafting",
+        "Open world",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Megabit Publishing, rokaplay, Tiny Roar",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "4.8 GB",
+      "Repack Size": "2.5 GB"
+    },
+    "createdAt": 1788134400000
   }
 }
