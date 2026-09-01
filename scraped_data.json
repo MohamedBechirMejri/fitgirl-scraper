@@ -178357,5 +178357,30 @@
       "Repack Size": "from 4.4 GB [Selective Download]"
     },
     "createdAt": 1788220800000
+  },
+  "shadow-dungeon/": {
+    "title": "Shadow Dungeon – v1.0.0 (Release)",
+    "image": "https://i4.imageban.ru/out/2026/09/01/45bd83d51f8129de0db4c6973fbcae98.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/db/04/db04a3b3-5d5d-4246-9e80-7090fd9de86f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/12/90/12906bfe-9811-4c43-bc26-67fb1bc20137.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6e/7c/6e7cb10d-c90d-4df8-98a3-1c9e7a8d5d08.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bc/04/bc040f76-4ada-43e7-8345-f8c7bfb1e87b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a1/03/a1032fd3-60cd-436c-91c2-bc177d23179e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3d/49/3d49014a-13ee-48d0-af56-4d2551fa956a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Top-down",
+        "2D"
+      ],
+      "Company": "OO Cat",
+      "Languages": "RUS/ENG/MULTI24",
+      "Original Size": "6.8 GB",
+      "Repack Size": "1.2 GB"
+    },
+    "createdAt": 1788220800000
   }
 }
