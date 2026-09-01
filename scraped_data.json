@@ -178382,5 +178382,31 @@
       "Repack Size": "1.2 GB"
     },
     "createdAt": 1788220800000
+  },
+  "mgs-master-collection-version/": {
+    "title": "METAL GEAR SOLID – Master Collection Version, v3.0.0 + European Pack / Japanese Language Pack DLCs",
+    "image": "https://i8.imageban.ru/out/2026/09/02/8370d59ae3d0fda89de8f0e0d9ab5209.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/98/de/98ded074-78f7-4607-9288-f37ff700952e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/90/7e/907e9dd4-85b8-454b-b67e-dd2269f2d0f0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5f/3f/5f3fdf3f-a565-4273-ab9c-f42f5a011c87.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a7/dc/a7dc51ec-9c93-4d10-8ac9-614351ad7e18.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/eb/b0/ebb051da-12cf-49fe-9b29-f180cf5fcf1c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a0/aa/a0aa5c5b-3902-4f4a-84b5-fc54b55f19a8.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Stealth",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Konami, Konami Digital Entertainment, Konami Computer Entertainment Japan, Microsoft Games",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "11.1 GB",
+      "Repack Size": "from 3.4 GB [Selective Download]"
+    },
+    "createdAt": 1788307200000
   }
 }
