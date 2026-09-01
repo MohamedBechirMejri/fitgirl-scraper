@@ -178332,5 +178332,30 @@
       "Repack Size": "from 8.6 GB [Selective Download]"
     },
     "createdAt": 1788220800000
+  },
+  "serious-sam-shatterverse/": {
+    "title": "Serious Sam: Shatterverse",
+    "image": "https://i2.imageban.ru/out/2026/09/01/29af469cc610afa2f90e1f00ccd5c225.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/77/ec/77ec23c1-c0ea-4443-a152-4cd2edc65446.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/24/9b/249b5dbf-80fb-470d-9a5d-20de2cbb96b3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/76/7f/767f0b5a-0fe1-4aac-9880-702600c497c6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/87/61/8761ceff-d656-42f0-836c-1368e0a762f2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/eb/f2/ebf269d6-72c2-4d0a-bbca-f495eb15a93a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b2/51/b251f9b0-1914-433c-bac5-b984ab69d83f.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Devolver Digital, Behaviour Interactive",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "6.9 GB",
+      "Repack Size": "from 4.4 GB [Selective Download]"
+    },
+    "createdAt": 1788220800000
   }
 }
