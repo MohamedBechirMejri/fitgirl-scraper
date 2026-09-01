@@ -178305,5 +178305,32 @@
       "Repack Size": "2.5 GB"
     },
     "createdAt": 1788134400000
+  },
+  "metal-gear-solid-2-sons-of-liberty-master-collection-version/": {
+    "title": "METAL GEAR SOLID 2: Sons of Liberty – Master Collection Version, v2.1.0 + Japanese DLC",
+    "image": "https://i8.imageban.ru/out/2026/09/01/ffdcb74865cc6640f77c6802f86f61c5.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/f9/51/f9515037-205a-4279-9274-52633186d208.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/19/57/1957142b-5857-4b0e-a291-c8572d1886cc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0e/fa/0efa326c-19af-4e7b-afcd-e20931a043a0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/47/de/47dec5e1-43c0-4a69-98e9-102542c84526.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/82/ff/82ffe354-b4b7-467e-a168-13dc8608ba27.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/24/2a/242a73fb-b401-4155-b8ad-6e5264856bae.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Stealth",
+        "First-person",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Konami of America, Konami Computer Entertainment Japan, Konami, Konami of Europe",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "16.8 GB",
+      "Repack Size": "from 8.6 GB [Selective Download]"
+    },
+    "createdAt": 1788220800000
   }
 }
