@@ -178432,5 +178432,56 @@
       "Repack Size": "1.6 GB"
     },
     "createdAt": 1788307200000
+  },
+  "salvation-echoes-of-war/": {
+    "title": "Salvation: Echoes of War – v1.2.5878",
+    "image": "https://i4.imageban.ru/out/2026/09/02/1ed9cd7fde8ff9e59a785dd993208aac.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/81/5b/815b64e0-18bb-47da-b716-0af4a23734f7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/01/b1/01b1fc16-bc9f-4eaf-9afe-c6ef167fd48d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e8/ba/e8ba46c9-8547-467a-8884-f2cd6ac92e0d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/11/b1/11b18f3d-b79c-4adf-b088-3f034e9c1889.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7e/9f/7e9fcb25-8655-4c25-a5b3-b70a820c7162.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/54/5e/545eb96d-3a7e-4a1d-b253-87411a97549f.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Stealth",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Company": "Infinite Entropy",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "28.6 GB",
+      "Repack Size": "22.3 GB"
+    },
+    "createdAt": 1788307200000
+  },
+  "crimson-moon/": {
+    "title": "Crimson Moon – v1.0.0.160034 + Partial DLC",
+    "image": "https://i7.imageban.ru/out/2026/09/02/4795c9f3a3b8db996a14e3065807c6fa.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/63/8d/638d0a96-0591-497e-a5b4-715420f8ac84.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2f/c6/2fc623f3-6565-4940-b29b-2cfa79c8850f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/d8/8ed86a6a-4385-4ad7-a80b-8e156a1e1fa3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b9/b6/b9b6e9de-38f9-4e66-9dbd-7c375219131b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/96/23/96237545-fbd9-4f9f-bb47-58eb384010d4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9a/68/9a68cf51-5938-4f49-9d14-983e105b0837.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "ProbablyMonsters",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "31.3 GB",
+      "Repack Size": "24.3 GB"
+    },
+    "createdAt": 1788307200000
   }
 }
