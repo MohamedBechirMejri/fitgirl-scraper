@@ -178408,5 +178408,29 @@
       "Repack Size": "from 3.4 GB [Selective Download]"
     },
     "createdAt": 1788307200000
+  },
+  "big-ambitions/": {
+    "title": "Big Ambitions – v1.0 (Build 3670, Release)",
+    "image": "https://i5.imageban.ru/out/2026/09/02/12e66e1e7e023c570fdb39a451c2568f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ed/ec/edec4ac8-29ca-4936-843e-6279d7eb83e1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5c/23/5c23b63c-ee9a-49d0-8345-ebf84294c65c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c3/81/c381a574-54a1-4939-a1c5-f90049074205.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ac/af/acaf1aef-0014-41a5-a682-c7b537919d28.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b7/0a/b70afc0b-4e52-4b0b-905b-42ee541d2d88.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/20/a5/20a5f303-6a26-4441-ab7f-b7c4b29ff76f.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Top-down",
+        "3D"
+      ],
+      "Company": "Hovgaard Games",
+      "Languages": "RUS/ENG/MULTI22",
+      "Original Size": "6.2 GB",
+      "Repack Size": "1.6 GB"
+    },
+    "createdAt": 1788307200000
   }
 }
