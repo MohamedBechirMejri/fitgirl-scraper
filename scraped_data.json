@@ -178483,5 +178483,31 @@
       "Repack Size": "24.3 GB"
     },
     "createdAt": 1788307200000
+  },
+  "metal-gear-solid-peace-walker-master-collection-version/": {
+    "title": "METAL GEAR SOLID: Peace Walker – Master Collection Version, v1.3.0",
+    "image": "https://i4.imageban.ru/out/2026/09/02/54656a59d4a110c59909a9c200d95a9b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/21/3d/213de658-2eb5-4ecd-b79f-5c5247a99c0d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/80/66/80662434-99dd-4a8e-91d4-02a457175090.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5b/d3/5bd35975-ce76-4316-b4a3-ecab3d5e68fa.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2b/68/2b689192-5175-4c92-9307-5caabe2c0823.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2f/c1/2fc14ad7-5958-4270-85ad-89a176369328.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/da/12/da12007a-d8d2-48f4-a4ed-76ff125c34b7.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Metal Gear",
+        "Stealth",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Konami, Kojima Productions",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "19.7 GB",
+      "Repack Size": "from 9.3 GB [Selective Download]"
+    },
+    "createdAt": 1788393600000
   }
 }
