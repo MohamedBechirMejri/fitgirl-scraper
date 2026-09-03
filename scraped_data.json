@@ -178535,5 +178535,30 @@
       "Repack Size": "from 39.1 GB [Selective Download]"
     },
     "createdAt": 1788393600000
+  },
+  "lady-death-demonicron/": {
+    "title": "Lady Death Demonicron – v0.240",
+    "image": "https://i1.imageban.ru/out/2026/09/03/2cb98467da8d57bcb69b23c21de57bbd.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/20/6d/206d9ec1-9f50-4f8e-865f-f61299227de1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d4/ee/d4ee540a-5c0e-4feb-bb04-e229c24b48fb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/16/00/1600caf2-5f77-481e-bdd1-2dccb78fbdfb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1b/b6/1bb6bd55-95c9-4faf-a4a7-d075f58d6db7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c2/c6/c2c6ab97-b845-47bf-9efb-8ff28dbfc9b4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a7/cc/a7cc29a6-a2e8-45c3-bf96-5a94d6f13fc7.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Beat 'em up (Brawler)",
+        "Side",
+        "2D"
+      ],
+      "Company": "Art of Play Interactive",
+      "Language": "ENG",
+      "Original Size": "1.6 GB",
+      "Repack Size": "1.4 GB"
+    },
+    "createdAt": 1788480000000
   }
 }
