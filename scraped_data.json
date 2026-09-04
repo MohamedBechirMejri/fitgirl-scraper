@@ -178662,5 +178662,29 @@
       "Repack Size": "222 MB"
     },
     "createdAt": 1788480000000
+  },
+  "onimusha-way-of-the-sword/": {
+    "title": "Onimusha: Way of the Sword – Premium Deluxe Edition, v01.000.001 + 24 DLCs",
+    "image": "https://i2.imageban.ru/out/2026/09/04/e34a46c0921cf64b28f0e2d67eb716f7.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/69/cd/69cd402d-a4bd-46c4-9237-81ec1541e670.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/20/31/2031ad0d-5899-48ed-ad1e-46a10295e100.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e1/0c/e10c8f38-e9b3-44fe-9168-5aa02e9266c2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b1/17/b117b5c6-aded-4744-ba42-c704037980e4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/17/3717fe5f-f53b-4915-8ed5-f704a0ed2cf5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/57/ca/57ca65b0-c1d0-4e1c-a068-acc39f936780.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Capcom",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "55.9 GB",
+      "Repack Size": "39.1 GB"
+    },
+    "createdAt": 1788480000000
   }
 }
