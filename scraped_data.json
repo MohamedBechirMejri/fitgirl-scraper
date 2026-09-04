@@ -178560,5 +178560,57 @@
       "Repack Size": "1.4 GB"
     },
     "createdAt": 1788480000000
+  },
+  "moonlighter-2-the-endless-vault/": {
+    "title": "Moonlighter 2: The Endless Vault – Deluxe Edition, v1.0.42.3 + 3 DLCs/Bonuses",
+    "image": "https://i1.imageban.ru/out/2026/09/04/687485f8a0f5d9a99bd2a263608bf071.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/11/d8/11d8c4c8-9563-4528-a28f-707bc76ac208.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ca/1d/ca1d0ad7-5e55-4d85-ba3d-1754d023c033.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1a/3f/1a3f4e08-8dc5-4e77-8d08-b81f4e550549.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/17/e6/17e6a9d6-1d51-4093-bb18-89ea8c507fa3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/07/d5/07d5f60a-e875-4cc0-8690-6adf7214aafa.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fd/07/fd07f45e-805c-4576-87d4-48dcf14b24cf.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "RPG",
+        "Action RPG",
+        "Content randomization",
+        "Item crafting",
+        "3D"
+      ],
+      "Companies": "11 bit studios, Digital Sun",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "4.4 GB",
+      "Repack Size": "2.3/2.5 GB"
+    },
+    "createdAt": 1788480000000
+  },
+  "let-it-die-offline-edition/": {
+    "title": "LET IT DIE: Offline Edition – v5.0.1.0.0",
+    "image": "https://i3.imageban.ru/out/2026/09/04/7cde3e54eb0cc8ed3f433d1818e23cab.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/79/a9/79a96069-08b1-4fc5-a571-93420cdcc3d0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/48/f7/48f72cad-e740-48bd-8c52-1510d527c1d9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/12/cc/12cc5276-5df1-40d6-9785-4d2a1598aad5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6e/72/6e72e6d0-b0a4-4c75-a87a-cc1f90bb34b3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ec/25/ec255757-4784-499d-b324-d2977326f9b8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d6/a2/d6a22156-8706-40b2-8e79-d3b45b0082c2.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Third-person",
+        "3D",
+        "Japanese"
+      ],
+      "Companies": "GungHo Online Entertainment, Grasshopper Manufacture, Supertrick Games, GungHo Online Entertainment America",
+      "Languages": "ENG/MULTI10",
+      "Original Size": "27.6 GB",
+      "Repack Size": "11.9 GB"
+    },
+    "createdAt": 1788480000000
   }
 }
