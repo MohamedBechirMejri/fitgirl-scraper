@@ -178612,5 +178612,55 @@
       "Repack Size": "11.9 GB"
     },
     "createdAt": 1788480000000
+  },
+  "bioeden/": {
+    "title": "BioEden – v1.2.0.0",
+    "image": "https://i2.imageban.ru/out/2026/09/04/ad90337f6a2985de36ee4813d0edcc3d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/1a/fb/1afb90e2-91b9-44e7-a441-26242eea6764.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c2/4e/c24e7774-5a67-4a1c-bca3-04256427fed0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/79/63/79636a67-d03c-4113-9d03-8d4f83f8c2cd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6c/03/6c03ef35-f6a8-4a8c-879a-0a994178df08.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2d/32/2d32046a-e53d-4926-8707-65fe7ebc2813.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/33/c6/33c6ec5e-6b3d-4013-bc20-75493850df46.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Item crafting",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Broken Arms Games, Focus Entertainment",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "2.2 GB",
+      "Repack Size": "1.5 GB"
+    },
+    "createdAt": 1788480000000
+  },
+  "metal-gear-metal-gear-2-solid-snake/": {
+    "title": "METAL GEAR & METAL GEAR 2: Solid Snake – v2.0.2",
+    "image": "https://i7.imageban.ru/out/2026/09/04/827f75800388ac01c02ff5e3fecf583f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/5c/d8/5cd82155-7fbe-45ed-9cd0-fa46102051df.png.240p.jpg",
+      "http://s01.riotpixels.net/data/ed/d1/edd1461e-fef9-47e7-909c-4b4064a251b0.png.240p.jpg",
+      "http://s01.riotpixels.net/data/3b/15/3b150ee7-47cb-47e9-bc23-30f8cd425af0.png.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/8c/8e8cf3c8-8e5e-4b4c-881a-56c89f1a104c.png.240p.jpg",
+      "http://s01.riotpixels.net/data/04/5e/045e5353-b88f-4cd6-891e-9771652dfa99.png.240p.jpg",
+      "http://s01.riotpixels.net/data/03/22/032205f9-9b68-42ff-aa22-7800bb478926.png.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Stealth",
+        "Top-down",
+        "2D"
+      ],
+      "Companies": "Konami Industry, Ultra Games, Konami Digital Entertainment",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "490 MB",
+      "Repack Size": "222 MB"
+    },
+    "createdAt": 1788480000000
   }
 }
