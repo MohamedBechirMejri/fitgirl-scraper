@@ -178711,5 +178711,32 @@
       "Repack Size": "4.2 GB"
     },
     "createdAt": 1788566400000
+  },
+  "speedrunners-2-king-of-speed/": {
+    "title": "SpeedRunners 2: King of Speed",
+    "image": "https://i2.imageban.ru/out/2026/09/05/1f35994e72d8d8204c42d02324ad38a7.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/e2/50/e2506223-dcbe-4e31-a5ca-f05d5bcea745.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5a/8c/5a8cafed-de8b-4a7a-80cc-b95293615eb8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/85/6385412d-47c3-4b86-a93c-7d8fa87632cb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9e/9d/9e9d54b2-98ba-4c6a-99f7-8be8727d0f72.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/55/03/5503e4d6-1f81-495f-9bc6-38788daf4959.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/55/5b/555b0400-8b74-4013-ae64-3c2ca0aaab21.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Racing",
+        "Party game",
+        "Side",
+        "2D"
+      ],
+      "Companies": "tinyBuild, Fair Play Labs",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "1.4 GB",
+      "Repack Size": "1 GB"
+    },
+    "createdAt": 1788652800000
   }
 }
