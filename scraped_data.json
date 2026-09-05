@@ -178686,5 +178686,30 @@
       "Repack Size": "39.1 GB"
     },
     "createdAt": 1788480000000
+  },
+  "marsupilami-2-salsa-palombia/": {
+    "title": "Marsupilami 2: Salsa Palombia",
+    "image": "https://i6.imageban.ru/out/2026/09/05/86377d5691b0a3402d0f26e4a4133dbe.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/6a/d8/6ad8a065-f20b-491c-915f-91b6b979c9e9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5a/ee/5aee2cf1-dae3-4f4d-941c-e681d468c3b6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/34/aa/34aa8831-ee65-4f6c-b124-a37ac38059a0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cc/d7/ccd74c04-990f-491c-a172-0f00fa206237.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/40/df/40df9b44-a442-4d6b-b98e-c169848f8bca.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5a/4e/5a4ee874-8fa3-4be5-90d3-7f31b0551336.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Side",
+        "3D"
+      ],
+      "Companies": "Microïds, Ocellus Studio",
+      "Languages": "ENG/MULTI10",
+      "Original Size": "6.6 GB",
+      "Repack Size": "4.2 GB"
+    },
+    "createdAt": 1788566400000
   }
 }
