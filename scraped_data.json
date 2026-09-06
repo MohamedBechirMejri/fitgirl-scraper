@@ -178765,5 +178765,29 @@
       "Repack Size": "12.2 GB"
     },
     "createdAt": 1788652800000
+  },
+  "halloween-the-game/": {
+    "title": "Halloween: The Game – v1.0.0.69053",
+    "image": "https://i6.imageban.ru/out/2026/09/06/21b35933e890d6edb75b8d5bcb46c84d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/1c/d3/1cd3f0ba-c1d7-43f3-9dc2-20a30754c75e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1a/3b/1a3b321c-6bde-4510-9385-3058b448dd4e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/15/8f/158fc650-691e-4ea2-b6dc-fbba4d9567d6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e4/39/e4397e96-9335-4947-b192-bebc1c0da0e2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1a/80/1a80e467-041b-41f1-bffc-207662d1ffe7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c2/d1/c2d1eb42-386a-47e0-8eff-afb8389d83ba.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "IllFonic, Gun Media",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "28.2 GB",
+      "Repack Size": "22.8 GB"
+    },
+    "createdAt": 1788652800000
   }
 }
