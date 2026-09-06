@@ -178738,5 +178738,32 @@
       "Repack Size": "1 GB"
     },
     "createdAt": 1788652800000
+  },
+  "bus-simulator-27/": {
+    "title": "Bus Simulator 27 – v1.06.52637 + 2 DLCs",
+    "image": "https://i3.imageban.ru/out/2026/09/06/b5d03c6697c15d499790dda313cffb5b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4a/30/4a3017f1-0943-4052-8773-010a6ef1da32.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d8/d3/d8d30777-98b7-4e4f-9109-e4cc5b8832ae.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/07/87/078776a7-9ea2-4204-a8b0-03ace289a013.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d4/a9/d4a907af-dd28-4fef-a723-30d7fe0089c4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6a/e8/6ae86a09-9bff-4d51-971a-37cb8d9b9d53.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/54/5e/545ea92d-77f9-4455-a8d9-732dd3a0a050.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Driving",
+        "Simulation",
+        "First-person",
+        "Third-person",
+        "3D",
+        "Buses"
+      ],
+      "Companies": "astragon Entertainment, Simteract",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "16.8 GB",
+      "Repack Size": "12.2 GB"
+    },
+    "createdAt": 1788652800000
   }
 }
