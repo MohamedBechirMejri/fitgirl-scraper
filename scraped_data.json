@@ -178815,5 +178815,30 @@
       "Repack Size": "1.7 GB"
     },
     "createdAt": 1788652800000
+  },
+  "eldara/": {
+    "title": "Eldara",
+    "image": "https://i7.imageban.ru/out/2026/09/08/66055b99b538e9c11914ab5d46d07ad9.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/f0/48/f04821ed-c8fb-46ba-90b0-fb5a2393612e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1e/95/1e958737-3656-49aa-9e7c-9076c448f3b2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/71/aa/71aa1dbf-fb8c-4d8b-98d9-2f35689c5324.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ca/c2/cac26f22-a49c-49fc-837e-3879032c0fa1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/15/ff/15ff8341-af3c-489a-9239-998322e42834.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/be/88/be8851d5-7813-4089-938a-43a6847c29ed.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Incremental game",
+        "Side",
+        "2D",
+        "Fantasy"
+      ],
+      "Company": "Eldara Games",
+      "Language": "ENG",
+      "Original Size": "1.4 GB",
+      "Repack Size": "911 MB"
+    },
+    "createdAt": 1788825600000
   }
 }
