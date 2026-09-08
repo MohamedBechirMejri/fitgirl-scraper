@@ -178865,5 +178865,30 @@
       "Repack Size": "3.8 GB"
     },
     "createdAt": 1788825600000
+  },
+  "rogue-blight/": {
+    "title": "Rogue Blight: Supporter Edition, v1.00.04 + 2 Bonus DLCs",
+    "image": "https://i4.imageban.ru/out/2026/09/08/20952e27e99a15caf46a2bd6c0940fb1.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/f6/e0/f6e061a2-cb4b-47eb-8047-7ae0f82d4919.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/20/43/2043ae22-bec4-4181-b6b0-94604e2b9b83.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/46/43/46437f5d-666a-4ad4-9163-fb671ff99d17.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/00/ba/00baa9ea-1abe-4300-8073-15a2528e9e21.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c2/da/c2da0053-5849-48ac-9d9b-074dbe5d50c1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1c/f5/1cf5af5a-e7d0-4eb4-a4bb-2ca04733ff0c.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Side",
+        "2D"
+      ],
+      "Company": "CodeRadGames",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "6.2 GB",
+      "Repack Size": "1.2 GB"
+    },
+    "createdAt": 1788912000000
   }
 }
