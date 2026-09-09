@@ -178915,5 +178915,34 @@
       "Repack Size": "2.2 GB"
     },
     "createdAt": 1788912000000
+  },
+  "honeycomb-the-world-beyond/": {
+    "title": "Honeycomb: The World Beyond",
+    "image": "https://i2.imageban.ru/out/2026/09/09/1ad11de22ae91e913a6cbd9309343830.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/02/54/0254f7bf-a95e-4edc-848c-ebd6005a0985.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d1/57/d15748da-e525-4840-8e7e-fcf87f0d3938.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f0/e4/f0e4d4aa-ca38-4947-b63e-4491f034fdc3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e3/28/e328bbb9-7c6c-4431-81cd-ec39d9bc3c36.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/62/40/62405dee-bd86-4a2f-9625-daec7be63062.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3c/0c/3c0c2915-f80c-4412-9781-380af5aabe78.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Adventure",
+        "Exploration",
+        "Item crafting",
+        "Open world",
+        "Survival",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Frozen Way, Snail Games USA",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "6.7 GB",
+      "Repack Size": "4.8 GB"
+    },
+    "createdAt": 1788912000000
   }
 }
