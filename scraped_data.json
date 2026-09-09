@@ -178890,5 +178890,30 @@
       "Repack Size": "1.2 GB"
     },
     "createdAt": 1788912000000
+  },
+  "tiny-eden/": {
+    "title": "Tiny Eden",
+    "image": "https://i7.imageban.ru/out/2026/09/09/7b06a020ef64b36a76605cabc1e83504.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/99/a8/99a892e2-bebf-40d1-a731-1991f28ec34c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6e/a3/6ea3a37d-80a3-43a5-a6ef-044f9c6bcb9e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ff/6d/ff6da0ca-fcbf-4892-9725-fc35199667a3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/dd/66/dd665e41-979f-4b2c-af1d-5e03530e4e97.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/66/c9/66c9729e-1024-46b8-ad8b-9a4b468cf81d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/56/ca/56ca3954-0d4f-457e-8c7b-1eaf33e37a9b.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Bajka Games, Digital Vortex Entertainment",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "4.3 GB",
+      "Repack Size": "2.2 GB"
+    },
+    "createdAt": 1788912000000
   }
 }
