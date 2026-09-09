@@ -178944,5 +178944,33 @@
       "Repack Size": "4.8 GB"
     },
     "createdAt": 1788912000000
+  },
+  "valheim/": {
+    "title": "Valheim – v1.0.7 (Release) + 2 DLCs/Bonuses",
+    "image": "https://i7.imageban.ru/out/2026/09/09/374fb6688990ecbfccc81a33b1d4c79a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/83/14/83149a45-bcf4-4d36-9dc0-62a5251dacb7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e8/32/e832bf89-03fc-455e-9d1c-ef2a2de49ca7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6e/51/6e51e31e-2679-453e-a293-c4108750bd97.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e2/27/e22742e8-4fbd-4874-b07b-37b7860d981d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/80/fe/80fe5954-60b9-468a-96ef-02b5888e09df.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3e/6d/3e6ddda3-d83e-4eeb-a50b-d92e8ef3495f.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Exploration",
+        "Content randomization",
+        "Open world",
+        "Survival",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Iron Gate, Coffee Stain Studios",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "5.8 GB",
+      "Repack Size": "3.6/3.9 GB"
+    },
+    "createdAt": 1788998400000
   }
 }
