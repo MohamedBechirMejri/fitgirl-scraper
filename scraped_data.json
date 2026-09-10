@@ -178972,5 +178972,31 @@
       "Repack Size": "3.6/3.9 GB"
     },
     "createdAt": 1788998400000
+  },
+  "hot-wheels-infinite-rush/": {
+    "title": "HOT WHEELS Infinite Rush + Just for Fun Pack DLC",
+    "image": "https://i6.imageban.ru/out/2026/09/10/ab4209767fcc1cabdfb6a879f1316956.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b8/bb/b8bbbfd6-d2db-4e13-b701-d1acf5dd5f56.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/95/43/9543410e-cc3f-45aa-9fbe-3c789ce5769c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/71/30/71302f7d-c182-49ac-adec-7dc9fe710904.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0b/d5/0bd56ad5-5592-4328-85d4-d65fc38f2144.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9c/eb/9ceb7ec5-249a-46df-8fc2-676571c3a5f3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/03/70/03701b9f-d773-45ba-8b7f-813f7c97244e.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Racing",
+        "Third-person",
+        "3D",
+        "Cars"
+      ],
+      "Company": "Milestone",
+      "Languages": "ENG/MULTI12",
+      "Original Size": "16.6 GB",
+      "Repack Size": "9.5 GB"
+    },
+    "createdAt": 1788998400000
   }
 }
