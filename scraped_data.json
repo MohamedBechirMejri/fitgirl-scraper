@@ -179023,5 +179023,32 @@
       "Repack Size": "2.4 GB"
     },
     "createdAt": 1789084800000
+  },
+  "metal-gear-solid-master-collection-vol-1-vol-2-bonus-content/": {
+    "title": "METAL GEAR SOLID: MASTER COLLECTION Vol.1 & Vol.2 BONUS CONTENT – v1.5.1 / v1.2.0",
+    "image": "https://i3.imageban.ru/out/2026/09/11/c48db0b592cdb26712b0bb0332ef4b0b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/98/de/98ded074-78f7-4607-9288-f37ff700952e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/90/7e/907e9dd4-85b8-454b-b67e-dd2269f2d0f0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5f/3f/5f3fdf3f-a565-4273-ab9c-f42f5a011c87.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/47/de/47dec5e1-43c0-4a69-98e9-102542c84526.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/82/ff/82ffe354-b4b7-467e-a168-13dc8608ba27.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/24/2a/242a73fb-b401-4155-b8ad-6e5264856bae.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Arcade",
+        "Stealth",
+        "Top-down",
+        "2D"
+      ],
+      "Company": "KONAMI",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "38.1 GB",
+      "Repack Size": "from 403 MB"
+    },
+    "createdAt": 1789084800000
   }
 }
