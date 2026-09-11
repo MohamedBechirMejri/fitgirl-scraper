@@ -178998,5 +178998,30 @@
       "Repack Size": "9.5 GB"
     },
     "createdAt": 1788998400000
+  },
+  "alchemy-factory/": {
+    "title": "Alchemy Factory – v1.0.4917 (Release)",
+    "image": "https://i6.imageban.ru/out/2026/09/11/0d92d1e6ca33e8a7daa6f7fc3f0c5596.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/13/0f/130f21b2-0ceb-4c17-84b2-9e6607e288da.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0a/b7/0ab7ca40-5670-4842-a7e6-af76f8d94262.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/dc/a0/dca03c92-a5bf-47d6-85b5-09687234a843.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/74/8c/748ccd7a-900c-41b8-a6ca-c910abd6b67f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/90/e7/90e7e28d-ee82-4a0c-a16d-84e44ea840b6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/c5/cdc5b82d-c6ab-4d09-9908-144ecbe3ce08.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Item crafting",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Gamirror Games, D5 Copperhead",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "3.7 GB",
+      "Repack Size": "2.4 GB"
+    },
+    "createdAt": 1789084800000
   }
 }
