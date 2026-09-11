@@ -179050,5 +179050,31 @@
       "Repack Size": "from 403 MB"
     },
     "createdAt": 1789084800000
+  },
+  "sprawl-zero/": {
+    "title": "SPRAWL zero: Deluxe Edition + 2 Bonus DLCs",
+    "image": "https://i3.imageban.ru/out/2026/09/11/6d6fd4c1651611cd6b2aa4f93ce17bd8.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/31/74/3174c959-f267-4c85-8825-0efc91d38fd0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f0/8e/f08ecbef-e05a-49b8-8d60-a3eb14183158.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/51/fa/51fa78f2-e6df-4b6c-8699-8367a34ca106.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/47/37/473759ef-5465-4994-9f38-a92e80e0b05c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e5/22/e522bf7e-1269-401a-b61a-c8bebf36f0f8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cb/03/cb036240-8e90-4f6d-ba2c-ca4984ce5aca.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D",
+        "Cyberpunk"
+      ],
+      "Companies": "Kwalee, Maeth",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "4.3 GB",
+      "Repack Size": "2.2/2.5 GB"
+    },
+    "createdAt": 1789171200000
   }
 }
