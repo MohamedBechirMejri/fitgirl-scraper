@@ -179076,5 +179076,33 @@
       "Repack Size": "2.2/2.5 GB"
     },
     "createdAt": 1789171200000
+  },
+  "the-crust/": {
+    "title": "The Crust – v1.0.5 (Release) + Bonus OST",
+    "image": "https://i1.imageban.ru/out/2026/09/12/0c40cd719541f68907493b012d5b9e4f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/03/c9/03c95939-86b6-4249-92a2-ffbc631954a8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/18/5f/185f742d-e275-4015-acda-a90c2af9113e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/85/5c/855c7405-392b-49c8-9425-3fd816f1d43f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/62/6b/626b9f7c-3b57-4714-852d-7694efeeb5b7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/55/1c/551c0202-2970-4e4a-b0b0-02a7bf4547f1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/46/3d/463d4dcb-361b-498f-9d24-d538cd2f0526.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Strategy",
+        "Item crafting",
+        "Survival",
+        "Isometric",
+        "3D",
+        "Science fiction"
+      ],
+      "Companies": "Crytivo, Veom Studio",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "8.7 GB",
+      "Repack Size": "5.7/6.1 GB"
+    },
+    "createdAt": 1789171200000
   }
 }
