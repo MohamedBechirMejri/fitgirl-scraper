@@ -179104,5 +179104,29 @@
       "Repack Size": "5.7/6.1 GB"
     },
     "createdAt": 1789171200000
+  },
+  "model-kit-shop-simulator/": {
+    "title": "Model Kit Shop Simulator",
+    "image": "https://i8.imageban.ru/out/2026/09/13/5274aaea3bebce8ff5ae852f87b30c44.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/49/14/4914d2c7-9259-4c75-99aa-b7fad82b8ae6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/62/41/62414370-b4e9-4a0f-908c-e822a3023a2e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c3/8d/c38da658-b1f7-4a2b-9ee1-2f8b3371041c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/45/ca/45ca3c8f-7546-4bc4-885c-45a47a8208c2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/40/c8/40c830d8-6c0f-4a0a-bd7a-0514aea7cf7b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/69/14/691487fa-66da-49eb-971f-b70756aa78c7.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Tenacity Games, PlayWay",
+      "Languages": "RUS/ENG/MULTI29",
+      "Original Size": "5.3 GB",
+      "Repack Size": "1.2 GB"
+    },
+    "createdAt": 1789257600000
   }
 }
