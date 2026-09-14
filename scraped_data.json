@@ -179177,5 +179177,32 @@
       "Repack Size": "693 MB"
     },
     "createdAt": 1789344000000
+  },
+  "project-cobalt/": {
+    "title": "Project Cobalt – v1.5",
+    "image": "https://i6.imageban.ru/out/2026/09/14/830671aed6101239e7b4b68508fa386c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/bc/1f/bc1f724f-9620-460f-924f-1b233740b880.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/c5/2ac5de6f-09c1-4359-9dc8-9902ff00cc63.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/36/6d/366dd494-1750-4d78-b0cd-0754c6ba63a3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d5/1f/d51f1c26-0dcc-4f7e-b138-816bbb344586.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/31/a8/31a84d59-e49e-49d6-9083-897ef089b63a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4a/8f/4a8f9443-50ed-4e45-9a3b-ff935b866333.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Item crafting",
+        "Open world",
+        "Survival",
+        "First-person",
+        "3D"
+      ],
+      "Company": "OxygenStudio",
+      "Languages": "RUS/ENG/MULTI18",
+      "Original Size": "6.3 GB",
+      "Repack Size": "2.5 GB"
+    },
+    "createdAt": 1789344000000
   }
 }
