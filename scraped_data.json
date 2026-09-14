@@ -179153,5 +179153,29 @@
       "Repack Size": "1.3 GB"
     },
     "createdAt": 1789257600000
+  },
+  "tiny-bakery/": {
+    "title": "Tiny Bakery",
+    "image": "https://i7.imageban.ru/out/2026/09/14/dee9af28c512268894936b0dcb73567d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/2a/8a/2a8a7350-69ea-4b66-8ce1-af2a7adade79.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/51/8e517df7-430a-4da8-be7a-50b7296790ac.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/02/25/0225edc1-bf1e-4c65-bc90-cc692200e9a3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/27/26/2726e7e6-effb-4d06-bc5b-0ed53700cfc3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ba/7e/ba7e6ee2-225b-4380-83ce-f6deb6259758.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2b/4e/2b4e9756-0759-401e-8e44-3813298d5f61.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Isometric",
+        "3D"
+      ],
+      "Company": "Bubbly Games",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "2.2 GB",
+      "Repack Size": "693 MB"
+    },
+    "createdAt": 1789344000000
   }
 }
