@@ -179231,5 +179231,33 @@
       "Repack Size": "163.2 GB"
     },
     "createdAt": 1789430400000
+  },
+  "welcome-to-elderfield/": {
+    "title": "Welcome to Elderfield + Bonus OST",
+    "image": "https://i3.imageban.ru/out/2026/09/15/1795818f0a6bd185f7771c854412e12a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/74/c1/74c123d4-5948-497b-bd12-30e1ebb36de5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5e/2c/5e2c4063-7b38-402f-abba-e41df465cc39.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/03/64/0364f8be-d8e1-4ed8-80fb-53ca8e9236c8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5c/c9/5cc932d1-8e78-4e53-9e3e-9e667b832b91.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cc/e4/cce403e7-8d91-45ca-a8ea-15945f9fd26e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f5/22/f522f209-ec0e-410b-97c1-a5488bf34b1a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "RPG",
+        "Item crafting",
+        "Top-down",
+        "2D",
+        "Horror"
+      ],
+      "Companies": "Chris Cote, Kwalee",
+      "Languages": "RUS/ENG/MULTI7",
+      "Original Size": "1.6 GB",
+      "Repack Size": "660/804 MB"
+    },
+    "createdAt": 1789430400000
   }
 }
