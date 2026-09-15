@@ -179259,5 +179259,29 @@
       "Repack Size": "660/804 MB"
     },
     "createdAt": 1789430400000
+  },
+  "anime-shop-simulator/": {
+    "title": "Anime Shop Simulator: Otaku Edition, v0.1.1 (Release) + 2 DLCs",
+    "image": "https://i4.imageban.ru/out/2026/09/16/cb44152ca869a25f7781bfdaf16ea4e9.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/cb/76/cb765572-ec25-40a7-b941-f6109b5ebb63.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a2/64/a2641882-1565-42c7-9029-a3805e39da9f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/19/0d/190d8fd0-8641-43ad-834b-1cd2a27a651e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ae/ec/aeeccfa6-779a-4a77-8089-fe446743236e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/50/c2/50c2f926-2753-4d81-9463-4c4683a7ac54.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c9/f2/c9f27bf0-9e7b-4cb7-839b-431129ee312b.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Polnoch, One More Time",
+      "Languages": "RUS/ENG/MULTI15",
+      "Original Size": "2 GB",
+      "Repack Size": "440 GB"
+    },
+    "createdAt": 1789516800000
   }
 }
