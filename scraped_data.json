@@ -179204,5 +179204,32 @@
       "Repack Size": "2.5 GB"
     },
     "createdAt": 1789344000000
+  },
+  "train-sim-world-7/": {
+    "title": "Train Sim World 7: Ultimate Edition – Hotfix Update 11-09-26 (Build 832) + 165 DLCs",
+    "image": "https://i5.imageban.ru/out/2026/09/14/f1aa60250fa8a83c83d43d8d87aa8b05.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4b/fc/4bfc393d-72a2-4861-b06e-4ed248da4c86.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6d/d6/6dd68975-7161-4006-b43e-f6d715bf38dd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/19/9a/199a0d60-b7eb-4213-b06f-ee52ea24b21e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fa/bc/fabc5c48-40dc-4913-b58c-1aa6dc438db1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/00/02/0002d078-f622-442a-b293-607d0853956c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bf/d7/bfd73643-c4e2-4e09-b47d-974c774097cb.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Driving",
+        "Simulation",
+        "First-person",
+        "Third-person",
+        "3D",
+        "Trains"
+      ],
+      "Company": "Dovetail Games",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "534.7 GB",
+      "Repack Size": "163.2 GB"
+    },
+    "createdAt": 1789430400000
   }
 }
