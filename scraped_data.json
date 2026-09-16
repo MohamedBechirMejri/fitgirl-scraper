@@ -179283,5 +179283,32 @@
       "Repack Size": "440 GB"
     },
     "createdAt": 1789516800000
+  },
+  "runescape-dragonwilds/": {
+    "title": "RuneScape: Dragonwilds – Deluxe Edition, v1.0.240163 (Release) + 4 DLCs",
+    "image": "https://i7.imageban.ru/out/2026/09/15/449c89662c323d83ac0ff72688e4fb14.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/1e/44/1e447a48-0b33-4695-ae82-d550160e62ec.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f8/45/f84530d7-680e-4de5-8d1a-f198fc7ca2b5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b4/b8/b4b82938-87a4-413a-864e-f7f47341bb51.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6f/0e/6f0edf9f-07dd-43d6-9549-5972add5d893.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/db/d2/dbd2c334-c969-463c-8c82-c79b2c3d4322.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/42/bc/42bcf722-6c5f-4660-9a65-93ac8fec7c12.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Item crafting",
+        "Open world",
+        "Survival",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Jagex",
+      "Languages": "ENG/MULTI11",
+      "Original Size": "22.8 GB",
+      "Repack Size": "from 12.9 GB [Selective Download]"
+    },
+    "createdAt": 1789516800000
   }
 }
