@@ -179310,5 +179310,30 @@
       "Repack Size": "from 12.9 GB [Selective Download]"
     },
     "createdAt": 1789516800000
+  },
+  "ragnar/": {
+    "title": "Ragnar – v1.0 (Release)",
+    "image": "https://i2.imageban.ru/out/2026/09/16/62831f80930a3c9e074bc43beb3398e7.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/9d/9c/9d9cb7d0-d6ea-43e3-8b02-37b5b1821711.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6c/22/6c22c742-d619-4da3-90ce-e6ca669d20a3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/93/02/9302f6f7-09ec-436c-9063-4e9beb3ecf34.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3d/d0/3dd087c7-42aa-41e9-94c0-8f984c9c5b73.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5e/66/5e669669-64dc-4e7c-b7fc-bcc5221e9569.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/67/87/67871ee5-de0d-4767-b105-3761944822de.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Isometric",
+        "3D"
+      ],
+      "Company": "Fimbulwinter Games",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "2.6 GB",
+      "Repack Size": "1.2 GB"
+    },
+    "createdAt": 1789516800000
   }
 }
