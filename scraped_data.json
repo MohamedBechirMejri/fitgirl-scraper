@@ -179385,5 +179385,30 @@
       "Repack Size": "895 MB"
     },
     "createdAt": 1789603200000
+  },
+  "blackwood/": {
+    "title": "BLACKWOOD: Supporter Edition – Act I + DLC",
+    "image": "https://i6.imageban.ru/out/2026/09/17/6b57217f92db2f4ca343f7bb91d220d9.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/77/16/7716df44-7b39-40db-a44c-b5e99422235f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/52/4b/524bd20a-6764-4142-9717-208310154a6d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4d/6a/4d6a5711-4508-49d1-a332-1918bca4cc26.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bc/f9/bcf986de-8ded-43ac-840e-fb2edcfd2211.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2b/6b/2b6bb9b0-7a8c-4c8f-953f-b6f404321d5b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b0/5d/b05daa5d-b61d-4112-995f-8544ec5c01b0.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "AttritoM7 Productions, IZilla Games",
+      "Language": "ENG",
+      "Original Size": "10.8 GB",
+      "Repack Size": "6.1 GB"
+    },
+    "createdAt": 1789689600000
   }
 }
