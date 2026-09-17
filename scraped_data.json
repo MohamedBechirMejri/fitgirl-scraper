@@ -179361,5 +179361,29 @@
       "Repack Size": "from 30.2 GB [Selective Download]"
     },
     "createdAt": 1789603200000
+  },
+  "sporting-goods-shop/": {
+    "title": "Sporting Goods Shop – v1.0 (Release)",
+    "image": "https://i5.imageban.ru/out/2026/09/17/afeec3fa98fc32c1e2a56cda41622b7b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/78/a3/78a35299-c33e-4265-969c-f4fe7ab2382a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/91/ea/91ea322c-7208-44cb-8276-841a50ef8652.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/09/72/0972248d-1057-4628-b115-d73517b09b55.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/18/c1/18c19645-fb0b-462e-9015-78affb570361.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1c/57/1c575613-0083-43e8-bef6-0d34b6cd2aea.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/df/77/df776845-e0c2-4f49-9fe4-84db58249c74.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Business Tycoon, Gamersky Games",
+      "Languages": "RUS/ENG/MULTI21",
+      "Original Size": "1.9 GB",
+      "Repack Size": "895 MB"
+    },
+    "createdAt": 1789603200000
   }
 }
