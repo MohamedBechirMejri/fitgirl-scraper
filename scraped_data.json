@@ -179335,5 +179335,31 @@
       "Repack Size": "1.2 GB"
     },
     "createdAt": 1789516800000
+  },
+  "iracing-studios-nascar-26/": {
+    "title": "iRacing Studios NASCAR 26 – Build September 10, 2026 + 2 DLCs",
+    "image": "https://i3.imageban.ru/out/2026/09/16/bf8bb635ad26a5be5a32053fd34d15bb.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/a7/2d/a72dbbff-90b4-4679-8edb-f5e05660f5ca.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f9/27/f9275861-8b45-418b-9ed0-578a34118880.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fd/fc/fdfc3522-2c7b-4325-84c6-e4c21cd70210.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/17/82/1782bca5-3631-4360-87dc-e7325ffc9b9f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3f/fd/3ffd7974-ea64-48f3-925e-945a3cee3973.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Racing",
+        "Sports",
+        "First-person",
+        "Third-person",
+        "3D",
+        "Cars"
+      ],
+      "Company": "iRacing.com Motorsport Simulations",
+      "Language": "ENG",
+      "Original Size": "56.6 GB",
+      "Repack Size": "from 30.2 GB [Selective Download]"
+    },
+    "createdAt": 1789603200000
   }
 }
