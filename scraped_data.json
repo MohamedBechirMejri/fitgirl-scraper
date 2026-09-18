@@ -179437,5 +179437,29 @@
       "Repack Size": "2.9 GB"
     },
     "createdAt": 1789689600000
+  },
+  "tcg-card-shop-simulator/": {
+    "title": "TCG Card Shop Simulator – v1.0 (Release)",
+    "image": "https://i4.imageban.ru/out/2026/09/18/5dbc21d4c5a08fee18e654fe949e601a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/a3/10/a310c690-0710-45e1-a65a-59dd8a8ca196.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/57/cc/57cc9ce6-15b3-4803-a95f-56b77dcaae82.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/77/b1/77b1f50a-20c6-4e2b-aecb-9e6a5a86943a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a3/bd/a3bd1339-54dc-4e74-ad6d-8969333684a1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/07/33/0733e765-4423-4ed7-8fb3-daf4268204cc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e0/c7/e0c7ff5a-b3c0-4e11-9b7b-38bf2d1c61a9.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Company": "OPNeon Games",
+      "Languages": "ENG/MULTI12",
+      "Original Size": "4.6 GB",
+      "Repack Size": "952 MB"
+    },
+    "createdAt": 1789689600000
   }
 }
