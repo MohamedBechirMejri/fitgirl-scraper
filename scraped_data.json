@@ -179410,5 +179410,32 @@
       "Repack Size": "6.1 GB"
     },
     "createdAt": 1789689600000
+  },
+  "the-legend-of-fancy-realm-remake/": {
+    "title": "The Legend of Fancy Realm Remake – v2.1.2",
+    "image": "https://i2.imageban.ru/out/2026/09/18/13cf7935a3a18c0109f90e2f5e94ca47.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/5b/bd/5bbda33f-72d3-4c56-94d2-43da0701fb7a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/52/69/5269ffe5-fe8b-4e1b-a752-8a2e13196644.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/08/5e/085e20d2-8c95-4909-a9e8-b406dff361d9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ff/43/ff43b1c3-4b10-49a6-be4b-8bdcd08af2fd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/25/bb/25bb2384-ad19-4059-bebf-ff48f8411ec3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/58/c0/58c02bf9-fa72-487a-82ac-0c5b7df778e5.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Strategy",
+        "Tactics",
+        "Top-down",
+        "2D",
+        "Turn-based"
+      ],
+      "Company": "UserJoy Technology",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "9 GB",
+      "Repack Size": "2.9 GB"
+    },
+    "createdAt": 1789689600000
   }
 }
