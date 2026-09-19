@@ -179539,5 +179539,29 @@
       "Repack Size": "22.3/22.5 GB"
     },
     "createdAt": 1789776000000
+  },
+  "dig-for-riches/": {
+    "title": "Dig For Riches",
+    "image": "https://i6.imageban.ru/out/2026/09/19/d20bc459c1a0fd6ffc5f653a0d219875.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/6e/67/6e67875c-a3c8-40c0-8d05-90bc5bdaccaa.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c6/bd/c6bd0e1e-7f7c-48ce-a792-9433fa82e5cb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8d/64/8d648375-a75b-44e7-a070-2d2a6016cfd2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c8/37/c837a826-b573-4e00-852d-b61ebb63717b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ce/9d/ce9d8e57-3ac5-48e0-9637-4eb8160f9782.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b5/70/b5706c99-035a-413c-a452-e1e0ea61412a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Company": "OxygenStudio",
+      "Languages": "RUS/ENG/MULTI18",
+      "Original Size": "3.5 GB",
+      "Repack Size": "1.1 GB"
+    },
+    "createdAt": 1789776000000
   }
 }
