@@ -179488,5 +179488,56 @@
       "Repack Size": "from 17.5 GB [Selective Download]"
     },
     "createdAt": 1789776000000
+  },
+  "endless-legend-2/": {
+    "title": "ENDLESS Legend 2 – v1.0.108-S35 + Supporter Pack DLC",
+    "image": "https://i3.imageban.ru/out/2026/09/19/a7fd632f413e178c18b5d6478a1decb9.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b4/1b/b41bc392-17b0-4400-bab3-e3ee5b9a056f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/36/c0/36c036ce-2eee-43b6-9cc7-f334c2ecebff.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6d/aa/6daaea5f-4302-46a0-93fd-0c690a57f1bb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6e/b4/6eb4191c-a247-4f25-b339-026d97f6dc07.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/97/65/9765413e-b621-4280-8150-59796e2aacbf.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b6/49/b6496a04-3e9d-4729-8568-e90a8ca75686.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "4X",
+        "Isometric",
+        "3D",
+        "Turn-based"
+      ],
+      "Companies": "Hooded Horse, Amplitude Studios",
+      "Languages": "RUS/ENG/MULTI16",
+      "Original Size": "11.8 GB",
+      "Repack Size": "7.3/7.6 GB"
+    },
+    "createdAt": 1789776000000
+  },
+  "dune-awakening/": {
+    "title": "Dune: Awakening – Ultimate Edition, v1.5.3.0 + 16 DLCs/Bonuses",
+    "image": "https://i7.imageban.ru/out/2026/09/19/606f99d7476a3733ee3f696821ba2d7d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/0f/dc/0fdc1419-6f9a-4786-ada5-34a2f9051c0d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/09/60/0960daa9-7a13-471c-b352-1393fbd2a9a7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ed/4f/ed4f8f03-89bf-45e7-ad77-05d43c2ba963.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/46/58/465864c7-0a3b-4d34-9607-6de3b74616d9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/41/6e/416ef994-0929-4537-80b7-23053a8663dc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7f/08/7f0846dd-136d-456b-9c0b-0991797de618.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Survival",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Funcom",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "36.6 GB",
+      "Repack Size": "22.3/22.5 GB"
+    },
+    "createdAt": 1789776000000
   }
 }
