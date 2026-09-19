@@ -179590,5 +179590,30 @@
       "Repack Size": "338 MB"
     },
     "createdAt": 1789776000000
+  },
+  "cosmic-fear/": {
+    "title": "Cosmic Fear: Deluxe Edition – v1.1 + Bonus DLC",
+    "image": "https://i6.imageban.ru/out/2026/09/19/0511b8082b290a8b73ba65f360f0b9ce.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/d9/7a/d97adf84-6c87-404e-9abc-621a3a79302b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/26/21/2621e92c-fb1a-4604-99ac-b035a7776cf2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/23/ad/23ad97ca-3352-423e-8dd7-9cefa1efd3eb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6b/06/6b066bbd-5289-41d2-963c-4ab7d139b1bc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8b/72/8b729d4b-7fd8-433d-9b67-1b1062002471.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/79/ce/79ce323c-9669-4e27-86fa-77307ff3547b.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Company": "Alessandro Guzzo",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "35 GB",
+      "Repack Size": "26.4/26.6 GB"
+    },
+    "createdAt": 1789776000000
   }
 }
