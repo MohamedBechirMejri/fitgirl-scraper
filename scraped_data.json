@@ -179563,5 +179563,32 @@
       "Repack Size": "1.1 GB"
     },
     "createdAt": 1789776000000
+  },
+  "the-walking-dead-streets-of-survival/": {
+    "title": "The Walking Dead: Streets of Survival – Deluxe Edition + 2 DLCs",
+    "image": "https://i8.imageban.ru/out/2026/09/19/a2868ba26ffc94f383a30ae863e83818.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b4/ec/b4ecf279-5f8d-48bf-be8c-8870d7238cf9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/69/52/6952a520-d283-4c1d-926c-2600cf5cb0e9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fc/19/fc196031-ffe4-4062-8071-17a1e19ff57f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f8/ed/f8ed51f5-3ba9-4892-8c55-d0871f6cc485.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/88/75/8875fa86-768a-4cd1-a62c-feb86d5dd522.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/06/33/063396c1-9674-4375-9573-4756f9047c02.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Beat 'em up (Brawler)",
+        "Side",
+        "2D",
+        "Post-apocalypse",
+        "Zombies"
+      ],
+      "Companies": "Trailmark Games, Odaclick Game Studio",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "546 MB",
+      "Repack Size": "338 MB"
+    },
+    "createdAt": 1789776000000
   }
 }
