@@ -179615,5 +179615,31 @@
       "Repack Size": "26.4/26.6 GB"
     },
     "createdAt": 1789776000000
+  },
+  "creator-chronicles/": {
+    "title": "Creator Chronicles – v1.01",
+    "image": "https://i6.imageban.ru/out/2026/09/20/bacb4d2d859500fe3c8e8e81e55189ff.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/33/b7/33b72d2b-dcf9-472b-aa00-55c22579e361.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/17/a0/17a094b6-f25f-4224-987e-530df5f8f2af.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1d/d0/1dd0f9de-4680-43ac-83f4-3d3feec11211.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4c/b6/4cb6278b-b527-456c-81d8-5b6dcf37aff8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1f/d8/1fd821d4-60e0-460b-9c51-83f3446d798a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a1/13/a113d1e1-90f8-493c-acb7-efe6412e7026.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "RPG",
+        "Top-down",
+        "2D"
+      ],
+      "Companies": "Gamersky Games, Origin Studio",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "5.4 GB",
+      "Repack Size": "1 GB"
+    },
+    "createdAt": 1789862400000
   }
 }
