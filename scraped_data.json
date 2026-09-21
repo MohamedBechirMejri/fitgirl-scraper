@@ -179667,5 +179667,56 @@
       "Repack Size": "11.6 GB"
     },
     "createdAt": 1789948800000
+  },
+  "the-alighieri-circle-dantes-bloodline/": {
+    "title": "The Alighieri Circle: Dante’s Bloodline",
+    "image": "https://i3.imageban.ru/out/2026/09/21/9f355f06d729fd56a285c56ba23dc49e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/e0/99/e099e9ec-986c-4932-857a-9220d43d1bcc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3c/db/3cdb87dd-a3fe-4451-91d3-645c9904deb5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e2/44/e2449a8c-f07b-4259-8f2a-9ed92ff70c88.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/70/03/70030013-74b9-4bb5-89de-ba51ea7a4926.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/52/2a/522aeea3-d984-4fa1-b588-e1b08fd37327.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "Entalto Publishing, One-O-One Games",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "11.3 GB",
+      "Repack Size": "8.5 GB"
+    },
+    "createdAt": 1789948800000
+  },
+  "deathsprint-66/": {
+    "title": "DeathSprint 66 – Build 17155957",
+    "image": "https://i2.imageban.ru/out/2026/09/21/406a6349618c830cbdfc8b9407f5ce97.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/87/63/87633c2d-0d7e-4549-8760-3ce0de614aae.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1f/34/1f34b105-cd66-4cd1-a576-c120333b6cc7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0f/53/0f5390f6-af56-4dae-888c-960a1f513ad2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cc/f7/ccf700fe-084b-45f6-a73f-232b7d509a8f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1b/c1/1bc14ed3-5538-4e67-9025-07cbaa5465ef.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/96/e7/96e73a0c-e8d0-4a50-b2c3-1fa3089a12d1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Racing",
+        "Sports",
+        "Fictional",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Secret Mode, Sumo Digital",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "6.9 GB",
+      "Repack Size": "4.2 GB"
+    },
+    "createdAt": 1790035200000
   }
 }
