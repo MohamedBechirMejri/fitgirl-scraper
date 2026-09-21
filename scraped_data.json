@@ -179641,5 +179641,31 @@
       "Repack Size": "1 GB"
     },
     "createdAt": 1789862400000
+  },
+  "police-chief-simulator/": {
+    "title": "Police Chief Simulator – Rev.3871",
+    "image": "https://i3.imageban.ru/out/2026/09/21/665303d732afe404e7a4048671a7aed8.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/80/e6/80e6947c-d2ad-4638-82c7-16f1aa94d6b4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0f/46/0f466b39-daaf-46eb-8b9a-9587f7d14865.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/67/09/6709090a-9326-4e3f-bdb6-010a1bdb0c43.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6d/5d/6d5d281b-311f-4a52-a444-224b4945caea.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6b/b2/6bb25501-bb83-4109-b663-c8260dd02c49.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/af/6b/af6ba06e-5c27-4bad-97e7-1e5b7e615969.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Driving",
+        "Lifestyle",
+        "First-person",
+        "3D",
+        "Cars"
+      ],
+      "Company": "Perfect Circle Team",
+      "Languages": "RUS/ENG/MULTI18",
+      "Original Size": "16.4 GB",
+      "Repack Size": "11.6 GB"
+    },
+    "createdAt": 1789948800000
   }
 }
