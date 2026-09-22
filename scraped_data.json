@@ -179718,5 +179718,30 @@
       "Repack Size": "4.2 GB"
     },
     "createdAt": 1790035200000
+  },
+  "sunken-realms/": {
+    "title": "Sunken Realms",
+    "image": "https://i6.imageban.ru/out/2026/09/22/edeccaa352014d205f8ada876007187b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/d1/e4/d1e4400b-8817-4368-aecb-872902710d31.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/14/2a/142a4089-9efb-40ca-bb21-508da32ab70b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5f/30/5f307a89-17f4-402f-928b-a0101f3b02ff.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/45/d0/45d0800c-c950-4637-b6e7-cc0465985732.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e7/43/e743284e-3181-4a25-b056-99b37738de94.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/34/2e/342eb28f-fb0d-4209-a9ae-9cde28b2b69b.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Magic Puncher Games",
+      "Language": "ENG",
+      "Original Size": "10 GB",
+      "Repack Size": "6.5 GB"
+    },
+    "createdAt": 1790035200000
   }
 }
