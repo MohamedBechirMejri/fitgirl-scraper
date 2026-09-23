@@ -179743,5 +179743,31 @@
       "Repack Size": "6.5 GB"
     },
     "createdAt": 1790035200000
+  },
+  "tenebris-terra-incognita/": {
+    "title": "Tenebris: Terra Incognita",
+    "image": "https://i3.imageban.ru/out/2026/09/22/b784739b4d86690fe05ce2eded15f48f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/21/15/21157bcd-1b1f-4c46-8558-3e3a8ff059fb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/be/84/be849ea4-19f2-46d3-a7e5-152065b71494.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/54/30/5430056a-8f01-4b56-84b3-a6e4e68f649f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ad/3f/ad3fb4d6-e55a-4f78-ab13-8b89505adbcb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/02/2a02e668-4823-4889-ab65-af52e0629ca6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/81/74/81746fe9-c6f9-4585-bbd2-e59de9f2cccc.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "Tactics",
+        "Side",
+        "2D",
+        "Turn-based"
+      ],
+      "Company": "Phantasmica Studios",
+      "Languages": "RUS/ENG/MULTI7",
+      "Original Size": "3.4 GB",
+      "Repack Size": "2.2 GB"
+    },
+    "createdAt": 1790121600000
   }
 }
