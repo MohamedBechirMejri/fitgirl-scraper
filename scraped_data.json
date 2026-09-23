@@ -179769,5 +179769,56 @@
       "Repack Size": "2.2 GB"
     },
     "createdAt": 1790121600000
+  },
+  "brave-new-wonders/": {
+    "title": "Brave New Wonders",
+    "image": "https://i8.imageban.ru/out/2026/09/23/9803bcd1cc73475e8f2890408e07d414.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b7/93/b7932895-11e3-43df-8700-d86c0cf6ec08.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0a/73/0a73b02b-9d3d-4253-a2d1-e8a308afdb4f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/fb/2afbf8db-f1c3-4441-a602-7f8e0e0fc064.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a3/af/a3aff226-d0ae-418b-b5f0-481a15429348.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ca/b0/cab01915-f126-4d57-aa88-aef82fa0023b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0d/d5/0dd590ff-1421-47cf-b04d-02ca777ba2ef.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Item crafting",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "LoongGate, City From Naught",
+      "Languages": "ENG/MULTI2",
+      "Original Size": "19.9 GB",
+      "Repack Size": "10.3 GB"
+    },
+    "createdAt": 1790121600000
+  },
+  "silent-hill-townfall/": {
+    "title": "SILENT HILL: Townfall – Deluxe Edition, v1.4.153521 + 3 DLCs/Bonuses",
+    "image": "https://i3.imageban.ru/out/2026/09/23/56a7136f1f38bb7f08c4aeb1d5c82956.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/5b/0e/5b0e97fe-9502-43c0-9dc4-89a1c05e29d3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e1/c3/e1c32b7d-2d02-4569-9582-59bb78c3f2ce.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e4/aa/e4aa2489-4bef-4ec7-8bc4-2586c6b48552.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f8/78/f878da5d-3c92-47fb-96a7-b14de836a635.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/87/00/87005528-26b2-47f5-88bb-81122883677e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/ff/2affc2e1-cde3-4552-a88c-fcf5c5c0e95b.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Adventure",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "Annapurna Interactive, Konami Digital Entertainment, Screen Burn Interactive",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "56.6 GB",
+      "Repack Size": "from 38.8 GB [Selective Download]"
+    },
+    "createdAt": 1790121600000
   }
 }
