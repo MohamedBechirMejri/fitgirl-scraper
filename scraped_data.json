@@ -179844,5 +179844,31 @@
       "Repack Size": "8.3 GB"
     },
     "createdAt": 1790208000000
+  },
+  "another-eden-begins/": {
+    "title": "Another Eden Begins + 2 DLCs",
+    "image": "https://i4.imageban.ru/out/2026/09/24/2355079722ca78f69e0b4027f5f735e9.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/c5/57/c5576f87-be32-4c80-85df-11b1de1dac8d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/46/9b/469bb2d6-f4bb-4d5e-81df-538505b4d725.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4b/d7/4bd7d900-fa34-4cea-90d3-651c7fd41b00.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1b/92/1b926636-209c-4648-ae9e-c9d0e0a14de1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7a/eb/7aeb774e-0b47-47cf-968c-6cf7b266b9db.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ef/a8/efa869fd-c173-4d75-b385-879c6b21850b.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Side",
+        "2D",
+        "Party-based",
+        "Turn-based"
+      ],
+      "Company": "Wright Flyer Studios",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "10 GB",
+      "Repack Size": "7.5 GB"
+    },
+    "createdAt": 1790208000000
   }
 }
