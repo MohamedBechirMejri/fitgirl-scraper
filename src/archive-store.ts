@@ -15,6 +15,7 @@ import type {
   CrawlQueueItem,
   CrawlStatus,
   FacetRow,
+  GamePostRow,
   LatestPostRow,
   LinkAvailability,
   PageCheckRow,
@@ -22,6 +23,7 @@ import type {
   PageNavRow,
   PageNavigation,
   PageState,
+  PostHistoryRow,
   QueueFailureRow,
   RunFinishInput,
   SnapshotAssetRow,
@@ -34,6 +36,17 @@ import type {
 import { emptyPageMetadata, type AssetReference, type PageMetadata } from "./page-extract";
 
 export type * from "./archive-types";
+
+const GAME_POST_COLUMNS = `snapshots.id as snapshotId,
+  pages.url,
+  coalesce(snapshots.title, pages.url) as title,
+  snapshots.fetched_at as fetchedAt,
+  snapshots.html_path as htmlPath,
+  snapshots.metadata_json as metadataJson`;
+
+// A release post carries the repack's size; notices, digests and news do not.
+const IS_RELEASE = `json_extract(snapshots.metadata_json, '$.pageType') = 'post'
+  and json_extract(snapshots.metadata_json, '$.repackSize') is not null`;
 
 export class ArchiveStore {
   readonly db: Database;
@@ -593,6 +606,98 @@ export class ArchiveStore {
       .all(limit);
   }
 
+  /** Posts of every kind published at or after `since`, newest first. */
+  gamePostsSince(since: string, limit: number): GamePostRow[] {
+    return this.db
+      .query<GamePostRow, [string, number]>(
+        `select ${GAME_POST_COLUMNS}
+        from pages
+        join snapshots on snapshots.id = pages.latest_snapshot_id
+        where json_extract(snapshots.metadata_json, '$.pageType') = 'post'
+          and json_extract(snapshots.metadata_json, '$.publishedAt') >= ?
+        order by json_extract(snapshots.metadata_json, '$.publishedAt') desc
+        limit ?`
+      )
+      .all(since, limit);
+  }
+
+  getGamePost(url: string): GamePostRow | null {
+    return this.db
+      .query<GamePostRow, [string]>(
+        `select ${GAME_POST_COLUMNS}
+        from pages
+        join snapshots on snapshots.id = pages.latest_snapshot_id
+        where pages.url = ?
+          and json_extract(snapshots.metadata_json, '$.pageType') = 'post'
+        limit 1`
+      )
+      .get(url);
+  }
+
+  /**
+   * Releases whose title holds every word of `query`, the last one as a prefix, newest first.
+   * Only titles count: every saved body carries the site's menu and sidebar, so a body match
+   * says nothing about the game.
+   */
+  searchReleaseTitles(query: string, limit: number): GamePostRow[] {
+    const match = toTitleFtsQuery(query);
+    if (!match) return [];
+
+    try {
+      return this.db
+        .query<GamePostRow, [string, number]>(
+          `select ${GAME_POST_COLUMNS}
+          from snapshot_search
+          join snapshots on snapshots.id = snapshot_search.rowid
+          join pages on pages.latest_snapshot_id = snapshots.id
+          where snapshot_search match ?
+            and ${IS_RELEASE}
+          order by json_extract(snapshots.metadata_json, '$.publishedAt') desc
+          limit ?`
+        )
+        .all(match, limit);
+    } catch {
+      return this.db
+        .query<GamePostRow, [string, number]>(
+          `select ${GAME_POST_COLUMNS}
+          from pages
+          join snapshots on snapshots.id = pages.latest_snapshot_id
+          where snapshots.title like ? escape '\\'
+            and ${IS_RELEASE}
+          order by json_extract(snapshots.metadata_json, '$.publishedAt') desc
+          limit ?`
+        )
+        .all(`%${escapeLike(query.trim())}%`, limit);
+    }
+  }
+
+  /** Releases by a company whose name contains `query`, newest first. */
+  searchReleaseCompanies(query: string, limit: number): GamePostRow[] {
+    return this.db
+      .query<GamePostRow, [string, number]>(
+        `select ${GAME_POST_COLUMNS}
+        from pages
+        join snapshots on snapshots.id = pages.latest_snapshot_id
+        where ${IS_RELEASE}
+          and exists (
+            select 1 from json_each(snapshots.metadata_json, '$.companies') company
+            where company.value like ? escape '\\'
+          )
+        order by json_extract(snapshots.metadata_json, '$.publishedAt') desc
+        limit ?`
+      )
+      .all(`%${escapeLike(query.trim())}%`, limit);
+  }
+
+  /** Every saved copy of a page, newest first: the post's earlier versions. */
+  getPostHistory(url: string): PostHistoryRow[] {
+    return this.db
+      .query<PostHistoryRow, [string]>(
+        "select title, metadata_json as metadataJson from snapshots where url = ? order by id desc"
+      )
+      .all(url);
+  }
+
   saveAssetResult(input: AssetResult): void {
     this.db.run(
       `insert into assets (
@@ -1098,4 +1203,19 @@ function toFtsQuery(query: string): string {
     .split(/\s+/)
     .map(term => `"${term.replace(/"/g, '""')}"`)
     .join(" ");
+}
+
+/** `anno pax rom` → `title : ("anno" "pax" "rom"*)`: every word in the title, the last as a prefix. */
+function toTitleFtsQuery(query: string): string | null {
+  const terms = query
+    .trim()
+    .split(/\s+/)
+    .filter(term => /[\p{L}\p{N}]/u.test(term))
+    .map(term => `"${term.replace(/"/g, '""')}"`);
+  if (terms.length === 0) return null;
+  return `title : (${terms.join(" ")}*)`;
+}
+
+function escapeLike(value: string): string {
+  return value.replace(/[\\%_]/g, match => `\\${match}`);
 }

@@ -18,6 +18,7 @@ import {
 } from "./archive-store";
 import { lowestAssetCoverage, pagesWithSelectableMissingAssets } from "./archive-health";
 import { rewriteCssAssetReferences } from "./css-assets";
+import { gamePostJson, gameReleasesJson, gameSearchJson } from "./game-routes";
 import { groupLinks, type ClassifiedLink, type LinkGroup } from "./link-classifier";
 import { isFitGirlUrl, type PageMetadata } from "./page-extract";
 import { extractCoverUrl, extractDescription, extractScreenshots } from "./post-extras";
@@ -99,6 +100,18 @@ async function handleRequest(request: Request, store: ArchiveStore, archiveRoot:
 
     if (routePath === "/latest.json") {
       return latestJson(store, url.searchParams);
+    }
+
+    if (routePath === "/games/releases.json") {
+      return gameReleasesJson(store, url.searchParams);
+    }
+
+    if (routePath === "/games/post.json") {
+      return gamePostJson(store, url.searchParams);
+    }
+
+    if (routePath === "/games/search.json") {
+      return gameSearchJson(store, url.searchParams);
     }
 
     if (routePath === "/ops") {

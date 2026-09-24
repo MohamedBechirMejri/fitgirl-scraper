@@ -106,6 +106,20 @@ export interface LatestPostRow {
   url: string;
 }
 
+export interface GamePostRow {
+  fetchedAt: string | null;
+  htmlPath: string;
+  metadataJson: string;
+  snapshotId: number;
+  title: string;
+  url: string;
+}
+
+export interface PostHistoryRow {
+  metadataJson: string;
+  title: string;
+}
+
 export interface PageCheckRow extends PageListRow {
   lastCheckedAt: string;
 }
