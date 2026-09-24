@@ -179870,5 +179870,58 @@
       "Repack Size": "7.5 GB"
     },
     "createdAt": 1790208000000
+  },
+  "sin-reloaded/": {
+    "title": "SiN Reloaded – v1.01",
+    "image": "https://i1.imageban.ru/out/2026/09/24/5070f0665252cb0c78b9a87f0b9b3170.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/0c/c0/0cc09b81-cecf-4907-b098-1dfc8b0a9d6c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c6/48/c6488b13-ae66-4a43-859f-3a0b0461608f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5b/96/5b96c1e5-999b-40d0-b7fa-a52a13ddeb68.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/55/11/5511a274-1324-46d6-95a7-bfdd92f3fc79.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f7/52/f7521da5-4bae-4eb0-a92d-aae334ac0ced.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a5/bd/a5bdf1ff-b826-43b6-8dcd-de5d104aed02.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Nightdive Studios, 3D Realms, Ritual Entertainment",
+      "Languages": "ENG/MULTI7",
+      "Original Size": "3.4 GB",
+      "Repack Size": "2.4 GB"
+    },
+    "createdAt": 1790208000000
+  },
+  "graveyard-keeper-2/": {
+    "title": "Graveyard Keeper 2 – v1.004.2",
+    "image": "https://i7.imageban.ru/out/2026/09/24/152fa6bad44c0247b5b7093bb553c77e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/af/72/af724dfd-c9d7-489a-a28f-7d361dd8f157.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/02/a8/02a856e9-5929-4110-9384-c8d079f36c30.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/02/81/0281e1b0-f98f-4629-847d-6abb5078d7b6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4d/76/4d76fd80-09dd-490f-beaa-c68133500024.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/bc/4ebc98ae-db0d-45fd-bc1e-a0fe222f1b57.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9c/34/9c34daf4-36b6-4096-8d38-b8303e9443ec.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "Item crafting",
+        "Top-down",
+        "2D",
+        "Zombies",
+        "Real-time"
+      ],
+      "Companies": "Lazy Bear Games, tinyBuild",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "1 GB",
+      "Repack Size": "600 MB"
+    },
+    "createdAt": 1790208000000
   }
 }
