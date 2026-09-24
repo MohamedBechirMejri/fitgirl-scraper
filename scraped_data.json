@@ -179820,5 +179820,29 @@
       "Repack Size": "from 38.8 GB [Selective Download]"
     },
     "createdAt": 1790121600000
+  },
+  "ved-recure/": {
+    "title": "Ved: Recure – v0.0.1865",
+    "image": "https://i4.imageban.ru/out/2026/09/23/7dc038f67e4d38705ebad0fd0dae9999.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/e8/a1/e8a14be6-5af7-4187-9994-2f812e93a781.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4c/ea/4ceafa63-38f8-4908-9b9a-bdace3c68c96.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b7/b5/b7b5b34d-c64e-48df-bedb-5500f2d86822.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/28/22/28227e13-4cc4-440e-9739-e5b87d2fbdd4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d5/51/d55139d9-3434-4981-9e4d-710b70126d5a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/42/80/4280bf08-ff00-4c1c-820e-4a6175ba858d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "SummerClip",
+      "Languages": "ENG/MULTI4",
+      "Original Size": "13.3 GB",
+      "Repack Size": "8.3 GB"
+    },
+    "createdAt": 1790208000000
   }
 }
