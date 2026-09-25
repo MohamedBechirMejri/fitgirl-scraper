@@ -179923,5 +179923,30 @@
       "Repack Size": "600 MB"
     },
     "createdAt": 1790208000000
+  },
+  "control-resonant/": {
+    "title": "CONTROL Resonant: Deluxe Edition, v0.563.737.9 + 6 DLCs (with PS5 DLC Unlocker)",
+    "image": "https://i2.imageban.ru/out/2026/09/25/872112232487dc6971d34a4e8926858c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/35/24/3524e447-7add-4301-aa98-6ba514226353.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/97/73/9773021d-5056-4019-9c5c-0f647b1420f9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/78/47/7847ab80-4587-45e4-a856-bb74270f2ad6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e5/8b/e58b078c-ed42-4dbe-8168-169fffa193ba.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/7d/4e7d7851-5f6e-471e-a042-a81833808e7e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/57/01/5701ea59-1bac-4f14-9a8f-c0bf38d13903.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Remedy Entertainment",
+      "Languages": "RUS/ENG/MULTI15",
+      "Original Size": "89 GB",
+      "Repack Size": "from 59.8 GB [Selective Download]"
+    },
+    "createdAt": 1790294400000
   }
 }
