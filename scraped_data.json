@@ -179972,5 +179972,29 @@
       "Repack Size": "from 821 MB [Selective Download]"
     },
     "createdAt": 1790294400000
+  },
+  "nighthawks/": {
+    "title": "Nighthawks – v1.4",
+    "image": "https://i3.imageban.ru/out/2026/09/25/9f0506e9b2f3d3577934aca0bc74f4af.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/33/ce/33ce5fa3-193d-498b-8310-d2b8dccb8774.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ba/c3/bac3c4a6-3eb5-451f-9c5c-674daafb26b5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9e/fb/9efbacdf-8e2e-4fd8-85e1-035e355981fd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6b/3b/6b3ba0a3-2404-498a-8fa4-00c1eb127eca.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/39/ec/39ec1b0a-f17a-49cd-bba0-125c6fcd64fe.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/60/b0/60b0d4b5-2763-478c-aebc-238cb95b071c.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "2D",
+        "Supernatural fiction"
+      ],
+      "Companies": "Wadjet Eye Games, Quarter To Thirteen",
+      "Language": "ENG",
+      "Original Size": "5.4 GB",
+      "Repack Size": "3.8 GB"
+    },
+    "createdAt": 1790380800000
   }
 }
