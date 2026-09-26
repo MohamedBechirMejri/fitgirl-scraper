@@ -179996,5 +179996,31 @@
       "Repack Size": "3.8 GB"
     },
     "createdAt": 1790380800000
+  },
+  "well-dweller/": {
+    "title": "Well Dweller – v8.12.2026",
+    "image": "https://i6.imageban.ru/out/2026/09/26/23d0d7a95c3bbebe9df6921798c98523.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/fa/16/fa165a78-0c1c-449b-93e7-f1aba4fe5b04.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fa/09/fa095249-90ab-460b-8ada-995d60a756ee.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/83/4c/834cc992-bb80-470a-bf24-e9a46e61faef.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/99/8c/998cd879-90ed-4c25-89bf-1eb40f353a32.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f2/af/f2afe6bd-c12f-49f7-b1fa-b98956ee7aec.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ff/4c/ff4c7fc0-9910-4a01-95eb-181f12bd2ff2.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Side",
+        "2D",
+        "Fantasy"
+      ],
+      "Companies": "Doyoyo Games, Kyle Thompson, Top Hat Studios",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "687 MB",
+      "Repack Size": "358 MB"
+    },
+    "createdAt": 1790380800000
   }
 }
