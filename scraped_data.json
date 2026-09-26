@@ -180022,5 +180022,30 @@
       "Repack Size": "358 MB"
     },
     "createdAt": 1790380800000
+  },
+  "fallen-tear-the-ascension/": {
+    "title": "Fallen Tear: The Ascension",
+    "image": "https://i4.imageban.ru/out/2026/09/26/a4769ed2f2ea71b47c98947f06f28e00.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/d5/a4/d5a43c80-6907-4e29-9f06-6f93647e359c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f2/3e/f23e5c3e-1e0f-45db-b2eb-000bbc80a6bd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/72/7a/727a3b28-7d3c-45f5-8289-1cfc9839ef37.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8d/34/8d34bd0e-8a70-4c47-8338-a7467bc52f7d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f3/a9/f3a91931-8b82-4462-8106-68ec15d848f7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b3/e7/b3e77f2f-35de-40f7-9294-b1990fc626d8.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Side",
+        "2D"
+      ],
+      "Companies": "Winter Crew Studios, CMD Studios",
+      "Languages": "ENG/CHS",
+      "Original Size": "8.3 GB",
+      "Repack Size": "4.8 GB"
+    },
+    "createdAt": 1790380800000
   }
 }
