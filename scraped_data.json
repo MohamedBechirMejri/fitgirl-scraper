@@ -180102,5 +180102,31 @@
       "Repack Size": "2.4 GB"
     },
     "createdAt": 1790467200000
+  },
+  "garfield-escape-from-monday/": {
+    "title": "Garfield: Escape from Monday – v1.02.10",
+    "image": "https://i7.imageban.ru/out/2026/09/27/52c64e97fe762ec7998f86bdc35ff48c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/3c/54/3c54433a-afba-418d-ad9c-c4ee92f19580.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/70/82/7082b59b-0c08-4956-908c-8163a0e6d172.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/74/65/7465ee5a-ded9-488c-98ce-93a03aba0d3a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9e/ab/9eab145b-b076-4c79-8ba3-f0d70474dce6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/74/6f/746f30b3-1656-4141-9be9-e80b0f9e97f6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ef/4f/ef4fb315-c0f7-479d-9d3f-d6bd0e3ea607.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Side",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Microïds, OSome Studio",
+      "Languages": "ENG/MULTI11",
+      "Original Size": "7.8 GB",
+      "Repack Size": "5.3 GB"
+    },
+    "createdAt": 1790467200000
   }
 }
