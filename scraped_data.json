@@ -180128,5 +180128,28 @@
       "Repack Size": "5.3 GB"
     },
     "createdAt": 1790467200000
+  },
+  "kingdom-rush-6-genesis-td/": {
+    "title": "Kingdom Rush 6: Genesis TD – v1.00.44",
+    "image": "https://i5.imageban.ru/out/2026/09/27/bb30270ce7442a4369e0b78f5e4c8c83.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/2f/01/2f016721-1fd4-4135-98ca-50059138b718.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0b/06/0b061258-cd7e-4427-885f-c9bc3ea384c3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3e/10/3e108ce9-c092-4a84-93aa-f074c23f52b3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/f1/8ef1fe32-4f81-49fe-8fdd-3d0fe4d04296.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/31/44/314474fa-26e3-4e47-a7bb-c5c8369ed21d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/24/94/2494fe2b-8d29-4076-97d1-9d9c1341f5c5.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Tower defense",
+        "2D"
+      ],
+      "Company": "Ironhide Game Studio",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "1.2 GB",
+      "Repack Size": "776 MB"
+    },
+    "createdAt": 1790553600000
   }
 }
