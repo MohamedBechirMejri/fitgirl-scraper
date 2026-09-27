@@ -180047,5 +180047,32 @@
       "Repack Size": "4.8 GB"
     },
     "createdAt": 1790380800000
+  },
+  "le-mans-ultimate/": {
+    "title": "Le Mans Ultimate: WEC Full Access Bundle – v1.4.2 + 13 DLCs",
+    "image": "https://i6.imageban.ru/out/2026/09/27/172562f04d92e0f1e94112b155fd9f79.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/2a/e9/2ae945b7-f715-4215-ab91-8f1eadaad5df.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/91/f7/91f7853f-591b-44ad-86e6-9248ee966874.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/24/7d/247d192a-56aa-4eef-a67b-3c22168741f5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5f/85/5f850cb9-a42d-43ec-82cb-22c3772b27ea.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/52/26/5226bbb0-8aa2-4665-9dbb-228be11e2cdd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ba/67/ba67cfd8-f27b-4c12-9279-226abb9353bd.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Driving",
+        "Racing",
+        "Simulation",
+        "First-person",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Studio 397",
+      "Languages": "ENG/MULTI10",
+      "Original Size": "45.9 GB",
+      "Repack Size": "25.6/25.9 GB"
+    },
+    "createdAt": 1790467200000
   }
 }
