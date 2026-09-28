@@ -180151,5 +180151,29 @@
       "Repack Size": "776 MB"
     },
     "createdAt": 1790553600000
+  },
+  "woman-simulator/": {
+    "title": "Woman Simulator – v1.0.20",
+    "image": "https://i8.imageban.ru/out/2026/09/28/658fd41d08bd98dcbce9339d323fa687.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/6b/52/6b52a7e3-ff21-428b-b0fa-f47cba13d0b2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9f/7d/9f7ddeb8-faab-4736-b717-5e646c433fe6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/50/51/5051150e-fa96-483b-8b13-2705b8e58c72.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/94/21/9421ced7-0b18-4f83-9142-b5b244e0d468.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/60/0f/600f0f69-bdd3-465e-9509-2b9ade2b59aa.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/06/fb/06fbc606-5c50-4c59-b093-c3ff54580fe6.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Sebasa Games",
+      "Languages": "RUS/ENG/MULTI16",
+      "Original Size": "6.2 GB",
+      "Repack Size": "3.5 GB"
+    },
+    "createdAt": 1790553600000
   }
 }
