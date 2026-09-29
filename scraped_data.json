@@ -180251,5 +180251,31 @@
       "Repack Size": "10.3 GB"
     },
     "createdAt": 1790640000000
+  },
+  "lilys-world-xd/": {
+    "title": "lily’s world XD",
+    "image": "https://i8.imageban.ru/out/2026/09/29/2f277d818083ea8782416b54b8fba158.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b8/54/b8542277-ff4c-4eb1-8c2e-04b055bc1243.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2d/a9/2da988a6-1611-4c78-b561-76002268480b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0d/d3/0dd33f32-08f3-450f-98be-132ac90fc73e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6c/91/6c91a8c8-16b9-4678-bb6f-814932a2f520.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ed/68/ed681a1a-d60e-4a70-a3e7-20d2649c094b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b1/0a/b10aac79-6d44-46ce-8f16-bc36aadc37a0.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Side",
+        "2D",
+        "Detective fiction",
+        "Horror"
+      ],
+      "Companies": "SonderingEmily, Kwalee",
+      "Language": "ENG",
+      "Original Size": "2.8 GB",
+      "Repack Size": "830 MB"
+    },
+    "createdAt": 1790640000000
   }
 }
