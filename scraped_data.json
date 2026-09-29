@@ -180224,5 +180224,32 @@
       "Repack Size": "4.6 GB"
     },
     "createdAt": 1790553600000
+  },
+  "seafarer-the-ship-sim/": {
+    "title": "Seafarer: The Ship Sim – Voyager Edition, v1.0.0.2651_7 + 3 DLCs/Bonuses",
+    "image": "https://i3.imageban.ru/out/2026/09/29/3f2e7489192eca3dea567a13903a601b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/d5/c9/d5c943a3-57ff-4b8b-b94e-8747ba0e2f03.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/75/3075145f-f21c-4cf1-a228-a769fe40d559.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d3/bb/d3bb59cb-a9ce-4d6e-b889-8320fc688927.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a7/bb/a7bb6276-5b30-4b21-86fe-f912284c35c8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7f/cc/7fcc5cae-f86b-4ee6-8255-173f39bdec88.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/de/1c/de1cd913-4fc5-486a-a5ed-598f0fab1a0d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Driving",
+        "Lifestyle",
+        "First-person",
+        "Third-person",
+        "3D",
+        "Civilian ships"
+      ],
+      "Company": "astragon Entertainment",
+      "Languages": "RUS/ENG/MULTI16",
+      "Original Size": "14.9 GB",
+      "Repack Size": "10.3 GB"
+    },
+    "createdAt": 1790640000000
   }
 }
