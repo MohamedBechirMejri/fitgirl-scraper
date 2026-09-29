@@ -180277,5 +180277,31 @@
       "Repack Size": "830 MB"
     },
     "createdAt": 1790640000000
+  },
+  "ace-combat-8-wings-of-theve/": {
+    "title": "ACE COMBAT 8: WINGS OF THEVE + ACZ:TBW DLC",
+    "image": "https://i5.imageban.ru/out/2026/09/29/27ec209e21ff6aeaf68759bed39c5744.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/14/88/1488f84c-f7d3-40a9-acd8-8018db4fecfe.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a3/f5/a3f50923-9fb3-47f8-91b7-430cb54c8795.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/45/83/45833010-2b82-4f24-ad28-93d58ebacbea.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/48/71/487168ae-b617-4a63-8e19-a3ad41deb8de.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/55/31/5531a57a-0a55-499d-85a4-d699c0687f4a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/eb/36/eb368ae9-6c27-4274-8f15-ef79d485daf1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "First-person",
+        "Third-person",
+        "3D",
+        "Combat aircraft"
+      ],
+      "Companies": "Bandai Namco Entertainment, Bandai Namco Aces",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "140.2 GB",
+      "Repack Size": "from 117.9 GB [Selective Download]"
+    },
+    "createdAt": 1790640000000
   }
 }
