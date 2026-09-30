@@ -180303,5 +180303,30 @@
       "Repack Size": "from 117.9 GB [Selective Download]"
     },
     "createdAt": 1790640000000
+  },
+  "rivage/": {
+    "title": "Rivage – v1.1.6",
+    "image": "https://i7.imageban.ru/out/2026/09/30/ccdbdc1e5d70a9faddedf12099598a74.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/14/2f/142f8ea5-80c2-402c-be51-5d0188713d0c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bf/14/bf14cc97-cc9f-4bb7-be5f-2198331a5f45.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ce/71/ce718e25-9c2c-4725-8dcb-705785c08211.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/da/a2/daa22607-4b32-4659-8b7e-61b37086807f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2e/5b/2e5b5123-9850-41a0-9c02-39582f585538.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d4/1b/d41ba799-e1bd-4c01-a1ca-75f7b28592ae.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Logic",
+        "Puzzle",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Raw Fury Games, Exnilo Studio",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "3 GB",
+      "Repack Size": "2.3 GB"
+    },
+    "createdAt": 1790726400000
   }
 }
