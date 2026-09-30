@@ -180328,5 +180328,33 @@
       "Repack Size": "2.3 GB"
     },
     "createdAt": 1790726400000
+  },
+  "the-witcher-3-wild-hunt-remastered/": {
+    "title": "The Witcher 3: Wild Hunt – Remastered, v5.00b (Steam/GOG) + All DLCs + Bonus Content",
+    "image": "https://i2.imageban.ru/out/2026/09/30/6d5d4524aa7a998746a2ad5b5a217f0a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/7a/18/7a181479-6d64-4d95-af69-dc5b41ee7fd3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7f/6a/7f6a14ac-5c79-4e74-9afa-3ed149fd4e41.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b6/ef/b6efa80a-9f77-4643-8774-ee2477900c81.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f8/60/f860fcd8-48be-42eb-839a-d13fb80c2c3f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/20/c8/20c87489-2966-4b5f-be80-132bc2ecd7fe.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d7/70/d7702542-b733-47b2-ba3f-a1e573951328.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG",
+        "Open world",
+        "Fantasy",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "CD PROJEKT RED",
+      "Languages": "RUS/ENG/MULTI18",
+      "Original Size": "95.8 GB",
+      "Repack Size": "from 37.3 GB [Selective Download]"
+    },
+    "createdAt": 1790726400000
   }
 }
