@@ -180410,5 +180410,30 @@
       "Repack Size": "9.9 GB"
     },
     "createdAt": 1790899200000
+  },
+  "way-of-the-hunter-2/": {
+    "title": "Way of the Hunter 2 – v1.0.0.212045 + 3 DLCs",
+    "image": "https://i8.imageban.ru/out/2026/10/02/826a429ce30d5b20ef8fd05fe5a2ea79.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/26/11/2611c4ed-4e7b-45ff-a8cd-47aa936ee4c7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0e/22/0e22fed2-8662-4caf-ae23-8dada7bf8009.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/3e/2a3ee5ce-8798-4531-84aa-f1783fbfc181.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/75/4a/754a613a-4c0f-4806-a65b-dc894acc8e22.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/31/54/31540b2a-a9a8-47f5-af10-9d8c6aed6457.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/01/78/0178957e-cc56-4c29-9bda-3100dcf9c7a3.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Sports",
+        "Hunting",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Nine Rocks Games, THQ Nordic",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "30.7 GB",
+      "Repack Size": "20.7 GB"
+    },
+    "createdAt": 1790899200000
   }
 }
