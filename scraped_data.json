@@ -180509,5 +180509,32 @@
       "Repack Size": "8.2 GB"
     },
     "createdAt": 1790985600000
+  },
+  "transport-fever-3/": {
+    "title": "Transport Fever 3: Deluxe Edition – Build 40408 + DLC",
+    "image": "https://i7.imageban.ru/out/2026/10/04/af8989be0d08da96d48d98b0de9339a5.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/94/a4/94a489af-063d-48d5-9a69-65d8e207e960.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/75/fc/75fcc73c-fdf9-40e8-953f-3b512bf4a3f1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/02/14/0214486f-9e07-4330-9c83-e8ca42a5cfa6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/05/be/05bec0b5-d8e5-4b94-af5f-7958248d11e5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/71/6d/716d838b-2c7c-49a9-9711-dfeaf5447b65.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f6/b3/f6b34e28-4a03-4cf9-8e2e-55d8713fa433.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Strategy",
+        "Real-time",
+        "Buses",
+        "Civilian aircraft",
+        "Trains"
+      ],
+      "Companies": "Urban Games, Paradox Interactive",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "31 GB",
+      "Repack Size": "19.2 GB"
+    },
+    "createdAt": 1791072000000
   }
 }
