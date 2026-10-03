@@ -180484,5 +180484,30 @@
       "Repack Size": "from 21 GB [Selective Download]"
     },
     "createdAt": 1790985600000
+  },
+  "minecraft-dungeons-2/": {
+    "title": "Minecraft Dungeons II – v1.1.1.0 + 2 DLCs [Monkey Repack]",
+    "image": "https://i2.imageban.ru/out/2026/10/03/f5402ee5e09a038294a1823a223b0f8e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/a4/a6/a4a67439-7d92-4026-9ca2-700e06f0b41e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0e/d7/0ed7d7bb-2a95-4b2c-b93f-cbb129848b93.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/79/47/79477e52-0ba0-420f-9bcf-017a9e576ae6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d5/44/d544bc71-2a3d-4c96-8817-d466d1a273a1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a7/91/a791e353-a52a-4f9c-b9cf-86950923b459.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/02/81/0281fdf5-42ef-4861-ba22-733bf94992d2.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Content randomization",
+        "3D"
+      ],
+      "Companies": "Xbox Game Studios, Mojang Studios, Double Eleven",
+      "Languages": "RUS/ENG/MULTI17",
+      "Original Size": "8.6 GB",
+      "Repack Size": "8.2 GB"
+    },
+    "createdAt": 1790985600000
   }
 }
