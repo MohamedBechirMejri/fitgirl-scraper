@@ -180459,5 +180459,30 @@
       "Repack Size": "3.3 GB"
     },
     "createdAt": 1790985600000
+  },
+  "dynasty-warriors-3-complete-edition-remastered/": {
+    "title": "DYNASTY WARRIORS 3: Complete Edition Remastered – Digital Deluxe Edition + DLC",
+    "image": "https://i5.imageban.ru/out/2026/10/03/7afd81ac13460995ab6612bace4acd94.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/9c/52/9c52ab1f-3203-4e62-983e-ce63006285f6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ff/2c/ff2c6432-5312-424d-8543-d580448f5628.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/97/a8/97a8083f-434d-4368-9fcd-312eccf292f1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9b/4f/9b4f15e2-7caf-4f3e-89e1-6bc79e88be85.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b0/0c/b00ca85c-b3ab-4d96-8a57-1cb16bd93052.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/eb/5e/eb5ebc9f-13bb-43c2-b54e-8037cf84149b.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Beat 'em up (Brawler)",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Koei Tecmo Games, Omega Force",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "59.8 GB",
+      "Repack Size": "from 21 GB [Selective Download]"
+    },
+    "createdAt": 1790985600000
   }
 }
