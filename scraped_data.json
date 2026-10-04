@@ -180536,5 +180536,56 @@
       "Repack Size": "19.2 GB"
     },
     "createdAt": 1791072000000
+  },
+  "dragon-shelter/": {
+    "title": "Dragon Shelter – v0.0.58",
+    "image": "https://i2.imageban.ru/out/2026/10/04/b2f03ad999153f2dbbbbd994eb350e38.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/9f/95/9f95d096-75f3-4b83-badb-e77ec249f31a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d6/db/d6db39b5-353d-4acd-b412-108b210ccb09.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d2/82/d282e66c-9957-4241-9c25-c776f64de364.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2e/6a/2e6a544e-5147-41e6-9a4d-b6d0b30db265.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/21/c0/21c0b927-eef9-4be8-ae4d-5556d2941706.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/41/59/4159eb26-36dc-4ad3-902b-2e8e873bcbe9.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "Item crafting",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Wild Forest Studio, Curve Games",
+      "Languages": "RUS/ENG/MULTI5",
+      "Original Size": "2.1 GB",
+      "Repack Size": "425 MB"
+    },
+    "createdAt": 1791072000000
+  },
+  "mars-attracts/": {
+    "title": "Mars Attracts: Supporter’s Edition – v0.6.2 + 4 DLCs/Bonuses",
+    "image": "https://i2.imageban.ru/out/2026/10/05/ba3a96cb3eb0dac7c82d14fcbce42b49.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/05/7f/057f5a3f-ed6a-4f89-b787-c4716331c686.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7d/f7/7df73685-6f37-441a-9fa8-79b2d9984b3e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3a/73/3a736034-e151-4ddc-a293-f198a8cd99b9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0d/20/0d20c01c-bcd9-482c-909a-bcbe54cc24fb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9f/56/9f56f8a0-a473-4cdf-8217-d41a0e8458fa.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b6/56/b6566b90-fcc1-4445-afe6-4a82343ac638.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Strategy",
+        "Top-down",
+        "3D"
+      ],
+      "Company": "Outlier Interactive",
+      "Languages": "ENG/MULTI9",
+      "Original Size": "3.2 GB",
+      "Repack Size": "668 MB/2.5 GB"
+    },
+    "createdAt": 1791158400000
   }
 }
