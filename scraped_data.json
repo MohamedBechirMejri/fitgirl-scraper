@@ -180587,5 +180587,30 @@
       "Repack Size": "668 MB/2.5 GB"
     },
     "createdAt": 1791158400000
+  },
+  "qliphah-in-providences-shadow/": {
+    "title": "Qliphah in Providence’s Shadow – v1.0.3 + 2 DLCs",
+    "image": "https://i8.imageban.ru/out/2026/10/05/2a0e3d20419ec9e07d616e833007145a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ee/2a/ee2a2e12-b39a-463c-8719-34849a2a193d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/82/7a/827ae1ac-7e50-4f68-9cbd-f4d21291a36b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a4/cd/a4cdd8f4-475b-4d7d-b42a-ed27bf99b23e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d6/50/d650b5b1-c15c-46ad-a9e5-93ed323f79ed.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b3/f3/b3f34983-d09f-421d-b32b-33c229774693.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "3D",
+        "Post-apocalypse",
+        "Japanese",
+        "Turn-based"
+      ],
+      "Companies": "Arc System Works, UnitePlus",
+      "Languages": "ENG/MULTI9",
+      "Original Size": "1.5 GB",
+      "Repack Size": "1 GB"
+    },
+    "createdAt": 1791158400000
   }
 }
