@@ -180612,5 +180612,30 @@
       "Repack Size": "1 GB"
     },
     "createdAt": 1791158400000
+  },
+  "mineral-mining-simulator/": {
+    "title": "Mineral Mining Simulator",
+    "image": "https://i3.imageban.ru/out/2026/10/05/025338f208206fdbb3172b2a59dbe56d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/d1/69/d169d4d4-31ac-4d10-9388-d93ea3eabc69.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/96/56/9656ef5c-e58f-4c8d-81f5-a6ca3eb0d461.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/38/5a/385a2905-f986-4622-a0c4-a1ed06b3ac9a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/55/2e/552ef2f2-36eb-4052-9147-973e405a39bb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/44/85/4485e354-624f-4055-ac43-d390f6f3e19d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/05/c6/05c6a34b-d91f-4620-a1b6-526e03d99b77.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Bewolba Studios",
+      "Languages": "RUS/ENG/MULTI20",
+      "Original Size": "4.4 GB",
+      "Repack Size": "992 MB"
+    },
+    "createdAt": 1791158400000
   }
 }
