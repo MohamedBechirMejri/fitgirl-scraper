@@ -180687,5 +180687,29 @@
       "Repack Size": "807 MB"
     },
     "createdAt": 1791244800000
+  },
+  "false-hero/": {
+    "title": "False Hero – v26.9.14",
+    "image": "https://i8.imageban.ru/out/2026/10/06/99d6cc52a1c5a5f5afd6a66e5171f4f8.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/75/04/750440d7-c98e-4960-8d95-bbbbe32bd21c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/77/f1/77f1a2b2-d763-4ca8-b5cb-c88d1d18b81e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0b/46/0b460cb6-1cc4-4770-bb58-48460e9bcaf0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/21/77/21776abe-f2eb-43a7-816b-731c6fe9fae8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/98/ed/98eda1df-e2f4-4ab3-a92b-5a734bdb00ca.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/80/08/800861cd-ecf9-4554-bb68-773ef4eb0bdd.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Torchlight Games, Ytopia",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "6.9 GB",
+      "Repack Size": "4.5 GB"
+    },
+    "createdAt": 1791331200000
   }
 }
