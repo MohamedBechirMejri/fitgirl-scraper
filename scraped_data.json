@@ -180711,5 +180711,56 @@
       "Repack Size": "4.5 GB"
     },
     "createdAt": 1791331200000
+  },
+  "land-of-glarefall/": {
+    "title": "Land of Glarefall – v1.0.1",
+    "image": "https://i3.imageban.ru/out/2026/10/06/07f04f492fb9a9c4dbf9324521e3c335.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/2c/98/2c982dd8-bb34-4ac5-98b1-e297521526fe.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1b/bf/1bbf189a-77a8-49e1-b1ef-7edf81129584.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3a/db/3adb065b-aead-4ff6-a385-0e8eb9ba6d0e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6c/19/6c195d3e-d6ce-4b65-b97c-81c31a1d85fb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bb/dd/bbdd458a-46df-41a9-b9bd-c7b530c05348.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8a/98/8a98217a-348a-40f2-9587-4a7d53cc9568.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Tower defense",
+        "Top-down",
+        "3D"
+      ],
+      "Company": "Blaike Games",
+      "Languages": "RUS/ENG/MULTI6",
+      "Original Size": "9.8 GB",
+      "Repack Size": "1.9/2.1 GB"
+    },
+    "createdAt": 1791331200000
+  },
+  "gears-of-war-e-day/": {
+    "title": "Gears of War: E-Day – v4894958 (Release) + 7 DLCs*",
+    "image": "https://i3.imageban.ru/out/2026/10/07/e41dc66ece822ddd288b6036fefe15bf.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/c0/12/c0124475-c296-410f-ab13-28750565d21c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1d/92/1d92cc5d-9010-490b-a98d-2c2c25a52a8c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fe/90/fe9038bf-fdb0-4c82-89fc-cdefa68007bb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/69/67/696753cd-1999-40d7-ade4-785ecce28c4d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/53/5f/535fbf2d-1c89-4b4a-81ee-813d63d3636f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0b/0a/0b0a4e4e-5d5c-4379-8b6f-9bfad371b64f.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Cover-based",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Xbox Game Studios, The Coalition",
+      "Languages": "RUS/ENG/MULTI22",
+      "Original Size": "111.8 GB",
+      "Repack Size": "from 78.3 GB [Selective Download]"
+    },
+    "createdAt": 1791331200000
   }
 }
