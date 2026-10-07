@@ -180762,5 +180762,32 @@
       "Repack Size": "from 78.3 GB [Selective Download]"
     },
     "createdAt": 1791331200000
+  },
+  "mxgp-26/": {
+    "title": "MXGP 26: Fox Holeshot Edition + 2 DLCs",
+    "image": "https://i5.imageban.ru/out/2026/10/07/320966fe6fcb7ea6356e541c8b24fbfa.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/1a/fd/1afdedbb-2f6e-4857-8f94-1e9524acd28d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/49/8b/498bd024-a051-4bb9-8c6c-1d7853df6312.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f1/f6/f1f6e09f-8cc7-4f13-abbb-b61b4b021f83.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9b/e7/9be78a03-24ee-4ab6-9139-8955a6b2d3e4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/32/c3/32c3e2e9-d88f-4f48-9417-cc7c6e3b1421.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/bc/cdbce2e8-15b1-4160-9515-d589a8285868.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Racing",
+        "Simulation",
+        "First-person",
+        "Third-person",
+        "3D",
+        "Motorcycles"
+      ],
+      "Companies": "Artefacts Studio, Nacon",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "20.2 GB",
+      "Repack Size": "12.7 GB"
+    },
+    "createdAt": 1791331200000
   }
 }
