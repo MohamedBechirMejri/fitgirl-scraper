@@ -180838,5 +180838,30 @@
       "Repack Size": "3.5 GB"
     },
     "createdAt": 1791417600000
+  },
+  "stuntboost/": {
+    "title": "STUNTBOOST + Supporter Pack DLC",
+    "image": "https://i3.imageban.ru/out/2026/10/08/4ad85778a7f58561d8a20e5909eee2bb.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/37/1e/371e1fb1-c6cf-4b6d-b920-5ba3136811cc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9e/14/9e141250-9ace-47d2-b7b7-9f8188227933.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b3/56/b356018d-9718-4096-9c23-3fd549219c6e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/32/93/329356f4-b2f0-4675-9ffc-be3c9a3b1c86.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5b/3e/5b3e6c57-969a-47c6-8969-9a6d6feff339.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1e/db/1edbc313-d429-40c9-8d6a-37c8f90d328d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Sports",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Byting Games",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "5 GB",
+      "Repack Size": "2.4 GB"
+    },
+    "createdAt": 1791417600000
   }
 }
