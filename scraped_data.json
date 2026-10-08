@@ -180789,5 +180789,54 @@
       "Repack Size": "12.7 GB"
     },
     "createdAt": 1791331200000
+  },
+  "gamer-stop-simulator/": {
+    "title": "Gamer Stop Simulator – v1.0 (Release)",
+    "image": "https://i4.imageban.ru/out/2026/10/08/292295967dc15988b89e5881b50fca54.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/73/74/73745480-6d84-4d81-8a81-7150f2450d64.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8b/36/8b36f5d6-3ae4-405d-b3aa-52aea9f1f829.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/68/c6/68c6d390-b85a-4c66-9e30-66a7aaac3e1d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/05/dc/05dcccbd-71f4-4912-a054-1af9fac16631.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bb/e0/bbe0d7b0-3ac0-427a-878a-8d0dd5a8261b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/93/a9/93a9ddca-ac7f-429f-831a-1dfb6c452150.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Red Axe Games",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "4 GB",
+      "Repack Size": "2.4 GB"
+    },
+    "createdAt": 1791417600000
+  },
+  "end-of-abyss/": {
+    "title": "End of Abyss – v22954",
+    "image": "https://i8.imageban.ru/out/2026/10/07/00e1c65d951763503d3d5a8c4ff97daa.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/fb/89/fb896145-e6c2-4baa-859b-7f17414a42b9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/aa/1d/aa1db04c-775b-4957-9d12-21129728eb4e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/70/ca/70ca17e3-d0cb-4866-98e6-4cd8a7b285cb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/df/62/df6280b0-7729-43cf-ad33-5c8f4009cfd8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8d/4c/8d4c30aa-5278-4c1e-bdcf-55933e02b2d9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7e/ff/7eff540d-2dcc-4b1e-b71c-b7d65a29ea19.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Adventure",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Section 9 Interactive, Epic Games",
+      "Languages": "RUS/ENG/MULTI16",
+      "Original Size": "4.8 GB",
+      "Repack Size": "3.5 GB"
+    },
+    "createdAt": 1791417600000
   }
 }
