@@ -180863,5 +180863,58 @@
       "Repack Size": "2.4 GB"
     },
     "createdAt": 1791417600000
+  },
+  "neon-abyss-2/": {
+    "title": "Neon Abyss 2: Deluxe Edition – v2026.10.8 + 3 DLCs",
+    "image": "https://i3.imageban.ru/out/2026/10/09/ad2e3b510239348d9655d8000bf34e63.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/17/02/17024ef0-91d6-43e1-b0c4-276f8ccbc475.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/24/89/24898b51-4582-47c1-9aaf-19f75e5b520a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/87/5e/875e3d75-5fe2-4300-9fc5-f38c4130ef64.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/65/0b/650bb376-dbb0-4394-974c-38bfdacaec53.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d3/65/d3655549-7511-485c-9eb1-9d22b816b2bc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4c/60/4c60fdc2-e3c8-46f6-9498-7374622e7348.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Run and gun",
+        "Content randomization",
+        "Side",
+        "2D",
+        "Retro look"
+      ],
+      "Companies": "Kepler Ghost, Veewo Games",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "2.9 GB",
+      "Repack Size": "901 MB/1.1 GB"
+    },
+    "createdAt": 1791504000000
+  },
+  "gear-club-unlimited-3/": {
+    "title": "Gear.Club Unlimited 3 + 4 DLCs",
+    "image": "https://i1.imageban.ru/out/2026/10/09/c1cb9a620d032b4f0613c46eac0d4345.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/3d/7f/3d7f0af3-2116-48d9-9e59-a4ca5dd62822.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fc/8a/fc8ae07e-cfaa-440c-abb8-dea0d0e79a0a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/76/2a/762a5ab9-4014-415d-8721-21c894533ce0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b4/84/b4841fc0-430d-4d31-93cf-9ba8211d537f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0f/e0/0fe0d3d0-1b48-4e43-aa84-374741903907.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/39/58/39580ce0-83ae-42c0-a3d6-70c618e22f13.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Racing",
+        "First-person",
+        "Third-person",
+        "3D",
+        "Cars"
+      ],
+      "Companies": "Nacon, Eden Games",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "28 GB",
+      "Repack Size": "11 GB"
+    },
+    "createdAt": 1791504000000
   }
 }
