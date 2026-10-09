@@ -180916,5 +180916,54 @@
       "Repack Size": "11 GB"
     },
     "createdAt": 1791504000000
+  },
+  "cyber-cleaner-simulator/": {
+    "title": "Cyber Cleaner Simulator – v1.0 Release",
+    "image": "https://i7.imageban.ru/out/2026/10/09/133ded8e321e72d2c1803fa787306127.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/1b/e6/1be6e6f2-d671-4ffa-8e3f-93e79b8c658f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/14/3d/143db49a-ed18-442a-8446-8f2c6c9d2dfb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/18/78/187807ce-28bd-474c-92a8-fe98882abb41.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fe/fb/fefb1749-6d59-4ed1-95c6-9aa2f30d1b0a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4d/42/4d427f56-2947-4f11-8505-3a09db797af7.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Third-person",
+        "3D",
+        "Cyberpunk"
+      ],
+      "Company": "Nowsky",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "9.5 GB",
+      "Repack Size": "6.6 GB"
+    },
+    "createdAt": 1791504000000
+  },
+  "clive-barkers-hellraiser-revival/": {
+    "title": "Clive Barker’s Hellraiser: Revival – Deluxe Edition, v1.0.1.227219 + 2 DLCs",
+    "image": "https://i6.imageban.ru/out/2026/10/09/f5332a8ca4ccdc9f327296af1fa184ef.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4c/9c/4c9c5e71-b8a4-4fdc-9e82-45c4901573d6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e9/48/e9488ddd-89b6-4c1a-ad12-f33c890a1a5e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/74/76/74766f0d-8a3d-44eb-a5a5-be522987f731.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1e/b6/1eb60856-e7ff-4c38-a63a-88f415b5eae8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1b/45/1b45c31a-3997-44a4-a754-244768f6bd26.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2e/68/2e688cb2-d426-4881-bc10-dd46ef550db9.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Company": "Saber Interactive",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "65.7 GB",
+      "Repack Size": "51.6 GB"
+    },
+    "createdAt": 1791504000000
   }
 }
