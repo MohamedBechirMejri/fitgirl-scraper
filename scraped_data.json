@@ -180965,5 +180965,57 @@
       "Repack Size": "51.6 GB"
     },
     "createdAt": 1791504000000
+  },
+  "songs-of-glimmerwick/": {
+    "title": "Songs of Glimmerwick: Deluxe Edition – v1.00f + 2 DLCs/Bonuses",
+    "image": "https://i5.imageban.ru/out/2026/10/09/cf884196ee7e1457f5f4738f6d24b138.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/32/02/3202f42e-05bf-4b41-9ada-bd42147ffdd8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f7/71/f7716107-6e03-451f-8bd9-49533f11bcde.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d9/b5/d9b56439-9fc1-46fb-9e1c-cda5ab3b0dca.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/be/5b/be5b6c8a-6f7c-49d7-baac-245e5a0503be.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/d3/2ad37cc7-539f-49ca-b600-d4760a95d663.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/00/e7/00e79408-cd18-4274-8154-abac66634280.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "RPG",
+        "Item crafting",
+        "Isometric",
+        "2D"
+      ],
+      "Company": "Eastshade Studios",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "2.9 GB",
+      "Repack Size": "1.1/1.3 GB"
+    },
+    "createdAt": 1791504000000
+  },
+  "the-bell-echoes/": {
+    "title": "The Bell Echoes – v1.0.2026.9.28.2",
+    "image": "https://i3.imageban.ru/out/2026/10/09/564e0d2fe862d40e515063cf87cf6c21.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/01/4d/014d5fa9-6a8b-476e-8c83-1239c41155a7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/31/bd/31bdac87-d157-4708-8914-4e817c9469da.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/38/e0/38e09a92-b9e9-4941-bcc5-2dbf90494285.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/dc/c3/dcc36afb-0f4d-4c2a-87a0-691ecffecdb4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/56/b6/56b6485a-cf34-4a73-a1d5-47e79ff0cd6d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/54/80/5480a3f2-9d94-4fc6-ad78-d5f37d38959a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "Tactics",
+        "Isometric",
+        "2D",
+        "Turn-based"
+      ],
+      "Companies": "Seven Pieces, WeKnowGame",
+      "Languages": "ENG/MULTI4",
+      "Original Size": "9 GB",
+      "Repack Size": "2.3 GB"
+    },
+    "createdAt": 1791504000000
   }
 }
