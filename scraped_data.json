@@ -181041,5 +181041,30 @@
       "Repack Size": "2.7 GB"
     },
     "createdAt": 1791590400000
+  },
+  "silver-pines/": {
+    "title": "Silver Pines: Deluxe Edition – v610_173504 + Bonus Content",
+    "image": "https://i2.imageban.ru/out/2026/10/10/23eefaadf36521aa2c61158ca99b7eed.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/09/64/0964efb8-a0b4-4dda-81fd-073cf83c325b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/21/d4/21d492fb-9981-4f50-988c-4f74b0bf73d8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c9/09/c9091f2c-4a73-40f4-88b8-b4c3f65653cc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/12/32/12329b05-7fd9-4a39-a8d5-0732c95a25f3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a9/b8/a9b8b1eb-673d-4c5f-971b-b2e2829db08b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/99/e2/99e266b4-c335-4e4e-a9be-543632cf5f60.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Side",
+        "2D",
+        "Horror"
+      ],
+      "Companies": "Wych Elm, Team17 Digital",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "4.9 GB",
+      "Repack Size": "from 1.4 GB [Selective Download]"
+    },
+    "createdAt": 1791590400000
   }
 }
