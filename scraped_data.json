@@ -181091,5 +181091,30 @@
       "Repack Size": "3.3 GB"
     },
     "createdAt": 1791676800000
+  },
+  "i-know-a-guy-shady-life-simulator/": {
+    "title": "I Know a Guy: Shady Life Simulator – v1.0 (Release)",
+    "image": "https://i8.imageban.ru/out/2026/10/11/11b66cb7f0b83a85ba4cd4bcbd07b963.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/45/13/4513e5ca-2252-49c5-abdf-f2eec9c2389e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ee/6b/ee6bf363-6a1c-46ab-91d8-170bf3bde934.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/43/a0/43a096f6-792a-402f-b662-1858abc05e7d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d0/3c/d03c1a11-143c-49cd-952c-c75d41fbf4c1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fa/2d/fa2dc8bc-7845-4c20-8131-48fa3ad9c1ef.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d0/85/d08509f6-9736-4890-ae7f-9c9b12e04a12.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Bunch’o’Nerds",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "1.4 GB",
+      "Repack Size": "910 MB"
+    },
+    "createdAt": 1791763200000
   }
 }
