@@ -181066,5 +181066,30 @@
       "Repack Size": "from 1.4 GB [Selective Download]"
     },
     "createdAt": 1791590400000
+  },
+  "heroes-vow-three-kingdoms/": {
+    "title": "Heroes’ Vow: Three Kingdoms – v1.0.2",
+    "image": "https://i7.imageban.ru/out/2026/10/11/0e04f4b366638362c55af8a54759c77b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/3e/56/3e561f6f-7b7b-4eaf-9831-d65e8fb87907.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ff/c5/ffc58a12-9491-4320-ab98-32890c44a923.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7f/54/7f54ea5e-2fbb-4e17-819b-9ce41331b4bd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ea/af/eaafdb3a-067a-478e-9a73-4316162e88e7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/25/d8/25d8d348-1cb2-462a-80bc-d67f7e1695bf.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/21/0e/210e8225-8904-4b02-84aa-983ffb26ecb7.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "RPG",
+        "3D",
+        "Turn-based"
+      ],
+      "Companies": "NPC Entertainment, Free Wing",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "9.3 GB",
+      "Repack Size": "3.3 GB"
+    },
+    "createdAt": 1791676800000
   }
 }
