@@ -181116,5 +181116,30 @@
       "Repack Size": "910 MB"
     },
     "createdAt": 1791763200000
+  },
+  "maid-cafe-simulator/": {
+    "title": "Maid Cafe Simulator – v1.19.20 + 20 DLCs",
+    "image": "https://i3.imageban.ru/out/2026/10/12/cfad259d302e4d4cc016e4840c973876.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/0d/52/0d52fbab-d8fd-4134-8329-d9833875fb90.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5c/74/5c74bfdd-18b6-4673-b5dd-b1aea117a35a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7e/66/7e666843-4ad7-455a-9dd6-2155458609f8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cf/dc/cfdc2c2e-bb17-447f-8b3a-a1ae8ca36690.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bc/52/bc5230c5-e967-47b9-ac48-607b0186a017.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/90/47/90476a2f-34ab-4674-9d98-6046ca30f098.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D",
+        "Japanese"
+      ],
+      "Companies": "SCON, Accelix",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "3.5 GB",
+      "Repack Size": "1.8 GB"
+    },
+    "createdAt": 1791763200000
   }
 }
