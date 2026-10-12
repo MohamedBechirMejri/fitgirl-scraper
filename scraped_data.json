@@ -181141,5 +181141,80 @@
       "Repack Size": "1.8 GB"
     },
     "createdAt": 1791763200000
+  },
+  "used-cars-simulator/": {
+    "title": "Used Cars Simulator – v2026.10.09 (281) / v1.0 Release",
+    "image": "https://i128.fastpic.org/big/2026/1012/87/edcd4036f3c1dc2985a9e739ac2fd887.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/c0/12/c012343b-843b-4f43-9648-b02d6bf4e7dd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/58/c8/58c80cb3-d888-4884-acf7-746d04aeb6b5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b1/56/b156bdfd-8910-48f9-8b4a-b7352cbee40b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/81/f5/81f5d270-9975-4183-8b61-14a20b100f9c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/95/6395fd52-f08f-48d5-9c9e-38ded15395c2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7e/7f/7e7fefbf-a2d7-4219-83da-b69ead115087.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Driving",
+        "Lifestyle",
+        "First-person",
+        "3D",
+        "Cars"
+      ],
+      "Companies": "DreamWay Games, PlayWay",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "9.5 GB",
+      "Repack Size": "5.8 GB"
+    },
+    "createdAt": 1791763200000
+  },
+  "wild-west-supermarket-simulator/": {
+    "title": "Wild West Supermarket Simulator – v1.0.682a",
+    "image": "https://i3.imageban.ru/out/2026/10/12/0c01afbd430c42188cbadf46ec8dff4d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/9a/d1/9ad15ed6-5465-4e6a-b678-24af6e21c9d3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f0/0e/f00e8ddf-9c51-4ca5-b184-60b2d796bcb1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/88/c6/88c65a66-067d-4f6c-aabd-9b8210dc6b07.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/48/2a/482a8464-c4f0-44de-9dd1-799787920c3f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/87/6e/876efdc1-cc9c-4149-9a55-768c7c94a324.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5f/59/5f592828-e538-405e-aa6c-1ea30ac2b9f2.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Toplitz Productions, SunDust",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "3.3 GB",
+      "Repack Size": "2 GB"
+    },
+    "createdAt": 1791763200000
+  },
+  "superhero-simulator/": {
+    "title": "Superhero Simulator + Bonus OST",
+    "image": "https://i2.imageban.ru/out/2026/10/12/68dfe41b5c38a0bd9180c242d0cb108d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/a0/6d/a06dfa2f-82fd-4500-b63b-07560c928920.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/db/d3/dbd3d691-42a3-4371-bddb-b7994e08730d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/b2/8eb23e52-8f42-4a35-bdcb-1fd6c95304c3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6f/9d/6f9d1615-6148-4c9a-aa3e-b93d9c075f53.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fe/61/fe61f165-92dd-4ceb-afed-1a23a00b0c1d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ff/05/ff058bce-fe30-44e9-bced-bdb6d8eb1fa3.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Third-person",
+        "3D",
+        "Superheroes"
+      ],
+      "Company": "mightyraccoon! Studios",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "10.7 GB",
+      "Repack Size": "4.3 GB"
+    },
+    "createdAt": 1791763200000
   }
 }
