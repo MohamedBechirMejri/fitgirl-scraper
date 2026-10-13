@@ -181240,5 +181240,30 @@
       "Repack Size": "3.8 GB"
     },
     "createdAt": 1791763200000
+  },
+  "paperhead/": {
+    "title": "PAPERHEAD – v47 + 2 DLCs/Bonuses",
+    "image": "https://i7.imageban.ru/out/2026/10/13/75997d3b02cd714e61300cbf066562a9.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/04/f3/04f3ec17-b62d-4bd4-a156-775382dc7ba7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/aa/5a/aa5a201f-6706-44e8-b699-8b79cd5626a2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/64/74/647485ea-8998-4528-93d5-7ec33ef0ed1e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e1/e6/e1e654e6-5f01-4068-860b-2c8cdf85b33f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/63/3763520d-ba57-4711-a550-4afee9d54a2c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/52/3f/523f0772-bdcb-4b3a-98e1-39e2b2202adc.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Paperhead te4m, HypeTrain Digital",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "7 GB",
+      "Repack Size": "2.7/2.9 GB"
+    },
+    "createdAt": 1791849600000
   }
 }
