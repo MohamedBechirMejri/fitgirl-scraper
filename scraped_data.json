@@ -181216,5 +181216,29 @@
       "Repack Size": "4.3 GB"
     },
     "createdAt": 1791763200000
+  },
+  "roadhouse-simulator/": {
+    "title": "Roadhouse Simulator – v1.0.2.70192SF",
+    "image": "https://i4.imageban.ru/out/2026/10/12/f1d8c7b303735131de91f091410be4a4.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/10/2a/102a48d7-1d83-4e1e-926c-46699351a1b6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f4/71/f4716806-0bdc-4074-aa4c-ce6d9e10d917.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/34/f1/34f162c2-5566-464d-9f92-9babcfecb5d0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/84/41/84411b06-ce9d-4fb9-84bb-ed545578c1c1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fe/cd/fecdd4ac-b1cd-46fd-bf26-a784026e1aee.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5b/e3/5be302d8-8a77-4968-af22-404828a736df.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Drago Entertainment",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "6.7 GB",
+      "Repack Size": "3.8 GB"
+    },
+    "createdAt": 1791763200000
   }
 }
