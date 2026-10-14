@@ -181265,5 +181265,29 @@
       "Repack Size": "2.7/2.9 GB"
     },
     "createdAt": 1791849600000
+  },
+  "project-spark/": {
+    "title": "Project Spark – v1.21.50909.2",
+    "image": "https://i6.imageban.ru/out/2026/10/13/3a487da635f4007d00c5e016df873f8e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/bd/41/bd414f78-803d-4f4d-99b0-58bf725f3db2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/78/91/78912ef3-a0d7-482b-b902-8aa99785296f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b2/66/b266b518-32eb-4cad-8761-b2de4584877a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/43/55/43553e29-40be-4b55-9488-6e0e1e7af2b6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c2/60/c2601c72-589f-4bf5-8041-dd267251e55c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/61/62/61623dac-d2bf-47b7-acc0-32f035d5cd4a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Virtual world",
+        "Sandbox",
+        "3D"
+      ],
+      "Companies": "Microsoft Studios, Team Dakota",
+      "Language": "ENG",
+      "Original Size": "2 GB",
+      "Repack Size": "1.6 GB"
+    },
+    "createdAt": 1791936000000
   }
 }
