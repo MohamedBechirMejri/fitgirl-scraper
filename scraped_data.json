@@ -181369,5 +181369,55 @@
       "Repack Size": "from 12.6 GB [Selective Download]"
     },
     "createdAt": 1791936000000
+  },
+  "valor-mortis/": {
+    "title": "Valor Mortis + DLC",
+    "image": "https://i8.imageban.ru/out/2026/10/14/0757bdfb14e6a15bb566a273f3ad4690.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/66/0b/660be7df-bec3-42e7-aca1-f9d5a93e6a66.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6d/4e/6d4ebb30-33de-4541-ba62-df85427c7fd9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f8/70/f870590c-d2b3-4e28-b25f-80b9bd99b93b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f9/1a/f91a3f03-222d-42f6-9888-8c77fba60ec1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c8/24/c8242b6a-417e-493d-bb19-842c45795430.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1f/53/1f533016-24fc-4cd1-9a96-01806dbb4c08.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "First-person",
+        "3D",
+        "Supernatural fiction"
+      ],
+      "Companies": "One More Level, Lyrical Games",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "39.1 GB",
+      "Repack Size": "31.1 GB"
+    },
+    "createdAt": 1792022400000
+  },
+  "total-war-shogun-2-complete-edition/": {
+    "title": "Total War: SHOGUN 2 – Complete Edition, v1.0.0 Build 87380",
+    "image": "https://i8.imageban.ru/out/2026/10/15/8cdbadfdf443277e2aa6115ca1f61da5.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/7c/4a/7c4a0d8b-3104-46a6-be15-78e5c833efab.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/15/d4/15d4af4f-5158-463d-8594-81f6a641381a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/db/ba/dbbaedfa-20dd-4586-bfda-ef2624c24e26.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0f/9b/0f9b6394-c39b-4a3f-a3c7-1e341398cbb4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c6/6f/c66fafd7-5313-474a-ae7a-e882677aa735.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/69/d8/69d8e6d9-0407-49e1-bdaf-c80b53f0eee9.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "3D",
+        "Real-time",
+        "Turn-based"
+      ],
+      "Companies": "Creative Assembly, Sega",
+      "Languages": "RUS/ENG/MULTI15",
+      "Original Size": "43.1 GB",
+      "Repack Size": "from 21.8 GB [Selective Download]"
+    },
+    "createdAt": 1792022400000
   }
 }
