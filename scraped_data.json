@@ -181419,5 +181419,30 @@
       "Repack Size": "from 21.8 GB [Selective Download]"
     },
     "createdAt": 1792022400000
+  },
+  "order-of-the-sinking-star/": {
+    "title": "Order of the Sinking Star",
+    "image": "https://i2.imageban.ru/out/2026/10/15/87fa4a405553be9391cf7259fe167bd3.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/8b/e9/8be9328e-9631-40fe-a2d0-7da30d3053c6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5c/31/5c3137c3-d000-46c4-b1d8-28229172bcf5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/45/17/4517badb-64f1-4f44-98a7-b38b336e0dfd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/97/3d/973d95a0-81b9-4385-9ea7-7b2845a71ab3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/29/da/29daf39e-fc1b-469d-a592-daaf618d2107.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bc/23/bc23835d-bfe7-4b48-802d-9d663e55f629.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Logic",
+        "Puzzle",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Arc Games, Thekla",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "10.1 GB",
+      "Repack Size": "8 GB"
+    },
+    "createdAt": 1792022400000
   }
 }
