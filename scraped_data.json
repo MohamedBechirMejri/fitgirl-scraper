@@ -181470,5 +181470,58 @@
       "Repack Size": "from 4.1 GB [Selective Download]"
     },
     "createdAt": 1792108800000
+  },
+  "warhammer-40000-boltgun-2/": {
+    "title": "Warhammer 40,000: Boltgun 2 – v1.2.0.0+775",
+    "image": "https://i8.imageban.ru/out/2026/10/16/bcc93f7178c98dcbc15faa359a52dc91.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/45/91/45911535-9336-43a3-a184-8d065673dd60.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/50/18/5018dd50-afe2-4c26-a118-8cb6694e717e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/97/3797840f-d030-4aca-9e76-87c7f22b0922.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/97/b8/97b8b5f1-26e8-413c-8713-497dafe096de.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/24/95/24954b19-9c2b-4db3-9561-d75f382e8499.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/42/1a/421a32f4-f41b-405d-adb4-fe8b9cdf6b7d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Warhammer 40",
+        "000",
+        "First-person",
+        "3D",
+        "Retro look"
+      ],
+      "Companies": "Big Fun Games, Auroch Digital",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "9.8 GB",
+      "Repack Size": "6.1/6.7 GB"
+    },
+    "createdAt": 1792108800000
+  },
+  "god-of-war-3-remastered/": {
+    "title": "God of War III Remastered – v1.01/v1.02 (Recompiled for PC v2.3.0)",
+    "image": "https://i4.imageban.ru/out/2026/10/16/386560b64fe7181e2b5b0be7362735fa.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/69/a9/69a92c41-051f-4638-9c3e-e0e078e45523.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0c/1d/0c1d63c1-8307-4f8c-8901-9a1c8d580a1b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/79/65/79657878-27c0-4e0e-a496-c7ed37da48ef.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a6/eb/a6ebfaed-59b7-4896-98f4-37e99f8fe258.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/05/ef/05ef5691-957b-4fe5-943c-b296426aa1d7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fc/24/fc24f1ca-dc3d-420f-945e-36e2c09fcd7a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Slasher",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Sony Computer Entertainment, SCE Santa Monica Studio",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "50.7 GB",
+      "Repack Size": "from 9.8 GB [Selective Download]"
+    },
+    "createdAt": 1792108800000
   }
 }
