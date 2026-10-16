@@ -181444,5 +181444,31 @@
       "Repack Size": "8 GB"
     },
     "createdAt": 1792022400000
+  },
+  "castlevania-belmonts-curse/": {
+    "title": "Castlevania: Belmont’s Curse – Midnight Edition + 3 DLCs/Bonuses",
+    "image": "https://i4.imageban.ru/out/2026/10/16/1842fa00a50ebc03677a8e61d4d6319a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ea/2d/ea2d5f3f-a058-4b7b-8b1d-059f689fb86f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4b/f6/4bf67717-006c-4eb0-91dd-14de5536ecff.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a4/bc/a4bca583-55bb-4dcf-8ff5-023e12bdbb16.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/89/26/89264437-51de-4355-ab26-5b1a8fabaf68.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/e7/30e7d403-4175-4ca0-9da3-95f2aa3bb3c0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/94/4e94cab4-29da-43a9-b526-56d1f9d8c9c3.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Side",
+        "2D",
+        "3D"
+      ],
+      "Companies": "Konami Digital Entertainment, Evil Empire, Motion Twin",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "6.3 GB",
+      "Repack Size": "from 4.1 GB [Selective Download]"
+    },
+    "createdAt": 1792108800000
   }
 }
