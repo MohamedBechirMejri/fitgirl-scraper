@@ -181523,5 +181523,33 @@
       "Repack Size": "from 9.8 GB [Selective Download]"
     },
     "createdAt": 1792108800000
+  },
+  "enshrouded/": {
+    "title": "Enshrouded: Deluxe Edition – v1.0 (Build 1265863) + 3 DLCs/Bonuses",
+    "image": "https://i3.imageban.ru/out/2026/10/17/4b90732c35ac8ac19de6621581353ec5.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ca/50/ca50f0d8-fed3-429f-ad48-8a74afe85df8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1f/ef/1fefcefa-9f91-43ef-bd64-2c06a00e502e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/03/02/03027dd8-8bfc-44ef-97cd-9ff267df20b6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/59/88/5988b8bc-0f96-4716-8924-f5a2311e63a5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/7a/637a6e1b-126b-4049-8283-d49a70a17bb3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d8/67/d8674216-9c24-4d45-8e5c-6582887808f1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Item crafting",
+        "Open world",
+        "Survival",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Keen Games",
+      "Languages": "RUS/ENG/MULTI15",
+      "Original Size": "32.9 GB",
+      "Repack Size": "23.3/23.6 GB"
+    },
+    "createdAt": 1792195200000
   }
 }
