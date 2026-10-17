@@ -181551,5 +181551,56 @@
       "Repack Size": "23.3/23.6 GB"
     },
     "createdAt": 1792195200000
+  },
+  "frosthaven/": {
+    "title": "Frosthaven – v1.0.34024",
+    "image": "https://i2.imageban.ru/out/2026/10/17/3d18f33b138ba30040585fee5bd87148.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/56/59/56592f82-99f0-4aa6-8a66-392f94e3ce93.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/27/7e/277e99e2-0f13-45ff-8765-b80277c827d3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/16/97/1697f764-f96a-42e8-9179-bb6b7bb55673.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a2/f2/a2f281e2-bbe4-4836-979c-2a3623adc622.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9a/32/9a3259ab-aa66-419e-aa4a-f732e3f0c06d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e2/74/e2749a71-84b7-4196-8c7c-fa3d03df9331.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "Tactics",
+        "Top-down",
+        "3D",
+        "Turn-based"
+      ],
+      "Companies": "Snapshot Games, Arc Games",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "28.5 GB",
+      "Repack Size": "14.9 GB"
+    },
+    "createdAt": 1792195200000
+  },
+  "bloodborne/": {
+    "title": "Bloodborne: Game of the Year Edition, v1.09 + All DLCs + Online (Recompiled for PC v1.9.6)",
+    "image": "https://i4.imageban.ru/out/2026/10/17/ef851eda6aaae88156a5b1e513661b29.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/32/e2/32e242eb-701a-4765-a886-04377708744e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/dc/d0/dcd0e486-77ed-4e9e-83a8-ea8e251c58db.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/23/ac/23acde7c-4254-450e-85f6-c48a02fedab1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9b/38/9b384a92-de5d-4045-b6bd-9f7883de2b66.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/75/6375edb8-97fa-409c-b3c3-c6609bdbf6a5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4d/e1/4de15449-2248-411d-bf27-03026de311e1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Third-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "From Software, Sony Computer Entertainment",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "29.8 GB",
+      "Repack Size": "14.1 GB"
+    },
+    "createdAt": 1792195200000
   }
 }
