@@ -181676,5 +181676,31 @@
       "Repack Size": "9.4 GB"
     },
     "createdAt": 1792281600000
+  },
+  "allogloom/": {
+    "title": "Allogloom – v1.21",
+    "image": "https://i6.imageban.ru/out/2026/10/18/5cbdbf6065982f236377972b7af55617.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/e4/b0/e4b0bcbc-302f-4458-9ee8-49b20b43f676.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/53/c7/53c7a9b3-13cd-471b-9d84-56b9245c9f62.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a2/77/a277bcd5-8f5d-4315-a8e6-fda9a71d4b61.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/74/30/7430b55d-d63f-41f9-996d-3792edcc5820.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/29/e1/29e1de3d-a43c-4b94-84a1-c4772be0cc04.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/28/71/287184ad-596a-4abc-bf7a-91bc58dcffdd.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Point-and-click",
+        "Side",
+        "2D",
+        "Horror"
+      ],
+      "Companies": "Iceberg Interactive, Galactic Ghosty",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "6.5 GB",
+      "Repack Size": "2 GB"
+    },
+    "createdAt": 1792281600000
   }
 }
