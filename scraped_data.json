@@ -181602,5 +181602,55 @@
       "Repack Size": "14.1 GB"
     },
     "createdAt": 1792195200000
+  },
+  "spellcaster-university/": {
+    "title": "Spellcaster University: Supporter Pack Bundle – v1.08 + 3 DLCs/Bonuses",
+    "image": "https://i2.imageban.ru/out/2026/10/17/58bbb1bd620602598ff084b4ab046eee.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4e/7e/4e7ed9ff-cb34-4c1f-8388-4f5e5b2cd692.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/0e/370eac60-9f74-4d22-bef8-d3a0b4b13e8e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b4/f0/b4f0c157-c32d-4aab-a5f9-44f3037ce45d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/43/11/431137d2-4ed3-4cd6-92a4-c3bba903b985.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/09/e4/09e4ea83-7fa7-4004-b1de-856fa6988e91.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a7/71/a771ee18-3aa6-4e81-be7b-93ac712d1f54.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Side",
+        "3D"
+      ],
+      "Companies": "Sneaky Yak Studio, WhisperGames",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "2.6 GB",
+      "Repack Size": "1.3/1.6 GB"
+    },
+    "createdAt": 1792281600000
+  },
+  "thank-you-bus-driver/": {
+    "title": "Thank You Bus Driver – Update #1",
+    "image": "https://i6.imageban.ru/out/2026/10/18/ef9d78c32dd69bcbbada2593f19385c8.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/29/bf/29bf9ece-b1cb-485a-87af-d02e150ca5bb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/29/f4/29f420a2-bf9b-4854-b6c7-ec7008b37677.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/7e/2a7e0ba0-e094-45cf-8ec3-3743ad4937df.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/91/30/9130fba5-b8af-4be1-9cb6-ab8fecdcc967.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f0/3e/f03e9c09-bc28-4cfd-98f4-84b6a6c6d20d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3e/b8/3eb8da91-5038-42cb-a523-15cb6770a8b9.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Driving",
+        "First-person",
+        "3D",
+        "Buses"
+      ],
+      "Company": "Double Fine Productions",
+      "Language": "ENG",
+      "Original Size": "915 MB",
+      "Repack Size": "443 MB"
+    },
+    "createdAt": 1792281600000
   }
 }
