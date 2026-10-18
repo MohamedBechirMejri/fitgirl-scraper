@@ -181652,5 +181652,29 @@
       "Repack Size": "443 MB"
     },
     "createdAt": 1792281600000
+  },
+  "hubert/": {
+    "title": "Hubert",
+    "image": "https://i2.imageban.ru/out/2026/10/18/4fdd3673204fdd2b911ce533386db6d4.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/1f/91/1f91954c-5208-4079-8773-307b825f7292.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d2/ba/d2baac2a-e792-49d6-9b5b-268f0d9eac27.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b7/ba/b7ba0c16-bbaf-4803-8445-2aea06318112.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/34/5d/345dc40c-77ab-4c98-bf29-f16cc0c4980a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/77/aa/77aa950c-6deb-45b8-98d0-1069f379934f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/76/aa/76aa18d2-a5a7-4433-a3fb-59b56c8f1cfb.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Brocap Studio",
+      "Languages": "RUS/ENG/MULTI7",
+      "Original Size": "12 GB",
+      "Repack Size": "9.4 GB"
+    },
+    "createdAt": 1792281600000
   }
 }
