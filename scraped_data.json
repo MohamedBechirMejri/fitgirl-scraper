@@ -181727,5 +181727,30 @@
       "Repack Size": "6.5 GB"
     },
     "createdAt": 1792368000000
+  },
+  "call-of-duty-modern-warfare-4/": {
+    "title": "Call of Duty: Modern Warfare 4 – v13.1.29465156 (Campaign Only)",
+    "image": "https://i5.imageban.ru/out/2026/10/19/55c8cc475436948105e5a498d3f3cf9f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/63/62/6362d1ee-d60f-43df-a8a5-6fc8c44156be.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/08/19/0819670d-0fcd-4f1d-a61d-06d7e9ba8f5f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/26/4e26dd86-1b46-47a3-ad93-26281a728609.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4f/9c/4f9cc547-0387-4f4d-96e2-d7c8d183d4eb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8b/4f/8b4f5df4-c8ee-404b-8d00-4be0eb0f4e32.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/03/c0/03c0c2f0-1898-4e2c-9b07-5c951a7eb746.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Infinity Ward, Activision",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "87.7 GB",
+      "Repack Size": "from 56.7 GB [Selective Download]"
+    },
+    "createdAt": 1792368000000
   }
 }
