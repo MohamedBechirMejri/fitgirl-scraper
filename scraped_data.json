@@ -181778,5 +181778,30 @@
       "Repack Size": "550 MB"
     },
     "createdAt": 1792368000000
+  },
+  "among-the-trolls/": {
+    "title": "Among the Trolls",
+    "image": "https://i3.imageban.ru/out/2026/10/19/d675c295d8a7c8e99fb81cfad10b1e74.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/83/a8/83a8e075-f10b-432a-a636-1f13d6431be1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/40/4f/404fe6a0-ed9f-4db4-84a2-40c0e5a4f48f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/73/b7/73b7431e-1fcd-4a5a-989f-0fbea73aeb34.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e5/2d/e52de915-464f-4d20-adc0-c17064ec0d70.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ba/e4/bae4460b-f988-4db7-ac4e-2d690ca6c2db.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9a/68/9a688047-ba61-4b07-ba82-030b7472c66d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Survival",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "505 Games, Forbidden Studios",
+      "Languages": "ENG/MULTI11",
+      "Original Size": "11.6 GB",
+      "Repack Size": "7.9/8.1 GB"
+    },
+    "createdAt": 1792454400000
   }
 }
