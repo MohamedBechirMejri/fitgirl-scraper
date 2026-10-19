@@ -181752,5 +181752,31 @@
       "Repack Size": "from 56.7 GB [Selective Download]"
     },
     "createdAt": 1792368000000
+  },
+  "the-piper-of-dawn/": {
+    "title": "The Piper of Dawn",
+    "image": "https://i5.imageban.ru/out/2026/10/19/b1535909ba1d65c8d2f256f6c089c7f0.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/73/07/7307bd41-1bd3-42fb-bf75-e8bf7f072931.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/61/6a/616af52f-a8db-409c-8bbd-1fb1d6890ea6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bc/dd/bcdd7c0a-4a56-4d96-b83b-64216188ac11.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cb/fe/cbfe69c1-bb93-41ba-a16b-5c758db8e2a4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/13/bc/13bcec95-d0ee-4eb3-a434-08ee0463f7d8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/38/b3/38b31218-a284-470a-b7c9-443b855af3a0.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "Isometric",
+        "2D",
+        "Japanese"
+      ],
+      "Companies": "2P Games, Bone Nail",
+      "Languages": "ENG/MULTI4",
+      "Original Size": "1.2 GB",
+      "Repack Size": "550 MB"
+    },
+    "createdAt": 1792368000000
   }
 }
