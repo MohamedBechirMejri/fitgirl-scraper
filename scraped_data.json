@@ -181803,5 +181803,30 @@
       "Repack Size": "7.9/8.1 GB"
     },
     "createdAt": 1792454400000
+  },
+  "cohen-1939/": {
+    "title": "Cohen 1939",
+    "image": "https://i8.imageban.ru/out/2026/10/20/9e13059a9b36d31bb64ea7607bae766e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/7e/8d/7e8d5eed-f269-4598-8ca1-b350bcbc0e27.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/45/92/45925a8d-1302-4c74-aea2-71fe82188bea.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/53/c6/53c663f3-8dd5-4f25-b6a8-c336a91877af.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6c/e0/6ce09d17-d1c0-45cf-90a4-0a011f145cf1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/94/1a/941af9bc-eb44-45c2-a8f2-de14194bfe0a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9f/19/9f190c3e-ff15-484c-8cc2-73766c829ac0.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Run and gun",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Cube of Cube, 2P Games",
+      "Languages": "RUS/ENG/MULTI4",
+      "Original Size": "8.7 GB",
+      "Repack Size": "5.1 GB"
+    },
+    "createdAt": 1792454400000
   }
 }
