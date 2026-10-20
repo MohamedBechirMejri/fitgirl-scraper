@@ -181828,5 +181828,29 @@
       "Repack Size": "5.1 GB"
     },
     "createdAt": 1792454400000
+  },
+  "plan-b-terraform/": {
+    "title": "Plan B: Terraform – v1.1.0 Build 1348 + 2 DLCs/Bonuses",
+    "image": "https://i6.imageban.ru/out/2026/10/20/711c08b01a65a7b6fc0480e4a61fff93.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/04/91/04914b0a-c28b-4b37-af51-9e92138a1a84.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/79/9d/799d82e2-7775-4aa1-b5b4-7be8c1a1b3f7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3d/a7/3da78ca4-c7e1-49c1-8742-074039f9304c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f6/4f/f64fa7fa-407b-46de-9f70-146b7212c6d2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ed/da/edda3efb-ce25-4d6c-bf9b-a6bc0646630e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3b/cb/3bcb2544-80ba-4af0-99cb-b61271bf3079.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Top-down",
+        "3D"
+      ],
+      "Company": "Gaddy Games",
+      "Languages": "RUS/ENG/MULTI16",
+      "Original Size": "2.3 GB",
+      "Repack Size": "618 MB"
+    },
+    "createdAt": 1792454400000
   }
 }
