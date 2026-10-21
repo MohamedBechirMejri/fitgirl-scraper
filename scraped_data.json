@@ -181852,5 +181852,30 @@
       "Repack Size": "618 MB"
     },
     "createdAt": 1792454400000
+  },
+  "final-fantasy-15-pocket-edition/": {
+    "title": "Final Fantasy XV: Pocket Edition – v1.4.524.2 + All 10 Chapters",
+    "image": "https://i7.imageban.ru/out/2026/10/21/b6053e61eb18cf34dd8a58c084ad415c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/0b/66/0b6673cf-1f5b-4c43-a977-344ae0c6da8b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/51/b4/51b40a4e-ca70-41d7-83b8-a32787c4bca6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/72/8e726744-c087-491e-849c-c718f15685fa.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/34/0b/340b5f01-7e6f-4bc1-993f-91f592243a9e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6b/72/6b72206a-b896-4175-9a4d-f00d859bc7ca.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/92/be/92be7807-3a0c-406e-b4d1-94a3f6d35fa3.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Third-person",
+        "3D",
+        "Japanese"
+      ],
+      "Company": "Square Enix",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "2.8 GB",
+      "Repack Size": "1.3/1.8 GB"
+    },
+    "createdAt": 1792540800000
   }
 }
