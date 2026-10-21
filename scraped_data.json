@@ -181877,5 +181877,31 @@
       "Repack Size": "1.3/1.8 GB"
     },
     "createdAt": 1792540800000
+  },
+  "stupid-never-dies/": {
+    "title": "Stupid Never Dies: Glorious Idiot Edition + DLC",
+    "image": "https://i7.imageban.ru/out/2026/10/21/a900d9f5eb5fa0e6b4e70af44ad2cb9a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/9a/ae/9aae82db-7679-46fd-8ad9-66e9ee09b422.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/58/30580159-15e1-4fab-b44d-d99d2f15c417.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a3/1e/a31e19f4-e2cc-428c-baa0-6afbb9859f04.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f6/75/f675debf-9112-4b3b-9012-e35bbae8c3e3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/86/f6/86f61b89-985c-4096-aeca-8ecc7a38a480.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/44/50/4450dd45-f211-4b25-a760-1fe9216cc356.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Third-person",
+        "3D",
+        "Zombies"
+      ],
+      "Company": "GPTRACK50",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "21.1 GB",
+      "Repack Size": "15.5 GB"
+    },
+    "createdAt": 1792540800000
   }
 }
