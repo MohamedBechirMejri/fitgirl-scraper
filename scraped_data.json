@@ -181903,5 +181903,30 @@
       "Repack Size": "15.5 GB"
     },
     "createdAt": 1792540800000
+  },
+  "denizen/": {
+    "title": "Denizen – v1.0.2",
+    "image": "https://i4.imageban.ru/out/2026/10/21/83922552174fd8fde92c5a55bc6fe669.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/93/b2/93b2aa16-d7e8-4f3a-ac6c-bf71516e10f8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0f/d0/0fd052ef-c15f-458a-9645-53e6ea063020.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/46/60/46607687-8c9f-4756-b482-736444877f14.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b7/02/b70269d5-bd5a-4dc7-bcef-586f8fd4836f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c7/4d/c74dd042-1c0e-46e7-9990-cacd65206932.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f5/e9/f5e9fe40-132f-4bf8-ae09-8ed88ab6094c.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Open world",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Departure Interactive",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "4.6 GB",
+      "Repack Size": "2.2 GB"
+    },
+    "createdAt": 1792627200000
   }
 }
