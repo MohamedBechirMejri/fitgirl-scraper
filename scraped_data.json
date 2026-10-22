@@ -181928,5 +181928,31 @@
       "Repack Size": "2.2 GB"
     },
     "createdAt": 1792627200000
+  },
+  "driveclub/": {
+    "title": "DRIVECLUB – v1.28 EU/US + All DLCs (Recompiled for PC v0.2.5)",
+    "image": "https://i1.imageban.ru/out/2026/10/22/77811887065427c23d6183b9fa426a89.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/da/29/da29c9e7-f640-4126-9afd-8ca9b1aecc13.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/a2/8ea27141-1a3e-4fa9-87b5-6ac5df4c30a3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b1/c4/b1c42fb5-d976-4048-b788-e75d8e1f3309.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/12/a4/12a4b591-fa2c-45a0-a2e8-84d8a31ac68e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fb/5f/fb5f8ae2-0ae4-4655-b738-19dee07d05d6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/69/e0/69e07c81-2317-472e-9cda-4cde4ac8bf3c.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Racing",
+        "First-person",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Evolution Studios, Sony Computer Entertainment",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "35.1 GB",
+      "Repack Size": "9 GB"
+    },
+    "createdAt": 1792627200000
   }
 }
