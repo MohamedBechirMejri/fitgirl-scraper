@@ -181980,5 +181980,30 @@
       "Repack Size": "from 4.2 GB [Selective Download]"
     },
     "createdAt": 1792713600000
+  },
+  "mycopunk/": {
+    "title": "Mycopunk: Supporter Edition – v2.0 Build 911 + 2 DLCs/Bonuses",
+    "image": "https://i8.imageban.ru/out/2026/10/23/e17493ad27f0482aee3bf7ab2e8bcf75.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ec/0d/ec0d10ae-30ad-4669-9c53-e4338272b86f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1f/07/1f07924a-3098-42bf-b153-046580336680.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/52/65/5265d958-5930-4af4-bcf0-066acf6930a9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3a/eb/3aebb6c2-e36d-4e60-9d24-ebd5f83b63ba.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/be/d8/bed823cf-769e-4e9a-93db-571dd5aeaa90.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6e/a3/6ea34eb2-f1d0-4eca-9bc7-2e113a452b6c.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Devolver Digital, Pigeons at Play",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "9.6 GB",
+      "Repack Size": "4.4/4.8 GB"
+    },
+    "createdAt": 1792713600000
   }
 }
