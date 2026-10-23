@@ -181954,5 +181954,31 @@
       "Repack Size": "9 GB"
     },
     "createdAt": 1792627200000
+  },
+  "tales-of-eternia-remastered/": {
+    "title": "Tales of Eternia Remastered: Deluxe Edition – v2.0.0 + 4 DLCs/Bonuses",
+    "image": "https://i7.imageban.ru/out/2026/10/22/91cd49ba847a2b620c47c3828f967c6b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/f0/36/f036527a-5c1b-4453-9df3-21ef10a35f50.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/18/73/18732d0c-9a65-4248-9fff-d020ca47ca76.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f2/c7/f2c76597-d4ba-4f63-abad-621f3fdc4433.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/54/63/54638e4a-a931-44da-8f3b-1ecb92e0c951.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e6/19/e619ff6c-d1ce-4a81-839b-17b3c0f4998d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bc/9a/bc9a33ea-017b-4aa4-ae0b-62f9aabfe085.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Isometric",
+        "3D",
+        "Japanese",
+        "Real-time"
+      ],
+      "Companies": "Bandai Namco Entertainment, Tose Software",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "7.3 GB",
+      "Repack Size": "from 4.2 GB [Selective Download]"
+    },
+    "createdAt": 1792713600000
   }
 }
