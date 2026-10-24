@@ -182084,5 +182084,32 @@
       "Repack Size": "1.1 GB"
     },
     "createdAt": 1792800000000
+  },
+  "fire-and-ashes/": {
+    "title": "FIRE AND ASHES",
+    "image": "https://i6.imageban.ru/out/2026/10/24/c301ea7afa4b475f0e458d00c4e68401.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b6/1b/b61bd65b-e73e-470a-aa18-489e475774cb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3e/43/3e4397a0-3000-4cb6-b1e3-3baee877da6b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ff/84/ff84fa0c-20bf-4bba-8bac-3a68001d7039.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/7c/cd7c3286-f942-4e47-a9e9-46f4da3e2e7d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/73/8c/738c6342-7b82-4a1f-a5e8-90997862fe5f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/66/17/661706d6-230e-4d5c-954a-63034cf1c804.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Survival",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "Antelus Games, ASDstudio",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "26.4 GB",
+      "Repack Size": "18.4 GB"
+    },
+    "createdAt": 1792800000000
   }
 }
