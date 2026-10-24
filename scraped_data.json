@@ -182005,5 +182005,30 @@
       "Repack Size": "4.4/4.8 GB"
     },
     "createdAt": 1792713600000
+  },
+  "disney-pixar-toy-story-3-complete-edition/": {
+    "title": "Disney/Pixar Toy Story 3: Complete Edition",
+    "image": "https://i7.imageban.ru/out/2026/10/23/cfa324b7c67d688898e44d638fd5eea4.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/89/4a/894ad729-aef8-41af-891e-ee7a645c949d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5d/9a/5d9a2739-cde1-428c-ab68-6278edc834f2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/96/37/96375296-84cd-436f-865a-07c8d6485a55.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a4/26/a426299a-0a80-402c-8d66-e0482d24cd76.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5a/03/5a03da47-4316-4f6b-9a63-92e9fd44e7a0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/53/4a/534ad4b6-84bb-48c0-87c6-4a4f5c0482a2.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Kids",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Atari, Digital Eclipse",
+      "Languages": "RUS/ENG/MULTI19",
+      "Original Size": "7 GB",
+      "Repack Size": "2.2/2.8 GB"
+    },
+    "createdAt": 1792800000000
   }
 }
