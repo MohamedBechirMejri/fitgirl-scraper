@@ -182111,5 +182111,29 @@
       "Repack Size": "18.4 GB"
     },
     "createdAt": 1792800000000
+  },
+  "tasty-chef/": {
+    "title": "Tasty Chef: Deluxe Edition – v1.0.5 + Premium Pack DLC",
+    "image": "https://i8.imageban.ru/out/2026/10/25/f960f967923e0bec5a3e38227ce7888b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/8d/7e/8d7e295b-5d46-4abd-95fe-f6b594a72dc1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b1/d2/b1d2acff-a6e5-4722-b611-53049480be75.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d6/8b/d68bf8aa-2825-4a0e-922c-4df21db3f9d5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/17/65/17652736-e56e-4fa9-baad-0dd5760b1b56.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/c3/37c35641-2abf-468f-944e-35c3a4d9ba21.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/90/95/90957c22-10cc-4ab9-b9d6-5ccc2de5aa27.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Top-down",
+        "3D"
+      ],
+      "Company": "Xpercent Games",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "3.7 GB",
+      "Repack Size": "1 GB"
+    },
+    "createdAt": 1792886400000
   }
 }
