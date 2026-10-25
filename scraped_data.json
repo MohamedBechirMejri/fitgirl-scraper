@@ -182135,5 +182135,31 @@
       "Repack Size": "1 GB"
     },
     "createdAt": 1792886400000
+  },
+  "final-fantasy-resonance/": {
+    "title": "FINAL FANTASY RESONANCE: Digital Deluxe Edition – v1.0.1.0 + 3 DLCs",
+    "image": "https://i7.imageban.ru/out/2026/10/25/c9851bd8195fd8d62883cb615ce41cf5.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4a/8c/4a8c9472-15db-448e-886e-3eba005d48a4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d7/5e/d75e488a-f823-44bd-a46c-e89b6fc9e61d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fb/16/fb161800-a672-4708-b7e2-f8112e6a9b7d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b0/b3/b0b347ed-25d1-40fd-b860-a0b0e498ee9d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fe/f7/fef78bff-e309-4596-b03f-d1c3db1fe620.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/11/6f/116fe1ac-2a70-4bb5-a6b2-3961b082b06d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "2D",
+        "Japanese",
+        "Retro look",
+        "Turn-based"
+      ],
+      "Companies": "Lancarse, Square Enix",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "13.6 GB",
+      "Repack Size": "9.1 GB"
+    },
+    "createdAt": 1792886400000
   }
 }
