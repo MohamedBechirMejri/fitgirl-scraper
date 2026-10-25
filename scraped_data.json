@@ -182186,5 +182186,55 @@
       "Repack Size": "429 MB"
     },
     "createdAt": 1792886400000
+  },
+  "deus-ex-go/": {
+    "title": "Deus Ex GO – v2.1.88971",
+    "image": "https://i4.imageban.ru/out/2026/10/25/a079cc05378199740fe9e4d3dabd9fc3.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/8a/dd/8add4e3d-e061-424e-b38e-30d49984fe4c.png.240p.jpg",
+      "http://s01.riotpixels.net/data/aa/38/aa38b698-09b0-48f5-9390-970736e2679d.png.240p.jpg",
+      "http://s01.riotpixels.net/data/37/53/37535199-01ee-4d44-ad76-09e89763c32d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5b/5d/5b5d0810-1297-4ed7-a45d-7917a960be47.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6e/af/6eaf4be5-eb75-41b0-99e5-edadb1b857a4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/01/83/01833257-a955-4c4b-8637-8a8edeaf69a1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Logic",
+        "Puzzle",
+        "Isometric",
+        "3D",
+        "Cyberpunk",
+        "Turn-based"
+      ],
+      "Companies": "Square Enix, Square Enix Montréal",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "139 MB",
+      "Repack Size": "102 MB"
+    },
+    "createdAt": 1792972800000
+  },
+  "star-trek-outposts-unknown/": {
+    "title": "Star Trek: Outposts Unknown",
+    "image": "https://i2.imageban.ru/out/2026/10/26/3b64ebe06dc9028f005db84901e4d451.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/f8/f4/f8f451af-559e-4f39-8710-242eda81d9b5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/27/63/276361e3-eab1-415e-9a8a-d5b29f5fc99f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d5/1a/d51a3dc0-2988-470a-81f2-8bb32d47c7f9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3d/8b/3d8b5807-6017-4f19-8a54-9f9d7f2c11d6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/29/bd/29bd1cb1-7a7e-4154-a764-e9c2f7a38fa1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/21/e4/21e4acdc-ff42-4b4f-9369-78a8a135188f.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "3D"
+      ],
+      "Companies": "Magic Fuel Games, Playstack",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "5.1 GB",
+      "Repack Size": "2.8 GB"
+    },
+    "createdAt": 1792972800000
   }
 }
