@@ -182265,5 +182265,31 @@
       "Repack Size": "from 2.1 GB [Selective Download]"
     },
     "createdAt": 1792972800000
+  },
+  "nomori/": {
+    "title": "Nomori – v1.0.13 + Bonus OST",
+    "image": "https://i4.imageban.ru/out/2026/10/26/7114bf12ef4b0b0bebe4de2c8ec8ad6a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b7/8c/b78cd4bf-a6ed-42c3-b9e4-db332faa16ad.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c5/1a/c51a9373-f947-4ad8-9572-41a69401fcec.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1a/3e/1a3e7816-8fa1-4263-8a2c-290512e9bff0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c7/9e/c79e957a-3390-4358-8824-a83c9fb7a7b0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/49/8b/498b3d10-0eaa-4ecd-927d-254496235c04.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d9/64/d9643951-bd05-4dcd-a20d-24b247208026.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Logic",
+        "Puzzle",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Enchanted Works",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "3 GB",
+      "Repack Size": "714 MB/1 GB"
+    },
+    "createdAt": 1792972800000
   }
 }
