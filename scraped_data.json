@@ -182236,5 +182236,34 @@
       "Repack Size": "2.8 GB"
     },
     "createdAt": 1792972800000
+  },
+  "alien-breed-35th-anniversary-collection/": {
+    "title": "Alien Breed 35th Anniversary Collection – v1.0.1",
+    "image": "https://i5.imageban.ru/out/2026/10/26/caaf36ae7b65281ecb752b4dd566544f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ad/76/ad761c81-832a-4e46-8a0b-ea8fad874522.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d9/f8/d9f8ebde-22a4-4f97-818b-3b138a36c3d7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a9/68/a968a5bd-0109-49b8-8575-886639ad3ac2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/aa/f8/aaf816a3-0670-4d65-b5b4-9afa32c2423d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/55/63/5563cb78-eebf-4173-ae70-72e7cea0be8c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1a/d8/1ad83912-04ec-4305-b976-2d4e07ce8f99.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Arcade",
+        "Shoot 'em up",
+        "First-person",
+        "Top-down",
+        "2D",
+        "3D"
+      ],
+      "Companies": "Antstream, Commodore",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "5.6 GB",
+      "Repack Size": "from 2.1 GB [Selective Download]"
+    },
+    "createdAt": 1792972800000
   }
 }
