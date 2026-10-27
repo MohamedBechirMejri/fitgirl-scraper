@@ -182291,5 +182291,32 @@
       "Repack Size": "714 MB/1 GB"
     },
     "createdAt": 1792972800000
+  },
+  "azure-striker-gunvolt-trilogy-enhanced/": {
+    "title": "Azure Striker Gunvolt Trilogy Enhanced – v2.0.0 + DLC",
+    "image": "https://i5.imageban.ru/out/2026/10/26/99ec97f08b60cf3d57bb26858c9efc68.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/8b/b5/8bb5dd7b-5502-410d-a1c7-83b3b65deeeb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/17/a9/17a9e614-2ab9-44fa-ac8d-85a5e603ab7e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3c/bb/3cbb5448-175d-48f2-ae1b-98bdd53ef104.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4f/2a/4f2a369f-b145-4318-ad4b-eef4b666b2cf.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/76/6a/766acf17-e4b4-4532-b446-a9d1f6477139.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b2/1d/b21df418-3d96-457a-9e7c-7b998ac6fe4e.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Run and gun",
+        "Side",
+        "2D",
+        "Japanese",
+        "Retro look"
+      ],
+      "Company": "Inti Creates",
+      "Languages": "ENG/MULTI10",
+      "Original Size": "9.1 GB",
+      "Repack Size": "5.6 GB"
+    },
+    "createdAt": 1793059200000
   }
 }
