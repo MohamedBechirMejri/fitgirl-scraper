@@ -182370,5 +182370,29 @@
       "Repack Size": "1.4/2 GB"
     },
     "createdAt": 1793059200000
+  },
+  "reka/": {
+    "title": "REKA: Deluxe Edition – v1.0.21 + Bonus OST",
+    "image": "https://i3.imageban.ru/out/2026/10/28/40d4cecf9be6c290dbefbca53b494ec2.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/29/89/29890626-e670-449e-8076-9e1e2841c67c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b6/23/b6233e69-1899-4c23-ab35-e351903843ab.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/55/be/55be4caf-29f9-461c-94c6-104746d32f27.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5f/28/5f284f61-415f-46e1-9281-b1e29dba0c96.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/81/e3/81e35f8b-4675-4777-a7df-9ea32c740f0c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/59/a8/59a883ef-fdd9-48f3-925f-fb6161e6c2c8.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Fireshine Games, Shochiku, Emberstorm Entertainment",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "3.6 GB",
+      "Repack Size": "1.2 GB"
+    },
+    "createdAt": 1793145600000
   }
 }
