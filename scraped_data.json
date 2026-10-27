@@ -182318,5 +182318,57 @@
       "Repack Size": "5.6 GB"
     },
     "createdAt": 1793059200000
+  },
+  "aspis/": {
+    "title": "ASPIS",
+    "image": "https://i1.imageban.ru/out/2026/10/27/3e5a67252f9bb52daf95e6aa5a8e85dc.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/c0/a7/c0a7cdf2-65ee-4c7e-90fc-55320faea849.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ee/c2/eec2d99b-ccb5-4267-9c13-4cd80dd36c97.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/66/4b/664b078c-6b92-4e1c-aa24-08072dd14d64.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c8/ee/c8ee27ec-76da-42eb-9487-3a8b713a2624.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/39/b5/39b58fad-7a1d-40fa-b719-a1fb69ab2429.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b4/fa/b4fae581-8f10-484e-b9fd-e2b78f7bee22.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Company": "Dream Wire Games",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "18 GB",
+      "Repack Size": "from 10.9 GB [Selective Download]"
+    },
+    "createdAt": 1793059200000
+  },
+  "over-the-hill/": {
+    "title": "over the hill: Supporter Pack Bundle – v26.10.22 + 2 Bonus DLCs",
+    "image": "https://i6.imageban.ru/out/2026/10/27/49dcf929c64b64cedb9a88c95f575ee0.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/57/89/57890ca5-f182-4767-9475-e425934819e5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1a/e4/1ae41c0a-71ea-4fbc-867d-788ffa5ada15.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fa/fc/fafc8d9d-d192-4106-93a0-52ed3118eb61.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/77/3077a8f0-3889-4238-8947-f4f6f4d09e77.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ad/2c/ad2cce05-bae0-4ba9-ab60-024f1a9bff9a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cb/fc/cbfc60d9-cfb2-4aa1-825f-6e50852fa3d1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Driving",
+        "Exploration",
+        "Open world",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Funselektor Labs, Strelka Games",
+      "Languages": "RUS/ENG/MULTI16",
+      "Original Size": "5.4 GB",
+      "Repack Size": "1.4/2 GB"
+    },
+    "createdAt": 1793059200000
   }
 }
