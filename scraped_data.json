@@ -182394,5 +182394,31 @@
       "Repack Size": "1.2 GB"
     },
     "createdAt": 1793145600000
+  },
+  "battleplan/": {
+    "title": "Battleplan – v1.0.4",
+    "image": "https://i7.imageban.ru/out/2026/10/28/f10f3dc6007e69b9aa06cce6c4cf5eeb.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4b/42/4b42574f-a528-42b6-9470-bb0356bc05aa.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/64/e6/64e67947-e6df-4cf8-bf6d-7ee1f855ae7c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/93/dc/93dcbe99-7eb4-4d41-a912-c3ebd50e7e3b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/10/70/107075a1-089e-4672-9836-ee5753825b66.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9f/9b/9f9b5f3f-4807-4707-8585-de75a13d62ed.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/07/03/0703e518-f4b7-4c43-9b3d-886e409e297e.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "World War II",
+        "Top-down",
+        "3D",
+        "Real-time"
+      ],
+      "Companies": "Slitherine, Foolish Mortals",
+      "Languages": "RUS/ENG/MULTI6",
+      "Original Size": "2.4 GB",
+      "Repack Size": "1.6 GB"
+    },
+    "createdAt": 1793145600000
   }
 }
