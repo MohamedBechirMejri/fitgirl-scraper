@@ -182474,5 +182474,30 @@
       "Repack Size": "25.4/26.3 GB"
     },
     "createdAt": 1793232000000
+  },
+  "in-falsus/": {
+    "title": "In Falsus – v1.0.5 + DLC",
+    "image": "https://i7.imageban.ru/out/2026/10/29/8450f9a28abc7a2bd4678073aee3d77b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ef/17/ef17e809-5ec8-4e0f-abbd-2323ac2cfd8e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/75/aa/75aae430-bbcf-411b-abf5-61591a9bab14.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/aa/24/aa247401-5412-480f-b809-225de0e8cdf3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/83/04/8304ffa9-845a-45f4-9400-26480be96bcb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a3/97/a397c209-6252-435f-b280-887d1663d887.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/64/8e/648e32ca-30a2-4f16-a18e-f2cc324d4ec7.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Rhythm",
+        "Side",
+        "2D"
+      ],
+      "Company": "lowiro",
+      "Languages": "ENG/MULTI4",
+      "Original Size": "6.4 GB",
+      "Repack Size": "4.7 GB"
+    },
+    "createdAt": 1793232000000
   }
 }
