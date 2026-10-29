@@ -182446,5 +182446,33 @@
       "Repack Size": "29.2/29.6 GB"
     },
     "createdAt": 1793232000000
+  },
+  "star-wars-galactic-racer/": {
+    "title": "STAR WARS: Galactic Racer – Deluxe Edition, vCL386500 + 3 DLCs/Bonuses",
+    "image": "https://i5.imageban.ru/out/2026/10/29/042eea197968e6890235a6497e1d63cf.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/22/c5/22c55381-56e7-4e47-91ca-64adb9247030.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/44/49/4449fb23-671f-427a-9864-d8f899bfbb0a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2d/b4/2db41fdd-0a2f-46b6-b08e-944401ef075f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2d/41/2d41051a-930f-4cdf-bcd3-b0a0b8ca9f64.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/92/18/9218b3ec-29da-4f85-98e1-e70da78c2228.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/66/37666fc2-4afa-4c63-92a7-ed759eb9a2b9.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Racing",
+        "Star Wars",
+        "Vehicular combat",
+        "First-person",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Fuse Games, Secret Mode",
+      "Languages": "ENG/MULTI14",
+      "Original Size": "38.5 GB",
+      "Repack Size": "25.4/26.3 GB"
+    },
+    "createdAt": 1793232000000
   }
 }
