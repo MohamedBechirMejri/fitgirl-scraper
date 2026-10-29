@@ -182420,5 +182420,31 @@
       "Repack Size": "1.6 GB"
     },
     "createdAt": 1793145600000
+  },
+  "remothered-red-nuns-legacy/": {
+    "title": "Remothered: Red Nun’s Legacy – v74e0052.7 + Bonus Content",
+    "image": "https://i7.imageban.ru/out/2026/10/29/2a522eace32e37460ee8475f527c0395.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b8/00/b8005540-7bb6-41a0-a757-9b111a4b6691.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/59/ae/59ae2148-0520-4983-ba23-7e359688341b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/52/36/5236b5d7-3684-44fd-8782-48f24faf254c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1a/1a/1a1a4b98-61ed-470d-816b-a96d6d344c5d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b8/ef/b8ef6b75-396f-4d1c-a06e-bf4fdf8fba8d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c1/77/c17716f0-8822-401d-91d6-31a9594122ad.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Stealth",
+        "Third-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "Soft Source, Stormind Games",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "41.4 GB",
+      "Repack Size": "29.2/29.6 GB"
+    },
+    "createdAt": 1793232000000
   }
 }
