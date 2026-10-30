@@ -182526,5 +182526,30 @@
       "Repack Size": "2.8/3 GB"
     },
     "createdAt": 1793318400000
+  },
+  "planet-zoo-2/": {
+    "title": "Planet Zoo 2: Deluxe Edition – v1.0.7.1031590 + 2 DLCs",
+    "image": "https://i3.imageban.ru/out/2026/10/30/5633219b5ab5194ad8b79d5c71d61e2a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/54/41/5441a2ac-d4ee-4a0a-a22d-9da0e4532eac.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/a1/37a1d9da-6d27-42c7-912c-4c746fa626d7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fd/d0/fdd0e040-e88a-4189-994e-71824c684fff.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/90/e0/90e09961-8396-479e-9157-bb245416c5c2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7c/a3/7ca3bc54-3f73-4a47-8736-dc4e5acf8e1d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3b/17/3b17bd09-0d0f-47a5-84d1-1fc28590afe1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Strategy",
+        "3D",
+        "Real-time"
+      ],
+      "Company": "Frontier Developments",
+      "Languages": "RUS/ENG/MULTI17",
+      "Original Size": "42.6 GB",
+      "Repack Size": "14.8 GB"
+    },
+    "createdAt": 1793318400000
   }
 }
