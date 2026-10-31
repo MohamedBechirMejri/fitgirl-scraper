@@ -182577,5 +182577,31 @@
       "Repack Size": "907 MB"
     },
     "createdAt": 1793318400000
+  },
+  "stygian-outer-gods/": {
+    "title": "Stygian: Outer Gods – v05b68d5f",
+    "image": "https://i3.imageban.ru/out/2026/10/31/931b562ba7c29e3adfffd3680fcad6e8.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b5/ff/b5ff02c3-394a-4cf4-8b06-a75cc39aaa55.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d2/d1/d2d1fafc-a80b-4fa8-bcaa-d784972801a0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8c/f9/8cf92fec-833c-4ee9-a7d7-e60ca47b8094.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/34/b5/34b59099-6fe8-412f-b65f-bc4991b9f8ef.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b9/d5/b9d57f65-d91d-4706-ac36-8747f820fa26.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e3/9d/e39debc1-87e3-40a8-8a88-6fd70f6634ea.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Survival",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "Misterial Games, Fulqrum Publishing",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "12.8 GB",
+      "Repack Size": "9.5 GB"
+    },
+    "createdAt": 1793404800000
   }
 }
