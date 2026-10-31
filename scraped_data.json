@@ -182628,5 +182628,31 @@
       "Repack Size": "110.8 GB"
     },
     "createdAt": 1793404800000
+  },
+  "game-keeper-somebody-messed-up-my-shop/": {
+    "title": "Game Keeper: Somebody Messed Up My Shop!",
+    "image": "https://i2.imageban.ru/out/2026/10/31/ce1c958927c435738b1c3b407eb4bdcd.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/d2/e9/d2e988ab-7251-4568-890c-8c303bb64d3f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/78/93/78932fc7-091b-45b3-9b59-9b5c0acd3a9b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/49/29/49290f81-7379-480c-b6d9-707711f63d53.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9a/30/9a30f9b7-2d6c-4786-b668-8bd0dbb73710.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/73/02/7302e79f-0218-4bb5-a529-a76784079a18.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/94/ec/94ec0538-2ba9-4212-a882-d31bd67bcb3d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Logic",
+        "Hidden object",
+        "First-person",
+        "3D"
+      ],
+      "Company": "VeinStudios",
+      "Languages": "RUS/ENG/MULTI27",
+      "Original Size": "1.9 GB",
+      "Repack Size": "1.1 GB"
+    },
+    "createdAt": 1793491200000
   }
 }
