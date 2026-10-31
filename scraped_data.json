@@ -182603,5 +182603,30 @@
       "Repack Size": "9.5 GB"
     },
     "createdAt": 1793404800000
+  },
+  "phantom-blade-zero/": {
+    "title": "Phantom Blade Zero: Deluxe Edition – v301524-17219 + 2 DLCs",
+    "image": "https://i1.imageban.ru/out/2026/10/31/73dca9b0ed13f92c8f1a83af09fcf3ac.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/90/b7/90b794cc-aad5-4cf7-93be-4b4e46b8868f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9f/44/9f44af58-1e37-4ddc-8996-6f1cb22a19b7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/51/d4/51d4b2d8-b5c0-4992-a1a9-ee2438cf639b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/25/81/25816a12-17a7-4c60-9521-e8912c08fd36.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3c/16/3c16fa1a-4817-4ad7-88f1-28671375bd93.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2c/18/2c183b90-e0be-4600-9771-b0bea51c41cd.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "S-Game",
+      "Languages": "RUS/ENG/MULTI15",
+      "Original Size": "140.6 GB",
+      "Repack Size": "110.8 GB"
+    },
+    "createdAt": 1793404800000
   }
 }
