@@ -182654,5 +182654,57 @@
       "Repack Size": "1.1 GB"
     },
     "createdAt": 1793491200000
+  },
+  "anomalith/": {
+    "title": "ANOMALITH: Digital Deluxe Edition + 5 DLCs/Bonuses",
+    "image": "https://i5.imageban.ru/out/2026/11/01/1c70a433212fd32ed738390ffa244773.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/91/e7/91e76abc-cca5-41c4-ab35-9a8ea4303252.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/50/4a/504aa2c0-9b5b-4b60-b769-4b4df1d4e957.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f3/19/f319ec11-9aeb-4d31-ae6b-4c223f08c98b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/df/9c/df9c18dc-f143-4758-a8b6-34cfc841b55c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e9/a1/e9a1bc2d-df7b-483c-878d-77ea46a46cd6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7c/cb/7ccbba6a-fd01-4739-9777-7ebe63e6f3a6.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Survival",
+        "Third-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "Winning Entertainment Group, FuRyu",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "20.3 GB",
+      "Repack Size": "9.3/9.4 GB"
+    },
+    "createdAt": 1793491200000
+  },
+  "the-wolf-among-us-remastered/": {
+    "title": "The Wolf Among Us Remastered",
+    "image": "https://i4.imageban.ru/out/2026/11/01/ace0e3534801e20b5ef590b3dec0bd6a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/e1/9e/e19e60ca-bc76-4442-91c7-772119a6b37f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fa/e9/fae9fca9-3b1c-484b-a78c-675f74ef8f56.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1a/27/1a279546-1eac-449f-aff9-529d318d6896.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c7/81/c7811b3b-465f-4b62-bfc7-2e40435c16c9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ed/40/ed40473e-23a5-4299-8984-8d0e3366f5e7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1b/94/1b9492de-c089-449f-a030-4defb5d6fa81.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Third-person",
+        "3D",
+        "Detective fiction"
+      ],
+      "Companies": "PM Studios, Telltale Games",
+      "Languages": "ENG/MULTI4",
+      "Original Size": "16.5 GB",
+      "Repack Size": "from 5.2 GB [Selective Download]"
+    },
+    "createdAt": 1793491200000
   }
 }
