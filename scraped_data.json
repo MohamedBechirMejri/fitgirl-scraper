@@ -182706,5 +182706,31 @@
       "Repack Size": "from 5.2 GB [Selective Download]"
     },
     "createdAt": 1793491200000
+  },
+  "absolutely-nothing-good/": {
+    "title": "ABSOLUTELY NOTHING GOOD",
+    "image": "https://i2.imageban.ru/out/2026/11/01/5639d1c2dbf72c6a66a31096c117b98c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/fc/02/fc022457-b909-4552-baf1-657772910614.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/47/38/4738c54a-e815-4267-9619-2a70ccb74ac3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/68/c7/68c70d57-4b9d-4d0d-83b8-0eacb1f88432.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c3/56/c356836e-03c8-446e-b75a-8f0317597f44.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/12/11/1211e010-180b-4bcd-8122-6dc5657f5099.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b1/35/b1359de4-7e62-43f9-8f0d-2e1b7e9d7eaf.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Lifestyle",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Company": "Emika_Games",
+      "Languages": "RUS/ENG/MULTI18",
+      "Original Size": "5.8 GB",
+      "Repack Size": "3.2 GB"
+    },
+    "createdAt": 1793577600000
   }
 }
