@@ -182757,5 +182757,83 @@
       "Repack Size": "from 2.6 GB [Selective Download]"
     },
     "createdAt": 1793577600000
+  },
+  "harvest-moon-echoes-of-teradea/": {
+    "title": "Harvest Moon: Echoes of Teradea – v1.3.0 + 2 DLCs",
+    "image": "https://i6.imageban.ru/out/2026/11/02/1f85df8dbccf604ddc0a0ee760a896b2.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/92/8c/928c4b75-a178-4034-9f9b-e7e435bc03f6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c5/2a/c52ab9ab-f93c-4833-8bb2-9acca6d6f884.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/24/df/24df3b5e-9e73-4780-862c-d9f185c73b6d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9e/47/9e47cd39-01ff-47a1-a851-8a79e781eb91.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b1/5b/b15b6841-2fb6-4fa5-83aa-8631df6e6f1c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4c/e0/4ce09ba0-4510-4434-bcd9-8f78a83b958d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "RPG",
+        "Third-person",
+        "3D",
+        "Japanese"
+      ],
+      "Companies": "Imagica Geeq, Natsume",
+      "Languages": "ENG/MULTI7",
+      "Original Size": "3.7 GB",
+      "Repack Size": "1.3 GB"
+    },
+    "createdAt": 1793577600000
+  },
+  "ecstatica/": {
+    "title": "Ecstatica (Remastered) + Bonus OST",
+    "image": "https://i7.imageban.ru/out/2026/11/02/178dde57ddedf2ab9d95cfcd74f6f74e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4e/08/4e08fa12-b115-4d0e-853c-fab2dd85e0d8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6c/0a/6c0a93f5-1703-4aa2-b0af-f4ec5aeceb13.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/08/df/08dfd3a4-cd07-4642-be22-0b67c560e708.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9b/cf/9bcfd3fb-3e72-4738-a29f-88bc15ba2e92.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/84/86/848624cf-b1cd-4904-9862-753dc8b26e78.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/29/e6/29e6b71b-c9af-4cf5-820f-06a9856e6e60.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Survival",
+        "Third-person",
+        "3D models on 2D backgrounds",
+        "Horror"
+      ],
+      "Companies": "Psygnosis, SNEG, Andrew Spencer Studios",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "10.6 GB",
+      "Repack Size": "from 866 MB [Selective Download]"
+    },
+    "createdAt": 1793577600000
+  },
+  "static-dread-the-submarine/": {
+    "title": "Static Dread: The Submarine – Deluxe Edition, Build 20260917T1313Z + 3 DLCs/Bonuses",
+    "image": "https://i1.imageban.ru/out/2026/11/02/947d4d5c4f2acf207e1613df90613dc4.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/59/da/59da3b81-c041-4514-bb25-76a9a4223766.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/1e/4e1ef368-c8e9-4c9f-92cb-8342b00cf471.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/01/be/01be1ea6-1249-4f6f-b666-10737442e3f3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/12/c1/12c1263f-2645-49cb-87b1-5bf18228f4e0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b4/85/b485e73b-0688-4437-adbf-60eccb3fea29.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/9f/2a9fd077-d95e-4056-ab86-f64e9b7c5704.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "solarsuit.games, Polden Publishing",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "1.5 GB",
+      "Repack Size": "638 MB/1.1 GB"
+    },
+    "createdAt": 1793577600000
   }
 }
