@@ -182732,5 +182732,30 @@
       "Repack Size": "3.2 GB"
     },
     "createdAt": 1793577600000
+  },
+  "croc-2-kingdom-of-the-gobbos/": {
+    "title": "Croc 2: Kingdom of the Gobbos",
+    "image": "https://i2.imageban.ru/out/2026/11/02/a8df7f6ed71b65f35b340bcaf95cad5d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/8f/b2/8fb25ee3-e0bf-4aec-b56c-f22ae08fd44f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b7/9a/b79a6f9c-bd40-47e8-a7c7-a66f3ac97b5a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/76/37/76374ce7-b212-4bdf-8668-f9227f718dda.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/29/59/29596211-c578-489f-8a20-bc6dfdc0ff8c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1f/7f/1f7fc9b2-7802-41f6-bb89-370866a1dcf4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/04/370498eb-5157-4e9e-8a80-c172c00961ca.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Argonaut Software, Fox Interactive, Argonaut Games",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "11.4 GB",
+      "Repack Size": "from 2.6 GB [Selective Download]"
+    },
+    "createdAt": 1793577600000
   }
 }
