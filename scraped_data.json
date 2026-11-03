@@ -182835,5 +182835,31 @@
       "Repack Size": "638 MB/1.1 GB"
     },
     "createdAt": 1793577600000
+  },
+  "hunting-simulator-3/": {
+    "title": "Hunting Simulator 3: Apex Predator Edition – v1.0.0-451.118880 + 2 DLCs",
+    "image": "https://i4.imageban.ru/out/2026/11/02/06d6a8c5fd1468249fe476462670fc51.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/81/30/81302bc1-f7ae-44dc-82b2-89ebb2e772df.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5b/9a/5b9a0aaf-7273-4b44-b9e8-3110d7baea08.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/02/c1/02c197ab-a6c7-42fc-9a78-14df142990a4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c0/95/c09576e2-946c-40c5-a114-76b8d9756465.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d9/3c/d93c9e27-d9bf-4e97-b6a3-2d4d472f3b1d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/50/eb/50eb5d05-f6f7-46d9-924a-3b9b1b20c7b2.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Sports",
+        "Open world",
+        "First-person",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Nacon Studio Ghent, Nacon",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "19.4 GB",
+      "Repack Size": "14.6 GB"
+    },
+    "createdAt": 1793664000000
   }
 }
