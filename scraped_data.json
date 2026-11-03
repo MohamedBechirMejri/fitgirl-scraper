@@ -182861,5 +182861,55 @@
       "Repack Size": "14.6 GB"
     },
     "createdAt": 1793664000000
+  },
+  "toy-shire/": {
+    "title": "Toy Shire – v1.00 (Release)",
+    "image": "https://i5.imageban.ru/out/2026/11/03/83cf1b6795a3e30dba29443ce38dae1a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/95/f2/95f2d142-7151-4c19-94a5-b90ee4f09852.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/69/46/69464204-6c95-459e-b6a6-e69b2eee6e48.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3f/bd/3fbde6cc-97d9-4c22-bca7-0fce70634ebe.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/14/3b/143bdf06-b1c5-4df4-be8b-94ba0f7d25e7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a3/34/a3342bb4-a30e-4a76-9a95-1ca629a39be8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d6/e0/d6e0a5dd-525f-46eb-b643-dda81c80ed24.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Tower defense",
+        "First-person",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Bluespy Studios, Catoptric Games",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "1.3 GB",
+      "Repack Size": "865 MB"
+    },
+    "createdAt": 1793664000000
+  },
+  "you-are-empty-absolute-edition/": {
+    "title": "You Are Empty: Absolute Edition Complete – Hotfix 3 + Bonus OST",
+    "image": "https://i8.imageban.ru/out/2026/11/03/077f5b3f4d59467c4f6e1ee1a6987cfe.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/95/a9/95a9827c-4d8b-421c-99b5-193b03401bd3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8f/f3/8ff30599-cd63-4456-a4e8-bceb5f23e3b8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/db/bc/dbbc7847-dc9f-494b-9a51-0c6a3e5ed87a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8f/da/8fda3bbb-db08-470e-8275-7895e4f0678b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/de/16/de16e466-5594-43b7-9518-dbdd23ec5967.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6f/83/6f83fdeb-6b55-459a-81d9-5d50088a3723.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "1C Company, Digital Spray Studios, Excalibur Publishing, Friendware, Atari, 1C Entertainment, Mandel ArtPlains",
+      "Languages": "RUS/ENG/MULTI5",
+      "Original Size": "2.5 GB",
+      "Repack Size": "1.5 GB"
+    },
+    "createdAt": 1793664000000
   }
 }
