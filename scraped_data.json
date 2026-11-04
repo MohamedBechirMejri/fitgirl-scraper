@@ -182911,5 +182911,56 @@
       "Repack Size": "1.5 GB"
     },
     "createdAt": 1793664000000
+  },
+  "probably-stolen-cyberpunk-shopkeeper-sim/": {
+    "title": "Probably Stolen: Cyberpunk Shopkeeper Sim, v1.00-REV2 + Bonus OST",
+    "image": "https://i3.imageban.ru/out/2026/11/03/46e6feabd43fbd12c55e82de36ad6964.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/81/8c/818c34c2-2358-4763-9edd-e0a0896074f1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d5/db/d5db501c-e5e9-45f7-9504-74f06eb974d7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/aa/c0/aac0b7c1-d5a0-4db8-bdda-ef644d8034fa.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/62/fb/62fb7585-00f9-434f-ba14-6420ed83fa05.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/76/11/7611c204-721e-4b7e-97f2-0a0cc38d7333.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/20/88/2088b427-c448-4ebd-9a2c-7b187e4a229c.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "Item crafting",
+        "2D",
+        "Cyberpunk"
+      ],
+      "Companies": "Questing Goose Studio, tinyBuild",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "3.2 GB",
+      "Repack Size": "324/585 MB"
+    },
+    "createdAt": 1793750400000
+  },
+  "cop-bastard/": {
+    "title": "COP BASTARD – v1.00b3",
+    "image": "https://i3.imageban.ru/out/2026/11/04/808d8e825abd39b6d576f0abcfc0b91d.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/20/dd/20dd5efa-2c79-4d2d-891f-f8a5192f8cc7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f0/92/f0923f0b-3f06-4f1e-9286-063197e29480.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/25/bd/25bd5e56-e697-4dec-a8e1-aceb26ea76cc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d1/d1/d1d1f420-b5e0-45a6-9de1-c72d75ee3912.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f6/83/f683cbcb-9276-4974-a12c-c8d184eeaba2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/23/f3/23f32d82-e4f4-457b-87dd-08ba48a581ee.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "targim., Retrovibe Games",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "2.4 GB",
+      "Repack Size": "1.3 GB"
+    },
+    "createdAt": 1793750400000
   }
 }
