@@ -182962,5 +182962,60 @@
       "Repack Size": "1.3 GB"
     },
     "createdAt": 1793750400000
+  },
+  "warrior-cats-clans-of-the-forest/": {
+    "title": "Warrior Cats: Clans of the Forest + 2 DLCs",
+    "image": "https://i8.imageban.ru/out/2026/11/05/c037f7410bc21d38c1743bdb3eb219ae.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/12/26/1226c77f-b83d-4dc6-be7d-236e4ce73506.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/65/63656bc5-857e-4c00-b6bc-00db814ad23f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b5/8e/b58ed2f9-ce26-45dd-b882-11d82b2d5fc2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2f/4b/2f4ba859-7db9-41e4-98fd-766a8cb17903.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1e/54/1e540d2c-f3be-41b9-bd6b-0942079b0ef0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ce/aa/ceaa91ec-567e-4aa9-a422-ea68f5ad33ca.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "RPG",
+        "Third-person",
+        "3D",
+        "Turn-based"
+      ],
+      "Companies": "Bamtang Games, Trailmark Games",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "3.4 GB",
+      "Repack Size": "2.1 GB"
+    },
+    "createdAt": 1793836800000
+  },
+  "silica/": {
+    "title": "Silica – v1.0.15 (Release)",
+    "image": "https://i6.imageban.ru/out/2026/11/05/a7efa88c8b96f651603fd562476b1d03.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/d8/07/d807c246-05e3-4795-91ad-8b657f998795.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/76/03/7603a8eb-f702-4ac9-b7d5-f8fde5d2477b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9f/66/9f66d3f4-4455-454d-9ec4-a5b32f0d5f3f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0f/de/0fde518a-fb8a-4f87-b878-b726a37846ed.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/43/50/43503bb7-a227-4708-b855-baa56f73f535.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a0/d0/a0d06ed3-5b82-4b6d-abe3-1d7f856037f9.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Strategy",
+        "RTS",
+        "Open world",
+        "First-person",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Bohemia Interactive",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "26 GB",
+      "Repack Size": "17.9 GB"
+    },
+    "createdAt": 1793836800000
   }
 }
