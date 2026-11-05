@@ -183017,5 +183017,30 @@
       "Repack Size": "17.9 GB"
     },
     "createdAt": 1793836800000
+  },
+  "save-amani/": {
+    "title": "SAVE AMANI",
+    "image": "https://i6.imageban.ru/out/2026/11/05/422366fc4f133e06944ae5505028f38e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ef/91/ef91fffe-f450-49db-9eb2-be851c61c973.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/4f/374f73e6-7595-4f82-a586-5bcc57a1f690.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/16/09/16094582-7f30-416e-9f97-5eca889877dd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/03/24/03240ff2-947c-49d3-81eb-dbac4823d817.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e1/91/e1915d7b-1e7d-4588-a3ae-37bc2e4a2cf0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/92/639264ad-63d8-4424-a6d4-007a7c52a920.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Platform adventure",
+        "Side",
+        "3D"
+      ],
+      "Company": "Spirit3D",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "6.1 GB",
+      "Repack Size": "2.8 GB"
+    },
+    "createdAt": 1793836800000
   }
 }
