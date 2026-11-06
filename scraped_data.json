@@ -183042,5 +183042,58 @@
       "Repack Size": "2.8 GB"
     },
     "createdAt": 1793836800000
+  },
+  "lightyear-frontier/": {
+    "title": "Lightyear Frontier & Soundtrack Bundle – v1.0.2540 + 2 DLCs/Bonuses",
+    "image": "https://i4.imageban.ru/out/2026/11/05/5bd8f453e7a4a21f4f3f75b420ac2799.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/8f/cc/8fcc223d-9a82-4faf-be05-e03b3d138aa0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/86/8a/868a14a0-2c5b-4fde-b51d-249c26c62c18.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2d/25/2d25d56d-22e7-4e98-a9bc-1ed307230374.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9c/c3/9cc33546-218a-49a3-98fe-4a071c3736e7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/dd/f8/ddf8e500-146c-4d39-8d7b-bcbd818b1bcb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3a/b0/3ab07b24-c9f2-4c8a-b2fe-a8e9d8145dd9.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Item crafting",
+        "Open world",
+        "First-person",
+        "Third-person",
+        "3D",
+        "Agricultural machinery"
+      ],
+      "Company": "Frame Break",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "4.7 GB",
+      "Repack Size": "3.2 GB"
+    },
+    "createdAt": 1793836800000
+  },
+  "godzilla-destroy-all-monsters-melee-remastered/": {
+    "title": "Godzilla: Destroy All Monsters Melee Remastered – Digital Deluxe Edition + DLC",
+    "image": "https://i2.imageban.ru/out/2026/11/06/223139159ebc4a1f5f7540c936326be2.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/c0/2e/c02ec80f-d0e8-4126-906c-34dd825b599b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5e/f5/5ef5e44d-68c3-4f8d-9552-dafa6970d780.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1b/c0/1bc080cb-09e5-4502-9b4e-e8d2682694f8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2f/d9/2fd9a006-a100-484c-aff4-08fbe977054a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/92/5b/925b0702-689b-4dc1-851e-7ddc486f8643.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5a/51/5a517717-96fe-45dd-ac6e-7a00f7326ea6.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Fighting",
+        "Side",
+        "3D"
+      ],
+      "Companies": "Pipeworks Software, Infogrames",
+      "Languages": "ENG/MULTI9",
+      "Original Size": "4.4 GB",
+      "Repack Size": "2.6 GB"
+    },
+    "createdAt": 1793923200000
   }
 }
