@@ -183095,5 +183095,31 @@
       "Repack Size": "2.6 GB"
     },
     "createdAt": 1793923200000
+  },
+  "sort-the-capybaras/": {
+    "title": "Sort The Capybaras – v1.02",
+    "image": "https://i4.imageban.ru/out/2026/11/06/2e435c25bdbbece0e18fc3d47bde67ca.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/56/8c/568c8506-0540-488b-a02f-cf5928240df0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/83/9d/839d51fe-695d-43d3-be95-a8679576c4e8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7a/90/7a902c19-d279-4415-bea5-297cb203c437.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b3/a9/b3a93e9a-4bab-48eb-be57-4dad24e45cb7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/38/6e/386eeaa1-41d6-4ada-8eab-bd9a941d6201.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3d/2a/3d2adab5-f751-4cd7-96c3-2355ec3ae0db.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Logic",
+        "Hidden object",
+        "Physics-based",
+        "First-person",
+        "3D"
+      ],
+      "Company": "CapybaraKoala",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "2.7 GB",
+      "Repack Size": "1.5 GB"
+    },
+    "createdAt": 1793923200000
   }
 }
