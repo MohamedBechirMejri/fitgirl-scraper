@@ -183199,5 +183199,78 @@
       "Repack Size": "2.4/6.1 GB"
     },
     "createdAt": 1794009600000
+  },
+  "wing-commander-35th-anniversary-edition/": {
+    "title": "Wing Commander: 35th Anniversary Edition + Bonus Content",
+    "image": "https://i3.imageban.ru/out/2026/11/07/f90aa433e2ac69268b6484bdef0cbe20.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/1b/be/1bbe9fc9-8fe7-4510-9432-13730196693d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e1/62/e1622936-4591-45ec-9ea2-0036aea5b3e3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c8/6a/c86abaa8-a66e-4319-814a-c379279b63a6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/42/ed/42ed1f49-20c5-4ff3-a13a-5f9ee3296b49.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/28/80/28807f7c-2b52-44fc-a065-819937f0cdda.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5f/a3/5fa38a79-a040-4348-97b2-363b01bc4055.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Simulation",
+        "2D",
+        "Spacecraft"
+      ],
+      "Companies": "Origin Systems, Electronic Arts",
+      "Language": "ENG",
+      "Original Size": "1.3 GB",
+      "Repack Size": "842 MB"
+    },
+    "createdAt": 1794009600000
+  },
+  "wing-commander-ii-vengeance-of-the-kilrathi-35th-anniversary-edition/": {
+    "title": "Wing Commander II: Vengeance of the Kilrathi – 35th Anniversary Edition + Bonus Content",
+    "image": "https://i1.imageban.ru/out/2026/11/07/1e5f9078164cacdf29f8ff466c86b2b2.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/38/81/38819fc3-3a46-44d9-8221-91af47799adc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/aa/05/aa0515f3-4bd4-4d07-b93f-fc1c1d31f4a6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/38/c6/38c683d1-726e-4dc3-92ef-22c8d01fea0f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/01/4f/014fb89a-d84c-4fc2-a12f-44a1b2c8e75f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/df/d3/dfd3e44b-550d-4916-8482-6b85dbf03420.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/11/fe/11feacc8-f85d-47a2-b02d-11562c744b23.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Simulation",
+        "2D",
+        "Spacecraft"
+      ],
+      "Companies": "Origin Systems, Electronic Arts",
+      "Language": "ENG",
+      "Original Size": "999 MB",
+      "Repack Size": "498 MB"
+    },
+    "createdAt": 1794096000000
+  },
+  "lost-host/": {
+    "title": "Lost Host – v1.0.5",
+    "image": "https://i8.imageban.ru/out/2026/11/08/3313d5cc5c2a6a78724dadeb503cc159.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/d8/e0/d8e00be3-b9ee-4c9d-a6d7-81c9d3bae599.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/38/93/3893a771-c189-4537-aecb-b7739d76a8f9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cf/7b/cf7bb410-6a1a-4fc4-98d3-f1dfd98328ed.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/06/17/061795dc-2c5b-4430-9db6-ffbeb00f434c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a8/c0/a8c064c0-e561-4e14-b7eb-d672c4a42509.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/45/4e4535af-54ce-4c20-9d69-290b91f1735f.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Adventure",
+        "Top-down",
+        "3D"
+      ],
+      "Company": "Gest.LT",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "8.6 GB",
+      "Repack Size": "5.6 GB"
+    },
+    "createdAt": 1794096000000
   }
 }
