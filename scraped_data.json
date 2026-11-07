@@ -183121,5 +183121,56 @@
       "Repack Size": "1.5 GB"
     },
     "createdAt": 1793923200000
+  },
+  "every-day-we-fight/": {
+    "title": "Every Day We Fight – v1.0 (Release)",
+    "image": "https://i5.imageban.ru/out/2026/11/06/6553d2e9bdde5cc9f0d3e8bf2580909f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/c5/5a/c55afa9f-be37-4446-b6b2-3954b9d4210f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/86/0a/860ac76f-6abd-4e1c-80d9-6a7de9a7c40d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/6f/2a6f45ef-e429-4978-9e97-e5bba4ba40c6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0c/31/0c31e484-333b-4df2-a9bd-98ae7c7803ee.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6c/b1/6cb1b96f-bf6b-4453-bb7c-bc325f75060d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ae/52/ae52c676-8a3d-47c8-a664-35066f69b406.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "Tactics",
+        "Top-down",
+        "3D",
+        "Turn-based"
+      ],
+      "Companies": "Signal Space Lab, Wild Hog Games",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "6.9 GB",
+      "Repack Size": "from 3.7 GB [Selective Download]"
+    },
+    "createdAt": 1794009600000
+  },
+  "giggleland/": {
+    "title": "Giggleland – v1.0.0",
+    "image": "https://i3.imageban.ru/out/2026/11/07/54b74b903117868ddb132ba2256f679b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/c7/79/c779f0d4-a3e5-4fa3-8488-088aa0e3d1af.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/32/d2/32d2afca-8119-4627-84f4-71fa31971b97.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/18/ff/18ff7e28-4e32-412c-bff1-710c96c5905b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/19/02/1902c933-f932-4c90-adec-81a5c8bda540.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/25/00/2500cb86-553a-4875-a088-f8df4c0d7439.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d4/96/d49630a5-69f3-4b65-8e80-0a68d43b06b4.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "Gamincat, Hooked",
+      "Language": "ENG",
+      "Original Size": "25.2 GB",
+      "Repack Size": "7.5 GB"
+    },
+    "createdAt": 1794009600000
   }
 }
