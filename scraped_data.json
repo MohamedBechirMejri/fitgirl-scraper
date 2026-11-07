@@ -183172,5 +183172,32 @@
       "Repack Size": "7.5 GB"
     },
     "createdAt": 1794009600000
+  },
+  "disney-pixar-toy-story-retro-roundup/": {
+    "title": "Disney•Pixar Toy Story: Retro Roundup!",
+    "image": "https://i5.imageban.ru/out/2026/11/07/8b0c1569b28322c00135d3efe6894830.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b3/05/b305defb-b29d-4a47-9e6d-5adabab65729.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/e4/4ee481f1-d34b-4740-afbd-230f1385997c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0e/3c/0e3cd99a-a4f2-467d-8d0c-ccec0ad73e05.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/f1/8ef1d4c5-6786-42d3-9843-33993cc28cc8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/03/78/0378f26d-b060-41bb-b56e-b2544403c7b0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/58/eb/58ebc4e4-23c5-41f1-8b72-416660e214fd.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Kids",
+        "Logic",
+        "Puzzle",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Digital Eclipse, Atari",
+      "Languages": "ENG/MULTI12",
+      "Original Size": "13.3 GB",
+      "Repack Size": "2.4/6.1 GB"
+    },
+    "createdAt": 1794009600000
   }
 }
