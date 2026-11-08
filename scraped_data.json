@@ -183297,5 +183297,30 @@
       "Repack Size": "9.9 GB"
     },
     "createdAt": 1794096000000
+  },
+  "blueys-happy-snaps/": {
+    "title": "Bluey’s Happy Snaps",
+    "image": "https://i2.imageban.ru/out/2026/11/08/dd9362f070496a6e6e3858d0ae5b31ed.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/7a/b6/7ab64c2f-90e8-4832-9eef-5ae976a0fb47.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/af/22/af22b6a3-114f-4f72-a531-fa8c535c8b4e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/15/7b/157bd754-43ce-4f51-bd30-5b23888f8b3e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/22/3722663c-74ed-454c-88d0-12907b85e67c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cf/b2/cfb25ba0-951e-4285-a83c-4e70e128f32b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7b/ef/7bef3333-bfdc-4ca1-ae42-85424a022b96.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Kids",
+        "Side",
+        "2D"
+      ],
+      "Company": "Gameloft",
+      "Languages": "ENG/MULTI10",
+      "Original Size": "2.6 GB",
+      "Repack Size": "2 GB"
+    },
+    "createdAt": 1794096000000
   }
 }
