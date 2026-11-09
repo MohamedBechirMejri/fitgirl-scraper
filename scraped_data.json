@@ -183322,5 +183322,55 @@
       "Repack Size": "2 GB"
     },
     "createdAt": 1794096000000
+  },
+  "playrooms/": {
+    "title": "Playrooms",
+    "image": "https://i5.imageban.ru/out/2026/11/09/0a7f3d1b4657092bd439c141f7be45fc.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/de/e9/dee9e531-df72-408d-88e9-bd85007c3aec.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/41/49/41490c00-d7e7-4d5f-9069-838a8f1620cd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e7/0e/e70edcbc-f271-4ff9-a261-947374340147.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8f/f2/8ff2ced9-0a50-4642-b9ef-a4e3f1a40a3d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/68/a2/68a251da-cb9d-4439-9bdf-c886b6a35601.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c7/47/c7473fb8-022a-4d59-b270-b28a2e4e9490.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Incremental game",
+        "Physics-based",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Two Pixels",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "7.7 GB",
+      "Repack Size": "1.8 GB"
+    },
+    "createdAt": 1794182400000
+  },
+  "worship/": {
+    "title": "Worship",
+    "image": "https://i2.imageban.ru/out/2026/11/09/224f69183ffb504c0a73d122db1fbd5c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/cc/07/cc07086b-bb7b-45be-b736-0bd4d7711c69.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/09/3a/093aa9c6-bfaf-41ab-914e-00e811d11d6d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fd/08/fd083ac3-feef-4484-bd5a-891c6aea74b1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a1/75/a1750f60-9903-4a88-aee9-280222ac40eb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a6/75/a675dd05-f25a-41d8-8f83-edef1161986e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a0/81/a0812501-956d-4ebd-8ad2-9cf9c1b509de.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "Top-down",
+        "2D",
+        "Real-time"
+      ],
+      "Company": "Chasing Rats Games",
+      "Languages": "ENG/MULTI11",
+      "Original Size": "1.8 GB",
+      "Repack Size": "949 MB"
+    },
+    "createdAt": 1794182400000
   }
 }
