@@ -183372,5 +183372,81 @@
       "Repack Size": "949 MB"
     },
     "createdAt": 1794182400000
+  },
+  "road-rash-30th-anniversary-edition/": {
+    "title": "Road Rash: 30th Anniversary Edition",
+    "image": "https://i5.imageban.ru/out/2026/11/09/a7f3d830dfd0da40285c2d9b7932fd5e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/82/1d/821db311-0cc0-4089-936f-d86cd71ba1f3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/95/a0/95a0eba6-1b1f-40d3-a5c4-7f56951615ff.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/55/c5/55c56d2c-4846-4628-b6b3-37e06b0b32b5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1e/63/1e639a47-6efd-486d-a052-1c3abdbe7b75.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/57/8e575d95-1c98-4783-b489-504c292aeb5c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8c/f8/8cf81b02-9c96-4985-bc38-6a4660151a61.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Racing",
+        "Vehicular combat",
+        "Third-person",
+        "3D",
+        "Motorcycles"
+      ],
+      "Company": "Electronic Arts",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "3.1 GB",
+      "Repack Size": "1.3/3 GB"
+    },
+    "createdAt": 1794268800000
+  },
+  "escape-academy-2-back-2-school/": {
+    "title": "Escape Academy 2: Back 2 School – v1.0.20261103.004 + DLC",
+    "image": "https://i8.imageban.ru/out/2026/11/10/21d25092757ad723d9ba17e8c8377030.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/d6/99/d699c4ea-7604-4e78-920e-eb149e11b641.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a3/14/a3143847-f1cc-49da-a9c0-cb1a9ac42609.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/70/2b/702b9608-b4bf-4ae0-96fc-ceb55d56ea0b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/97/08/9708393a-5dc8-4f85-86e1-639752e4da75.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/03/cf/03cfefa4-4de0-4e53-97f1-fd6899815623.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c0/60/c060c73a-4d7f-4380-b4cd-7b3c3e6d00b9.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Logic",
+        "Puzzle",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "iam8bit, Coin Crew Games",
+      "Languages": "ENG/MULTI7",
+      "Original Size": "1.4 GB",
+      "Repack Size": "809 MB"
+    },
+    "createdAt": 1794268800000
+  },
+  "pokemon-pokopia/": {
+    "title": "Pokémon Pokopia – v2.0.1 + Switch 2 Emulator",
+    "image": "https://i3.imageban.ru/out/2026/11/10/61d2fa17d00fc78b6acb040000bc0ca9.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b6/12/b612e971-30ef-4a97-ba41-39735174349f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2b/68/2b68fc91-dae2-47e7-a786-457326a4b8ec.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/00/42/00422717-93dc-4978-84d6-0df24faa9c80.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a5/72/a572fc1b-4cfe-40a6-a2b8-dc45faaee946.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e8/8c/e88ce4e7-8137-419e-a6a3-dc68b62ce8ee.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Digital pets",
+        "Lifestyle",
+        "Item crafting",
+        "3D"
+      ],
+      "Companies": "The Pokémon Company, Game Freak, Nintendo, Omega Force",
+      "Languages": "ENG/MULTI9",
+      "Original Size": "6.9 GB",
+      "Repack Size": "3.3 GB"
+    },
+    "createdAt": 1794268800000
   }
 }
