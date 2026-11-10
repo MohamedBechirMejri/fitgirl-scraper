@@ -183448,5 +183448,55 @@
       "Repack Size": "3.3 GB"
     },
     "createdAt": 1794268800000
+  },
+  "beyond-these-stars/": {
+    "title": "Beyond These Stars – v0.1.934.1",
+    "image": "https://i4.imageban.ru/out/2026/11/10/098d3c15069dd69014b45b4138df1986.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/42/14/42147ea1-3915-4c64-8e95-3850a1dbb36b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/96/2a/962a2dd2-fc47-4ef3-870e-f33a50aad3d8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/21/1d/211de2ae-7462-4525-8769-864dd7d870f7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/66/2f/662f7fbe-cae0-44f2-9d5d-87c5dc97af3f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/99/aa/99aa1b5b-c11b-459c-bab0-f6bfa484e6df.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f3/b6/f3b6bf11-9f0d-4560-ae4f-54a45f024091.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Strategy",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Hooded Horse, Balancing Monkey Games",
+      "Languages": "RUS/ENG/MULTI15",
+      "Original Size": "5.1 GB",
+      "Repack Size": "3.7 GB"
+    },
+    "createdAt": 1794268800000
+  },
+  "wing-commander-3-heart-of-the-tiger-30th-anniversary-edition/": {
+    "title": "Wing Commander III: Heart of the Tiger – 30th Anniversary Edition + Bonus Content",
+    "image": "https://i3.imageban.ru/out/2026/11/10/bb3ceb7fbdd2559925988d479b6b837e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ac/97/ac970a09-e6d1-481b-b844-e11fa9f29771.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/72/b3/72b31e2d-958f-4f31-9161-95334c21c7b5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/00/d6/00d6febc-bf6e-4df9-b891-9aa1cf7d8c59.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/35/a0/35a0b4b7-d5be-489b-a396-ece95da5abd8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5c/aa/5caa72cc-a633-4b33-b7fa-28dd707bd5c8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e2/9e/e29e33db-e786-4fbf-b303-ee95f8d7fe2b.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Interactive movie",
+        "Simulation",
+        "3D",
+        "Spacecraft"
+      ],
+      "Companies": "Origin Systems, Electronic Arts",
+      "Languages": "ENG/MULTI3",
+      "Original Size": "38.2 GB",
+      "Repack Size": "from 5.8 GB [Selective Download]"
+    },
+    "createdAt": 1794268800000
   }
 }
