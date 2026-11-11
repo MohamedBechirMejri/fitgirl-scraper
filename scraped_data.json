@@ -183548,5 +183548,30 @@
       "Repack Size": "17.1 GB"
     },
     "createdAt": 1794355200000
+  },
+  "ashes-of-the-singularity-2/": {
+    "title": "Ashes of the Singularity II – v1.0.0.207 (284635)",
+    "image": "https://i3.imageban.ru/out/2026/11/12/d2412a19dce0f62069898dcb5a79c946.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/12/c3/12c3e272-ecbb-4a28-a1a0-15779f300ebe.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5c/ba/5cba54f2-f9d2-4c08-b8b7-41a6392a5216.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2c/7c/2c7cc26d-687d-43ad-a6c6-54e0cb0dbf70.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cd/df/cddfe0c9-621b-41e8-86ad-21842a8a3a19.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0d/e7/0de7eead-5e89-47cf-b166-1194f2b43ccd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e9/5b/e95b31a1-695f-4b6c-a1a8-09181e709788.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "RTS",
+        "3D",
+        "Real-time"
+      ],
+      "Companies": "Oxide Games, Stardock",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "6 GB",
+      "Repack Size": "4.2 GB"
+    },
+    "createdAt": 1794441600000
   }
 }
