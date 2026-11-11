@@ -183498,5 +183498,55 @@
       "Repack Size": "from 5.8 GB [Selective Download]"
     },
     "createdAt": 1794268800000
+  },
+  "hypnos/": {
+    "title": "HYPNOS",
+    "image": "https://i5.imageban.ru/out/2026/11/11/53f20e45b448f4f68ecbb7a08e3fd2cd.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4a/e0/4ae07177-83a5-4bd5-a8dc-226af1e47dd9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4f/37/4f373b53-f47a-4c7b-8f8c-9a71e4a02837.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1e/e1/1ee10752-a2b7-47d5-be2b-8cb7367dd4c5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/36/3a/363a3918-1e69-4a36-9e71-818e983634ad.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5a/47/5a470002-9200-4a97-bfa4-9bd408643f42.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/10/29/10299632-a10a-4658-88d6-3333f51a4934.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Exploration",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Company": "Redlock Studio",
+      "Languages": "RUS/ENG/MULTI6",
+      "Original Size": "24 GB",
+      "Repack Size": "17.5 GB"
+    },
+    "createdAt": 1794355200000
+  },
+  "legend-of-zelda-ocarina-of-time/": {
+    "title": "Legend of Zelda: Ocarina of Time – v1.1.1 + Switch 2 Emulator",
+    "image": "https://i4.imageban.ru/out/2026/11/11/371c0cac95a614c749ecb760eb2b16d1.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/cb/34/cb346c73-a5c0-4624-aa09-04ebf952299a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/a1/4ea1f657-8045-4dc3-8c6c-24d3e684e0da.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/53/41/53410f34-37f9-4dea-894f-48dd979fea28.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8a/9a/8a9a01de-e790-443d-9760-f2b2206335c4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d1/e2/d1e2ce88-df6d-4c49-8891-445fcff0eb0d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/09/92/09925d1c-aad8-44d3-b96d-a0a3274bd33d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Puzzle solving",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Nintendo, Nintendo EPD",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "24 GB",
+      "Repack Size": "17.1 GB"
+    },
+    "createdAt": 1794355200000
   }
 }
