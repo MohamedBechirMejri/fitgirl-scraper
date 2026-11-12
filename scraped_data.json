@@ -183623,5 +183623,30 @@
       "Repack Size": "3.5 GB"
     },
     "createdAt": 1794441600000
+  },
+  "hydro-thunder-hurricane/": {
+    "title": "Hydro Thunder Hurricane – v1.2.0.0",
+    "image": "https://i2.imageban.ru/out/2026/11/12/0e6d4f709956d47ed3ad8e0842bb512b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4b/d6/4bd6f199-36a8-4cdc-ae0f-78762b89bf2f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f3/7d/f37d8e9c-e7ed-44d0-ac82-2c4d6ab96962.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/12/a7/12a77c82-9f13-4faf-884e-4c1f960d38c4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/aa/2d/aa2d87b1-64fb-4003-bc7a-c1ffe45f997c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/77/e0/77e0c3f0-6b64-4702-9222-4930be6063b8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/08/3a/083ae0b7-050f-4671-b591-e802f573a4e5.png.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Racing",
+        "3D",
+        "Motorboats"
+      ],
+      "Companies": "Microsoft Game Studios, Vector Unit",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "439 MB",
+      "Repack Size": "243 MB"
+    },
+    "createdAt": 1794441600000
   }
 }
