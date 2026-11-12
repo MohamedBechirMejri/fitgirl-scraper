@@ -183573,5 +183573,55 @@
       "Repack Size": "4.2 GB"
     },
     "createdAt": 1794441600000
+  },
+  "wing-commander-iv-the-price-of-freedom-30th-anniversary-edition/": {
+    "title": "Wing Commander IV: The Price of Freedom – 30th Anniversary Edition",
+    "image": "https://i6.imageban.ru/out/2026/11/12/147f3d2561a9197742fdc38bca5d81d3.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/37/84/37842de3-5d10-4a2c-8362-163e737aa85e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e9/0d/e90df7e3-fcb1-4856-8f4a-365c802c7209.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/14/4f/144fc162-395d-4bac-a459-f1a91aacdd76.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5a/2d/5a2d2263-33b8-4c1f-845b-ffc8b5ad9b60.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/07/3e/073ec43b-4958-41af-952f-f9fc438a25ce.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f6/ee/f6eefa25-9771-41f5-bcf1-d320cb9b2739.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Interactive movie",
+        "Simulation",
+        "3D",
+        "Spacecraft"
+      ],
+      "Companies": "Electronic Arts, Origin Systems",
+      "Languages": "ENG/MULTI3",
+      "Original Size": "74.6 GB",
+      "Repack Size": "from 5.3 GB [Selective Download]"
+    },
+    "createdAt": 1794441600000
+  },
+  "dreamworks-shrek-2-remastered/": {
+    "title": "DreamWorks Shrek 2 Remastered",
+    "image": "https://i6.imageban.ru/out/2026/11/12/27d7ab45c5aa4b39638a185a6e90f7b2.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/f7/38/f73817d3-0840-4657-80ac-b314f4080e84.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/58/45/584503c0-dddd-4121-8783-c1d472d7e076.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d2/7f/d27f32d0-1c8f-42e9-a978-1f0cf633c32e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fb/6d/fb6d0ec0-e143-4d61-bc6a-99b9b329a5ba.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/71/89/718910dc-7187-44e0-95b9-12c1c035bea6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4b/88/4b8895a6-0dd3-4ccf-bae4-8554d5a22b4c.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Beat 'em up (Brawler)",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Aspyr Media",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "5.6 GB",
+      "Repack Size": "3.5 GB"
+    },
+    "createdAt": 1794441600000
   }
 }
