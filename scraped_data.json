@@ -183648,5 +183648,30 @@
       "Repack Size": "243 MB"
     },
     "createdAt": 1794441600000
+  },
+  "takeover-2/": {
+    "title": "Takeover 2: Deluxe Edition + Bonus OSTs",
+    "image": "https://i5.imageban.ru/out/2026/11/13/4661609b2fe6d9fe14ac2d19ebfe3edb.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/80/83/80831cd9-62cc-4225-8f08-a7b8dadbe94b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f4/9c/f49ccedb-a58c-4f7b-8e96-6305bedb54fa.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ab/6b/ab6bb7e9-6c26-4216-8917-035b73d38d23.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/64/02/64022c56-c0f9-4b80-9b06-de8e5f7837a3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/dc/2f/dc2fef8a-3911-4f6b-be20-8da6bcc8f870.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a9/1d/a91d8846-28cb-4d3a-b93f-4e11c61f93fe.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Beat 'em up (Brawler)",
+        "Side",
+        "2D"
+      ],
+      "Company": "Pelikan13",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "6.1 GB",
+      "Repack Size": "3.9 GB"
+    },
+    "createdAt": 1794528000000
   }
 }
