@@ -183804,5 +183804,79 @@
       "Repack Size": "2.2 GB"
     },
     "createdAt": 1794614400000
+  },
+  "the-witchs-bakery/": {
+    "title": "The Witch’s Bakery",
+    "image": "https://i4.imageban.ru/out/2026/11/14/666cfc89596869a8427973ec8c2cbbcd.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/32/7d/327d9a4e-6fd2-430a-acc3-668d8228efd6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/eb/1c/eb1ce214-12a5-433f-ae42-86fbe0281299.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ac/63/ac639426-6f99-4dac-8e5a-976ac5a0fc2c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/85/40/8540f542-ea9a-4cc1-8dac-664c6e13972d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d3/7b/d37b95e1-bc18-4f6e-b977-0977e3d4c3e1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e2/7f/e27fb2a1-5122-4e79-ac5d-815e58c9addd.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Side",
+        "2D"
+      ],
+      "Companies": "Silver Lining Interactive, Sunny Lab",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "5.9 GB",
+      "Repack Size": "2.1 GB"
+    },
+    "createdAt": 1794614400000
+  },
+  "suri-the-seventh-note/": {
+    "title": "SURI: The Seventh Note – Deluxe Edition, v1.007 + 2 DLCs",
+    "image": "https://i8.imageban.ru/out/2026/11/15/3099de17e9261b860304f464a4910d0f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/85/ea/85eae527-7c08-48cd-9c2e-cebcdb1a3021.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/01/ad/01adca5d-7d89-4c9c-be9a-08eeb6ab7593.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8d/36/8d36ee65-c00e-4b52-a5f1-2c32b7c69c34.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1e/e7/1ee7dc84-6223-434b-8488-326629dbce14.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1f/13/1f1366d7-3dc2-4ecf-bdd5-62a9c5326def.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Rhythm",
+        "Side",
+        "2D"
+      ],
+      "Company": "Tathvamasi Studios",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "3.8 GB",
+      "Repack Size": "1.7 GB"
+    },
+    "createdAt": 1794700800000
+  },
+  "hazard-levels/": {
+    "title": "Hazard Levels: Deluxe Edition – v1.0.0.10272 + 5 DLCs",
+    "image": "https://i1.imageban.ru/out/2026/11/15/713a8c1fa3fadd11c2382a4f4dcbe7c6.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/8e/d6/8ed68ea2-0708-46b2-8946-90641efd6c6d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8f/fa/8ffaad47-c0c1-479b-965e-d1d8b6165cc5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9f/28/9f284bec-c348-4f54-8bb9-f10bbcefc60d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f8/2c/f82cabdd-52cc-4433-8938-bdc73068f96b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d5/7a/d57a0527-ffb3-46dc-ad7b-eb8d858dad26.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/96/29/962911f1-1229-4309-bbe2-8bd6e73631ac.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "Third-person",
+        "3D"
+      ],
+      "Company": "Wales Interactive",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "9.1 GB",
+      "Repack Size": "5.9 GB"
+    },
+    "createdAt": 1794700800000
   }
 }
