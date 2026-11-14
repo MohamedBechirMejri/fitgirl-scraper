@@ -183673,5 +183673,56 @@
       "Repack Size": "3.9 GB"
     },
     "createdAt": 1794528000000
+  },
+  "motorcycle-ride-infinity/": {
+    "title": "Motorcycle Ride: Infinity – v1.1",
+    "image": "https://i6.imageban.ru/out/2026/11/13/21889f537b8982be5c79210ba94653da.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/f3/8a/f38a15e3-648c-429f-ab8b-de65eb7fe352.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/83/fa/83fa7ea8-a77c-4f71-a805-ce015c3f0f21.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/00/26/0026fcf1-88f8-4b2c-8d05-c730a26cff89.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a9/2d/a92d3293-035e-49a5-9fe5-e7f957351b5d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/35/af/35af3e9b-6920-464c-8000-27bdd2e3dd1e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ad/6a/ad6ac69e-0c4b-4752-b54b-82904c77f09d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Driving",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Blightcore Studio",
+      "Languages": "RUS/ENG/MULTI31",
+      "Original Size": "4.6 GB",
+      "Repack Size": "2.8 GB"
+    },
+    "createdAt": 1794528000000
+  },
+  "terrible-lizards/": {
+    "title": "Terrible Lizards",
+    "image": "https://i5.imageban.ru/out/2026/11/13/3a31415e510fecdddff3df9afb6c2d18.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/07/94/0794e98f-01de-4ca3-84ac-76d940ead111.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/75/7a/757ae7e8-3e36-4818-9772-6c819f35d9e7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c0/77/c0777ec5-21e8-4915-970d-ce4acf41e1f5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8c/00/8c0090c1-c1a3-4674-86f4-f3a052bd06e6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1e/28/1e28578e-2922-4e80-bbfb-9c78af12ffe7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ad/12/ad129668-d0a3-4410-927d-5dbe523f60ee.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Jump and run",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "Behaviour Interactive, WDR Studios, Digital Pajamas",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "15 GB",
+      "Repack Size": "11.7 GB"
+    },
+    "createdAt": 1794614400000
   }
 }
