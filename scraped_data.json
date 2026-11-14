@@ -183778,5 +183778,31 @@
       "Repack Size": "4.4 GB"
     },
     "createdAt": 1794614400000
+  },
+  "witch-cabin-cleanup/": {
+    "title": "Witch Cabin Cleanup – v1.0.0.0",
+    "image": "https://i1.imageban.ru/out/2026/11/14/5e5ac787a52fd54ef7f00416a1e3333c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ac/10/ac109d3e-bf2c-48fb-ab18-af0d37f6fa3c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f4/02/f402070e-b896-470a-a397-828cbbfdb9d0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/58/6d/586d4a06-cdcd-4407-86e7-9aac4503f493.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/11/a9/11a9fca3-b907-46dc-bcf1-8c24b55cdd58.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/26/24/262483d4-90a5-4ccf-9722-6dd6de21d73c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d2/67/d26796a2-a4bf-40aa-81ad-280ceac351f1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Logic",
+        "Hidden object",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Cleanup Crew!",
+      "Languages": "RUS/ENG/MULTI20",
+      "Original Size": "3.6 GB",
+      "Repack Size": "2.2 GB"
+    },
+    "createdAt": 1794614400000
   }
 }
