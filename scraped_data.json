@@ -183724,5 +183724,59 @@
       "Repack Size": "11.7 GB"
     },
     "createdAt": 1794614400000
+  },
+  "mario-kart-world/": {
+    "title": "Mario Kart World – v1.8.0 + Switch 2 Emulator",
+    "image": "https://i7.imageban.ru/out/2026/11/14/b3ca98e78584f9c3f8821429bd6f20ed.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/fe/f8/fef822a7-21aa-4d78-bf21-91063c5c1bd0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/40/27/40270342-ac70-446e-9e69-9eacb5c299a3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a3/ba/a3bac934-7ff5-4dfa-adb2-1c7409d8598b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f5/bb/f5bbefd0-eb92-4d15-a669-6d84ce426f33.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1b/77/1b771f50-84ed-4b5f-acc7-3c76230e68ef.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/73/71/7371202f-9644-4bf4-8e46-39bc94ef3583.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Racing",
+        "3D",
+        "Karts"
+      ],
+      "Companies": "Nintendo, Nintendo EPD",
+      "Languages": "RUS/ENG/MULTI16",
+      "Original Size": "21.9 GB",
+      "Repack Size": "16.6 GB"
+    },
+    "createdAt": 1794614400000
+  },
+  "football-manager-27/": {
+    "title": "Football Manager 27 – v27.0.1",
+    "image": "https://i7.imageban.ru/out/2026/11/14/b8b8dda50addd9b5172ed5f98f53f962.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/fa/24/fa24f383-a374-4055-b6d8-fe3899bcd60f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/42/1d/421d4e74-5307-49f9-8562-68ae4516c4ed.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7c/9c/7c9c35d3-41c2-4cd6-94cc-465fd726ea35.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/46/d4/46d45624-2265-42e0-afa4-c0fe8aafc583.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b4/05/b4056362-d7e2-48e1-abd0-1c9038eb1e61.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1f/c4/1fc45211-a100-40ad-b8a7-05a7e9d6cdc6.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Managerial",
+        "Sports",
+        "Soccer",
+        "Strategy",
+        "2D",
+        "3D",
+        "Real-time",
+        "Turn-based"
+      ],
+      "Companies": "Sega, Sports Interactive",
+      "Languages": "RUS/ENG/MULTI20",
+      "Original Size": "8.2 GB",
+      "Repack Size": "4.4 GB"
+    },
+    "createdAt": 1794614400000
   }
 }
