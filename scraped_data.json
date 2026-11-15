@@ -183878,5 +183878,54 @@
       "Repack Size": "5.9 GB"
     },
     "createdAt": 1794700800000
+  },
+  "fish-and-hike/": {
+    "title": "Fish & Hike",
+    "image": "https://i7.imageban.ru/out/2026/11/15/e8ffdbc76164c3f1d8242ff596b4c116.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b2/97/b2972996-cd41-4901-ad97-9c27d4c475c7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a2/5e/a25ec3be-eef9-4f2f-ac17-32fe5fae5c00.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/98/8f/988f0336-07c5-48e0-8230-3d82e166393e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/07/b4/07b4d660-fd9c-4161-91ce-433db575c871.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/05/88/0588a437-7273-4a01-af00-0b3e2a36bdba.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c9/3c/c93c4ce4-04a5-4060-a495-3743e930abc1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Angling",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Sleepwalking Potatoes, Frozen Way",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "2.6 GB",
+      "Repack Size": "904 MB"
+    },
+    "createdAt": 1794700800000
+  },
+  "ancient-wars-sparta-hd/": {
+    "title": "Ancient Wars: Sparta HD",
+    "image": "https://i4.imageban.ru/out/2026/11/16/60b1090f647992fb42f9b1cf24f848c2.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/23/5c/235c9866-b7b0-4987-8a35-380a0e2cda0f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8d/8f/8d8f50bf-846a-4dcd-baf5-8cc680006325.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a0/75/a075eac2-781f-4bb9-961d-88553be82ce2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/05/bc/05bc9585-cfab-48d2-b30e-bca92b625610.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/16/2e/162e793f-42a2-4392-bcc4-91162ee6d799.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e7/fa/e7fabc1c-dfe2-4eb4-a85b-2753e10766b2.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "3D",
+        "Real-time"
+      ],
+      "Company": "Jotasoft Studios",
+      "Languages": "RUS/ENG/MULTI17",
+      "Original Size": "6.8 GB",
+      "Repack Size": "4.7 GB"
+    },
+    "createdAt": 1794787200000
   }
 }
