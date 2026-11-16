@@ -183952,5 +183952,82 @@
       "Repack Size": "6.9 GB"
     },
     "createdAt": 1794787200000
+  },
+  "ilomilo-plus/": {
+    "title": "ilomilo plus – v1.1.43.0",
+    "image": "https://i2.imageban.ru/out/2026/11/16/42ca1c39b0f2faa702e8e9378457c551.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/4a/95/4a953c71-bdab-489c-a377-08c04b164dbf.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/51/5a/515afc3c-94d1-4e82-ae87-a8023781a81b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/79/c8/79c86164-b91b-443c-8d97-dce6a0d96684.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/17/69/17692c57-3dad-496f-a00a-b5af74945ac6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/98/13/98136395-dca4-422e-8a07-43fc19cd9a11.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a5/08/a5087634-be95-4604-ad35-77bcb5986c7d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Logic",
+        "3D"
+      ],
+      "Company": "SouthEnd Interactive",
+      "Languages": "ENG/MULTI9",
+      "Original Size": "232 GB",
+      "Repack Size": "179 MB"
+    },
+    "createdAt": 1794787200000
+  },
+  "frontier-tale/": {
+    "title": "Frontier Tale – v2.1.2",
+    "image": "https://i2.imageban.ru/out/2026/11/16/574786548d50e60ab098f82b0af4b7d3.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/18/98/1898e03b-112d-4efb-a447-40b52b30d764.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/94/ee/94eeaf4f-945b-43c2-8f97-696c791f2799.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/92/94/9294d706-e49e-42e0-9d47-be53c7f40e3d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1f/e4/1fe47282-a503-4238-a0af-2eb8f542ea5d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ad/a0/ada0790b-dc1b-4181-8461-1f1acad0dac3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6b/63/6b6320bf-f98c-4685-93af-327797964155.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Managerial",
+        "RPG",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Apophis Game Studio, NPC Entertainment",
+      "Languages": "ENG/MULTI4",
+      "Original Size": "3.5 GB",
+      "Repack Size": "603 MB"
+    },
+    "createdAt": 1794787200000
+  },
+  "frontier-path-of-shadows/": {
+    "title": "Frontier: Path of Shadows + 4 DLCs/Bonuses",
+    "image": "https://i2.imageban.ru/out/2026/11/16/426e0afff5deb5a10655bdd35864edc4.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/fd/f0/fdf082e0-541b-4343-8b1a-9974a70eb559.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3e/63/3e63cef8-0f4c-42de-90a4-019b423fbd61.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d6/b8/d6b8eef4-717d-432a-adbb-ac6db7a3fc3c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9e/48/9e489886-e9e4-486b-8a65-d386190c6ab4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ba/d9/bad9a58b-6486-4c89-a8d9-d90df3033ca4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/76/35/763511b5-508b-472a-89a3-ed61e4f01fbf.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "Tactics",
+        "Isometric",
+        "2D",
+        "Turn-based"
+      ],
+      "Companies": "3_Publishing, Oduvan Games",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "2.5 GB",
+      "Repack Size": "295/694 MB"
+    },
+    "createdAt": 1794787200000
   }
 }
