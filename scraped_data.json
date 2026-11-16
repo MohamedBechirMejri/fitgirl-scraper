@@ -183927,5 +183927,30 @@
       "Repack Size": "4.7 GB"
     },
     "createdAt": 1794787200000
+  },
+  "unbroken-the-awakening/": {
+    "title": "Unbroken: The Awakening",
+    "image": "https://i6.imageban.ru/out/2026/11/16/04782a4205a3c796b29d836382b6846f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ce/74/ce7452d2-e47b-47cb-830a-0647a78a55ff.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/cb/60/cb6080f3-2370-4ea1-b191-971ea729ff8e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b7/4d/b74dada5-0a6c-4984-acfa-b3f6b7a50324.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/25/02/2502d4e9-1394-4873-b324-9b01f36391ec.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f5/52/f552af11-68d6-4761-9d1d-f28f8319eced.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/46/77/46773d45-fc00-4de6-ba89-9dd223e3911c.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "First-person",
+        "3D"
+      ],
+      "Company": "MGP Studios",
+      "Languages": "RUS/ENG/MULTI3",
+      "Original Size": "25.8 GB",
+      "Repack Size": "6.9 GB"
+    },
+    "createdAt": 1794787200000
   }
 }
