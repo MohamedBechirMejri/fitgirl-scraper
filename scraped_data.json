@@ -184029,5 +184029,55 @@
       "Repack Size": "295/694 MB"
     },
     "createdAt": 1794787200000
+  },
+  "nocturnal-2/": {
+    "title": "Nocturnal 2 – v1.0.0",
+    "image": "https://i2.imageban.ru/out/2026/11/17/c24eee784f1af2dd1fe0763e595ceb72.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b2/88/b28811bb-2055-45b4-8e23-bd2574d3d506.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/65/5e/655e8e14-ff26-49a8-bb5c-3ee36a9d4503.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ca/df/cadfe34a-c906-42fe-bf24-a495ff7f15a8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ce/1b/ce1b8bc5-67b5-479f-859a-e25b897445c3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/99/e8/99e8ad1f-a541-4487-91d2-daea255a0c29.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/36/be/36bea55d-76f2-40c3-8340-bc8cfe93205f.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Side",
+        "2D"
+      ],
+      "Company": "Sunnyside Games",
+      "Languages": "RUS/ENG/MULTI10",
+      "Original Size": "1.8 GB",
+      "Repack Size": "754 MB"
+    },
+    "createdAt": 1794873600000
+  },
+  "star-fox/": {
+    "title": "Star Fox – v1.2.0 + Switch 2 Emulator + Recomp",
+    "image": "https://i5.imageban.ru/out/2026/11/17/7af6d3d3bdaaac541f3dd20901d6707c.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/11/08/11089a1f-b84e-4cfd-a6cd-c086f2cb1b17.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/ec/30ec62ac-2fc2-4a0b-9bf9-7271f055fb02.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/de/76/de76beb3-4383-440b-be5d-829b55ce6b3c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c3/e5/c3e5fd3f-85bb-42a1-b3b6-4aada045f427.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0b/19/0b193ed6-c4a4-4d76-8620-a773df80b5e4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/0c/34/0c342b42-8750-4b10-950f-96ffe8cf98f3.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Gun game",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Velan Studios, Nintendo",
+      "Languages": "ENG/MULTI11",
+      "Original Size": "16.3 GB",
+      "Repack Size": "9.6/10.3 GB"
+    },
+    "createdAt": 1794960000000
   }
 }
