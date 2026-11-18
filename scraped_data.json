@@ -184079,5 +184079,30 @@
       "Repack Size": "9.6/10.3 GB"
     },
     "createdAt": 1794960000000
+  },
+  "saloon-simulator/": {
+    "title": "Saloon Simulator – v1.0-17904",
+    "image": "https://i3.imageban.ru/out/2026/11/18/c6fba7e39d6221f390f34c7dac4e113f.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/5e/82/5e82dde3-2481-4c48-8ed4-a04c350f6208.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7d/bb/7dbb365f-2675-40f8-805a-9a6dab2b4508.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/92/21/92211fe5-9327-4dc0-8932-47bc7f8ee867.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/62/e8/62e8a4ab-fc0a-4f91-91bd-c10131ad68c6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/ff/37ff7d90-0df1-4f86-a787-87579d7fd970.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b1/d5/b1d5aff5-49c2-48bd-9f1d-cbec9331ddb3.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D",
+        "Western"
+      ],
+      "Companies": "RockGame, Glivi Games",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "10.1 GB",
+      "Repack Size": "7.1 GB"
+    },
+    "createdAt": 1794960000000
   }
 }
