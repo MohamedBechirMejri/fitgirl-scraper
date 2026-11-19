@@ -184153,5 +184153,55 @@
       "Repack Size": "1.9 GB"
     },
     "createdAt": 1795046400000
+  },
+  "chained-beasts/": {
+    "title": "Chained Beasts – v1.0.1",
+    "image": "https://i1.imageban.ru/out/2026/11/19/6518cfdb3064e6778b3c7264bd2c968e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/cf/aa/cfaa1080-d662-49d0-894b-07e5ac33f146.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/85/a6/85a63101-705e-406b-957f-42ca4f037f0e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/50/12/50122fd5-3d0a-4377-a6f1-2e6f68bd35a0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/01/f5/01f54e95-0d62-4fa9-a0bb-2d521e596bb6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/28/48/28482dec-0620-4fd5-a08d-a30358ad6102.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/af/27/af27b2ae-772e-4775-87de-e42ccfb65b59.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Beat 'em up (Brawler)",
+        "Top-down",
+        "2D"
+      ],
+      "Company": "Featherweight Games",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "914 MB",
+      "Repack Size": "448 MB"
+    },
+    "createdAt": 1795046400000
+  },
+  "dice-hoarder/": {
+    "title": "Dice Hoarder",
+    "image": "https://i3.imageban.ru/out/2026/11/19/1550edd62d5c22db4e19a98bc790e576.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b2/4b/b24bd9b4-b6d6-419c-bb61-6ff7a1f8311d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3a/b6/3ab6fe66-7218-4cdc-9e1d-65b4b02938d8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c8/ab/c8ab21b4-a22f-4b23-a754-1d98cdf148dd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/27/d6/27d6391c-b8d0-4933-8423-1ffbe323331e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/50/b7/50b75375-f749-4269-8f57-86459f33a096.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/03/5f/035f5a6e-3cbf-4bb7-8edd-22ed44148383.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Logic",
+        "Hidden object",
+        "First-person",
+        "3D"
+      ],
+      "Company": "DieCorp Games",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "2.5 GB",
+      "Repack Size": "1.4 GB"
+    },
+    "createdAt": 1795132800000
   }
 }
