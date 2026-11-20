@@ -184203,5 +184203,30 @@
       "Repack Size": "1.4 GB"
     },
     "createdAt": 1795132800000
+  },
+  "revenge-of-the-mage/": {
+    "title": "Revenge of the Mage – v1.0.0_301",
+    "image": "https://i1.imageban.ru/out/2026/11/20/53c628df19466057df488d71f58a0e96.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/76/cd/76cdfc39-81d3-4bc0-9ba5-24c211cb9d0d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d7/ba/d7badfdf-9d62-4488-8f6b-e1b6ce414c4f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/90/47/9047c3ea-0fe6-4a4a-9445-a7e0492fe5c4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a9/47/a9475dcf-5f9d-4624-b5b3-a7176a38aabe.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/67/00/6700646e-195d-4c7a-bbfe-9922c93ebbfa.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7a/f6/7af6698f-4ae4-4473-ac10-2a87d07a6582.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Company": "SinginGiant",
+      "Languages": "RUS/ENG/MULTI14",
+      "Original Size": "8.6 GB",
+      "Repack Size": "5.6 GB"
+    },
+    "createdAt": 1795132800000
   }
 }
