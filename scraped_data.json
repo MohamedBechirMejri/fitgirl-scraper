@@ -184255,5 +184255,31 @@
       "Repack Size": "7.2 GB"
     },
     "createdAt": 1795132800000
+  },
+  "void-reaver/": {
+    "title": "Void Reaver – v1.0.0",
+    "image": "https://i3.imageban.ru/out/2026/11/21/7dd6fd4869cb9584151f13475e6c1f94.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/fc/f9/fcf99e81-d41b-4568-b623-37a09aecedf9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/03/28/03282a6b-bd99-42a8-8ef8-695301053aca.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/72/74/7274a330-c2d0-4bec-820c-c470673db8b6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/96/54/9654b145-c894-401d-ad8a-b71b1119d125.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1c/fd/1cfd20a5-3b92-4de0-9db1-fb24f5d6e665.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c6/68/c6688164-9ee8-4cf7-abff-8e54db7ea0be.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Shoot 'em up",
+        "Bullet hell",
+        "Top-down",
+        "3D"
+      ],
+      "Companies": "Entalto Publishing, Maple Whispering, C&amp;R Creative Studios, Banana Blitz",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "6.2 GB",
+      "Repack Size": "2 GB"
+    },
+    "createdAt": 1795219200000
   }
 }
