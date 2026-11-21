@@ -184281,5 +184281,29 @@
       "Repack Size": "2 GB"
     },
     "createdAt": 1795219200000
+  },
+  "psycho-sleuth/": {
+    "title": "Psycho-Sleuth: Deluxe Edition – v0.0.233 + Bonus Content",
+    "image": "https://i4.imageban.ru/out/2026/11/21/d7d9068e4818842b257160b6a8b6f42e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/7e/9b/7e9b285d-f3b4-4b9b-9dd7-822c73814944.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4a/8f/4a8f65af-dfe2-4cf8-bd6a-0698ef4af54f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5f/d2/5fd2a0aa-89d7-4eb6-a858-52d79ffc87a8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/70/45/7045a3dc-3e8b-4f2e-83be-f97d309fddf9.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4f/55/4f55cff8-3112-4863-bb8c-71e30ac134a3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8f/be/8fbed66a-21d5-4012-bea3-3c3a91f525e6.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "2D",
+        "Japanese"
+      ],
+      "Companies": "Phosepo, SmileGate, Thermite Games",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "15.6 GB",
+      "Repack Size": "8.7/9.1 GB"
+    },
+    "createdAt": 1795219200000
   }
 }
