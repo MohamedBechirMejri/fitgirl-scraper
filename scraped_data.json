@@ -184228,5 +184228,32 @@
       "Repack Size": "5.6 GB"
     },
     "createdAt": 1795132800000
+  },
+  "ancient-warfare-the-han-dynasty/": {
+    "title": "Ancient Warfare: The Han Dynasty",
+    "image": "https://i7.imageban.ru/out/2026/11/20/34f003f0eb27bf10e2737716f67e30c7.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/65/62/65621260-98f9-4880-92ec-758b38a32ee5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/a9/d1/a9d1fc7e-2b01-423a-81a9-a273868f6479.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/18/8a/188a0da7-8832-4c79-be1e-a9647173b08d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/09/77/0977ae83-b172-4546-be0c-16d55cd64378.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/55/0e/550e7d9c-3388-42c1-be99-0f6fdfbb83f7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2a/8d/2a8d967b-3429-4eb3-89f7-ad4a49e2c6be.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "Grand strategy",
+        "RTS",
+        "Top-down",
+        "2D",
+        "Real-time"
+      ],
+      "Companies": "Bamboo Games, CubeGame",
+      "Languages": "ENG/CHI",
+      "Original Size": "21.3 GB",
+      "Repack Size": "7.2 GB"
+    },
+    "createdAt": 1795132800000
   }
 }
