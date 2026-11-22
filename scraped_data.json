@@ -184305,5 +184305,29 @@
       "Repack Size": "8.7/9.1 GB"
     },
     "createdAt": 1795219200000
+  },
+  "rangers-path-national-park-simulator/": {
+    "title": "Ranger’s Path: National Park Simulator",
+    "image": "https://i4.imageban.ru/out/2026/11/22/e63f9f9a7549d287745f586a231bd481.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ed/6d/ed6dcadd-a727-4691-aaaf-a4866ad096a4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/69/8d/698d1ed6-fc0f-4ae1-a4f4-16f0ef72b2d0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e4/01/e4015355-41bb-4830-bb4d-899d95ea8a4a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c6/83/c6833f26-60f0-4006-80ec-517a1f0eff84.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/05/2a/052acc3f-130c-4a54-b327-f3951537eef7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/95/b2/95b21b13-249b-484c-b995-e42dbf5dfb22.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "astragon Entertainment, To-Go Games",
+      "Languages": "ENG/MULTI10",
+      "Original Size": "19.1 GB",
+      "Repack Size": "13.6 GB"
+    },
+    "createdAt": 1795305600000
   }
 }
