@@ -184329,5 +184329,80 @@
       "Repack Size": "13.6 GB"
     },
     "createdAt": 1795305600000
+  },
+  "moadra/": {
+    "title": "Moadra",
+    "image": "https://i8.imageban.ru/out/2026/11/22/b52d11c2d641c850d53a0dbe0060805e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/bd/06/bd066808-d763-4043-8aff-e0b657159e25.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f7/a9/f7a9e108-ea86-4aef-bc9d-024d2736edf3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ca/c9/cac9f18b-585e-4782-810a-fb1b4cd48190.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ef/2f/ef2f0846-1d75-4c42-a6ef-09c57159fc29.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/2b/42/2b42a96b-3a28-4123-861d-cfda1fb7478d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b1/22/b122b3a6-737c-4444-9974-9ab6283c7dcf.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Jump and run",
+        "Side",
+        "2D"
+      ],
+      "Company": "Gloomsoft",
+      "Languages": "RUS/ENG/MULTI9",
+      "Original Size": "4.7 GB",
+      "Repack Size": "3.1 GB"
+    },
+    "createdAt": 1795305600000
+  },
+  "boxroom/": {
+    "title": "BOXROOM",
+    "image": "https://i8.imageban.ru/out/2026/11/23/c8d4a776a3d8649edb7fe98174d5e05e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/79/37/793791da-2eed-4679-bdc1-7f0ab3310bfb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b9/5f/b95f8ade-0bd3-4c59-b304-ae267f208521.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b8/c0/b8c09ef7-bc62-49de-b1f0-4e08a4503e3f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4c/eb/4cebf203-e480-4fb1-ab95-30bf8410fbd1.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/72/cc/72cc82d8-49e6-4777-ad3e-7ef3782da2dd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5a/32/5a3272c6-8985-4339-9a38-fbbef862e2af.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Nested Loop Studios, Pantaloon",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "3 GB",
+      "Repack Size": "1.2 GB"
+    },
+    "createdAt": 1795392000000
+  },
+  "771-smile-and-work/": {
+    "title": "771: Smile and Work",
+    "image": "https://i1.imageban.ru/out/2026/11/23/c7265c58ec1571e410194cd149407e3a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/db/e7/dbe79e91-b8a0-4bd9-ba62-e81cda230610.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fd/70/fd705701-d5fc-47d4-a0db-ac475b286df7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e7/ac/e7acdef0-939d-4140-809f-b9a183c4d45c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ac/40/ac40f25b-6d0f-4a5c-8822-d428d5675663.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6d/a0/6da0bdfa-793c-4e83-8948-1b98c53d08de.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/04/10/04100a46-79c6-44d0-8274-3bfe931d0abe.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Exploration",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "nagggets, Nikitosik52, MrGD, Admia, ranwoG, 1ne2wozzz, POS",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "2.1 GB",
+      "Repack Size": "705 MB"
+    },
+    "createdAt": 1795392000000
   }
 }
