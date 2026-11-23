@@ -184404,5 +184404,55 @@
       "Repack Size": "705 MB"
     },
     "createdAt": 1795392000000
+  },
+  "penguin-colony/": {
+    "title": "Penguin Colony – v1.5",
+    "image": "https://i1.imageban.ru/out/2026/11/23/fd0ac84449c7cd643a431e6b4eb6bc6b.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/70/92/70920caf-84b7-4373-bf57-a76e2391023f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9c/17/9c175f1d-a431-4087-a34b-365bf514470d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/02/90/0290a5c4-9965-4dcc-9403-850ea841ccfe.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/12/20/12206986-41a5-4228-8c2f-4b0bf4503c96.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/99/91/9991a801-189b-490e-85d5-fb1e0f71f43c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3b/96/3b967dbb-a786-4849-ad65-93375ed2169a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Third-person",
+        "3D",
+        "Horror"
+      ],
+      "Companies": "Fellow Traveler, Origame Digital",
+      "Languages": "ENG/MULTI6",
+      "Original Size": "2.2 GB",
+      "Repack Size": "1.1 GB"
+    },
+    "createdAt": 1795392000000
+  },
+  "eternal-palace-sakura/": {
+    "title": "Eternal Palace Sakura",
+    "image": "https://i8.imageban.ru/out/2026/11/23/5f46bc966c1f13d219d7ef8385e3b396.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/f2/0b/f20bef94-3b15-4636-add6-2c78a8b8becc.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f9/8d/f98dbb3f-1651-4744-b948-9742231541e7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/63/0e/630e384c-5b19-4a7b-b291-00bdf8a46c5c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8f/cd/8fcda554-3199-4307-bba8-3beedcd3369b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/16/17/16174f9d-1bb3-48b7-9fce-b89157a56ab4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1e/8a/1e8a41b8-5b1f-4c39-9ba3-e331d0db9562.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Third-person",
+        "3D",
+        "Japanese"
+      ],
+      "Companies": "Denneko Yuugi, Shochiku",
+      "Languages": "ENG/MULTI8",
+      "Original Size": "1.9 GB",
+      "Repack Size": "711 MGB"
+    },
+    "createdAt": 1795392000000
   }
 }
