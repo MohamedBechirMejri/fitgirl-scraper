@@ -184454,5 +184454,31 @@
       "Repack Size": "711 MGB"
     },
     "createdAt": 1795392000000
+  },
+  "the-killing-stone/": {
+    "title": "The Killing Stone – v18032",
+    "image": "https://i1.imageban.ru/out/2026/11/24/4490c33b044b1a146751d543ea3fde3e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/48/fb/48fba3f4-0803-4437-ab93-d08eba7111b6.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/aa/9f/aa9f5a9c-2fb2-40aa-bbf1-88bfa3a94375.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/65/2e/652e3877-61c3-41b4-a8c0-0f55d1d798de.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/60/22/602279a0-0b8f-4e87-bc9f-28faf26c26de.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ab/af/abafb432-4204-4dfb-a5c6-f6d0c434ab8d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/ed/45/ed45e883-000f-47dc-8055-4f7bb2a0affb.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Card game",
+        "First-person",
+        "3D",
+        "Horror",
+        "Turn-based"
+      ],
+      "Company": "Question",
+      "Languages": "ENG/MULTI5",
+      "Original Size": "5.6 GB",
+      "Repack Size": "4.1 GB"
+    },
+    "createdAt": 1795478400000
   }
 }
