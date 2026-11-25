@@ -184557,5 +184557,30 @@
       "Repack Size": "1.6 GB"
     },
     "createdAt": 1795564800000
+  },
+  "queens-domain/": {
+    "title": "Queen’s Domain – v1.01.00",
+    "image": "https://i3.imageban.ru/out/2026/11/25/056944cf631f8ee6c2174e9c6ba10e11.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/0c/30/0c30122a-1bf6-46d2-9d11-06a02a2b1b08.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/28/bb/28bbed7d-01d3-471e-aff6-63740a58fb1f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c5/f6/c5f6394e-c2cc-4758-b505-0e27ddc20ff7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/13/a5/13a520cf-512b-483b-b50e-6be382b4515c.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/73/dc/73dcde0b-e3e2-4a7e-be6a-465da7d19045.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/c9/bd/c9bd9d4b-ff9f-45e5-b319-a9b755b0ec5a.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "RPG",
+        "Action RPG",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Future Friends Games, Freshly Baked Games",
+      "Languages": "RUS/ENG/MULTI8",
+      "Original Size": "2.2 GB",
+      "Repack Size": "652 MB"
+    },
+    "createdAt": 1795564800000
   }
 }
