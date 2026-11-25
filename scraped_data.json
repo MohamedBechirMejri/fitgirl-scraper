@@ -184480,5 +184480,82 @@
       "Repack Size": "4.1 GB"
     },
     "createdAt": 1795478400000
+  },
+  "flick/": {
+    "title": "Flick",
+    "image": "https://i4.imageban.ru/out/2026/11/24/10c7bea06c599ae9b96aef2cefdf450e.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ee/5a/ee5ae4b2-96f3-4706-bba4-29e476f7efd5.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/42/4f/424f6034-ec19-48e6-8c44-65bcfe615277.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/93/309387c4-df87-4522-b434-2034bab2ff4d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4e/3c/4e3cc5f5-6877-49c3-bafd-c2834c0c0476.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/83/50/8350a2d2-761b-4871-8310-097d6ceb7dfd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/09/76/0976e082-61d5-4fb1-a2f3-92e0bb3535f9.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Exploration",
+        "First-person",
+        "3D",
+        "Horror"
+      ],
+      "Company": "Inqdrop Studios",
+      "Language": "ENG",
+      "Original Size": "2.9 GB",
+      "Repack Size": "1.9 GB"
+    },
+    "createdAt": 1795478400000
+  },
+  "serious-sam-fusion/": {
+    "title": "Serious Sam Fusion – v791116",
+    "image": "https://i5.imageban.ru/out/2026/11/24/52f7528dda2aec259e350aba31d6508a.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/bc/8e/bc8e3f1d-2ce3-4749-aacc-abf9f3f46060.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/67/1a/671ab1d5-b8d9-42e8-8fe3-47031288d4de.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/61/a3/61a3ab38-d8f8-420c-b4aa-81253a1c30c7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/05/09/05094c6a-7041-42de-bdae-22f00fd87ac8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/8e/be/8ebe4a27-7cd2-4b00-bdda-c8f5f74eb688.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/83/55/83555cbf-9cda-4dc5-8ccc-2bae9c81baa0.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D"
+      ],
+      "Companies": "Devolver Digital, Croteam",
+      "Languages": "RUS/ENG/MULTI6",
+      "Original Size": "8.8 GB",
+      "Repack Size": "4.3 GB"
+    },
+    "createdAt": 1795478400000
+  },
+  "blitzkrieg-3/": {
+    "title": "Blitzkrieg 3: Deluxe Edition – Build 26763333 + All DLCs",
+    "image": "https://i3.imageban.ru/out/2026/11/25/5a38ae0d028afced846b2c04a6a6e4f4.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/10/76/10763fff-39ec-4ad5-97eb-24014f604074.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f5/63/f56343c3-abf8-4202-8b61-9aafd83c9754.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/04/7b/047b6233-2537-464d-b52d-fb29b40d8713.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/31/b6/31b67769-04e7-4b68-add8-e0811a09b6e3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3f/b9/3fb99440-3edf-43b9-a37b-f44c44e20177.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/fe/3b/fe3b5114-407d-4c28-82fb-53e78321e9a1.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Strategy",
+        "RTS",
+        "World War II",
+        "Isometric",
+        "3D",
+        "Real-time"
+      ],
+      "Company": "Nival",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "3.7 GB",
+      "Repack Size": "1.6 GB"
+    },
+    "createdAt": 1795564800000
   }
 }
