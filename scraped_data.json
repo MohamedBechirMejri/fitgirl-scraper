@@ -184582,5 +184582,55 @@
       "Repack Size": "652 MB"
     },
     "createdAt": 1795564800000
+  },
+  "tape-to-tape/": {
+    "title": "Tape to Tape – v1.0.0-CS 13980",
+    "image": "https://i4.imageban.ru/out/2026/11/25/dd02e8fd175192d380ac621604d3c158.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/6c/5d/6c5da727-d512-455c-bbba-461db72ddfe0.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/45/26/4526d8f9-0777-4943-a984-c8f0003665ce.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/3f/9a/3f9a3c5d-3e34-4027-be68-4d35b3dc6573.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/30/cf/30cff119-2afd-4d8b-8744-b058a98bc5b8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/dd/e0/dde09f4f-11fb-4b05-9ac2-aba8dfbe2426.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/37/37/3737d962-8df1-446c-9716-7c5bbea7271d.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Sports",
+        "Hockey",
+        "Top-down",
+        "2D"
+      ],
+      "Company": "Excellent Rectangle",
+      "Languages": "RUS/ENG/MULTI12",
+      "Original Size": "954 MB",
+      "Repack Size": "618 MB"
+    },
+    "createdAt": 1795651200000
+  },
+  "totos-journey/": {
+    "title": "Toto’s Journey – v1.0.8.0",
+    "image": "https://i7.imageban.ru/out/2026/11/26/2f7c331dc20f079631c07304bec28ef0.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/a0/95/a0957139-9ce3-4adf-8445-0b6c6c13e0fa.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/25/a1/25a11e19-18a3-44cb-bbd8-3ec8898761f2.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5a/ca/5acab1d0-dd7d-44aa-82ea-7f81154fdda3.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/1a/d0/1ad0e589-7563-4eba-a42e-84cf368bc18a.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b2/22/b22271e8-8691-4c36-bf4d-008f416f59fd.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/bc/a5/bca5b0b2-15c4-410d-b0c5-376229292466.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Hanuman Games, Creata Games",
+      "Languages": "RUS/ENG/MULTI11",
+      "Original Size": "9.6 GB",
+      "Repack Size": "6 GB"
+    },
+    "createdAt": 1795651200000
   }
 }
