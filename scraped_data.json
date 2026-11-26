@@ -184632,5 +184632,30 @@
       "Repack Size": "6 GB"
     },
     "createdAt": 1795651200000
+  },
+  "virtue-and-a-sledgehammer/": {
+    "title": "Virtue and a Sledgehammer – v1.0.0r6373",
+    "image": "https://i4.imageban.ru/out/2026/11/26/8b09a254b905b9a35ee4e5fa9617d1b1.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/b9/90/b9904612-7bd4-4152-b0fb-b06e3ca1eac7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/94/35/9435f08f-8eb1-4910-bfca-c3cfac1b32ff.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/77/67/77671fef-37a0-4495-adf4-d49c2405a55f.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/25/75/25753403-2ad2-4f69-96d3-92755499092d.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/e1/65/e165a0f0-af29-4eea-85ce-2b2f48e51b2e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/b7/4f/b74f034b-4e60-47c0-9e64-28a1f27982ac.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Adventure",
+        "Physics-based",
+        "Third-person",
+        "3D"
+      ],
+      "Companies": "Selkie Harbour, Devolver Digital, Deconstructeam",
+      "Languages": "RUS/ENG/MULTI7",
+      "Original Size": "3.8 GB",
+      "Repack Size": "2.5 GB"
+    },
+    "createdAt": 1795651200000
   }
 }
