@@ -184707,5 +184707,32 @@
       "Repack Size": "6.4 GB"
     },
     "createdAt": 1795737600000
+  },
+  "deadly-days-roadtrip/": {
+    "title": "Deadly Days: Roadtrip",
+    "image": "https://i2.imageban.ru/out/2026/11/27/b47cefb09e8afae11c15032c7a894971.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/ee/82/ee82b536-f079-4c1d-85be-cfd1f38764cb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/6d/09/6d0992de-ae0d-4662-bf80-2e37ad22c582.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/5f/40/5f40ed5d-d3bb-4e2c-b7a3-ce60470a6cbe.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/66/ed/66ed37a5-7edd-4c97-9c92-74dc9736019e.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/50/9f/509f3f2a-d54d-4d1c-a6e8-2e68d6424857.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/82/b6/82b6111d-294c-4941-a40c-eb853cb3e3c0.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Arcade",
+        "Shoot 'em up",
+        "Bullet hell",
+        "Top-down",
+        "3D",
+        "Zombies"
+      ],
+      "Companies": "Pixelsplit, Sidekick Publishing",
+      "Languages": "RUS/ENG/MULTI16",
+      "Original Size": "1.9 GB",
+      "Repack Size": "1.2 GB"
+    },
+    "createdAt": 1795737600000
   }
 }
