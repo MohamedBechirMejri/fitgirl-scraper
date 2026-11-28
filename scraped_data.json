@@ -184734,5 +184734,55 @@
       "Repack Size": "1.2 GB"
     },
     "createdAt": 1795737600000
+  },
+  "reshine/": {
+    "title": "Reshine: Supporter Pack Bundle + 3 DLCs/Bonuses",
+    "image": "https://i1.imageban.ru/out/2026/11/27/fee90f1eee52fcf18914e870b8fd73d2.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/0a/eb/0aeb09ca-bb31-4824-8cf0-3c126b53bdd4.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/7b/e9/7be96dc2-680d-431b-9c16-9cfa9b8a7d0b.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/90/cc/90ccc366-8816-4cb3-8798-af83ae320f12.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/d0/09/d0094c27-49a9-49a5-9845-e5d0de776c39.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/77/4a/774a6f0f-ee06-4255-9085-6dbd9c067283.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/4f/09/4f0922f6-26e2-49a2-b8f1-0a50ab565cf5.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Lifestyle",
+        "First-person",
+        "3D"
+      ],
+      "Company": "Quite OK Games",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "5.2 GB",
+      "Repack Size": "3.6/3.8 GB"
+    },
+    "createdAt": 1795824000000
+  },
+  "sulfur/": {
+    "title": "SULFUR: Original Soundtrack Bundle – v1.0 + Bonus OST",
+    "image": "https://i2.imageban.ru/out/2026/11/28/7e76e4b3a73c9ccf920c90ad467b4ed5.jpg",
+    "previewImages": [
+      "http://s01.riotpixels.net/data/7b/a7/7ba7db26-1a49-481e-a2c7-2a5470b675cb.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/9f/c2/9fc2d858-243b-4e57-9637-5c52151008b8.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/18/6d/186d30bd-8f2c-4ef9-9a96-217bba30a053.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/11/07/11074b7b-7a8b-4b59-8bbf-4323b1f20498.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/f5/02/f502dfec-d247-491d-98c5-e23d58d042c7.jpg.240p.jpg",
+      "http://s01.riotpixels.net/data/75/d4/75d4dbfb-c606-4665-96cf-c4d33b0cd45c.jpg.240p.jpg"
+    ],
+    "info": {
+      "genres": [
+        "Action",
+        "Shooter",
+        "First-person",
+        "3D",
+        "Retro look"
+      ],
+      "Company": "Perfect Random",
+      "Languages": "RUS/ENG/MULTI13",
+      "Original Size": "3.9 GB",
+      "Repack Size": "610/823 MB"
+    },
+    "createdAt": 1795824000000
   }
 }
